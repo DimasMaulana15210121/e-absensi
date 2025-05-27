@@ -1,0 +1,148 @@
+CRITICAL - 2025-05-27 02:35:14 --> Undefined variable $tgl_awal
+in APPPATH\Views\Backend\MasterRekap\laporan-absensi.php on line 33.
+ 1 APPPATH\Views\Backend\MasterRekap\laporan-absensi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tgl_awal', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterRekap\\laporan-absensi.php', 33)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterRekap\\laporan-absensi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterRekap/laporan-absensi', [], true)
+ 5 APPPATH\Controllers\History.php(104): view('Backend/MasterRekap/laporan-absensi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->laporan_absensi()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-27 02:35:38 --> Undefined variable $tgl_awal
+in APPPATH\Views\Backend\MasterRekap\laporan-absensi.php on line 33.
+ 1 APPPATH\Views\Backend\MasterRekap\laporan-absensi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tgl_awal', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterRekap\\laporan-absensi.php', 33)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterRekap\\laporan-absensi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterRekap/laporan-absensi', [], true)
+ 5 APPPATH\Controllers\History.php(104): view('Backend/MasterRekap/laporan-absensi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->laporan_absensi()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-27 02:35:43 --> Undefined variable $tgl_awal
+in APPPATH\Views\Backend\MasterRekap\laporan-absensi.php on line 33.
+ 1 APPPATH\Views\Backend\MasterRekap\laporan-absensi.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tgl_awal', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterRekap\\laporan-absensi.php', 33)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterRekap\\laporan-absensi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterRekap/laporan-absensi', [], true)
+ 5 APPPATH\Controllers\History.php(104): view('Backend/MasterRekap/laporan-absensi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->laporan_absensi()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-27 02:50:32 --> mysqli_sql_exception: Unknown column 'tbl_absen.tanggal' in 'where clause' in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Absen.php(49): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\History.php(95): App\Models\M_Absen->getDataFilterAbsen(Array, '2025-05-01', '2025-05-31')
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\History->laporan_absensi()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-27 02:50:32 --> Unknown column 'tbl_absen.tanggal' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_absen`
+LEFT JOIN `tbl_karyawan` ON `tbl_karyawan`.`id_karyawan` = `tbl_absen`.`id_karyawan`
+LEFT JOIN `tbl_lokasi` ON `tbl_lokasi`.`id_lokasi` = `tbl_karyawan`.`id_lokasi`
+LEFT JOIN `tbl_jadwal` ON `tbl_jadwal`.`id_jadwal` = `tbl_absen`.`id_jadwal`
+WHERE `tbl_absen`.`keterangan_absen` = :tbl_absen.keterangan_absen:
+AND `tbl_absen`.`tanggal` >= :tbl_absen.tanggal:
+AND `tbl_absen`.`tanggal` <= :tbl_absen.tanggal.1:
+ORDER BY `tbl_absen`.`id_absen` ASC', [...], false)
+ 2 APPPATH\Models\M_Absen.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\History.php(95): App\Models\M_Absen->getDataFilterAbsen([...], '2025-05-01', '2025-05-31')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->laporan_absensi()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-27 03:11:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND `tbl_jadwal`.`tanggal` >= :tbl_jadwal.tanggal:
+AND `tbl_jadwal`.`tang...' at line 6 in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Absen.php(49): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\History.php(126): App\Models\M_Absen->getDataFilterAbsen(Array, '2025-05-01', '2025-05-31')
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\History->history_absensi()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-27 03:11:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND `tbl_jadwal`.`tanggal` >= :tbl_jadwal.tanggal:
+AND `tbl_jadwal`.`tang...' at line 6
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_absen`
+LEFT JOIN `tbl_karyawan` ON `tbl_karyawan`.`id_karyawan` = `tbl_absen`.`id_karyawan`
+LEFT JOIN `tbl_lokasi` ON `tbl_lokasi`.`id_lokasi` = `tbl_absen`.`id_lokasi`
+LEFT JOIN `tbl_jadwal` ON `tbl_jadwal`.`id_jadwal` = `tbl_absen`.`id_jadwal`
+WHERE 0 = :0:
+AND `tbl_jadwal`.`tanggal` >= :tbl_jadwal.tanggal:
+AND `tbl_jadwal`.`tanggal` <= :tbl_jadwal.tanggal.1:
+ORDER BY `tbl_absen`.`id_absen` ASC', [...], false)
+ 2 APPPATH\Models\M_Absen.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\History.php(126): App\Models\M_Absen->getDataFilterAbsen([...], '2025-05-01', '2025-05-31')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->history_absensi()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-27 03:11:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND `tbl_jadwal`.`tanggal` >= :tbl_jadwal.tanggal:
+AND `tbl_jadwal`.`tang...' at line 6 in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Absen.php(49): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\History.php(126): App\Models\M_Absen->getDataFilterAbsen(Array, '2025-05-01', '2025-05-31')
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\History->history_absensi()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-27 03:11:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND `tbl_jadwal`.`tanggal` >= :tbl_jadwal.tanggal:
+AND `tbl_jadwal`.`tang...' at line 6
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_absen`
+LEFT JOIN `tbl_karyawan` ON `tbl_karyawan`.`id_karyawan` = `tbl_absen`.`id_karyawan`
+LEFT JOIN `tbl_lokasi` ON `tbl_lokasi`.`id_lokasi` = `tbl_absen`.`id_lokasi`
+LEFT JOIN `tbl_jadwal` ON `tbl_jadwal`.`id_jadwal` = `tbl_absen`.`id_jadwal`
+WHERE 0 = :0:
+AND `tbl_jadwal`.`tanggal` >= :tbl_jadwal.tanggal:
+AND `tbl_jadwal`.`tanggal` <= :tbl_jadwal.tanggal.1:
+ORDER BY `tbl_absen`.`id_absen` ASC', [...], false)
+ 2 APPPATH\Models\M_Absen.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\History.php(126): App\Models\M_Absen->getDataFilterAbsen([...], '2025-05-01', '2025-05-31')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->history_absensi()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-27 03:30:37 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Admin.php on line 66.
+ 1 APPPATH\Controllers\Admin.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Admin.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->detail_absen_karyawan('96adbbc743941e7660e98b261a532f36db1a42f3', '84d311325b890d6e7f1c0eb875c1263253c32947')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')

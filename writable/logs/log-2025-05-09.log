@@ -1,0 +1,844 @@
+CRITICAL - 2025-05-09 08:05:10 --> Call to undefined method App\Models\M_Absen::saveDataAbsen
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Absen.php(64): CodeIgniter\Model->__call('saveDataAbsen', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 08:05:34 --> Call to undefined method App\Models\M_Absen::saveDataAbsen
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Absen.php(64): CodeIgniter\Model->__call('saveDataAbsen', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 08:08:00 --> Call to undefined method App\Models\M_Absen::saveDataAbsen
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Absen.php(64): CodeIgniter\Model->__call('saveDataAbsen', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 08:08:01 --> Call to undefined method App\Models\M_Absen::saveDataAbsen
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Absen.php(64): CodeIgniter\Model->__call('saveDataAbsen', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 08:08:01 --> Call to undefined method App\Models\M_Absen::saveDataAbsen
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Absen.php(64): CodeIgniter\Model->__call('saveDataAbsen', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 08:08:02 --> Call to undefined method App\Models\M_Absen::saveDataAbsen
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Absen.php(64): CodeIgniter\Model->__call('saveDataAbsen', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 08:08:09 --> Call to undefined method App\Models\M_Absen::saveDataAbsen
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Absen.php(64): CodeIgniter\Model->__call('saveDataAbsen', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 08:08:29 --> Call to undefined method App\Models\M_Absen::saveDataAbsen
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Absen.php(64): CodeIgniter\Model->__call('saveDataAbsen', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 08:08:37 --> Call to undefined method App\Models\M_Absen::saveDataAbsen
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Absen.php(64): CodeIgniter\Model->__call('saveDataAbsen', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 08:09:54 --> Call to undefined method App\Models\M_Absen::saveDataAbsen
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Absen.php(64): CodeIgniter\Model->__call('saveDataAbsen', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 08:17:35 --> Call to undefined method App\Models\M_Absen::saveDataAbsen
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Absen.php(66): CodeIgniter\Model->__call('saveDataAbsen', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 08:17:45 --> Call to undefined method App\Models\M_Absen::saveDataAbsen
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Absen.php(66): CodeIgniter\Model->__call('saveDataAbsen', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 08:25:40 --> file_put_contents(D:\New folder\My Folder\e-absensi\writable\public/Assets/img/karyawan/KRY-2025-05-09_082540.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Absen.php on line 52.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_contents(D:\\New folder\\My Folder\\e-absensi\\writable\\public/Assets/img/karyawan/KRY-2025-05-09_082540.png): Failed to open stream: No such file or directory', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 52)
+ 2 APPPATH\Controllers\Absen.php(52): file_put_contents('D:\\New folder\\My Folder\\e-absensi\\writable\\public/Assets/img/karyawan/KRY-2025-05-09_082540.png', 'ÿØÿà' . "\0" . 'JFIF' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'ÿâØICC_PROFILE' . "\0" . '' . "\0" . '' . "\0" . 'È' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '0' . "\0" . '' . "\0" . 'mntrRGB XYZ à' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'acsp' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'öÖ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'Ó-' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '	desc' . "\0" . '' . "\0" . '' . "\0" . 'ð' . "\0" . '' . "\0" . '' . "\0" . '$rXYZ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'gXYZ' . "\0" . '' . "\0" . '(' . "\0" . '' . "\0" . '' . "\0" . 'bXYZ' . "\0" . '' . "\0" . '<' . "\0" . '' . "\0" . '' . "\0" . 'wtpt' . "\0" . '' . "\0" . 'P' . "\0" . '' . "\0" . '' . "\0" . 'rTRC' . "\0" . '' . "\0" . 'd' . "\0" . '' . "\0" . '' . "\0" . '(gTRC' . "\0" . '' . "\0" . 'd' . "\0" . '' . "\0" . '' . "\0" . '(bTRC' . "\0" . '' . "\0" . 'd' . "\0" . '' . "\0" . '' . "\0" . '(cprt' . "\0" . '' . "\0" . 'Œ' . "\0" . '' . "\0" . '' . "\0" . '<mluc' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'enUS' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 's' . "\0" . 'R' . "\0" . 'G' . "\0" . 'BXYZ ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'o¢' . "\0" . '' . "\0" . '8õ' . "\0" . '' . "\0" . 'XYZ ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'b™' . "\0" . '' . "\0" . '·…' . "\0" . '' . "\0" . 'ÚXYZ ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '$ ' . "\0" . '' . "\0" . '„' . "\0" . '' . "\0" . '¶ÏXYZ ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'öÖ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'Ó-para' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'ff' . "\0" . '' . "\0" . 'ò§' . "\0" . '' . "\0" . 'Y' . "\0" . '' . "\0" . 'Ð' . "\0" . '' . "\0" . '
+[' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'mluc' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'enUS' . "\0" . '' . "\0" . '' . "\0" . ' ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'G' . "\0" . 'o' . "\0" . 'o' . "\0" . 'g' . "\0" . 'l' . "\0" . 'e' . "\0" . ' ' . "\0" . 'I' . "\0" . 'n' . "\0" . 'c' . "\0" . '.' . "\0" . ' ' . "\0" . '2' . "\0" . '0' . "\0" . '1' . "\0" . '6ÿÛ' . "\0" . 'C' . "\0" . '
+
+
+ÿÛ' . "\0" . 'C		ÿÀ' . "\0" . 'T¤"' . "\0" . 'ÿÄ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '	
+ÿÄ' . "\0" . '=' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '!1AQ"aq2‘#B¡±RÁCbÑáñ	$3%ðÿÄ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'ÿÄ' . "\0" . '*' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '!1AQ"aq2R3BbðÿÚ' . "\0" . '' . "\0" . '' . "\0" . '?' . "\0" . '÷l“Ìö¥™frG1Þ±½»=ÀAÄýiÒ‚H8ÿ' . "\0" . 'ühäð"»	I\'‡šÀÌå;£¼v¥v	*ƒî—@ÀÁ®ÉUäp–Fì2E8€ÈzÒP`Žß4²P;˜? ÊÆÌm€æO")Ë,' . "\0" . ' #kHO´|S¶ÛA3Á"€ÿ' . "\0" . 'wb–Ì$b#ïDl$Ž~ñH[·Œ|SëtíXøÆ+¶Q,í’=º(ŽõÓ)†„øí[À9£ÐÔ"X3ñØVÿ' . "\0" . '™Ý™¥H3ŠÐJ»ÒÐ_èH´	8ÏÚ¶Ç|óJÁ15‘ßŠj °w
+Ò™Ý‰Äø¥ÃcÎ+™æ–Ž¡01Ÿ"±MoH
+Çˆâ–Ûˆä×
+À‚&ºŽ]‚Ó+p1P‡ë3™‚jo¨€¦&&}ê¢²I3L‰LE6ÃpçhïUÿ' . "\0" . 'Ô;mÚƒ!(ÜIƒÛ5d%""9Í@~£(¦õ€¢Ö¯¢û{Óµ@þ´9æT`m<šuªÞ¸ÁB‚æãæš8ãÎ#iBP|©TÊÆVúÜY¥K%0•œsLÜ¶J%JTEßW)*…öŠkrÒØ*Q)îýªéàj¡‚
+”N~µž€>àJ¼Ozn5»pÞ¤ ¤ÁJ”1s©­[JÖ•J;žé]¾…·è†}uÒËy|Ê=K‹ë¤žv‰Ü>ÐOø¯)us&âÕ§¶Ì‰¯f_õoOêÖ×NÝ!Ä:Úšq±•' . "\0" . 'Dqæ¼“ÔV‰i‡ì
+‡¨Â”ß´ÎÇøŠãÑxH¤z¦×ðË#w¨›7èeõH‘â¬ž§Óÿ' . "\0" . '¥9TŽõZ·¦ŸPY4.*W£lß)*qmŒÅbnžRÊÒ˜Å>cIÝ%
+;{Ñ#¥4ÍÎÚimØive¼¹ÜwŸå»µ”Å]èÕ½ŠX½J€&×Ó½Q	\'µ5=µÜ@ˆÓBý9f—·Ó½UFdþ$ÂkL£eéOµØIc[}-PDÇKÛéˆR”
+xóDíÙqB•bßÜdf¯VˆÊMö7±²KnPbŸZÛ…¸¤ÀM+n³"§6Ì•«tâj×²r“¶µHÜ‘‚O&¶‹YZÂ„Sæm÷•$p3"ºC*mJR½ÇÅ^$<ÚØÚ$>¿½O:JÙ	p“â*!l•…(Œˆ«¤Y	’ f1Žj‘·ÑJžÂZ{IV¢¥|Ñ+;@­EKAÿ' . "\0" . '4• 7ªR`G4OLl›³ƒÛ5dý˜çqZbÏÿ' . "\0" . 'ìÁWMiJÔJÄÂ{E6AR_1É=ÅÒPÑR•% ÷Š¤["›¬¡[¤ïyDƒ&²ž)ò”µ@$öTVSÙ~¢L!*D' . "\0" . 'ëK' . "\0" . '(f9Šn€W' . "\0" . ' ÎqN§k‰Ü1ÇÍ|¥ú=ä“:NÄÁQûRØXàgÀ¤‘
+>ÒOh«°@&ƒ²±¤,‘´É85Ò&@(µ$¢' . "\0" . 'öí&q5Û^äœIèNô=IˆÀŠpÈñ÷¦è O·ïNZL,B¨JÇ¶¤n' . "\0" . 'ññD-¡n3&˜³C¿éD-Ïõ{ñ@j Ói' . "\0" . '®\\03“]&vŽ+JñL;9B÷$F+¬ø”íXñJž;Á=¨¯³?ÇÍjbf³Ž$×%{A“\\q°ÍiD\'¿Ó;½AÍúŽ¨%#¹ñTgÕ?âÛ¢>œ¬ÚÜê\\ß©*SvÍË\\x' . "\0" . '¢“zRQÙ})Ô•gâ“~á	V_>5þ¡šŽ¡tê4íM[ƒìS«…ºDÇïB­¿­~ò\\½ºBDû[;‚P>}µO§ )ÚÂ>†_]°mÕ' . "\0" . 'g5zí
+*R' . "\0" . 'R»WŽ­¿Ž›‹U©›½>ËQFaÛwÉPýàP\'ÿ' . "\0" . 'ŒýG¨u¥èlµcrú¶ú×«›sò&Å¶$äý¾×ºóMé¤,ßÝ6Ë£†¹Rªœë/¬ºÆ¤ÒmZy#lnu ~ÙªMäuwPêªºº¿fø$É]º–R¯ŸwjÖ][}¢lüJ% `œGÚ)¢Ò&¢Ùy/©}h‡Š9%2(}·’•%ã´öˆ¯3hßTUsï
+ÚGu¹úýnÅÉ·¹p[+‚àü£þÍSÅ½
+×‹Ñêš›viQÞ•“Q}[­-›mEkC@.8qû
+¤úŸë}‘¶ZlååüU*7yŽõUk¿Uo5ûë)(lp†„
+¦Q×\'ýQdu¿ÔÇ…Û‡NQ 8œ¼ª»TêÝ[TüEãîŸøï0Jcüéäïski2¢)¶¥Ö–‰PbÕ´' . "\0" . '?&›Ê´þÃ®®
+C¡¥ÌÄÅGõ=^úÒëÔ\'5Î¼ãšƒeæÔµ:fqQ#oz……¬‘ØÔçrÙ¢1Ikme7ì¿nêv­~qQg­
+RBbÉ§öÏ¡÷@&‘Ô•ýBwñKMh¤%6ã' . "\0" . 'zjóâé!
+iÎ\'µ%…Û¥iS¥‚í»jâ9š7í•”’q´ 	žÕÚÁEÊ0{]ºÖÔ4´äÓ—Ú8É	÷DÕR}Ä„Ü7 ÁšE\'ÓÔJg4]ZsÎ¼Ñ ô…þž»[”œ«Í2‹ìæèU Êöç™®˜L¹ñN,Ð¢²
+sóK&Ø´ñžNi­¡2pÃ%NœÓ¶Z$ÇšRÕ’·Ï´ñÍ>´´Ü³Âª´…šR¥,‘Ÿ¶›IS„dAš#m¦¸ëŠÚÙ ãœYôýÒÂÒÓKYâ’Jx¥²QôEmR}i“ºb¬>™Y@Ü°IŒi§ý1Ö\\^ôéï¨Ÿéœ}êÀé¥:íÐ6/™àl15o(Å—þP/MkÕõ
+„œQ-)’”ä÷ÄÕ‡Óÿ' . "\0" . 'Bº•ô+Õ±]ª	€]	ø53éïá»Ti$\\:Ú	3ÍÉýdIÂRÙM4‡ú÷' . "\0" . '¡ØŠ¥2VP à(~õèm/øoi•sx­¤È)Ò¾„hº{`-9·’y4W2[3¾¶Ï6[iåM±\'îY^µoé–€Ò—²cþIÍeäGòFà±e”Ãé”ùó8§)É$”Ç>+ÎF¿ˆÛ¦ô,õUú{D,þUãÏè{öîÙJÒw¥B@¼\'òzQòƒ©S' . "\0" . 'J@4£yýù®ö‰äf9®É‰ç5&lvolGŽ)Fò¡ÑÞ8¤@!\\GÁÍ*Ð	ÌÏÅ)d—C¤HH&{Æ´$äÅ1eÅbž5îVsÞxŠã’~ÂdÇ~h°’žßzÐ€' . "\0" . 'ÿ' . "\0" . 'âˆ°¨˜0~M‰4N#ÅhóX°Fk•“Ä|Ñ(HàMp	¢ëI-õn#9"€õUé<„ªîå)uXB' . "\0" . '•¬ø' . "\0" . 'dÐ:ƒË¼Jf&…k]DÆ‘hã÷¶Nâj¨ë/¯V?dåÕÍÛ,\'ºÀKŠû\'šðçñIügßuU³º†ÝÆ‰bêa×x*åcÁ)ÂGÇ4Ê6+kE£õßø˜Ö>«kz‡Ht=Ëv=¨#Q×p#à¶Ù&&{Šó­ŸJÿ' . "\0" . '3^žîµe¦ÛˆUÞ³zé%j“¸	äû¯>jSotûÚi®–rJšƒj½[¨Þ…!÷—²I M;ÆbÖ{=ÎÏ^ýèË6Óõ#†RBÒ•¬ÿ' . "\0" . 'Ë)?J‹ÜëýÔåÅ¹p9’ICiÚ>|×Œœ>
+@$ÏÍ,Æ½xÒ”…8¤ƒÄPý1×Ÿlõ¯Ó6=çìú†ÓrA(dŒ«õš¯4­RÒÊýd»\'Ú¤ÕFuµ‚‹Ïpk¦®.BD-DÓ§ìF¤Ïb}.úËqÓwIC×)¹³>Ò‡ŽàšwõŸ¬4®¤µ7Z:h£ÞÑå+ïâñÔ·öOª¸4LuåÕÃ[Cå3Èš¥A‰àÖK&ß_vÞÙM•lQäTc[ÔUx½ê_å8ÍkY%î+y9æ˜^jèxžÂ›K' . "\0" . 'QoaWµu„—x¦.êE*&„;~™0GÉ¡Z‚ß_µPŠ›l¢ {Y¸’–ÖBO&Œôýý¥¡.¾ßª¸ÀUC­o†ÔT­ÇæŸÚ\\úƒ	„ù4Ño°7Ñ:þxÕÁÚÛICdæEÕKîHÄø bõ-Ï¾+¦¯C€Á“Ú©äª6iÛE%HŒd$»œf¹¼¿x/lŠ{¤i+Õ…óæ–íìd«lZÎØ¦Ü²;vÝš¶!"Lø©Gt¿Õ-¬^Ôº­¡]…z7¦ÿ' . "\0" . '†ýÝ´§PqÕ“Y"Ôv<ryA9ç-P68«é§Óöº›X²jùæìíÖâPµ¸ ’Dä$MzÏLúÑ¶ì¶”éÊpÌÿ' . "\0" . 'QER~jOaô«§,.›KZE«hä "@>sEs¥„.%´ÀúðçôþÉû4=|§Ùp­o($·ó' . "\0" . 'æ«ßâè‚Î…¤»Ò³y©‹•zèdîÚÖÓ	ó5è›^›±·D"É¤$q	ˆ¢i¬60€“ÞRyÛ´"Œûg‚´ï¡NûèKx$&©~—ü-u-ËÄ¼Ë,«´»)ýâ½œÝªd{D}©ÛL”þ)þ¤úG—4oá"ì(¹w|Â
+³÷Š•iÂ¦“lUø‹µ:{¦z	¤îPqÄÒÁ™@ƒ“ñNœûb¹ÖŠ¯FþúbÁ¿}·®NHuSRÝ\'é—Néd~La1ÝIûÔÉ¦ÉLµwé™' . "\0" . 'Bx$H£Ií’óôµéÛ&v¤0ÒOh@§ÌéÌ¶¡JDã`§ˆIYçiŒ‚)T¶ {ÇQŠKH„¥)a„…h3ÄŽ)Û' . "\0" . '6­»AQïI6‚$Â|S›t…(		3â©HŒ¢ý§ÜNã¸Äñ]mJT©î+H]Qs0G5¤¸¥Ìó<E:³<›X0-¤à€cïÿ' . "\0" . '­el©$åF
+Ê6ÈÚ>Gô__\\é°›—!S^Æú%üKªÐ1i¨¼n-0„É@ÿ' . "\0" . 'ºñ3ÚsO„$¤)®´­b÷§®	mjS àòÔýŸiò>—GÙžê›¥²EÅ“èq+' . "\0" . 'Èçÿ' . "\0" . 'j:;Æ¾kýþ .ºmöÖÃÊR*ØZ¤|÷¯ný4úÃ¤õÍšKo%»€=Ì«i’R<Iq>\'ø,Å« (çžid/8ŽA¦ˆt9A‰§!‚HGz‹Ã¢±’b‰){yòÝÂVŸ$Ó4DLÇ9Å:mñ8ì<R—¯A6hŒÑ3ý@žLÐ›eíÀýæŒØ@!²v£íMVáq@‚B<ó]>½è‘ùs@õ½y»GœJ¡O¹G' . "\0" . 'Q:Æ½cÕÍh*J]ÁÔûø¯.}QúÃkÑ:%ö·¨ß6ÕÂÁl\\!O:¡þñÍFÿ' . "\0" . 'ˆâÃ¦»¹záWW%;[a*À' . "\0" . 'ÿ' . "\0" . 'šùéõgëF«×º²®îÜö ´Ù8B|Ê,[rx%?X?‰{¬VµzŽY·$¡
+\\­?r;ý«Ï:U*åÕ—+qFTIäÓkVzñÂI“@œÜ£)~)ì¬b‘"µÔúŽåDy§Î!§Sæj Ã/˜š*»•¡°¢1OöŒÐm›¸°‰¬AC+(t	žMGZÖ^³V3J¯YŒŽôS‰?Ù\'iÖRœ' . "\0" . '{SÀõ¸HIóæ¡Ô„îJ§4›ºÊÔJ¶‘FÐ|Y/¹~Öä”-!*òh-ÆøuneA@ö¨Æ¤ã°wdw¹c[Z' . "\0" . '¨šUL4ô>{SqPIÚ“Vª}0I‚i…íÐ}Gpý¨rÖ
+¦H…uÐÉPMíMN(\'q=±[iâœ“Š— î‰º7×\'	ø®òKL!¶ŸJÄð:sY	h!Š' . "\0" . 'nö£jpšé·@ÚNUBÓÈµa¤j§æV>iË:´£Í' . "\0" . 'oÜsOíÑ±;’"»GUh.ÍÃŽ\\àöž*gÒ¡·BÊw vóP[kƒ$½KzyàÊÒù;Å=7¢^]2øúyeüÅä<˜mÀe>@¯\\t‹.ßh¶¾ª¤„ƒ{×—¾—^Y:S+m.¢&½WÑ—){Ni¤«j€Ï¶,¯Lè¨ôH­›-6í˜íÄ”^±\'”œœ‘\\!¦’œ(ŽõÕÈBÃKÚIJ†A?µMAŒA“™§M' . "\0" . '±¶}¼‘M› 7œ¢W´HO‘Š+,I~Ç)•' . "\0" . ')¦—	‚FN0jA.' . "\0" . 'ˆP¤Ò©^ðž# qVL•\'Øå”€Ðö‘\'1NR€|St:´¶1ƒJ·t‰ØT¸âsOæ®,\\%I€¥(ýñJHØ’ö×
+$o™9âkq	' . "\0" . '‘\'Å:§”AªKƒbITÆ{R­<0&‘@' . "\0" . 'ªR\'â•É2r\'"žÉxØá*ƒ*ø84«jT’	9Î1M›ZUÆcü~”²@"äS_²R^ÅJ‰;¢3ØÖ‹ªYüÅf9‘X' . "\0" . ' Ž35ÁX#$Çû¦´È:}
+›Í„‚ÿ' . "\0" . '‘Íe4[ìƒîÚOÜVQ°cÙòzÔ¨Ž`w§)a•!iIÅ!f„­´ÄàqNZDòxvô~“Ö0Ø\\X¯ñ§i' . "\0" . 'TûéïÕ‹í
+ý¥ªáV÷	#Ý0(CÕ@	.÷F©jHÚ¡Áª)5†eåàŒ×äú!ôwø¶ê+v­5WRÛé„¡ÝØWÞ½	a¨³tÂÒÂÍ|vé®¯»é›¤¡Õ)MƒÌñ^´ú/üM¯M,Û_Ü›«' . "\0" . '
+”ýªÉ\'£çù¸%öžãIÜƒO*Ds¨oIõ¥TZ"æÆå!BpdŠ–Zº•¤rÀšœ¢Ñž.ðÂl¼8ˆ§VO‡]BüB
+ÊÈ½£˜Å°W¢[ƒ´¨ã3úšBñ Ž­|ã‡ÒaOæ$×–?Šÿ' . "\0" . '®g zeëtÞ¡+pím¶ãrÕ÷ø«Ëêÿ' . "\0" . 'Ô;éKÍBåà€ÛjT•8¯ÿ' . "\0" . 'Ä/Ö«Ï©}gq{pµ[%íNŸýê‘W–#—ÝâF¾ ýHw]¹}û…¸ë®(«{Š\'ŸÀª‡QÔ—rµ{Ž{ÓífñwJ÷«><T~áÏíD}éÝt^80­K ;šáÝ­\'Â‡\\•l¹4Îáàº)lj±OæµäE8Óoà¤P[‡B×1ŒqMiÕ„/^JÜ‘ÛMCªB©J…géH¼œ•â‡È®\\^ù þ”Ø*)DH¦ÀÈÞâ' . "\0" . 'ã½t„JÁ' . "\0" . 'Å*Ó¡QŠ\'i¥-îDö¥hf}‚»lÓ2Ñ?ÛzZt³Ï¶¢P@ƒIÿ' . "\0" . 'üeHXÜœŠ@¢±q¶1\\)%"Lu' . "\0" . 'Û´JQš?§©$©I)£–
+±‚±¬ÜI¬[dvâ±$îæ¹DÛfTÌ“ÚŠÙ«vö¡ÖË„0EÓ‹n«85T¿ c¤ÚÉ“Çh¢z¨…D˜ël0’€Fiâ8ÄW+¼“m4KúoW¸Òn¸A% 5ë¦_XÓ©X[!ÆÉ"½
+>õãm%âØKq½58é]iÝ
+í.²¢&J*Þ6²erñ{>‡iZ»7VÈX™PåY¥Þ¸	C¤äJOŠ¢~˜}C]ËM¶·½T(~Rršº4ÐµC¡^ V@\'#â³Éxš”“A«K•–Òp¡ŠxÒ÷`œÐ½9íè…ª §ÍBu*' . "\0" . 'DgšbJ˜å¢@<ßâ—·)BŽJ dF)“	Ú¯íâiãBŽIÎf™
+«£VñV–o:€IJwª;Lê{Tú‘¦¿nV«@áMÂgŸÖ¯‡Á)!RGÌUQdŸÂýB{ùr@aD©ôß€)Ý&t¢¤²\\­;½€vøŠYQ¼m8=üSk"=1·;b•Z€3“>xX£2Mµr)âb»{§ôžôˆ!#qIïJÂk>GÍ5û\'äï(\\8¦ãiÌŠQí ’{MÛXQ0Dâ•H)Nè#AÍÐŽúF×ÁDFdâ´}Í’2;+± ùŠáYÉVÒ>i¬ƒMäIh$ûQšÊMà¥8vªGÚ²Ž}†‘òžÍa	D‰0)ðW*œžÔ.ÕÉB¡“O­@[+•$«¼Z^ÏÑªÇì	ŽtÄ¨-@‘D¶NÅ$ñÛâ›½h•LœÏ5EøR`â–ÔTØQP C¬^ºÐ.Ã¬)^”É' . "\0" . 'Ñ²‚0‘žÔ›Œ€Ñ»â‹Þ	rðFY-¿¤ß]ïú^ù¥³z±˜S%^ÕW¸>—ýhÓ:ÖÕ°KÁ#sJW\'ãÍ|­{OS.þ!¢P fKz#ê]æ©2‹eÆÌ¥`‘sÙãü†ÒòŠ>½XÞ¦æJ¶àò;üvÄúm€§‰BA¯$ýþ&-ïÛM–·r„s1?z²µïªÚvšÅåÚ¯Š,Û·[ŸˆÜ ' . "\0" . '“£ãz<YÊPÃG¿ú€}p·±pô®ŸyêjAQv´KIÚ>Iâ¾sê×~­Â•¼©G$“S/«n®°ê½WQ.)m¾úÖÚ–©%$à“öªÖæè•Oº¨â–ñ§VÄuÉV@Æ1BÁ/¯hÅå÷ª¸˜©[t¥¶ÊÌšFÚÑ{¹$`Çµ}d¬ùñO.Þ[²Ÿ' . "\0" . 'Põ¹½SCöDÉ­A®…=±ÓWt®=´|p­ÐÆjU–uPMIìúl(AŸžôgOé»;R@œÒÚEWº!­é*P$âˆYè.º 	j²l:Je\'Š–é=IL³·äŠIM{EM¥ôÒ”´¤´GÈ?Ð:%n-2Ö;b­]+ -Øþ˜*©V›ÓÛ”ÃbSú‰”_dË Ç¥â;
+ªt*XL„B§1Wšl›e¢dTQÓÛS‘·ÐSZ|l£µnŽRÚ' . "\0" . '\'µWú×L_Ûf½#«X¤6R”ÉàUq­èjS‹q`Hª)§ÄâPú¦è¨€’P§-ƒBH"¬­kIõ]$$ã‘Ô,U‘¶¨™j€Œ2hî’”•Gº‡6Â‘Êb(¶˜… ¤ÄŠ¢V#üì0½¤	ïE‘k’3±BÛ4p”¶ÌHÝZaFi¹Ù¶Z@RUŠ(Ö¥°' . "\0" . '©ŸŠÒÁ›¹t¥(y«}Éd†ËéßRªÒù¨rˆÍzë¡:7–ŒïÁX
+Ižkç–•®9jòaPgšõOÑ®¬N¯¤²ÃŽ…)¡)ÜsYù¡âÚèõpã‰YÀÉ¢À·$' . "\0" . '=…Dt7Òûº’¤`ÇqñR „!´¨{‰ÌVTÚ4oga)MÊHTž`ž(‚{‰PäA4"âõ›ÔãËJÝÚª¨Ä~—ÒÁLZ-77}¡#ýöªÅ9h—UÝûV¶Ž,‘%4½wAÓ]¸õº^PÜ£#týëÆšÏ×ýw©nÿ' . "\0" . 'áÚÉÇêô¨ïZê÷—RïÞZIãÔ1þëJàÿ' . "\0" . '&FRhú$ßÔ]=—íã¿j#gÖ:UÙ/TŽwE|Ùo©o±¹?sEôÎºÕìTÍëÂ}Äÿ' . "\0" . 'º²ãZL‹rgÒvï¹	-¹¹#°#Šz’In8šðI:ÞòÊËÌ\'89ý¸5è¿§?Ä.—Õ(m«‡RËÄÄÝúŠgÂö²OË9.¦Â
+Š‡íJ' . "\0" . 'bm4ÒÆõ§ÚmÄ)
+È4í*B›GÈ©eb€Ú3ÓHNß~)/N9oƒÚ—SˆP‰4‚‘ «œqâ¹#<½!Tr>;VV¢0zÊotÿ' . "\0" . 'ùŸ(-ÒKiì' . "\0" . '¢ÊôÔÚ¢<ŠÌzM' . "\0" . 'd2iý¹[j%@ö¯¯#ô—d…›Žï]­@¶J»x¦Œ¸²SãŠì\\¢À<WF~škw	5jaé”@IO&ž7ÍbÔØDíÏ)íÄêK•$¨)WÒihuáýÂœÝ2SîOåæ›¡¶p{W[a¬e‰Úõ5ÏMàÊ8X4?«>¶júŽ˜î˜Õâÿ' . "\0" . '¡hðªÕ÷ä0HŠªõßQk…BåN¤ÏåFX8Õu\\¸A>(-ýÁBcÈâ¶õÎ÷ +#½
+¾}Jt‰ýj›0œ´¢ë³ÜS§®?§¶@ŠdÃ›œüW.¹¼’ir‚-^©’I¤öç±*0)Õ¥ªÖàù Úc3J]Ó©	LÔëLÐÿ' . "\0" . 'Òw n4×BÓKA
+>ji¦iî\\8™N;b¤ç[7ðð¶kFÐ½\\”À©®—Óém' . "\0" . 'Á&ˆé(·aI(Óô‚Úˆ‰â³JIžŒxÕd§h(í÷
+‘ZÚ%¤ƒ·?öÚÙjbçÍ=µ²S¿ÛSl¬c]Ú¤FßŸ4{NXKf[*škefR¨X äQfö%a#4WHàÚ$Œž(5þœµ¬íÀªT‘µ ãš~¶È5Dó”OƒÞYíÜc>MCuÍ+ÖÞ¨«&êÞII|ÔkSÓ]ueŠv¬§u](
+<â¡:¦Œ¸R¢Ú®½G§K€“Þ¢ÚÞ‡vŒÀUcfN6ôSÊÓv¥F7­²Ò™NØš“^XT°QÛƒé¾A’gh·g?´%j­¤Ï)ëwjZˆ9·¸P%"œ¥å6¸&>kBÇf}„Ù»-<AŒÒw§r‘CåO’¥HíN½HA“ Šg\'Ðž4ôtÓëÁ5h}(ê÷4mE’TKiX%#¸ïU.J]Çôýéná+A)ø®ŒŸa’ô}è.¨·¼µKiy. ¤)µ…s=³Rã¯·¥2ê®_Kl¶	ÏÚ¼mô×­žÒˆi×Š[ÈQ8ŸkêGÖµkdÚ²bSµkI÷I(93•=>µ}{»ÖrÇL¸SL%PVƒöª
+ëQ~íÂ¥(«äšVâÙWN(¡@ƒóš‘tgÓíG©\\Xµ·rä ´¶™ZøÒJŒAºj«\\Úr E+¥iº›…0µ‘&’jÿ' . "\0" . 'è~…é®’ÑïZ' . "\0" . 'ååÇ¶ÚÅ“ýVR9QðM!§u‰Ó—n«DÒl¥{}[Ç‚–¡ñ¶¬£[VEIòi…¾‘rãá¤´¥8Lm&”¾ÓÓ–Zqµ4è9J„½,:ÚÑ¾¤þjî§)ÅT`>óûR½Ia }Iêô_>ïòbë@:§V•¹Ä‚˜U^5 8J*Ú(fA\'\'´Q=3T¸Ómm9é©*
+sSßªŸKGG»l»‹‹7Ó‡=ªWx5_9m±I{»Í­	àÚ´zgèÇ×‡ò,5w%$ÀÝ>>kÓzn¦ÞªÂeCÓX‘šù­`òín¶ÉIIGšõ¿ðéõjí7§]8è;DžLLüÿ' . "\0" . 'ëI,æŒò‹ŽÏC=©TÉœ“X¢\\$RžõØp)²G‰¤ŠÎÒ' . "\0" . 'DóY©¶M¦7û	óY[[`‘ýDŒwÍew—àzüŸ(Ú Sô6DJ¤ÐûT…¶„ïÈŠzÙŽØÍyOÉ»?EyÊ
+[¾¢Ú„	ÍvÓ¤2	và0ÊŽèWÅ:±¸@;£žôT¬èÉXùKÚœÊ\'ŠåÞ#5©ÜDÇqZÞ”Àþo4l·ÛÙãfp~(û‰BeX>(Óï¥-þj1®Ümlª<ÑK¶v²Õš—çqU­åÞíæb¤}Sª¥Oº€ª‚Ü¾¥¨Ò)©ìùßÛ›bÈ¹
+0)ŠÖT¢k	Äb´£›³<VÉ³šÀ™¡°‹Y°_t' . "\0" . 'b¤Zm‰£ ‘L´‹%•
+—èg¯r€S‰É¥xFŽ(7"MÓZJŸJU´ì«BÒö+ò{FdÐ­Ä%B0Š›ZÛú-¤˜Íd”“=¸ñÆ+†šB@Ž{
+9mš‘ÊÆÑ*F~h«M~\\qâ“E¢‡öéI	
+Ftö½Óž`ÐË;rµ¤xš<Ë[‚s<Š_Þ6iÖÔµÀÀ§¬Ù€OÈ®­˜i·$Œ
+$Ú’‚Löª(Qz' . "\0" . '£i;Oú¤²¸"ž­)¹%@ò+´[	' . "\0" . 'ÀÀ~õE##—V‰Ý¸€Û4.êÄ$¥ïS‹$ŸÌ$óM³
+NÐ	óñM¢yei©ijZU)Çš…ë–´” d÷«›WÒJZP' . "\0" . 'A5^ëÖ^˜RJqæ(¢*wJØ“#5_j¶Åµ©\\æ®m^Ð-²Ÿ¾j¯ê=L•‘‘Ú¨“0ò«èŒ!âIŠzÁÞ‰‰1BT±¸\' Ñ66¹­1T²bhg±iZ”IÛD,È¸oáæPÛƒ4ÖÜœ0qObx®8Ç¤áJ‡<RöN)—G¶>i+¤­nf”`Âdš"©‹ûHÜxÍ.Î ¥Ü)ÅÀÔBÙÐ€	’{Fì’¥$,*ñD$‰f“¡¹®Þ%›”·Ô
+”;MXÚ¹yôúÊâÆÑÍ·Ï¤:“”ãî¡ÿ' . "\0" . 'M5¢ëõjP-¡A)fRGýÑËËË­I7-°V½ÛÕ¹2Þ®Ÿ¤ÿ' . "\0" . 'bO )zæ È¾¸R·Së-D•©$äÉ©Í’úS¤uM·”Þ Ãž›ÖêqÖƒ)²c€DüÍV7ÿ' . "\0" . 'ÌïÝüI²6Iáa¤™ÿ' . "\0" . 'ª“ô†’ÅÁ›E]\\¯€`Éýh©¸éAIÓt‰†·Ò·Z§\\¶†np"âå-~fËªQÐŒžÂ(Úº+O×ÞiZMÃvþ“jõÐôTB' . "\0" . 'Î1ÍWFm6=dÃ$‚w)Ô$ÿ' . "\0" . 'ºŽzÌ¯n¿inÉ!P›žøê‘—–Õ	8GúNÂÝ=ÕLiZ½Ö‹­ ÞiöÏ›{‹cï-)&
+’fûP_­=%k£u+ÓP¥Ü°eÄˆÎcüR¶ý+§ZÜªíí~Ü¸eJ)J•º|ã4ZòûG¿Ðm4‹ÍiWÖ‹R˜"ÜîL™)“˜žÜSÕí’N7‚¡E©ÝñäT·éþº÷Lõ¥ÃnmFð•ƒÄÿ' . "\0" . 'U\'Òôž“»¹bÓñŽ²ëë¥ÇR„€Iñ5×4úoX¸´y
+C¬¸RAjM´ë¡\'>{ô¾ªgAµº
+’¡$"‰9¸…\'™ª«ø|ÕÜÔºQ€á\'j@ý¿ê­tƒ’ 3P›§I‘ºCL«…Y\\=ÇÛ‰ïY@[^Ï’­©L„«àS´Ý(#ÿ' . "\0" . '/&‘HÞÚB‰>ÑÂä¾ÊÐL×–ü»?D”¼VNõ=M
+É¢ºEÓj·@$HP[——ø•1G4KY21»ÅìÅtå²l—kóŽÃÍiWRAV*6æ¤¶Ì+	žô±ÖÐ15ß´zk’Õ„¯oR„äB|UuÖýPÝ£%´+ú¤f;Sn­ëu[6ÒÂœžÝª¯ÕõGuÔ·3GÅm~G:ªBw·êºZ”I’{Ó2£k8­SW³Ær³Y¬˜¬kt±LJ²ŸQÄ¤w4—j}¤4^¹h´†Žè”é–kCi=¢¥ý9j}p˜ýh^œÂImp953Ñív¨É­§3hœtÞŸ#y$T™M£o0ª »±€1EQ’$Öf•åž¢L\'jï¢€h•»€¨`Ojj€´¦Uâ‰X¢VwŠT:dŠÀ¥Fy# ÑvJùíÚh&œ°Ø	\'\'RW$\'Œÿ' . "\0" . 'ŠzÀ$Ðá+Xi!¸üV:ëÌ¤¥0U§HG¸d˜§IcÔ;Èü½è§{"¥OC=‡
+”§—' . "\0" . 'vÍ!- `ø­[¥-ÂˆÏKú§ÞœŠ®Ñ9¥,ƒ×rØI
+H#´v¦¥Ä(à`ÓçØNâBxœÄ6”(¹íF—Dé¥€MðmH HÛŒŠ‚köéumFgš³o!^j)¬iáI&2dã\\ÅVS:Õ‘
+ ¼UeÖ6.%\'jî×tòÐZÂqöªÓªX[,‘‘æž2#?*Ê)†Àt…3D¬-À3ë5–—‰Žý©;XHöþÕ¢Ï&{Ðý¹^gµ
+¿­i‡PH‰4í,•d­½³IO¨“ŽÕÃM÷JsÅ9e››@£©…ƒÚš*ú&ÙÕ¸B`š&Ã¥¥¤ŸËÚ)ƒñàSæÚVÜU«Ñ)$I4lÚ¬z@Š²úcTÖµ;7C7E¦ÒrÚ{ÏÅS–)(2A{Ôß¤z•Ý2å\'q	8$U•“¹wÞÕ¾U­Ö òÐ·~ÔU¾Ÿµep/V¦Põ `˜ —šßó}e»¦Xö˜
+H8Š¥Ë·­‘nÅ£ˆ	Vâ
+Oú¦Þ	IÚ¢ÌêŸ¦zFª.^UÅ«ÖÔ ¥g1þê¥wðo1¥%·ÜüQv.’rddyÄÕ³}Õ:¾©et›]ÖrÂm–µÊ@øÿ' . "\0" . 'º¯ôï¦ÚÐºKè´X-¨(vƒŠÐ•ÿ' . "\0" . 'g@ŠÆQbõ7HiKèûÛ6Å
+i´ ¶ûk;ÛóêæQ¨·Zœ&LO®›Ûž£~Ýû7œ·gñ …%@oûÔcÿ' . "\0" . '¶ë
+wLracýƒK%ou8G…il¢Å—ÂÖ¾SÍOºø&÷£ºVúò°óNƒVÒH,ýÀ?µ·é}>Ùâ—õ6P”AÒÅ#Õz§óýI+I"Ý”%–‘2„ˆ' . "\0" . 'PŒkbMEäº¿†·]NœPVB%D\'Ÿî1þÍ_¥GnERßÃÖ›ø]¼Ì«?üÕÔT¢‰' . "\0" . 'nûÖNe’QK±±kq&@øQÍev§
+ŒíOíYYÑOö|“¶ 4‚¨ˆRî­
+IH' . "\0" . 'Ÿ4ÊÑÐ¶[Hƒ)§©ôÒ3…y¬.JLý
+“YD«Oò÷ òb)žŸ¬Ñ[jÈðjEÔú?ó ´“$U[pûÚúÛY;E]5T+ž
+2¸¢[Ôl€wñBnúÁÆ­ÔÜ”’9¡\'ZjåÁîÚ®EÖ®7º2’~(6fr¥†jêã~÷V²µ+"…­EG5°¼VŽy¥¶BRr4+Ú»x­+<
+*…£‘žÕºÖÒdŸ.€oi ø©K±ê;“Žj=¸ñR~–RS0I®yÑN5r\'s\'Š™éM[IL¬ñQ¥ú ‚`ÔóN¶' . "\0" . '\'¹Žõž^Zg»Â”{h/¯Ó¢`ö©5¹
+' . "\0" . 'ñ5° Ô—N“‘€*Nnž‡Œ' . "\0" . 'Ù$³DmžI L¿¥¤cá«R’œA©ìdÛ2þÒ6=‰£:}Ð2Nè vì! ¦ò(µ½¸Iøù§KµD›M¸
+lIÜOsš0Ð$‘$qQÍ=’Ò½™óF[‹Û3©É‘ò@•HOÅ(áAJN?c\\´%#Ú
+‡jçÓ^|ÑN’I	%H’Ï)R”6Ä{¢šÇé°OšåëeþTsñ\\ÛD]XŠ’”ƒ¸ŒæFh¦â7˜(Â­T;à|ÓËTFI8¡åèïô@õæÊT  xŠ«z›MÚ¥¾ÓÍ\\ÚÍ§ô•°cäUÔ6{›^\'ç½Ø®2}žê},2¥¤`Ðt¤ÈŠ²:—J.¥r2;T°uR' . "\0" . ' ö­1<ŽhÓÙÃÀ89ñD…¾Ôî4³;–#žhºR=8pdÖ˜dòôTU¿È¥YgxÚyìiØi(Zi§ÇÝ)ä²o¢XC[TÔBÆ)ËJ	Šukoê‚È®œÓTS¸b©÷%vs­±Å¦Ç“ØŠ3¦¶7„íÀîh£§‘iä¤Îi£6‰¹E’m:ñV­Š‚5+ÓºçSi;W|þÂ ÂÈšˆiÈl­!YOz‘µ§2êÛ	 œÓÝä¢c¤õK·ŒåÍÂ»Çª¨?¥i¿Õ®ÊmÒè
+ìI4ß§´Ûrä8°ÚRr|Õmz-íý½$“*y@OéTŠîÁr–.,›Ðô”ØïEã×n–è­Æžžúwupã7Wî¡¶Ê“>’3Ç‚cš+ tqUƒšž ˜´Bžìz±žýª7¯õ-æºŸMj"Ù\'ÚØ8' . "\0" . 'q4ÙöJ”t@Ul§3“Å;´Ò‹®úa²T<
+2­<“·pž}9é¯æºx·-…	g5Õ%–JR“.¤ÚzGL° %#˜©ÂÓ¼€Eua`ÝŽžÓ	N' . "\0" . 'k¢ÆsXç4ÞŽIÖFJVqö5”³­6¥å0F+*ôãÝ‘!´BLM?mÀRJŽãC- ¡ ˜&—m*
+;TLW–ãèý.—X-!ä””À5ê®•bñ>¤Aó\'ÜJÌªŠkvÉRfAªAR#>54Ó)cIU³‹(IÚ“AäžjÆê‹bÓŽ' . "\0" . 'jsåL>Ï’
+¤Ä„VŠÞ³tpaYñÊÉÚ£Q¶³yšÂ k9ÂþîžÕ©ø¬2+Y u³u(éD€¡‰“Q„¦{Ôç£ìÒÛHQ÷˜®ýã‹lé¬Ú¥ºyî&£vI)ƒñR¶¨$ñú=¾8ºÁ\'³l„¤‰£¶K)ŸñQë7J$žÔÿ' . "\0" . 'OyÕ¸¥(‘Qð­–öLl€Ph“6ÁKš¥¬”îƒêCb…' . "\0" . 'MMZ+~…Ón¤„¦1ÌŠ#lÐPÇc5»v‹€Í>e)`IUòÀúÉ±' . "\0" . 'Æ?â(­»jI°O½´W¨R=Ç½´³(€¨QòÕfYÓ{¶J›É*$Æ)ë{R¸<òG×á’&@»ÖœvJGæÅ:¶Jï³m½¸ÇŽi½Ëjü sO”%)îäËÛPžf~)­­Õ•ÀÇ¦n³
+%Y\'™¢ÎMÂàG·€#t€Q°\'\'ô¡²m²\'¬Ú$¤ŒT[ÓŠ7«Î@«3R²†”¡&<ö¨^¶Û)' . "\0" . 'Ï“HÕèurES®iaô,”óU^³¥[ÅHŒóWž§n©#ÅWý[¤•§Ô?j´0aæƒÙd¡…m;Ö—t\\Oæ•nÌ”¨i°¤q¶2“G“(ýÚeÍÉ!Jš+§¾—' . "\0" . 'AŠµRšujâ¤B¡@ÕÒ`”WH‘0ÚÌ¤Çšz–¬¥$ƒLì¯ÛC<QËh´b)²¶guÚ"Ñ2
+ÓŸ[Y„(„œÍ?Fœ‡ “VÖÁ"y^ÄýiìÜ‘‘É£vhqmÌœq\\ÛÛ6A™ñD,ÐvòGŠö#ÂË
+é7îY’¾|T÷Eêm=‹G­­Ë“ù	8 M[à‘â8¢-´NÁM[í`—9ÔÛEÄ¯ÑWaJ[Û ©‘MôK%¬&2Hü±RÍ+FvçjH‚Dºie
+í+C-/BsQZ”˜W~_M:8hö!J`I‘’hBtkv!µ¼’#´LÕ–°llBSˆŠ”ù±D“mÛ8Ú
+€ó€O\\8I#ÄŽôí í
+á-' . "\0" . '’@šÉm%z->ïï?aY]º‡7¥ |ª+(X¾(øÚÈ¤Ä
+r…ì)•££ðí…L„ŒÓ¦!N{ˆPñâ¼Óô«½
+”¡¸py¤œN“N°"i.W)Ó´Ez£J76Î);‰øª–õ…³p´­$ï^ºd8Ú’”È=ªºë^™R“ëÛ##”Štyÿ' . "\0" . '\'ã)/(•à‘[*$ñ5ÒÒ¶ÖRà)<A®HOš)Yã<0y\\˜ù­È®f™Ò&Ý›ýMn~k@ÉÍnjFÂŽØh¸âSäÅZ}3lPÒ!"' . "\0" . 'ïU¶’‚åó`Ùâ­}	*CI‘)tnøñAûq´É9ð(½‚Îù9ø¡M Dyš-¤ :îj.a:%:älÇj7elT¡)ŽôÚå‹`T$b¤ZcéiAà
+žO$‡M³þŽïÊhþœÌœüPk\'¡# Ó”Jµ-zY
+[·½¬ˆ#âœ1mê=‘"9#Íª‰N0<ÑK6=Scý×+’;±·)d@ôm¶Ué\'ÝîïñJYéÁ=ÑˆãïE…°C"7‘Z2Êq`[–Ým°¯Í\'Í"¨Ü¨‘âŠß4T mÏjdR‚bT$AíEZ3¡R§#ï]¦Ü­' . "\0" . '•“"iÓ2ÌÎqÅ.ÚÓ°‘ù¼üQoØ%øVŸŸÊAŸÌ+±j U(‘ÿ' . "\0" . '#Í;mÐ¥@÷S’¤w3ò¡JÕäÔ-Zq!Ž#5×t”Â @íŠ²¿
+—ŽðAPâ‚kšOôÖbAÉ“Å²²‹Õ¬ÊV ¡ûÔKV´¥i)“Z½E¥{‰	œóP=RÐz‡Å"\\­ú*=FÌÛ>¤„À¡6•+Ü6žÆ§:þš„ž{Tqý<)¿t…+\\YçÊ9#®4¤.šY€¤TœRŽ6¦Þˆ4òÒßÕFÒjûÙ7K±Îœ
+È‘#°I0f' . "\0" . '¡vv¤ãlüÔ‡O² q5JHÌÜ^‡Váeg¸¢¶é^1[Ólä³4zÃMI\\m2Mrh•¥Ð‹¸¥$Æß˜¢¶%ÀIIç‘E´Þ˜¹¸R¦J|EIìºgÓNPw§]<
+óÐ
+ÃN*' . "\0" . 'I<Ú¤f‚ãîìÎhÞ™Ó.­CØ“ýÆ¬-£íØm.­Âú¹Úž?zD°˜AéD¥¯sEd`AŠhz"PëM†àŒæˆXéÎÜ„¢Õ°‰ÇZœtÿ' . "\0" . 'H‹FÂ®V³“JäØT}è¶»P›íÍKµÓÛ{$¥²”íâ¶¦A€;T­‡#%0HPý©5#p	ýÆ€)ÁŒüÓw[Ø¬;Pv‰IÖÐÁm¢6þæ²•u~J¿x¬¤¶/š>*Yé·¸ûJGú§+FÉ çÅ2´^ÛvÁÚ)ê$nù¯9×Géiþ©H ÇÞ´„mU\'šÓi8ç½(”È®JÇLÐRŽ1Öõ¤¹ˆç‘N&DÀ®T´ y5ÙÞÖz>Þù*ZP¯µBµ’¸¶^Ô¦@ñW£»Ý?¡¦îÚ5p¤÷TŽ6dåøqäÉGÜéw •¶B<Å3)ƒWF¥¡7|Â™Ø ˆ*¶ºé–.ÖÑI	âºìòy>,¡¬€RÔ÷­–€Í¸é÷Ú "M0¹´vÑPàŠ82¸øá ŸL´}ñii©ôš´wªç£X.\\+V¬¦X Þ§&oà~(çYÖ¿„¡³*­é]NèAÜ@5½yN\\«ÚIûR\'Õ)À)ûQQ|¬°íz”HQWÎMKt³@)Nñ5J³ê‘óÞœÛê«²l‚×xD‡Õñìôî—¯¢çh
+Ç|Ô³KÕRTL§à×—4>ºS#+3ÜTïAúˆ…' . "\0" . '=CúšçL~WLôn™¨$*}§€*I¦<…°vŽóÞ¨­­[¸	Xra56Ò:Á$o‰ £[-õl¹,õ&¶ŒüÓ”ê!b°<ÕbÇQJÒP¹Ox4m½eE”ñæ™¯@k²`õØ2\'îi›®ŽAÑÍgTÜÊ‚È\'°<×-_­Á¿i¢•‚»9r„“÷"“7é˜ã4ÉÇÒ„’>DÓõ$ì!AçÍvÃŽ‰
+/Ò˜Q\'Ÿ5ßóê38F¬²“' . "\0" . 'w¬{¨ši°$ÝSA«\'ilš\'U@Ÿw™¦ž¤_lÉ\'œæ ÷V†`—FG3@5¾m¤G¬šAÍG$—^q”²W¼Aùª³X¿l]€\'šÍg­ ,”Ž' . "\0" . '5¾ÔÔú–I ŸšeFiòùu¢ÍÃaaBhA²MÊ;y=W‹¥Sâˆé%A+ŸÊG5ZhÌÝ‘›h¾(Ý0bŸ3lL64¢í÷Þ¸´§!U!é½ÍZì7´Áð*ñi£<äÖé–åkHäóVNôêî' . "\0" . '*;{fh½—ÓqnÐ^ô%]9£Ú¦¥¥\\„Z1ëŸüFÉH?z¦F²Â:/A;r_á”?™KLQätu¯âË+nåC0ÈÂ~æš¿ÔÆ¦ú¼¶(#úl5é¤þÂ§]?y­-¶›±éô²ÖÚ†ï™4U­"n—c;§×í!.4êw“!	VGÜÔ®»°D>Ó;æjI§t¿Sêj¸q«$œÉÛ5.Ñ>˜:ÒÃ——
+¸_0LÕŸdäßDCCéÛUL47Ü¨ÏíVVÐ­…%.­Nˆ„‚‘þEI4^šnÔ$¶ÊqÄŒÔ?`ÈQ>fºR½±´±Ñmôô„4ÐDQVíÈ @8§ÿ' . "\0" . '&ö¥[±„Á1â)º›p3#â´¶f9Ç¢?…â+?ìŸÖ€‚”ÊŽx#\'¦¯2¥¤D>3F\\fI?âi£ìï$üŽô¤dÁ.4Þïq)5”»­mY”n"ÜˆªƒQÎÑþ©d¬¥$"i½š·°ÐH´ý)ÊH)?¸åÒ?LyB‚S$ý«[ä‚{ÒJ' . "\0" . 'H"”h„	äžÔ|FHT€¬ó\\‚œÈ"¹L•ÉÈøíK' . "\0" . '$þæ†3…á$GÛæ“öÏüvg\'v)%ÿ' . "\0" . 'ipžr±kA¼”‘Ë\\Ó×‘ÀíO˜!nh‘h>­‚ªxãHŒâÙG*u¥3úT«ºwðö¥Í‘·&­Ë9\'Q' . "\0" . '¤‘’iŸÔËetóÅ' . "\0" . 'z„E\\ó¹ ’*>‰hzª=ªz¸ô±‘èÛMŠZIÌÔñ«_nDâ£,<‰Ä± ÓÉp¬\'jTi> 
+' . "\0" . '"Ž%€\'vm§e{bAïA1åîmè€À&“s£wÝ<TšÒáà˜™©=€aÄƒ)WÄñTRD%Â™R\\t…Õ©*J	û
+h–ol×ÿ' . "\0" . 'ëRkÐJbå¬¥ ÕzY²Á">Ô¢eúI2°Óuë»½ÀMOzs®–HJÕžÓAu>ŸJRDÚ…µ§›GB“ÛÅu¦Q)-2ýÑ5ä8ÊNé\'<Ô¦Ã]*?›³T6…«­€' . "\0" . 'QŠ°´Kõ…H=«™®—eš`ù÷OjXk*HÉQ+kÌÏzp—Ôê¢Lv5Ú4(ÞÃÎë$ˆIph%þ²¦xQ|ÓWw¶	™ø •è)_Ç,„æ¡õ÷VUDýª1®u³Œ4JVwÓAnî.^|b†Üi.]:TâÏ˜ñL’0Nw¡;Ž°½¸Tz>ôÁÝi÷¹DÑ{m‰†ãæŠÚtµ¸^å' . "\0" . 'Gh¦^(ÍM²7f·Þ)Ü	‹5§)æÊ5.·Ð­ÙÚR”Ò#FðÚ›ÎƒãìˆZè‰PÜ´î1G4ÍYÜ(ëZXlÔ‚ÇNi=Ð”Ê¶ž(ùÙ6½5¦˜«‹×°î«3é¾šÍŸRØ¨B”…ÉIî‚?cQ­M.ÝÜ,Nà£	#Šž}>²PêKS´î>(ÿ' . "\0" . '°¨Ú³Ò=%¥Ü²‚»Œ€©)¤Ñ«N’²hKmúr2‘Çø¥,}!
+1j ø g”cÙÆ— ZÚ™i”$÷Tdþ´O²H ”$¤çŠFÉ°c' . "\0" . '
+;hØLn˜à*ŠÒ2:¼!Í•¯lT†ÖÌ‚øÇ4ÊÁ€NáÇš‘éìA‚Ú¶Àó³,¬ˆTÄGh¢ÍY' . "\0" . 'ATI§6v ‘»DÛµ„ÆÓŽ1N°„þ~Ü×I³í\'½6 ¨8¬6df&‘×`Sl$¨{ãð£ ÄøŠ<lÀ£\\~ƒùrGa4-Ñ~Ëw8?Ñëb‘‘¶<	š”9i¸$S+«=ˆÉŸ“]dehŠ©
+8PjÊ(õ±íY@*Ï‚¶›M’¢HNZµ8ù¦zvm›ƒ?¥<šó­£ô¬ô*•¯8­ždœÒa$ÉçÍ*ÙŸi¯ RÛ¼ dÈØ&sJƒ¸¤Te[	šÄÐQì(µÛ)û;.öÛžõÒÏ·	¤}†15ÙpÄH\'Íu*ÀÏ¡[$€êdÀMµq&ô‘=¨]ªÒ®Çõ§-º¶]B¤æš8ìG”ItË`§qGòžjõÔ»³u½Lì^K–™ŒM@º“©lm½VßtnO)ïW³"d_¤íKJ>¢H3Ú§ÖöƒÓA5é{¦ï\\[ú‰À«Ml€S‘Ådänð$ë`»»}|ÔcQp´¨V>EYWZ`}’@äT¨twßbý‚UÒZÜ õpyÍJt›Æ' . "\0" . 'õ£j	obáx"5-ÒúyÇá ™=ê©&f—/Ž\':V¥j„€«¿Ðªž^ßÛú$¡ô¨ø&¨¾¦zëLÖEÅ%°kWzõÑe.°¥%´ã\'½F7Éœ–…åÚ$,‰\'6éŸlò(OíZÄÝ:NÁÜÔ—JB¯Ñ³óm©»F˜µ!;5™ˆ=ªsÓ÷|w¨UÝ“–k
+‚j?¡\\R8®²ÑTX–
+õ3úQ–˜Ü9ãŠ¡£Öq' . "\0" . 'ª*uü™”Ú…¥EF3N¥H7\'¢/~¢LÅEõpš•k6Á¤PÇ÷Ü<­¿wóIåddŸ`ç»jS>MvÅ–å	ýiÒ™C ¨ˆù4ÕO¯q)Ÿ4÷fyW Æ¥4µ%$càQö´p”‹uäÔÛ­²¸-(h‡ÿ' . "\0" . 'uKrÖÙHÄÑ«%h=t ÂŠCdRm^¨¨#ï@ÏVê)$ƒNlõcx¸	½2ÆÑ×Ñ)aéNR$ŒQ­¥\\%HqX@l\\Z}’EL:jÄ»|ÒØVc©0JJˆ×Oéà¾ù\'œÅMzÛéªo.Â’ÓjÉŒÐ«+CRq$A+ Õ—Ò!k«[,]6§&D?ÕY$Âä£$Ö¿Tt ' . "\0" . '÷‘á"‰[ýWÓÆÐÓ(s)}é~™pðKZj]W%Dš›iÿ' . "\0" . 'EØiIß¤¶™\'¹ýê«Š=žcåIèŽXýN·X6«0x(ý—ÔD-Àh­ßÛ&¦ÚGÑvœ‘¦°˜þâÔ·OúNÝ°ÂÛç<
+´aÆ¶ÌÓæmâ$MëG(‹NóqS=#]¹xfÚÀŽjc¦tµ°Næ™LÚH-´;{`6¶‘' . "\0" . '¡)ðÇCF<Óèi×wn„’ÈOÉ£M.à¤J@4U,!
+è!#µB\\ÉéÇ—lEÉ\'	ý)5&ïtúMàV@ð)-tã?ò' . "\0" . ')7}“c\\¯J¸þ§5"Ú<V¶\'À¦úß€û#³¾?ÜGÌÓK«-EÀcqñ
+©–Äø…´žÂ›ù‚OáË©ÛÚFª¥ÌÝeX~’|VQúëÐ?‡?ò?9v.Í³1´ñNŠ„‘‰ïCíGÿ' . "\0" . 'ŽÊ€ÆÑþ©ÊV‡öä÷¯:•ìûõM]ŽÐ²…ñÞ´RIœ×@-#Šé^ó¸LS<3bg½(ÀA½péQ¥' . "\0" . ' LÍ#v=ú:ÂÇ´gÅ&µ$òqZP-óšÒ×09j‰XÉ·±Õºä\' |
+YÅ‚‰1ƒM™0âq]:¤Ìy4p„Iô;„–ˆ<FGšóïÔ)o^¹…¸Lxø«ºÅ;­Ô”ª2*¤ëÍåÝQë˜;	•OjdÓÁå|««L1ôî?’‰Ç&®!;‰ 
+¥>-M²´€ª¹t5oRžðw´J‘d’ˆ‚SQÞ¥Ñ÷¶¢éS+6Bžk›Ý7ñ))">juìÑ(ÖÊy0"ã' . "\0" . '*K¢\\"ÝÍª~hÿ' . "\0" . 'N©§
+ÛNÅ0E§TVƒdÚÑ$þÔ1ë†g©J]`€ñàÔOú?~ã‰C®K`É' . "\0" . 'ÔæÉ÷QØ(µ“×bU	ïUYÙŽ\\ìekÑ.5¥¢Ñµ!–;w¤ô®“V‘|•úƒ½IÙmëî3[y
+·ùsÆ‹B	Ž¬¶I(J@œR+E$iî¦Â®f0f•Ó-v\\\'Ô[}š	ßMÙú…jÀFšY¶Á{Ô[¥YJ”ƒßªÙ°°CöIÚ71ñIçå„$°ðT=RÒÒÉ' . "\0" . 'Ô[K²K«RH	û÷«#«ôÀK€ûŒÔ!›bË¦|SF½ZÑÕìnn®}&–“ßÍÓtÂ«u6óP¢ b%•4’R=ÝñH‹·-ÁTæ´ÆŒ“–ÊŸ«zNæÒíN¶‚°Lãµ\' ôåÎ¤âaG9ÅZ¯^·rv¸ÐýE+hÖä´Ø>SùE,ß‘×ºE»KQ¸ûã¶•¡¸Ó©Ú9æjDÕ¡}RI?4sMÑ²•mŸ&¢Ø¾+bˆÛÔ× ì’ÿ' . "\0" . 'Rém¬omwJ‘ÿ' . "\0" . ' Hö¦ö~‘' . "\0" . '‰íäT¯¡ô:žÁÞÍ9êñš1¦+¤€:^ŒâîuÃê)N«iO' . "\0" . 'n0?j·ú9„´Ã-Uî€è¸´aÔ§jwàö&j{ÓwÖèwväˆÏæÿ' . "\0" . 'ª×-˜y¦ê‘ot€J5H2B‡5o¡âRGs8ªDê[;+–Ï®dH@“þ*ÜÓúÖÉvè#Ôâ` ÍRIµ²ÄÓÀ' . "\0" . 'E?h€j7ÓýEk~P¸$cp)ÿ' . "\0" . '¤!@Yf²SŽIhyY\\£Šê³žšÊ2²²²¸&VVVWeeeeqÆVVVWeeeeqÇçÌY³	þÁµ:e;PD' . "\0" . '\'šo§¼¯Â4FÁƒö¥ý/Pn
+5	lú_©‘LÀšìHÁí\\$œâº*“iÒôR‹Ð¢V	"w\'Ås½<	¹	QýV\'kk’¬šv©òömI.Ffº*CcÜóX¥(ˆÅq…pÀóA6*0¢§$b+…«Ï3[´p…¨+…<„‘Å=Ò•ì.KK&"qšÕ6.]Ù¾P%%31J!õnŸñEØ!û5$æGº?¢´WýÕªš)þ Wæ=ªÕéÇÒ‡“æj´²kðZ½Û¯r~Õ:Ñ)BgÏjœ¿~*†iéŽ6Áh°h(1Q}"çrÛóR‹B&|šNò]ýÂnY¶D)3ö¡—:c;Ì$~µ(MªTœmpt™2Ïš¥~Hrqøäˆ#Oa•`S€ÊÁƒÅsC’dmûÖ#N&vñMu¶"V°e²Þb;
+mvÑ.' . "\0" . ')4[Ñ‰*ý¨}ã‰Z’”ˆÌTfÛz+VÁ«³J‰cšËkd¥Á·SÓ”šJÞÜ)xïA/e¼Rèšô{@˜ `Í[½<Êœ·IDnç\'šª:fßÔ(OûU»¢4«{´«' . "\0" . '@&$C•$BúšÈ¸ûÀª`Îj2t@¸PÁ©†¦}K…‚LMZ¶áyšO\'b-Ç4À°\'Bîl' . "\0" . 'VÒ‘ã.q—Æïú¦ÏéAÈ1™Á¢,œ“»"?ÊZqq™óN˜ÐùPÊGš9ü ¡d¥9ž:bÅp™N8§ºÊ$ï¡¥–Œ€€Jy£mX%´' . "\0" . '7K[[% Ÿˆ§S´˜;€ÀƒCÊÈ¶ÞßÒH' . "\0" . '|Iš=ÑÊQZÁRT\\‘ãiGr”HíÍÐXSÎ¶S¶IíM¼™fÇ7ÊgM´² a1B-uU¥Ä™!$ä_¨)ôÈ\\' . "\0" . 'w öÉ¹G\'œDÖèRGŸÈOô]iLúe3 É5kèýv Òè$àAª#N¹Ø' . "\0" . 'JgäTËJ½wjsÀ&ªâ»0Ê1é—ÿ' . "\0" . 'Nõ‹/ìKÈƒ<Š´ti/ú.ïoºÛí^fÑu%BOˆ5gt¦µøU¤îV;Qi5D”tËâÝàêdRÔDÕÑ|ÂT,v£¬,My³ƒ‹=Ž_5Ogu•••#Q••••ÇYYY\\q••••ÇYZ$ÖWÏÎ°ÙœÇ°ªr‡	 H' . "\0" . 'v¦–Î«ðÍ‚žP?Õ8B‚Œý¨:£é×ƒ_h°pÌÖ”$H$gÅ \\•Žf•CÀ¤ŠMlxE,HÜI	ø­cpŽ~kîHâ<V‚@=«›OL/8±P¢N{V)dH“I5*”RŠ#¹é^Nj³böêÞ£#ÁíMÖ7,Çµ³j;”D‚)Ü	ÍøðrW$¤>)åÂ’­ âš {¸‚k´( Î*-¶ðEýØõ…­q—S' . "\0" . '8!F¤:EÉB8h&¶Ùq¤¸>™Ÿš!£<B2#&›Å˜ü~êL³t+ÍŒÿ' . "\0" . '­K4Û£<yùªßH»Z8ù51Ò.÷' . "\0" . '¢HÓË\'¶OØÝî4U´€ñØTgK»JÕ?gzUGŠeMjÐáËd­"G»ÁÆéDp8£MàH*¦·(DƒÞ’é“„Rwdbü%(&vŠ¸ä>HTÑ½qÐÂJyvå¶æfƒ‘Ûw†/ú¨iÕ’PsB,Õ+J§…H´ÔâI4ªûñ’sÒÖe%;¡=ñV­­²S¦&0¨’*ÒÌB[QNâxš´í™B4ÙTNØÈ¦QLË;L¯õ&¸^ä‘$ÌŠgj””#â‹k-¸²ÚDÐc,¨ß¸¥q^ÎIUÖÐõ¶™à÷§M6£' . "\0" . '¦Ësúžì«È§¶¸Ì{Ó\'ø
+ŸLY,¤•Je@þÕÉa%FÑÚ)ÛP¸€G\\Ü,n;H˜àQJÌÒÀÜ©äDækJA0F3ŠÓjÚ’U2|W+TèÏ?Á§S¸mŒÌÅ?·YE±' . "\0" . '@Q)›*R–¨ÏqÍ=¹·ºôv2Ù\\BjÐ‹“Â1rIE}Ìª]. ©$$F{R8\\XƒíñÄÖî4Ë’•-Vîq;LªÕ³JB“ö­ð„¨óg(Éý²i ú‰$„Èœš—i*IØx3Ô_M`©À’!0dÕÍ¢ý3KmkÔ­Ù†Ô ¦¯áŒ˜&Òyc1èîäžb¦ºÐL¿5¹ÒÅ»‡Òü£Q.æ£í§ƒA,“kÕÒÚŽ×½½óV…›IIdUÓ—þŸ§ïœÁ«@»MÕ¢ýÀf+7:µe¸£<†ë+C"·^qîYYY\\q••••ÇYYY\\q••••ÇœU“fÐÀöµ*”ÓKb’Ê1íà‚&‡èú%qÂbÉ	' . "\0" . '*	5ÚP•AO&‘gÜ¥g©R£Îˆ Ó}–KØ¼' . "\0" . 'ˆŽâ¹RDÈÉ­!`àŒÖÔ©$k›IÕÊ¥MŠNbOÅbà$)FºI%°@Ê†â\'Ší”yÐ£.B	ƒÅ$¥ç8§-\'kk€ŽçŠo$)£<ºg)T•' . "\0" . 'r+rR#•Ò2¯Êk±î“Lž@¥&ó~£$â)¦¹è' . "\0" . 'à,ÖšûÐR…”ŸŠÛÝ?u¦m}æˆmÓí§z0ó4„4×Tã5,Ò¯à¤ûT.ß' . "\0" . '0>ôZÙâË© Çš‹}3¸ù|‘bÚ_”¥*Çz•éO &¼Õi¦Þ`’j]¥\\' . "\0" . 'µgwx4oM˜yD¤íûROÝnO»ÛMínÖÚ¶" ŠË»„lˆÏ5x¬Õa‘Þ¦¸	n5' . "\0" . 'qÂåÉÌŸŠ’õ…éCdH3A´-;×«’A®€ÁÖ	i*ÊwäÏz™é¶¹l œ
+Š2Ènà$`y©®ŒPîÉ1)jöhW¦Y0°Ð)ÂsV2î[U¶`qÅA:FÕƒ»' . "\0" . 'FjQ}p” d@À2h¤Œ“‹ºê©Hq[ÿ' . "\0" . '/¢÷‡nè320*CváZÕ ùšx”¬˜ Î6Íuf„jº±u/ûæxƒG,îe]’{|ÔzþÝL,88&ˆY¼OæÎ(¸v\'“è8—w»jé@ÎR x<Ó6\\$dñÛâ–K‰Zd‚;PhW/hì€`€ïMW	_€‘J©I	 @ w¦­Å­"qF&yÍúuÅß´ÙIVåg5èÞ°¶fÒÝ¿A¶Ä”Š¢þŸY!ÝzÑ¯üE¨æ„‚£þ× º}µ8ø*Hô“Áƒ[`ÒGƒò¦¬:Ö‡b¶@Sù8Åt:cGRH]‹*Lä	ý	IÄ6”1‚;ÓK‡‘´' . "\0" . 'g”ÍYI­3ÍJóCk§Ý=ø–ßFœÐRTíOpdš–Þ$j‹p¾aK_)†”ßÿ' . "\0" . 'Ž•ÄMt«”‡‚’TDóGÍ¼Ž&ëé½«þ¢›¸ZwsÁ“ûPÖþ”¿l½Í\\‡îqûÔÙ‹˜<ª‰[¼yš©.ÃQ!V½/¨Ù‚ÙR~*g ê/é %Ä¨ŒâiûNÉO<Íh1p®¡
+žAAÍ5MNðÂ¶z³W¤î' . "\0" . '÷äSäº•j=ü™	•[«bÈÄÖãÖ@’@¬ÏŠ2þ¬ÛyÅg$­ÐËkàò}§´Ò¦í ~qö¨>6käF­I¹.¥=è]Æ¢”Œ(Bnõ9Ý1Ç©ö+çoú¢J«Ö’cpšAÍ]„	+L}êw©£ú€~´÷QæŸ¹<ÿ' . "\0" . 'ïU\\1ì”¹9:h²Ôv¨0\\' . "\0" . 'ÖU@î¨³ïN1šÊo¥Æ\'Ôäÿ' . "\0" . '#á…»gÑn1µ.I““MíRÃ`' . "\0" . 'iPHQ“ÍyxZ>Â×BÍ‚Ÿ½8S˜Ód#ndƒÚ—Fä¥0' . "\0" . 'ª*z(›ôv•{bÚºBJ”ŠÄ˜' . "\0" . 'wœÒ¡$¨ù¾+³èé6Ð Fñ Ž+Úœ1ÞžYéïÜ¬%¤)ÉÆL´?¥Ú¦®´ìaM\'Ê±L Ù\'Ëo!©-9ï]ÚiZƒ¥,´¥(ð' . "\0" . '«çAú†Û›å˜ãüÔ×Lèm3D0Ó(0˜+‰?½QA#\'ÎTJCúK¨ê*xz@öP©þ—ônÆÙW¼¤Æ*Ë;IôÑÇÇjjÝÉqÂ’­©8ŽôÊ4b&sÛ' . "\0" . '±Òöh¦Ý	Œ
+‰}CÐ’æµˆO¸EXJXqÂ€·÷4\'©¬½[U#hR”“\\id›ló—¦Pá
+=évØæÞA¥5KEYê4¬«¿ŠlW´ùûT]%ƒÖâ”RÙ%Ó^;›HÀœÔºÁý€{°jarRÔ›H¹$”î‘Îk5ÛÁ¢ý2§¿ê&œ\\½ý"	…v :sÄ' . "\0" . '¨ÿ' . "\0" . '4Jæà ÉÅ<o±•ä†õYQZ9È&”ÑÞ·HOx¤ú¡µîŽ ö·êCJ	¡TÞŠG“Ä–=p0I_EÔB\\q÷ª¦çRÔw©i’â‰èÚýÊòJ~k©¤tùZ=%Ó]Bj€\'‰4sùÁy>â	MR7R¤„‚¸ŽóR†zÅ–Ú
+ŸpñÞŠw±W!>R_üP´]‡.(AùªïXë×D†RT®ÄPÛN¬Ô‚–1ÎE-z9ò–µâ›[DNy’·!' . "\0" . 'bhOêê«D…A5#Sa>ÝƒŽT+ª¶BR·v:iä”ÂT’k§’	$
+dÒ’•ü£šUK”xšì“|‰ŽÝÈŽ+IR†`~ô„8$yš%£Y.þý†›JZ€‰æž5fNI$°K~šZ¸ßYÛ©DíEªÔ6ö*!3ûHýkÑº¢PŸ™ÇýÕGÒÖ¬ZýO×tö¡h°·µe*	‰ÜØYÿ' . "\0" . '&®(z@üÂ¶_Hð9$¤Ç·gÓÆp<MyïUô¤(sƒóNu{ÿ' . "\0" . 'Iµ€A347L*}ð¥$ý«ˆ´JíÜô,ä+Ýà
+clÿ' . "\0" . '«pBLÌb‘ºº	”îƒMôwã²˜ûsFD×))	P‰‚H§í]#t1@^|oHQÌÄK¦ðìHL;ÍuÙÉ¤H›~HÚª}kx”D˜"£LÝ÷?½·ºÌŒ`	¡”9+´¼ò£šx›„€s>EG-.‚F1Ø$ÅÔ·‰Iò{×ab·–ŽÛãRG€8¡
+ÔÔÒ¶­GpóGÛ~ù¡z¶Ž‹Ð¥¶6¸G3Þž2ö]Ö9R>Ù9ýM!2N	‰4ÃQEÅ“Ê
+‰ìhzßq\\{¤wŒUR¼¡”ãØîòùJI÷É(Uæ¡#¤ã)æ™ÝÝ…¥_¢¢†]_…¤æTDáYýjM–‹OLîæýItð~\'ýVP7uOIe;
+¼Õ”¶5Z’Ûxì8¥ÛàÍ Ð%¤˜9¥Ð·¾;×ŸKG×)(¡dÇ´ôì)@*ìbžh==s¬¸†­ÚSª\' ™«çéÿ' . "\0" . 'ðöõÒþ¦’Ø€B1?­4`ˆò|ˆÁe”¦Òº–°êQmlµ•q­ž”þ®ï^¾±D× ´ƒÒôl2„¥HLMH?Í±	úb?¸f®’G•Éóç¨ºEyÓŸFì4†™ÚÈRÆ
+ÔþÕ0µÐ-4ðR™(¦qÅ“ ˆ‘¶„»zµ¸	Jˆÿ' . "\0" . 'Ì;Ó)#ÊŸ$¦í°v ù·qJå©‚Lî?¬ÑXP”Š_UÝrÚ§QËm@‚¶Q”ÏæªZ/¤Í]¸[AAV ø¯ÃÜÂŒÉƒOµ+ ¨b8 ä‹„•n' . "\0" . 'ÿ' . "\0" . 'š›peíö‚–Ê
+|™;™4ž²ŸUá$	P¦v÷>Âp<Rº…Á!±ý±F×Bª)¨Zq´ÔÃ)W?z‡ÔV1Þ­®¿°Möœ¥ e9â©Å’ÚÔžÓ¨5GŠJ‚¶·LÏØQë;àÐI"	ñÞ¢({Ò' . "\0" . 'ÎqÚ‰i÷AKIRŒÖvCŽVYzeÿ' . "\0" . '¨Ø$F)è½?Ý&¢¶w›Jƒ‚cOU¨z¤B MË<¯RA\'Ü>j1ub¤,”HHà‚Ÿ=ë…íˆjhÉ!Ó7+mE#"ˆ4¦œI‘
+iŽ¹t‹W1hmŽ¨\\YÌKODe5¦I´ûGÒæ\'âŒµjôÊÉ)¬Ñ‚e$DÄÓë‡Å²eY&¸›qèà†ÿ' . "\0" . '&ßwš¤iOê—M¶”ÂÉ45‡“ê¥JÂOz°zZâÙ)NÒ
+ºÐÞI,=/KkM¶JLsÅ,òvîLN3Þ+¤¼’BˆäžiºÞJ—¸Öj.úVèD6 "#¿4º*HNÐ{’i:U\'“à
+@Ü& d÷§WÙ)°€”‘˜V7Ò7z±¼xMœ‰š«í
+î	÷)EQô+Ñ]¤BL£ú…½ËžMZó9ùqâ7útØÕ:ã¬µ4á+Ôý$¯þHJíÅ\\6¨J;‡‘Q}J\\Ð/®ˆ\'ñš…ÅÆéä=à
+¶=PY”àæµá£Çµ`ÝmÎ$Á™CBmih(„î<‰šs¾é)\'qc‚(õºƒ6é“˜œPÎ‰Ü¼†úíß¤…(€G)×M"m·OjŒu%çôÂ"îçŠtûÛtöÔTdŽ@˜ ¬{k±ë®§ÖT”‚Wh}(¤ì;P•]]@«~zSÖ`…=¨Ó¾ƒV×n)ØPDm®R!EBIûšÛÜ¸žÈ§–÷{@;³<s@[DªÖí)w´q QF®¢`·	Uùná2©È©7gÒAQ$‘(aì‘3s#î")TÜ)¤ç¹ m^d' . "\0" . 'IƒûÒî])' . "\0" . 'ùgŽõÖ›ÝZÛÝ)öÐ¨æŸiúŒR
+m˜Xæ
+Aÿ' . "\0" . '‚~4mÜrž?Zm«]ÜSé:´* mÞX«¢Š­9++¯©³iÔW)gbJ¡	PÇ¯Ä¥\'"&b>(ž¼‡U|µ]ŸïîÍ' . "\0" . '~J‚–£â1A;Yf‡ÈºTp«„)DîF~k+
+[0W2GaYGÊ®GGÇöV –ýÇRž•Ó™Ô¯ÛiíÅY' . "\0" . 'ÖVW”¿ä>³ä$´{+éwDi^Ÿn»{`•	Qäã½XÏ(¶Ú=¨=…eengÆÎMòÊßc4¼´Ü­D€;šËŒ©I9{ŠÊÊ·x%c[G—VØQÛ°«Ÿ‘MQ$,™$‘šÊÊœöO“lv¢áïšƒên©E%3Þ²²•è±-AeÈ¸ÍGŠmõ„¨ÄÖVU)x›d?·Q)Qïæ»¾Q-&OjÊÊé¬ìŽëGÔ´ZOMR’oœ' . "\0" . '@Ük++!¦e4æÕgÕMeeIíŸƒö¯, f7rçªœÖVTäT.ÃŠ3&~õÍåÛ‰F«+(ñèh½rñ×n¶©X);­ bNk+*ñ3r<–?Kº¥&	À¥õ‡–"p++(±RTMË„	Wj—tmûÀ»•”ÉûWŽ8„•šÝÅÂÐä€&+++"nËôtÒÔ¤Mp·
+€È••¡dK¾›Y·}¯[%Ù *`Uû«¨ÚèW® ÈaDO–²²¯Âç_x×èzÏÓý		©\\œ’¥{”OÜ“Vî©)TŽ++*¶èÁ2<â½KýÊAŠ:¢‹ AlÖVUõ6Cõ÷·›žy©NòÆŸ3À¬¬®Ž1ÐÉ—nÜ•ž+¤,™Ç~õ•”;3I»[,«ô§-,¦Hìk+)dÍT¼DîžZ^lƒÕ/mÅÜ\'Ý·šÊÊ1þÃÖ­]RŠ3Èžh‰•´²I;F3YYM-™–ÄmžRL‚k»•¤Iƒ8“YYJô4›²ºë[T-¿ÄõR`bGÍWÿ' . "\0" . '‰qD¢A<ÊÊ+Fô“ÀÜáQ+V`ÖVVTIŸÿÙ')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 08:27:51 --> file_put_contents(D:\New folder\My Folder\e-absensi\writable\public/Assets/img/karyawan/KRY-2025-05-09_082751.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Absen.php on line 52.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_contents(D:\\New folder\\My Folder\\e-absensi\\writable\\public/Assets/img/karyawan/KRY-2025-05-09_082751.png): Failed to open stream: No such file or directory', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 52)
+ 2 APPPATH\Controllers\Absen.php(52): file_put_contents('D:\\New folder\\My Folder\\e-absensi\\writable\\public/Assets/img/karyawan/KRY-2025-05-09_082751.png', 'ÿØÿà' . "\0" . 'JFIF' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'ÿâØICC_PROFILE' . "\0" . '' . "\0" . '' . "\0" . 'È' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '0' . "\0" . '' . "\0" . 'mntrRGB XYZ à' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'acsp' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'öÖ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'Ó-' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '	desc' . "\0" . '' . "\0" . '' . "\0" . 'ð' . "\0" . '' . "\0" . '' . "\0" . '$rXYZ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'gXYZ' . "\0" . '' . "\0" . '(' . "\0" . '' . "\0" . '' . "\0" . 'bXYZ' . "\0" . '' . "\0" . '<' . "\0" . '' . "\0" . '' . "\0" . 'wtpt' . "\0" . '' . "\0" . 'P' . "\0" . '' . "\0" . '' . "\0" . 'rTRC' . "\0" . '' . "\0" . 'd' . "\0" . '' . "\0" . '' . "\0" . '(gTRC' . "\0" . '' . "\0" . 'd' . "\0" . '' . "\0" . '' . "\0" . '(bTRC' . "\0" . '' . "\0" . 'd' . "\0" . '' . "\0" . '' . "\0" . '(cprt' . "\0" . '' . "\0" . 'Œ' . "\0" . '' . "\0" . '' . "\0" . '<mluc' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'enUS' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 's' . "\0" . 'R' . "\0" . 'G' . "\0" . 'BXYZ ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'o¢' . "\0" . '' . "\0" . '8õ' . "\0" . '' . "\0" . 'XYZ ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'b™' . "\0" . '' . "\0" . '·…' . "\0" . '' . "\0" . 'ÚXYZ ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '$ ' . "\0" . '' . "\0" . '„' . "\0" . '' . "\0" . '¶ÏXYZ ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'öÖ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'Ó-para' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'ff' . "\0" . '' . "\0" . 'ò§' . "\0" . '' . "\0" . 'Y' . "\0" . '' . "\0" . 'Ð' . "\0" . '' . "\0" . '
+[' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'mluc' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'enUS' . "\0" . '' . "\0" . '' . "\0" . ' ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'G' . "\0" . 'o' . "\0" . 'o' . "\0" . 'g' . "\0" . 'l' . "\0" . 'e' . "\0" . ' ' . "\0" . 'I' . "\0" . 'n' . "\0" . 'c' . "\0" . '.' . "\0" . ' ' . "\0" . '2' . "\0" . '0' . "\0" . '1' . "\0" . '6ÿÛ' . "\0" . 'C' . "\0" . '
+
+
+ÿÛ' . "\0" . 'C		ÿÀ' . "\0" . 'T¤"' . "\0" . 'ÿÄ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '	
+ÿÄ' . "\0" . '=' . "\0" . '' . "\0" . '!1AQ"aq‘#2¡BR±b3ÁÑ$áñ4Cr’ðÿÄ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'ÿÄ' . "\0" . '\'' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '!1AQ"a2RqBÿÚ' . "\0" . '' . "\0" . '' . "\0" . '?' . "\0" . 'û¡pŒÛã„ô-­Ö	äßt˜ÓNmþƒ…)¥ÍqéÝ1dù„¤ö6Öd÷èhyÛÁsGz	"œ' . "\0" . ':ÛZ,' . "\0" . '?^ê4)ã„3ÉñiÖÅ×Š\'õ^¶ÉªÜÊ}­Øê¸Œ_£ØqÚH4wÑ?¤6ëÉI‚™Ç4¥5 UõýÕùÅ\\y7]‘xh‚8îTx¶ìXê§ÂÒH …¤MìŸ' . "\0" . 'ÚÁ\\„á$öI­¦Ý{µ1,J‘Í_jH°]Òé{ÕUIœ†zRô´' . "\0" . '½!.>J”‹ÑÈmvH±¥uWð•êQ(cíµ®]8qÜ~Op¼þáeM' . "\0" . 'FË#ì¼sA¥P¥Œn“›³f•ëP{[\' py+*×}_¦è"GeeÇmÝ¸Z¸ÝàË6ÐP5ƒÊÏ¾¢íŽ58ìÜAüªo«ŠŸMhOscÊ…å½K¤Ú¾|úüiiš†tG­Û=À:…ø$r³3“n òbcZžÈ\\íavþ«åöO.ù¥`.pÿ' . "\0" . 'Ô}Oø¸ÁÙ#bÅdŽÛís,ûôLêÖF8?(úG?/ß+š' . "\0" . 'ä»ŠTÝ[ê—‰#š$8sí_9?ê–±õ*8¢‘Ñ´Ÿý7KC÷áC×s5GE‘§Ê$iåì{dey¶’§e¡ê-¯ÇÐÐýKÓ\\àç9Ñ´;€¡ú£pjxù‘	ñœ%iåÃ½/búší*@ç6««]ÈýB)§}p~>C]‹²jÖt‹6ß® KèÜœØàc²±œÉÇ²éÃö7ú/˜=YßÄdÍ' . "\0" . 'î[ÎÕÍ?ÖZFF@„2hË÷;Ø®ëõÆ:LVñÇÀpU´—€øÝlÈýA„Zæ¼]*¤™Lƒ!Ö–£ê=?ïi–Ñïm¬àéÀKR6¬õH§fÅ+Ø6EÐÌòKO…ë3&3†íùEÐƒ$k®Ú{)?é,Ç­®™þ"9EY,ÆBàòÀ]GŽù‰;Žâ|#ñ`²ðE÷òlfajÏe-Šµº' . "\0" . 'Ã¦¸¹çå;Ž{£ÚÚ°¶' . "\0" . 'Ì‘@Ü&ã†³ºÒ?ËÉ}ëDM*ØlÑîiLÆÒØ^wƒª\'mÏk…“Ð®¢€7pþQ¤˜©IKd|->!)ûTÌhZ$4Ûá;‹A?î*~3×y¤ÈìT’#Á‹Ë¸åw vGÜ$qÔ)‘4—–Ðä®¡ƒí½äô®u&erZcÄNcÈZ¤qÉ:ªv%Œ“íößî´/Icû¶+›Ô\\Õ †&(~¢\\' . "\0" . '«ä„SÒjgk} þ©¬&ìÌ{š8æÊ)£7ùœ·ºø.–Ôä‘‚qêô< ß¨ÃÜÃýè¦b]Gy7Åp¸‚üÛÕ|¢z;Yüãˆa-ç÷V¤ÅEÉ2\\ñ=²­sGÂJQk÷k' . "\0" . '¿)#ï?c>¤?±ú# øµ":$‚wüª3eª Ê•[Ç=÷Rù\'gF)4dßÀNlÞÛì
+oq=M»Ýìî' . "\0" . 'êTíéÓ¡ØÜH¡ý¥<ËíÛÈMTÖÝØðb‰-@¢C|);çÉQZ×8ŽyR£áÃÈîª†uDìg7Ž=Þ@D1Çõ€Jƒ‹<üôSq‘È¾âÕhà.×"€	{#<¤½HR„<¿„»®»/”%/,wÂkãò–îÔyî¨?T??9¸M{žöFÀ/•Þv£.{AvJù+ø‚úÿ' . "\0" . '.Vcý= Nu‰g`¶B+©>zp®›´þ ¿ŠÍ\'Ðx³àádÿ' . "\0" . '=©@ÇÇë]?UñNv±õëf{æÆ3áâJyŒ‚|þÆôeºL—Æù˜o#%ü—•Fú…üL`úsÚ§Ì@³Û÷biiç§øG%„*P½«Ìþ§ôû˜Ö$’I]ÈŽýÎ=ÕÕžŠÓŽC"n Ä¿m½Ô?Rz,ç_þ"}K©fýÌJ|·°½×¶ÕWú—«jÒ¹¹ÓHÃÑ®y!]6òÇFY¢õê_IE§B÷CÂZz5Áßä*ž,!Ý%:<ª·úþc÷4NòÓÚ×°j’¹ä	Nî¤"¦†õµ“RÓµ8ZØß±ß”oÖ/c¾ÓäqŒqî+‹P•¤Oå,nh+q5Ú“î5”g|u“Fõ5k“	„Èy>OèxŸ¼iã«U@õÜ˜Ä°»¨î­¸>¡Æt}®póJ£ÖöÉ* þ•ik¶ü©ºžšNê9åSG«yŸmùV©5¸sðc1»‘Õ\\âüû4ôÔ0Û‘„ûH°³½K¿mókNÌ‘¤´Ø=Š k±¶<é)õN±I]_–>·T@–Œ‘aw;ÚÙX\\ÞS’HÙ1üü¦_µÍaqþÔU/coÀì¬k§d€u]M	nS]\\ZàÈÒB{ï¶In«ªbÈ§%ª9s/*Ú)4\\N~Ò?TZÇ9¶¿•æNž$™¯' . "\0" . 'Ùî‹/[­ŒFÝ<Zê÷JàSðÀbŸo_Ïeë1Ü\'"½ÞBjM"7ŒaÄÓ)móÿ' . "\0" . 'jl1–X:Ä=µ¤€:„C/¸ò-I‹Ç‘¬x\'¹¼ä1ï\'ÅR‡#ËƒXIR±´)ÞèÚOñt˜£èË()<ÌoÈxÛßªÑ}*æ1„¸QÒ}©Ë#¶áLçÝŠŒòƒé¦zÞ\\cìàLîÜ0Ð)ñqK,·•Q	d”·ÛÇ~èž…õ\\:üR¼úsè_©²­6{w#ttkÏá^4_á×\\c·K&Ïòš¹!&gÅ/FEo38Ð-éÂ!£ãÈ\'sƒHëÁî·½\'øip7—šð:†°4úÿ' . "\0" . 'ÝZ´¿áûIÄeI,ò¾úð?éÖŠÒ¶|ã4¾àÐ~JKëh~’z^Ã?Óÿ' . "\0" . 'ÿ' . "\0" . 'O6’_Ü/ê\'¬M^)~á§¬ì*ÁRãeŽƒmt¥ó÷ÑÏâÕ˜ØÐjs2Â' . "\0" . '>ïkÏÂÞ°óc™Í÷‡x+‹$¤ðo„º~38€+ávÓÁ­·óÙsÜíÖ' . "\0" . 'mtÚ<‚	{ xÁ¶1ÃímØ{u]Dþø¾é½Ô?´rœÈ$R>–É1âª¿…*0G' . "\0" . '<¨‘Š¾OÂ—É?žPcÞÐ/”KìÑÇ\'Ê#Œ}Í‹ü(ZAKã¢ó•è²UHÃÈ¬¥e{_+Â>T.	JÏ…É)mžÊ±8ñ_û(9™íÇa‰üÕ(ú†¨#1ëúÛõ»éÿ' . "\0" . '§òe2Æ&;ZóN%E[)_Åñ¢°]¦`ÌdÔ§öÿ' . "\0" . 'LßÛÉ_
+z×êö§Œÿ' . "\0" . 'Ê9ÙY™$É4³}ÇõTªßYr½aê}GU•÷4Çkl›ì±c_“2w9ï\'ž¤§¨$‰Û¶[õÿ' . "\0" . '©Ú–cŸy±¸’CxT¬ÍLÌû’{Ú‘¨€âZýÁD™¢K¯à¡Àü-1s2îÿ' . "\0" . '‡i†»²¨Üx¾iX Õâ‘ì »òQNMcé‹ä\'Ù£´¾Úá½;…¯cºGG0ÿ' . "\0" . '%Ælâ/êDðàyáF½°;7 †6’^ÞO¸.äÑãÈc£}óÙ‡Ôo‰ÀÇ•Î^¼^wÆïwp
+dTR Ÿ„1¨zv}=æHŽèÇtÎ&µ$kÜAøO7Ôïp§S€êÒ fÉaû‘ÓÜI<f²:Ìoo[ü©Pz±ø¤?à‹áQ$Í’\'m=Êî’çn•]½²œb¶_Ç©ò&&ÞO…/Q3‚d5}Ê¢ØÇnŠ^qÈãvÔT¤WX‡ŸÑ ‚‚l÷ýÎãáUbË7n)ÏõÚ!Æ¾Ý`Ž>™i‡)–[};"8OŒ¸;…I‡:aÖJ¨=æ®‘¦Þ…I_“\\Ñôý\'*o,ÉDu±ÄÇá¼I}[Ü,ÇX–­ä×uxô÷¨]ãs_OýÉëd¼„1t)&?ÔŒšWOIý!Îõv3æ?Î4
+Ÿ£êXzûXpdÕ=¬èãçáY4o+Ñyñ¹„ý‡¼}ÆŸBgnËÐ2oÂ
+éÂ–¯÷nWÃös¿û+·§ÿ' . "\0" . '„Ì72³ÀwqyöZ× =[¯é±¹²1À¸õ]¢„¼nk€`Ë%$òÅvRY‰–hŸÂÿ' . "\0" . '¦°×ä	²dosèÐqÒ~úWM' . "\0" . 'A¤ã—Hx&Ïÿ' . "\0" . '*ñŒ^a²AxRÐmÄÓ¼' . "\0" . '¢í°“^pý#¥aÂÖÇ…' . "\0" . 'Ð1ÆÒ1â}ÅQöö…,G÷#h¾½8RhC}¢Ñ(ÇÐœ‘ì8ðî ÆÐk·ý©˜ñDßhhºà”Ã#pu‚~xOÂÝï·{XyÜ˜•	m¿#Œiè|ÝÒu†øeÿ' . "\0" . 'Êè¯6€Þêç¢åŽö’.(Õ³4”“È¤;A»¾w—_Ì†ðþM¢tGäÏ ¾¡åiG™tnmm_i}þ&!ÁÕä~F;€k%i²ßÏ•ð¼šS2bÚ 9	ÝÔ¾™È 9ï†ø¾ËŽ¥“ëù¾«Gì~ê,s<ŒYÛ;Ûà£ÀonÒ¿9þŽ~Ÿš7G‘÷aqØïqÚ?ÛOþªéž·Âkáœ2n7FãDO\'\\o‰Ô‘ Ÿîlöü\'ì“ã°Q5´X¤0o-¡UÏT‡€”“ÐûM3û€\'·u\'¸¸XÝ_*+Gê¤BC@Ï‘ÝS²÷ý¤ñÙÄ/ÞÖöB pöîœ£š¥A,GrOÊ_ª_”AžîWužÿ' . "\0" . '¢G‹ ™ž`ÑÚÇ•VGg³NØÚMùB5-`mûLpÿ' . "\0" . '¹AõºÌ8E·äš|Ùõ—ø”Ñ¾žáäãÅ/ßÕ(ÿ' . "\0" . 'ügµò­&Àl½ýjúÍ¥}1Òd|ù9r4ˆÃŸVj×åß×ïâ7ê>ªòã#ˆØç|Šì…ýbúÇ«ú÷XÊÊÎÍ’v¸ÿ' . "\0" . 'k{' . "\0" . '°­_U3<ÑýSU@¥Û8Ôµr÷¹Ïw%Wó3¹ô\\åÎ\\}Ý<„=Æ¸[è®ìÑ†5)ºÀàö˜±_<žïkB–ÐYòW3e9­ö´Z-¥ã\'gEiis=Ö:\'1á—¤Ck€†Ç¬Íºð;)×·XslyA"Cy9»5ùJ-nhÛ´’B‰•’É]m`þ|£M—°ÐÔáÖ]Ø¦Y˜øå ÷C>óžlÆÅ¶ÿ' . "\0" . '(›°úÄ‘&h ¾´¼fi·ò£–o\'Â‘ŒAñÙS‘M48ü€çÀþSrLæ’nÛÙOÈÃa„8€8¾×Ám¡ÝW¡Ï¿¹–,¹þl× “á6"1Ø¿Ù6Ñ\\“ÊeØUì}ÒàX9=Jí„¹2Ç‚‘¶H
+ûx%èz6‘ÏdOÂÛíá@lÖx¡ð§cv—:‘ÆtðÞ:ÙðŒbeÅ`Ý9W±âÝNc­§ª$ÈnæÇÁMSÈ§ËfƒéPˆrâ×íx<…¶è¹°ëÚc±³-“«å¼)edíq$Qæ–§éWKA…öÞœöNOÊ2M[6ï§¬ŸÒš¹ÃÈ™ß`¿Š<•õ¥µ¸µlFIçhî¾[þbVHãni»=×ÒŸD=Md1Â&-5E¤©?ÉhK‹³èX·±Í;hŸ=Ôö{˜ZçWA\\-»ä€àc®Ç•+â¶ßùYÛL6ÐJ)KÉzst»iqun ?)¦¹®`-×Ñ86½­=ð‰ZE*~IpµÁÃÈùéú©s¤ÛÉî¢±Üc¯)æ<' . "\0" . 'Hu×bQ&%¤‡¥“u.ìyµÈ,<]W ´ÐMºèÚì:.]m#€úëd£LCöu÷]ÙÅÃ±IGtû?Sÿ' . "\0" . 'Ù$v”8äý¡FÅ\'¤ÃlÐÓùÿ' . "\0" . 'Ä&q@{XOB
+l ãóÔ.\'jz=)åèp\'Òe8¯,|-3éÏÖ<>þ¡ØÓµÀîU­’2Ú.Ôt†LÐøÆ×ŽoÂb’o&^O	¬#ôé\'ñ‰êx¢ÄÔ¥dY' . "\0" . 'P“€×-ï1¹5ÀµÀŽ­ð¿=/ëŒ¿Oå¶,ƒº +wÂûèŸñ8ìX¡ÃÔevN-¶MÖYþdÔŸåøráwí6=¯¢+m)»ÝC…Wôçªq5ÌHòq2$Oí<«46@6øê³¸Ð¨ºØRo>Op8{øA ö2º;áÒÜH¹B:Â„þt^I©enãÀVÂº:šAl[Ô¾¢ÇÒ±ä›&VÅû.=]ëM;Ózdù™ÙQcCKœù\\Ö%|?õø‚ÌúŸ™&‘éŒªÃqÚüÑtáá£ÿ' . "\0" . 'uiX.TOúëüKK«ê3éZPdQÉ&kzŸ' . "\0" . '÷_}LÖß6D²I’é%q·J¸úË?CÂècÈJÁîx½ ÷ê¾õN»&§Ÿ$Žy\'¥£ÊX-FÝu¼Òö¸“Â¦eÎ|„[YÈqÕs)åÀóú«Lr¥ƒ™æ‘DöQ' . "\0" . ' kü¯.×ÜžËÇ¼¼p:	ÊHâùLK3šÚ»K%ÄUuQ]!rþ2xhõ\\•×Uèˆž€ÒÂr=§ƒû„ó0ÜÚ¦E¦9Ì' . "\0" . 'Jˆ€Ð,ðŸn7¸ƒáE~à6ð9(Œ:ß´€yò‹ý,‹¼Ñ¾¨¶>ž÷Dö› <4ßÂ»èþ“-/ŽÁøè–Ê£>ÃÑ%ŸÍ-·œ!ù:+£$Ùõ¤¢Š ø£»øU½kÒG1{c' . "\0" . '¡f´ÜÚ[ÀÜLRÓÈ¥«äúeÎ‰ÀFmWµ/M:6›oDÄì¢…öÞÃxòºŒ:øDòtç²B –˜ÝÏP­\'bÜPäM/ÑÆ…®ä1-àÿ' . "\0" . '„O
+BÓÖí2è0·F@m€Átw|ž¥	Á{^HwµÂŒ´^ë	Ñ2J½œ3Ù;Š;¢ÌøÙ´Ø®ê!ÜòvþÊdÓ]dôŸ-^‹^—¬½­"ëÊÓ>™z«+Lõ#á“k~àÜß-î3(lÌ$ñùZ\'§¦lcM	§TíìÏ(~ÏÐ¯MêÍÎÃŽBy-"¬•±ÈKMà…}(Ô¿Ô´8Nã¸4Y\'’¯QÀ˜ébîú¥I‹ê‚ð<<{=è¤Å+D
+íä&"Œ°Ó' . "\0" . '¢=Ä.ÄFA¹´ÑÔsJ_ì©<`—÷(nÚçW |§&ã§á10€	&»®Èe96x%E [ÆG¥—›ïUEx]í4A„Ãçs#Üxü
+áóï­ ƒ]I´nVei3×Ìcq' . "\0" . 'qò’eí¸’A¾yIJ+é3òÃG1!ÁÖÈß[p«è…b?î@Úà”C‚Cî5Êä4GQë›&2Ãh].ËÁo@¦ÅŽÒÐ8ü¦äÄ4âÞõC‡°šrðB“\'0—F×‚6ÙìÜÏNe4Æò`¾QfÆFæ]‹¾W”‹€M‹Il§ÅÚ4Í³èï×ìßKæFèr£À|w_lý0úÃ¥zë¦	ÛX|.<ßÿ' . "\0" . 'ò–|I1rD¸äµÍìÞêûôÿ' . "\0" . 'êÆv‰¨D>ãà’2ÓD(®ÎÉøtí#õç)³µ¶@áÑÀ£FÈíkäO¢ÿ' . "\0" . 'Ä–>º1ðu™Ûå´ÙÅmyùðWÔž˜Ö ‘Ìx9²k¯‚µèåÛ‹¦Zg”ÆË¡úª?®½e…é]*|üéþÜ1‚CC«qð“]Ô™…‹,¯s[Z]º×È¤ÍÊúçõ\\Ir~˜ÓnlO?Öí?¯ü*	ÊÊÔïSúëIü³1t)$ÛŽ÷?pw<äü„Ì^–Ð¾•ziÏÈ#ùç³s­ÔãÇî®U5LLRé:4ìÃ‰ÜŽ€uù_(ßV¡Š_ôìRÿ' . "\0" . 'æEï{Ü©Mè4Ö‘šýkúŠ5½NX`-ŠãÃy\'ò±Œ¬ƒ%’ãA{©jÌ•Ò¼Ûœl’Pœ—' . "\0" . 'y)Ÿ¦=$´3¨dƒÃOåÏ˜hw
+LÄ¶Éä “¸¾B‰u«×’Ò$FÏ¸û"×¹66ò(ü.¡wØ‹sù*DßtîoOÂWäjRÞ õ\\1†G' . "\0" . 'ìºŽ#;éX4}î¼qa-¿A$Þˆ¸Z+œZv“å‡ÓÎk¯hø
+á¢hÛ-—ú#\'Giæ¨ü=¨Õ˜½9½¢€
+f\'¦œÃIW¼dÐÛGÍ+>é¨Ø,¡ì9pßƒ:Óý!$²øËGÊ±azºFßið•…éæÂ›øV?C… Ž®DÑH iNƒ@}sò¬øž–“ ‰Ö•óL‰ÍŒA…ÚÐG
+Ôì%TR°½<×FêCõ?N	E‚‡u£äiŒ' . "\0" . 'l' . "\0" . 'ê‡äi~ÀzŸÂ/B\\y2ìŸM³i¸ÇÁT¿Rúi‚7l' . "\0" . '½m†Ê§ëºh{]@q›)ñÖb|í«h"ãÈ#º«æáˆ{Yü-ŸÔzFòúŽÊ«iA¡ä=LË(I¦µ¬â­Ç·„C£x\' \\ä`9„ñ_)ÜHË¿ìò´E\'äÍ,qºB8²¬N1¹¡ÂÚ; øÑrÒ
+²aF?)É%äÉ\'ah[ËÏ$ô¹Ò' . "\0" . 'ÛKÌjc*½Ý­téšî;rš„§úßmáÆÈW¿MjQCns·ÙPbx{œÓçtN°Ò*{$¢š>Êú3õcË’È÷t³T·Ý/ÕZvccÙ•p×ù§ªåbñÌà>
+²iP5¬2H3enÞ(›±BâŸ‘š?J—ØÇ´Ž ©1Û™{nø+áŸGZ¾‘$mË‘Ó°4â?ÇEô¯Óï®ZO«cŽ±Lk‚hÞ”ú-+²)/(Öšá÷uà_dóË\\Ïw seAƒ2†øÜ°B‘,Ìk‰6GJÿ' . "\0" . 'î’Ð¹KÅ?#î5£ŽWC/õóðº2¸UžÞd–3shè9D—±7àð¤ÚÂK—Nëãm|øI^¸Ÿ•xm¦é›G' . "\0" . ')øÁ†@Go•¡‘´Áh?…*2iz®M§³Ón2,pèñÏ fÒ}§šLbJD>ÑÅ$\'Ç„WŒ•¶{–Öm\\(»œóÞ“îž\':¯’ºll®ò‡ñ~‹ƒx"moaú”Ãôøg.$}·ŽŽ
+dãíƒCƒÕGd„ÑºîŠ–‚šŒ¶JÑ=M“é©6Ê÷9 Û^ÞÓ¿E¿Š­bdJÜ¬hŽCN‹Š§µx_\'æ¹“–ýË´;2	°¤c±¦{Ç4S#Œ³•Ïñc/Ýþ¾þ\' ô§ðïŸ¢ŸS3_õvT“·v1í,‰ÿ' . "\0" . 'ØãÕÂÿ' . "\0" . 'Â®ý4þ =1è?JbM”ÉòÞ"ž8Z÷×<“å|ê=[6gÆÙr_#Xx*6o©2ˆ"3¿`D§wƒG!ü5Û>ú…üZcæz¿ZÕâÁ/–x>Æ,ríg“W}z/”}GêýI©Í•,¥Ò=ÅÆÏtRÔÝ‘3«Ý}Ól; Þx5ÉU)x@Ç‰/’=Î;]ÑGÈs[¬ÚŒ3œo‘v fê..#Ž| ëå°º¡¬ì¬#·P¬{2AÚ»ÉyÛÉëÙ0Ç‘Ñ[ ¢¨‘“Ú®SÃ÷J\\8×RJ#‰‡uNå.ëA¡Ý;s€Ý}U÷EÒÛŽÆ»©=P2PH°¯Zn9’F×?[5A7°¶žØÃ@ÿ' . "\0" . 'r=‡†K)ÀQì»Òô¸5îàuVm?Jk¤°ÑI‘ÐŒZ#hú+[Nª¾@V|;šäü)šv›àâ`°9»' . "\0" . 'r‚ÛÑ¦0^†14zg¸~©á8 UwSâ`þÐ9S±q·<]' . "\0" . '¡u^b9Üw®4I¢:)à†¸î?„Mk(tWMèDÓÚCLÁ|–O»à¨¹xÂ6öèŒ5áçusà¦rA Ñã€˜“¬ˆÃÙDÔtÐÒ÷t-Uµl0oŠZ§ŒKÜ@ãÇ•YÔ0Ù!6ã¢ª"«2­wKk‹V;ª©¤	‹EsÕlš®”ç—WT5°ºÛíøLIù5f9©ih›m¡ŸÊŸ
+ÿ' . "\0" . 'ê-;k·7ªyLØM6‡Âtr`œhc}¡]üoB¸š45×È»E1æ‚ÛKd=&bibÅ¼›+·ÎZÛ²‹…‚²¿‚' . "\0" . 'öNBµ–z×€ëåI ýÀz‡i´(¼i¹®oåIì(¼¼\'Œˆšr2ØÚcÛEŽ{¡>—ÊŠˆß+wø­IÑ°}KªÇ¸-ûœ,Z>«À§K4R[õ/¿‹Ftc\'JÈŠh$toaà´Ò²zëéìž–›Âÿ' . "\0" . '¿ÌÜ$…ßAçÊ¨Œ-}’™Ûé¢]­T}úègt:~¤ð]Àiuÿ' . "\0" . 'ÚúCMÔ™©F×Ææ¼8XsM¯Í}+6\\<–OË\\Ãa}sü<ýCn¸Èð²[0vÃòk·ÁA%ßòHË7Z7á²ïöO' . "\0" . 'Gn’nÀ#%&æíé]YÛöV²p6' . "\0" . '(ÿ' . "\0" . 'ËªKÉHßîa\'ÏD”í/Bò~Uã·| W@' . "\0" . '*\\-1¹¡ÀqØ¨øŒ†#7C…&X^}Å½<.BM¯g¦Æ‚pÎà(`a­¿[sþÑ«§ÖV^æn&Þ<"Ò*MÄc38GšÆö¾žQŒWÛ}ÜxTÌÌñ“Ÿ…ÓJÕ’×µ‚Áz9CT%’dÍq„P×ÖþKï ›— €nsE-#bM‘æ}ž@ãÂwïŒ§°<' . "\0" . 'Ú4†™þè7ù„êzû4×8Èí€7Žz¦G"yd ­•¯Zæÿ' . "\0" . '/9ªÚ…CÔu×NÂ7þËÏUúŒê™²88†Z¬Ë;¤!¢¶ÿ' . "\0" . 'Ú”Ñóü’í,›–é&' . "\0" . '4‹eMö±D¸€ÂñÀØïJv¡žÓX8Lðg¢0Íû[¬þŠù;¤$&²%wÊdV´SVu#‰u•È$tJ‰JÈCa±"û‡¡.V7sìä¡!–@kª¼à`1­Ô!c •ÙÆ™ˆ\\à;÷Z¦ôG‚×÷@t, 2ym‹ê´­Á¬¦‹‚5GW†7à)§àÜ-`mÕX°1Ù}®4üjŒä"p08Ó†Õ–Í]hîÝ\\”k–1¶xqÄmµJcI Åëd¸NçßžÁÓ¡/£VPüH}ì' . "\0" . '~ªÅƒöÅ}ÉJ*X:…›Î×X>-H‹}§²í¸ÁäËÕN‰Œ°Û^S#^ŒÍ4È®Ãxuµ–Ñ×„ÄÑFâîHpóÝ‘íaæÈ®ÅAžä:À¢>SmøÞ@™x¾Ð¸u@³ñÞ}´UÆHÃZæ–hFV3^ãçÈS%gÁHÎÓi®¶ØT­cMî(®æa}Æ«¢§úƒI#´qøVÞÌO]ÒÆç¶‹‡Â¢j˜_l¹µKeÖtðÖ¸íåfþ¡Ã«¡Ê4gäJŠ>ß¶êêB~	-ÔO>sÇ¶Sîåy¶PG¸­Q£Ÿ$Æ¸§¥âœ.ºÔ/»		àÒÒ•,®™á.Þ:¦ãþ+Ü£µ½P¦@þÑ@õ ®*W)·tÒelàÒ¾h:ƒìnàßÊÏák˜Gp;£Øn-qéðžØ™aàÞ½êÌI™¬•¥½Á»\\yä!?Y=‡éïPDtè«
+h+9&îŠ¢iºÆ{^]Áã•§³ZÔ>œÁÓ3²ÚìlgF÷{ê/ÇÂ‹*€m/Ñ–² Þ,öW/§Zô¾šõ$ìsƒC€pi®¨ö¥}3••#sÜ\'Èp{@c\\M>-Uum#AÔf‚V–IËm½E°®žJ»^Ï¿})«G­h°dvöò|a£¸“ÿ' . "\0" . '²Ç>ƒúŽMGÒ˜àžÞ óãŸÙjgQkX«wçþ–YÚfTý“¿¤þI7ùIDŠ_¸ÀëÛ}ºÿ' . "\0" . 'ì’¬‡Gå¶' . "\0" . '{ÞhEMdîi£ÈîT¼ÆÈ$€§Û»²å¯ÅÒ=%EEáƒõ69Ç|#žêv£Xn¯ý@9¥ad!ÀµÔÛî«ZÆ–ð$šòB+lW4e%¢§¨[–Mî£e]ôÝR:áÖêè³L’ü,Ç1Üz¢šnsãqû{2qã)qË& íDº:ª\'º©fµ°û¥' . "\0" . 'ŽÈK5g³n!ÃÊ¨ú¯_pˆý›³Õ[_££÷+®Éº¿®£ÒÚæÆàç€G7Öýa6¨NòMÿ' . "\0" . '…QsÜÏºðK< N·8Ð!Eþþ^YOÉÔÒ¹Ï$ºÂå…Û\'…ín<ñKÇ’ö?áJöfÿ' . "\0" . 'OY3˜óG„¥Èt‡”ÕƒÔ®ŽÚê‰äº×B»®vKõRè£Û®‹Ö‚÷\\’¹"Z>\'ßÈipâÐl$¬µú_OûqµÎ' . "\0" . 'šî®Ø›€ã‘à(FØ' . "\0" . 'ãÊ°éÑ´Hå¾P5èèðBÂ‚v¸¶‚Ñô2ñí¢ªúL' . "\0" . '»sE´xVí-‚7µÃ¿_„©ZY:j.%·›câë¡R}¯Å
+7°wRØCÃZm¥"˜t˜B	ÄTÒl)‚F†‚ÓÁáŠ0Há‡§Ê4è$gøFñ¤!¦´ÍhWà#ø‡“Í:ÈÖX¹R%E9i' . "\0" . 'VÛ±Ió!pà|Úö(Û@mçñÊ™ÁW›WNÌ–¬“3™-|&q³¾ã©ÃmñÇDBh´žíð¢,Øú4~J}$²QdyåtrIÛÙ3+™#w¿‚¦ËÞiEv3[ÃêY]q°ys@&øù.µ$ŒØ.5Ô«¸ eíV©ŠÓÓ¯¢¬±FUê*Þà8=–cê>àÞz-«]Á6æö6õ!§[+ˆ3XÂ1CÑÌãÓžŠ+:ßSáXµüRÙMBiÄ–÷[ èåL‘ŒÂ*ÑHðÃØÃ|r
+‹,qÐð‹bŽ' . "\0" . 'j¤ÑŠ_¤8îŠKíâ‘,\\fHÝÍ¦¸vOOˆÙKH4RƒÍ  xV„¶Ðì!ÌmQ*~Hp#–Ž ®YxkH7åHcÁãº\'`8Ê¬µb3øNó\\|Î&s wÛ²O¨“Å÷xè¥ÁÜ‘_(–Ù`‚@ö±ÁÇrÐ=\\"Ô½+¡êRÉ»WÈ/dìÿ' . "\0" . 'Á´ï×¥|,ÓkA/è¬æËžÈãuíŒmmžˆâí‘{Žçø{ÊyÒöW°=àùëÓüÿ' . "\0" . '•¨ë¹‡Û‡öžÄZÏ¿‡í1°éqIs¬üž?é_ýVá-ìÕÁ´ŽOåFum·d?]cñZI#á%PÓä•øà¸si!¤gèø#À@Þö,§„»	¡Àè `JNîE"Ö½Ä;Ÿ¸ñvz„T‰M‘Ï§E.åþ³K]U^,aÊé§p³ß„Ë­ÖóÖúl?îÄÞ<*¦6´#{‰¡UÖt×äîÚë¨+,õ_¥§Á˜Ïo›¦ôDŸ³òx\\_t—QyˆÊâ…M¬cÈ\\WÐ‚«sê² ¶¸AäÏ/qÝ`ù#Ÿ†Zu)1²`ÚÖþ¡V²ØÅžSQj.‰…¶\\b¸~Yì,)h¦¨iïðiqcÊEÁÆúZñÆú%ÙBâ×«ž¼xEd<IuG°HƒÝQbƒÓÍfÐ%Wè+M‘…®ä¨Ãø4­8´BÖôÞŸ÷¡Â¦Æ%c' . "\0" . 'ëª´é8E¥·ÈJlêð)D°h±:(k©E°~üYaÜ–øLácSGQ~QœF}²(nù@Ù½H°é²±·@”J@Ö' . "\0" . 'zßpƒaHXámÜŽGýh…Š®É6Øwz$ã†²=äŽÂŸ’ÇŠp¿Â;Øzíñå;sšA-®Çºl¦d7ƒ^ÒßÂ5‰>À9ª=»…_Æí x³û"ð0¶>·]Ó‚Ç‰’(t*{dm·Ç' . "\0" . 'uU¼h%ààG‹Eq2>Ù Û\\?diÑžUàŸ$í–‡WÁQÃH¶:ˆì|\'NOÝw»¥ð|/dmSÀ;½tG• Zh‡3v:Ür˜s.œ]¢–óîÚòOŽ…F•»lƒ@ö«Um•CæñµÞÌ¨‰eÏ’¦äpßmƒò¢Lº÷q|uQX.ü]S»œê"Í¬óÔØ`Æk’V“ªµÒ“G‚©šÖæ8Q¯%ý‚Ûª0ÏRb#¯ª«ý¿}´ŸTi»\\ò8\'º£Í¶Aíåk‚9|©¦skGh„>¬p:®1áöÜ„cl<ò¶)Rª9Ò–FXêÅ|)°05 …Ïòõ`ò<…3
+ö¸EWbf›XÇ»šE•4cí£‡åpÌ{u8P=Ô¸bûm‰J4—Çä(ÚÝ m¢¦ÂÂ(ZöîÒˆC„íÍ¡`øE†ÅhXxÔÀIáXô\\2ù˜Ç Pq°ht<vWÏCi"l¨Þáí¿ÕN¾EÊX>…úS¥G¥ú]¡Ãd®ky<œÿ' . "\0" . '”ö½”ì¬†b±¡ÅÜæ‚²00¡Ã‚B÷UEMÀÐT³ò¿ &Ò$Ÿl
+O©%ŒFˆ£e†ðNÛå${NÄt˜­s›D›6Ô”É,ü¶Å¦ãDAä´r¦±Æ0ÒüõBqb†1ÿ' . "\0" . 'ˆáNŠC#©Ü×…Æ¦z[ƒƒBç0Ž?O)ï¹í=/¢÷MqÔ.Ù•¶ùÝ3~	nL—1k…’KoŠBõ\\HåˆšÞ;…4I¿kwrg s´„V…ªfKê=%Í)hhoZTì}¯/h°µ¿]`–ãÉ3;,ŽL“îiä‰[8ðé,8ðåzàt¹•hÊy_	a8…áhò®½—G€í/¢÷
+Ñx9#åzî¼Üºk¯ŽŠšôR<+§é%hò€˜ìðIWÏDi[Ã^xRëÀþ5+Á}Ðâ¨šNêW5µF«à z\\&*Å+žÐžé2:ŠJÛá’êÐEñOº®|I}àWê‹BiÖ?ÊÌÛ¼‹½0Æ0igN|£X’Õt¥_‹+íEg÷D´ìæ¼r£v7(³aFÇQ\\)­Æ³Šî†àäPÿ' . "\0" . 'ÇþÑ|YÃÝV(¡Tv‡ãÇs€ÿ' . "\0" . '(†N4*ÈíK˜}Ô›1Ü=ì\'/ô_k%bÂXmÔB%sA ßÂc¾àH¿ý‘lfYü„ÄfÀÃanÖrAº¤áÆ.ŒW4x²#ü¹k7´PM:7X,ž¾Q8ƒÙƒŸ†ÒG\\xQdÄ,·ö=Q‰!.c¿ä;”ÇÙ/%ÝNTH+U,ð€Ûp-' . "\0" . 'õCç¤ž}½€G²ñÉ óÑ›Ý»qù
+Ù==G¿ÜÖÓ‡UYÕ¢…ÁÌä÷Wììv—8€GèªúÎ£TOU0“f?êM8?xïK7ÎÄÛ1àü-³]Ó·ŽOuœë_Û™Î#•£æŽw*öÊö&-‘`–ùG0q,†Êó¼éáÄÆØEØ¥½QÉ³O<‚Ôìz{£Xãª/çlíØÒšÜ"èö–ß„uúnò‹uÓÂ˜Ø	oBB›	m6¸î§3ÁƒŠµi4§äŒíí;m¨¶&;÷Ž;©0`]‘<|^•{”ÞX§Ì,´þUÿ' . "\0" . 'ÒP·›í­’©PBæ¼ÝñÝX´ý\\@ÆµíÜ€5á*5Xg’?±Ü“­‘tVƒ£èy†iÈvÞÔ°Ô“`N$†Èì¶¿Cz©ÚŽ+™Ñc¥uJ”|ÐŽËLµG"­p’fLâç’Ö1ÃÏ)$w~‚£òSÃdc©¡Ï•4±Ü¤¡øŒ&(È (Â•´Ø¹¸ÿ' . "\0" . '–z{É/‡rx¤Ó©ƒ†ò{\'ôO+É}Øð‰·¢×£†ÈýãÛÇ…ÙÉÛ@Šù\\É¾ã^Þž’G¼üªrKh\'¨pFnŸ o<‚ks°²äa¬¯¢¤ˆº2ÞÊê_HÁ©µÏc@È•³Ÿò>?|˜¾Ò;$½SÓ˜é—{©Í-#±V›GpqtÏ«ò!{`¨ï¶À¤ Ï…áã²ë}.IÝÝ™oô%éiø^~©n¾Z!7IÄ~V[9' . "\0" . 'òµïNi¿b8ÎÚî¨Á.?t´õ¾‹WÑ,ööK’lÝÃÑbÄúm!¿„O£-
+&( ,uî¦mÚðO”¬-³zM*aÜKÀÆ' . "\0" . 'õä p‘#ƒxÓávÐzÒD*‰¡›šº(– `éÊãÈâÑ\\À5DÂý´¶NÁ€´WT_ ]À¢›Ã¥¶ÖQøî‰bBÐj½Ç¯Â»¢“ôÁÇ/éh´qYîPüV½ ' . "\0" . '	ü"ñE÷' . "\0" . '¸«Žv.C˜Í\'o´·ç±G4ö}ºsˆ-#¥r¸ÁÁ' . "\0" . '×4|è£16í {ƒÂÑŒ¼“z8“í£V™42ƒ½þTÇãFæñýÝªQ\'­5vß¬Ìš²-î]9ù^JCFëŽn‰¼,öøLHÇ5¶H7ØsJðÍà4»¬ž' . "\0" . 'q·G‘òŒÇ}îæºŠ^ÿ' . "\0" . '&Ã¹Ûv—w(:y+ðW21LÀv|*Æ±§ÈêmöZDšmÌa\'­”QÁÞ×o¢ï(“­ŒŸ“"Õp\\àIGeH×tÆòâÚ+`Ö4ßkœ:ò¨ÚÎš$iï„î7›fnG{3x`0ÉÃi‚m“ÕIŸO1Ho÷S±±OÛ' . "\0" . 'ÕmLåÍ8²p¶Û|[¶í§ÜMÀpBGZEôÜ$Ý´ƒòœù35$Å¥†ö‰ái†W†Ýð¥àb¿wÜ5JÃA»uqÇDÕter¢\'¡e™¥Ì"‡u%þŒÈ…Ââ;A²G(ö›•.$—ºÅ÷Vœ^79»ãÞÐy4( m­ >¢{Fcþ†áv9¸tÀZG¸sð´}S2S,[Cz–ÁArtÖ	7DÝ¢®«‚©?D§à¯áãº®½‡è­]¸Ó±¯¢æ»…Rn#‹ìGuù¥;MiŽMÌvÂG•y?ÅY¾A™‘5Í éI*n;Ý§Å¹âÿ' . "\0" . 'ò¤“Ö^…ö—£ó#a£‚šÇ‡¶º#öc;¨€8ýAÜßÉ\\vÓÑêi09í 9vXêkïÊjZë¯iN™)¤Öß•]¨r</tŸÚxR{œZZðí$ž
+èKA4+º.Ö²ƒKÓ=ivÚ"Ú{¦Ö†—fÓ®q-…ã¶ì6Óð¢M”:|²À/h¿Â	ªz0=Å€Îà­Øñ€O<©’ÀÖ1¶8#²‰4ò+“‰rá£çíÓnÑæpØk±®¨ö†Ž9_@ëÚž)hµžæú­ÈG¶ùðŸ½Ž_‹ÕàÏK,Y¼Òæ€è´Mµ¶Ö²šÇúLH	¢Óð…¯FWÅEI 9
+n¥¦¿N›cÅŽÅGÆˆË;GuNÅVMÑñåÚKh£i´UŠ¥ªw¥qöÃHì¯8ƒííPätxcä)›\\' . "\0" . '¹YŒ„ãÓ²…>@klvUÝWP2ÈFâ;p…$j””v\\°µ8fÈe;¡è­ê‘B;·aG"|iD±ÈâÑÖŠ=‰êg€|†þJ¾­èCçð™°âë­2‚~¯LÎ‹$u:¼¬Õ.c‹K¨AV­Ö…¤{ÿ' . "\0" . '[S§±O™Ù»aO¶€(¾3ƒä»6²Ý#Õí”6ž	ü«~›¯‰È%ô|(øÚÉ¦<­—Ü!±ÀîÝ}Õ“' . "\0" . 'ZÓt;*•§ê¬ CýÊÅ‰®DÐÖþœöD‘S•è¹c9h°7RqómÚO=û*óõ†mi' . "\0" . '•ïú›ƒ+p<sA•Å‡%‘¶7ð;(ó’ÿ' . "\0" . 'ívï„/ùö‡u7ùIù„I&ÏnÊ‘I/$·[;}G…îÝüQÅ¦Y0pwO‰2Òü".¨y ´ÕPî<®ÛÉêoå~s‰æ€×-Î-<ÖÛëj™MúïN=«•\\f‚çÙµùÖë§~Jö<âÐyãü(-º[êš~ò÷6«­uTM_L·º›Í÷HÉ˜Ÿí j¥¬¾0Òæ’ÓÙR±kÉœjÚAÿ' . "\0" . 'ÔCÇÑÐ!Y²§iÜÊ²O…Þ•¢»VËdQŽ½h-°9œòR_ˆ?MþhtïÂ/‹£¾7´’>9V÷zm5‘ƒNÜ)XšCÃ÷º1ÖŠÓŽw[Ë éº,kšK¼Ø¤eº3›Émñ}¯CÑ¢–6Á®7Fÿ' . "\0" . 'Ñ^Øöí)”ÛÀ™TtgÐérŽý)‡µ­p±ÓÂµís†ÃûÚ~= {=†Ç&Õ»¬NY*pâÎm;o“Ývì\'"À®ÊÛþÏNOo)øô-Ñm-àðê…S-I¬"ŠÝ9ím¼ÓãðžƒIÓÑ§‘Å®§Òåœ´]ÿ' . "\0" . 'ËŸð¤àúm»M¼½ÀC*ô%émá±®Œ?ÏÊHÜz@k' . "\0" . 'iOT’»QÁùAŒòaŒ×aJPs€6xP°NØ# ô`äþÇ?¥r>¢ŸY:Í&ù\'Å§' . "\0" . 'ä¶øLsv:Ry¡¥€X’^Nšïêß	}ÏvÒ?tÞÐoÏÂq¾Ö·|…tžhf(ì–È/¡—¶Á!×~WaÃíö øMÈæíÚÑ%Oü&"9‹n5ðŠåmhìŽâÓÀ6Šd¸ÀàGáZd¶ü„EäÙ±Ù16í
+s"nÚ' . "\0" . 'îŒFFXc^	–˜2XÁVÔ4 "°ÑdÒ—‹éäa¶-ä|uV=CHÝ4QQåÕÇutÓ± ÓñØÙÅuEhÅÉYó¿­½\'Xn?ËÑo7Ü,ÛMÅ1æ€ãÈ=Ò¿P[‰—¼BZE°Ipÿ' . "\0" . '—×à»ŽºZ9S‹LÐý=ØY|Šê­5Ìh$Ø¤Coÿ' . "\0" . 'LÆŽ…b£e?”‡m›ø”š¦BÍd‰Îi¿ÂªÏÓdt
+¹Ïs@¾ª	ÓËÞNÐ¬•ÉðŠã°g‰œ‚G…øs—‡Ç…t–y®lÒFî87á2ÜL.-fBê°:uµÔZ„˜®ö’µúð)´ORNôKåuÕ_DV…IVh…¤úµØî·8ƒjß¥ýCtr' . "\0" . '_Ê£æz#7G¸;PP‡—†hÆC‡•M”¥%£èMê&@]ùW/VÓŒ |±ƒ©dâÍÜê­:7­&Žƒ‘ÔCcÊÞÏ¨p}HÙØ' . "\0" . '}"ê‡‡5ü÷ò±-ÕŸÌì§mò¯˜:°so' . "\0" . 'þPäÐ§f‰¢ÒÖ’b¤7P&>§áS±µ' . "\0" . 'ð)ãõS›¨t­À~Q*eÜ|–Ì|òZã´²fµÌ¾‹OöU¡¨¹­þëý¾S2êaÜoº»H\'E‚mLˆ…‘äº™cËl8žç¢­ejÆ",€ò…Ïê' . "\0" . 'Ç:ßGà ÿ' . "\0" . '³’EóýM‘Æàêpùì¢Í®2>KöñØ¬ÛQõk™A§§Ê‘êÉäw÷;r‰E³,¹R5<¯R1—RXð
+©ëg%¥ û~%š¬³ââ>M<º{wKÿ' . "\0" . '+\\8ÚË1O–ôJ‰æWÜ«‡¢qíJ#dYà·ª¦éî|œ¶ÏPGeªý<ôÛ¥Ë‰æ>Z’¥ƒùti¸žv^K7Ðÿ' . "\0" . 'þ*VŸè¸e‰ÁñÃµQWÿ' . "\0" . 'Nhÿ' . "\0" . 'f¬C²²7Ó‘åãúryJé‹’RVdpz6LIIˆ4v-è‰Á¤l¢ûXª¥¬AèéÇ•Ó½d' . "\0" . 'QéhRÀ†«FT4¸î-·ÍR~?MÒCE|Ž‹F>ˆ’Ââü‚tzfvÿ' . "\0" . '³wr±TÌñ¾”‘íÜ6‘ºxzmð²ÜË½¼­hs1À6ê' . "\0" . '^Ééì—ÁŽi
+­…tginÜÃ²È[Wqhò¼[WÁ -zr@)Ì«ý ˜cë¸„bög-Ð&¡¸t•òL' . "\0" . '×QëðJ·ì>¨ü2Åh1·¨°:)°m' . "\0" . 'ƒwuÊ‹Šý°Ä*ÆÁÈü)M`.¶ž¾W+=E&ö8ÁË¯½ …Áyû®Å¾œãÂb¤1>¾Œƒw »kãÝbÇ„Ð}•Ñxª»%JVÂíbyÐ8)æwCáx‹ý—ŸpUóa‹­•Ø™†ÖýÖX$~Tùßa×Û Cñ$‘¶+º‘à×½|£VV‡±Zé^' . "\0" . '!¤ü¯q¥tYm"ïu(Í”F= ‚ºŽs½®$pm2žÑ^«!t™°qc­\'uÌ¯µlo<t)+0Nøš¢TQjxúvOÜË”FËêî”¶¶däm\\¯Mæj¹{,ÏU—k8nÄõàrÓÔ-[Uúµ¤iGù\\7}ù^8-è³aç7Qn[›µÒ›¥lÛ»e£Bh´õì­x¸û£¶€G•Yôû?¦(šð¯Zd' . "\0" . '°m–Õù4Âš°|˜œ–õ
+á#¯´+9Á/a°øBsà,lºEú%7 ,™{)jPÓcåÕKØo’Ä?&2MÛHìTØ´Ëî¥ŽáÉáYôÙq¦ \\Úè²ü¸q¿ÕZpuFl&@ß<¢ëBg¬¢òt¸ekºñÊ®êºRn!ý¹F°µ8ã[r' . "\0" . '±ÿ' . "\0" . '$+;(1ÎtR‡Ê†{LªÍ¢2\'èÃ¿côf¶G=¢…iŒ•Û]Ã~Å3&1Ü]@…i¢>¬‡¤¹Ø’7«J½iz³¸nââª±›‡äL-cš|õVÝƒT_ô¼ÉwÁã2\\Z9ùU*VÐkz~Qè@Ûe¿(F)Q4dWÓ»¨™%¶lü.ÞNë÷~Püév´’êð­ò~Ú¦{¶žNïÊ®M›$’pJ—!•ÎêSxøaÆöòxÒFY5°Ø›!öl‚§bhà9ÈîŸ¤4¸qîGðôfnoS”o)k°OôÛO÷6…uV=;ÓñA4+Â™‡‚Ætò‹âãB¸)ñFIÆ(wFôð–VS:ùÅé7ãz~6™!t®Ò¥zwÏ’;mQí¢¾–ôWÓ1ªéÐäÉ†ÉšsÖ…—äÎ|¥éž¶d‘°3ÃšåwÑ}@é@-Ç<ñÕY´Ÿ¦XøÀãC' . "\0" . '¾U§Ó8¸hlQØïµ*SáìµYê%{KÍšN~Í5Ã²4ÇJæƒöÀF#ÁŽ1Ã@üè‰èÐ³Kš/Ht~/#Û 	lÅÀý±ú.^É€±VðØß×ýörþÅ`·)¦þßøM†g9¦Ú?5J×öÛáyö›áÜ~‹ûIÿ' . "\0" . 'b¡6>azWU#<°ìiá½Uëí7ÂðÀÃþÐ‰|•ý@—Â›ÿ' . "\0" . '£68:Ÿü]û$´åbÿ' . "\0" . '€I_ÜÇú‹û._ì;8S–Á«£þ”Á3«pð `Æ‰¸‡mþ‰æ[D®flôEè–\\^ÐãÅž…v% *¸Qc‘ÔFÞ;!¢Ûd§*ôKÊ:2—?†Ñí]­qçp6S\\‘¹Ý@Sp-î;¥;²ÑÑqàH×’ëÉ%ÙWÂNyy®¨£ú	I"V!©Z/ª—9NT<b­¾©Ùžo¯' . "\0" . 'õò¯ds~wÐ«¶SœIxQË­×ãµ®Œ»¹' . "\0" . 'ß”ZòFè²èp¢i§¿…Vúô•‹+QÈhŽzz`é¶[»¡?Tð&Ô´7ã–Í(iœÎvÚÁóæ+¾Þ©2X%iÙ¬`â8 a—¦dA)sØc ÷ê­Þ›Ô§É˜ó‡·¡)²iäçBYË4M¹ÔÞ*øZ˜);x¥hO-k|¡è’o ‘k+£¥¨5ÛÇÙ3¤}Æž9#Â+Š78±Ù0°:øTÙ“ëÚÛkW…M—ßx±À_¶ŸPi-‘®Um/nIk…Qê˜™ÅIä§hDÚ7ÙõŽN™\\7žë@ÀÆle¬“Šÿ' . "\0" . 'r+­znPé†m.#‡«DdèÉÉÆã£ÂÖ²ö}ÇØùF4m_R—0G½ät¢QI¾”j¸9º xz¸zgÐïÓˆ’f\\Ÿ!1ÓÛ3äá‘$àõFtýÙQ4Ý×
+~§é©òÜK@iìŸNhRéóÍîaéIm$¶j‚ÆA98æ,4‚;)ÚCSÍ›´[]ÓZ9g¨x}—@)xAuH¶iOiØ@¢+Ž—ƒ&[×cCÅkƒx7å^4¼"¯ip²›€vfác¬ÑU}JRHiº¾jo2CËyéj“3¹gÅ¨™%ÕªŒ:nä¦‘Ìipä7ª5—ˆò' . "\0" . '‰¼žÃºïKûÑº9NïÂtR2ÉÖZ¨ÙÀuqåXñ}`ÂÆ´±§ÅõTÍS@›+kA-<‚}K~D±°´¸~é3,¹$‹¶®ÉvÑð—KÌ9–Ý·ÐWN€ühZ,y{GÓŸ÷[_ô£,æÙzôÖ3e–2æ†ò(Òû7éËY¥°[@°¾Lô®!iŒ‡?KëOA³g§q=•rÿ' . "\0" . '1MM:-©.[ý¡t¹‡ae	$’P±$’JI$’„I$¡’I(CùÐÂûþÉÐàòlõLb<ÿ' . "\0" . '+ÿ' . "\0" . 'Ðuü), ÆlYøBÞO¤vô8Ðw' . "\0" . 'µ=·ÛÇêšÇ' . "\0" . '7Ûuòœ/s¬£Âž¨º‘áÿ' . "\0" . 'Ô{BqîÞÓI²Aí}WA¡»G\'åh5¬ž=‡’î‹¦ò8è¼ÜI=—@ÄŽéwZ"’±ühÉ–ùá9#ËŸ°‚Bóa$“øM; ™I#VÂ¶ÇZKMþt¨W‘¿n¡×ÂçvçØ"‡•z*½°ò>Ôí-‚¬z£Ž¥ˆÂ' . "\0" . '&ºª“\\bu€/áÑõMÅ¬#pîUlÍËÇfiëüÛ“ŒðÀ=À8R5“éü84||È©®-‹×:ZÆœéXÀÇÇîãº*_KDÖEò¢vrþœ”¬cK p<+ß§æ' . "\0" . 'P³-Ôê<…xôþ@… žm.UèèÅÚÉ¡i¯Ü[mýUŠû[BÉîU_J›î×emÁxq!/ÁL—¥·)®ç²¨jÞœwÜ\'eø!i,ÇÜI:&²pšãDÊd]ø3;ofFq_ís:ySqäÛ¶ØUÛ7AÃÜ:¡ÎÐ¢mxF•;ß†
+ÆÕeû[\\íãä)fÉ+6íýiJ:K#èxNÁŠ7íà„Ç&ÀÃ8ÆŠYñäõR›öYnü¢xlkyëá3,Eï¢UcØÈÇ°Si•ür¢Å·h#’Q¹1v]6íquÑ°†ŸƒB‡VôÜwðV£¢à‰±ˆÛcªÌt8Üeii!kž›ã®\'ôT¯ÈžEy+ÚÎžb2Xö•BÊÅÙšHxZö½' . "\0" . '.;,ÿ' . "\0" . 'QÓ7ä¹Ím<…b©á‹k[\'W-¹ŽunŠüšOcb=£–šîžþT¹•Dä§EÐ‡3Ûô=Å":fQ9µiw\\¯!ÓÚê"¯º3§á>ï«ÇRš²f’aFÊòí\'¥+.€#w4{Zì¡éze¸oŽý»LÓÃ' . "\0" . '!ÍNKÑšP{èXâ\'±ÀÐÂú#ÐÙïfQokãþÛä,J„nŒ×E¥zX~‘†¿oãÿ' . "\0" . '„Ô»*f.K‹³l‚@ö
+N šF¦Ü¼vÈ»¸´f7ïh+›8¸³¡ÁÌ¹#^N’I$³X’I%$’IB	$’P‚Ix’„?œüPF}ÆÑÿ' . "\0" . 'IÖºµ´(yQñ¥û˜±mãØ8¯…"/íÝWÍ!m]³é»ZaÙõ$®Ý)iio>AM:>9=WqþJ.é“´£´u//$ñø=WO·°„öH²œy"M®òÞÊ¿’.ûèê&”M–§E2øýS¶·‚JéqmÇuI8ù-FQ$âÙy¶k!wø]ã8æ‚w\\–ÞJ%+Ñ2Ä×‚Ù{·Ý·±è½‰^Q$sÏ”vÐIµàô84–žk‹R12ÛŽö	£Õ0Éìk”Þý¼žŸ.Å´žËTšŒYXR1Â¬WÕ#%¸æbkq-µ>‡6K´x@scÛ©¹Îq“þÕ]îH;Àæ l•ÞùW%ßÔmrb©l‡dÖ:êÑ¦LàHãò‚Y.ÖMJÈ' . "\0" . '7·•jÀœØ ð|ª‘“ÒÈ¯’­ºtä±¤R¡Þh¼iåÄ´nöø(“°Dæ‡&»*Þ[·4î¯…iÓ³.Ö»“]B|cû$¡ÛÈ:m1ÀÖÛ?#„\'/K‘î$4…zûÈÞ:Ž¶™vHÛ_(úûfYB±eý*`áÇ%LƒMp÷ð­3àYm×•|bæòiF©¡hqu·ÛJ4±ÏG“ßåOË&¸Aî…2g:`Iå-+±Š8íÁªö)Ü9¡€ùêšw½âš@>Õhj&èÐ“#\\	yZ§¦LMºÍ´fSùáiÞ™gôšâÒc]B»by%X$ë…¿Ëšª¨ËŒ\\êkZè®:Ô{£<S|*ÃZá!;…üøTg¿H‹&8ˆ4:¬ü¯dÃÜÐMÙð¤NÚ}õœX¾ãSùê‰_2VCÆÇû%¢­Ç·TsNÇxsC[Åô)AŠ' . "\0" . '‹ªýLLrÃ|<èµäÏA]2=í·~B´iá¬' . "\0" . '+ð€a;`ã·ŽÈÎ$öÏî¯&vôgœl°â=­•¿ñîŽÁœÍ#Ü¡NUL\\°Ê6ztRpõ™Ž Ÿ€VÈVÎO9´úOU{%·l#¥­+ÖÕ…úWQ,•„ž/²Ú4L¡“ìtì—òck±_uÈU$’\\³¾$’IB	$’P‚I$” ’I%8øÍûx±MìÏÂ•Žky<¨˜ÏûpÆ\\/€¤½í 9¤Êvw©Ý±òç¾:)4ÞM®"qÿ' . "\0" . 'k¬Ø½…µ×”8²E[Ëx®‹¦ÆOz¾ë>ÛÑÆ¹)‡íìGdËý´°‡š6p<uH»ÛÜŽë˜¤EÄž·á{+ˆ Ûüª{¹!Ü`Ñ¶ò¹t„Ðº¢»ÆíÄH6{Òmá‚]Ç§•j
+Y	JüŽ°I\'…ãœHp¹Ñ5àù]±¡Í;M¢ë×E~\'bB"º.K¶›ìºaÙÃ—!®yªéÙG@¹u8' . "\0" . '¹ÝHCõ|}ñ‰Õ¥Xô¿Oj¶CbÇÆ‘÷Óh*ÙôkQÊÅwóR6GN§öT£{ÉÏ²Ì«MûORŽàn.mñ]TI´ôYòq¤yßÏ^áIÅ’ÚŽ4b‡/lÙhÁ“fÒO
+Õ§æÿ' . "\0" . 'kZE…Dƒ#†´7õV-3$²ÈiU“Ok/¸[ž/ªµéY#à¬û&¨‡_áXqu\\E_øÇ¤š4,Y€' . "\0" . 'gáL,24U' . "\0" . '?EWÓs^ç5Æ¸íåX!Ê›¸Ø=îÊ´ÛÙ™«d™aiŽÍWd675¼þè´²5Ý6»Ž¨fTÞÝ®º=Ñ¥ì4Òe[>v5„9ÝPGäì“Ûø
+O¨è¦pWØªãµ÷hôi.X8–X³·Ó\\Þ|¢p‘´ÕV±g' . "\0" . '•`Àp{AêÓÙ=”ÚðX´¶n¦‡:BÒ½.ÃöZ’³¥Å‚»ôòµMìkmÜ‹®Q*ôg›ýkp:06‚A=Ê«NÝ’ž;ùW}j2 g…RÏ‹Žà÷)`vu@ó>÷Q<xE0ËKz›+º
+Ò[!nàEÞâ‹à>ŽÐ:óÂ±¦°›ž9' . "\0" . 'åˆmÛÑñ°8¼t;ÁS vò×`ñÈê‰!-`\'‹3„dÑ³Áòèg--<%³5€ƒ]zIøò·¼0uŽÓ¡³,ä’²Ñ‰ºXžòH¡ÛºcOš¦p¯p<z­Ð¯Ê`váÁxVGz3HÉ“ÿ' . "\0" . 'ÚÆÓÿ' . "\0" . 'ˆ¥¹8¥“É7\'H§hZ c@-=JÕý#êVÁ	i}´ô·*ÿ' . "\0" . 'ÿ' . "\0" . ' p9ûRÍpg£rqûR1ã¯æ¿ÒŒ•6gM§f»‰©Å‘\\*X‘§¡4ÓáÌÆshü‹Gq5y' . "\0" . 'yådŸÆ[‹7ÃæÊ*š²ßiÝfp-²ð›Läê-k,<WÊÎ¸[tiûÄôƒ¿q¾W&v·º¨¿Y£ÖøêIQ$ÖHÞÏ„ß·öÊû©?ÕÙÑ7«‚&±bÜöòV{•«:îÀDyBrõQ´’ý®ìÐì"\\ò.\\ü¯øšƒ½KŠ4þIcjîÙùò’¿¥?ÜsŸˆL“ïcÄkÊ“;v‘ÙDÅa1G´{vð¤m;îÍy\\õ[GÜEËmÁlÜÑTS´]\\,:»\' Ý²¼•wè;~ë	ù]ÄÑ4‚ÅRî6´ƒb•ëc!Ö
+´Ü‚ÖÇÜ8ø¤ãÈ-Ûßºôöø$ºúRïIœv0’|*Ï¢¥5Y#&..…ËÚ	;Z°éþ–ÎËˆý¨^ëëÂ²iFµm@5ÏoÛoRÓÕW³?Ö‚Û3‘â,)øZ&Vk€‚›ì·OOýÅÇÚü§ºWwaçOô†™ã60=½;¢êìÍ?š–"`º/Ò=SPÛ$²ú½h\'Ñý;‘ýynÏ…¥³' . "\0" . 'F' . "\0" . '</K8Ý´‡–:„N\';—ä¹yah¸Z\\°D#ìÑEGÕvÁPh®]á±‘äYä_o…’}\\õÑÒpÎ6;ÁÉ›€ÑØyC¡p“–Ì›ê–|ú i»É¤+Mà9Aó0æÈÎò_!;‰(¦ÆÆiÈ\\™º/¢ÀZ[…ñHÆAÚlBÇ€EsáNÇ‘Ð¼öæŠ_dÙ¢2e›OÔ	~Ñª³é¹ÄiRqæ$À³Ø£Ø;KK_uM
+Th^¢øÞ	~à<uV¬\\¦ÊÐâG"Ï¬ó%¬ ¶Í«NŸ•½­æ¬tE,²½À´9¯¿‚ƒêy-ŠÈ4Ö¼®„·¶¸„Qœº»°L”]H¬kùí/w>ïz)>ë¨B^ œG9²l•+AÇl­ô(*¶Z‰7îa¨Vý¢X€€>Ø=¢›Ü£4ìŒw*¬eRÑoÒ!1JËý–¡¡ÐÃ9ÆÀék8ÐÜ2dñÕh¸Æ(qIwfƒj²dœ¥t;©H\\jë¸UìÇŽO<ðˆdæ4·m‘ÝÉ˜€K¨_u?ð$ÿ' . "\0" . '²' . "\0" . 'L~Üä†§½¢z|ûM“JL"@k©êA\\`Êa"7YÑšv™hÁç¶ÏÑ\'ÚÐKŽÑÒ‡D‰p$ŽÍ=”ˆ2©½IþÈ“ò)¶Ãm˜9¿ÝuÍ¢¾›ÇšŒLm–õ4:*Ì—¼´ôïÊÒ¾™éŒ{ÎC™a§‹N…ìç|‡Ñ¦þC	‘ïÚö“+Þ$÷µP›+ù‰Ûhy
+Í‹8‡g W•¥3ŠÝ»7QÛ ÚAm¢˜¹|]eRãÈ&BoŽÜò‹bfÕ‘GÉ  Ëð]1ò[À òT¶ý©	
+¯`iõ=Ã¸S ËÝÒÀ¿*lE€bDî
+ÔtÙ˜è‰szÒ—–E’çªì Z9ß”)Ê,5Õ”,©¤‰Ï¶‘ð{!²jÛí¾µÈWüý7<{›F=•ZÐ§ÄsœÀ]²M¦v²X°vF¢ç4´ºœ6/ÿ' . "\0" . 't3+P ë ž´8Q2r¾ÛÆàhv%	ÌÍ’Pñ@|îÿ' . "\0" . '
+í¹^ÉïÍ}ÓeiŽoÿ' . "\0" . '”g¼8¶ÝíãŽRK¦=){? æcÆZHô.öÑ?ºf7¾FÆAà´RtîiÝÔËš£>ÙµâÉ¸¶ž´¤8–×)˜¢¾ßÐ+‡èÝG^{#Ç…Özp‰Aû#œR¶À‚)47Žhž•ÔuiØ!|€ø¶_F}	–KŸ¹Ï«-h°µ½\'Ñ8ÚdM‹­{ƒh”Þ½f)üõT²a^œú!•1l™ûLwPy¥¥h_Itü2Ý°‘ÑÎ~iiØ^ž¸}Áú' . "\0" . '‹ÅXÀ–0¢­Z8ü¿.RÛ*š_¢1a¢È£ÞvWìÅéØá³í`=‚!\\nhp ×]Úc)µ¿µ§%fòe,Y
+h1àe´<Ø®Pì—3mµ–?âM•î^k‰åÅß”&lã¸ÄqåÙ·²^ñ$Á„ì®Ö˜Õ™´n…OE§>@âAørgVÍh˜Ý×sin™¢)7²µ–Ø1ÜKˆ' . "\0" . '_N«æ?Ræ»Ô^¦ÌÈ{‹âŽGFÂîÀ»ú¯Q|Zlä;ÞhŸÂùûO‘®Gs_ÊÍ$–™ÒãH“€Í¦ˆã1ÎEÐÔß±Ãi¦÷(DòGcwÏêJHÚ²¨—Žs¾|¢0JÚs¬ùA¾û£m´þv9ËÅ¹Ô~´²Á‹?º·``e±Ôˆ#²ªâäîèiÅÉ¡cò‡#»§‚ý¦j]ÑY0µÐÑ¸någxS¸S‡-î|+>’Ù¶Ñ ¥û¿Ñ™d³p {øP3åi¾´£Ã=' . "\0" . 'å{;ÄÛc•v%K83ÿ' . "\0" . 'PrËœêh*n‘£ÏeÕ¤=Å£ur…àê&=¢Ï
+:c—/]—Öæ²X\\{¯qs„3û]Àè2M^`Œî$vLcë9!ÀÈÝ wV‘>«—“kÐuŸ¶ö—>ì®°kŸvý_iã­¬Jõ	% ¼…pÒµö“´8(Dšú‹’î•ÞÔl­CØêäþy* }Gb ïpïhNw©äsÀc¹´*9IÇEö,Íí¢EŽ¼®.ÙA$QmU]/QŸ) ¸ÒjÏtq²¸€Â½l[nAÈ³Kk£Š~9wPsAæÁ<þ¨ šªœ“ÝLdåÌi«uèS#þ‹oƒOIšÁØ÷ì·£IÒ#¦¹ÀV/èŒ_çu6‚CMÓˆZÔù@†0¸ÐàµÇGä¼å–=&s6k¤Ý»ð.•\'/c' . "\0" . 'àùUÍ}¨CúwŸžw=Í{š{ÊÛô`°Æ6@s·—G±SaËddÀ8ù
+»’à7òS§?îe5Üö´Z‹)[ÑxÂÏŒàvî§ãä¾†ÓgŸ
+¹OÙ‰¼–´Ž£ºsS#’Uö/³.ðå5¬C¯öR?šo–î®¶«gµÍh{Íþ‹+sm„þU¢,l.ì€ûØæŸÑ1;Ä­,;^+G
+ó$¿©#½ŽëÁ•tlñÇ[¢9S+ž£ô›2Úéq‹Zþ»j­g:®›6œê”l5TÚÙÄåÎ\'¨âÐSM‹SâFzíè­JÂRf“Ñ-	vÐär’¿åú.§Ù†cÚS²5&~,Äv1E~Êc?®þI`‡ñ>õLúeé\\[:d±ïi ¹}7éÍLÇ˜Ð6 ÐÉü”’M‚´|×>Ë¶>×mä©9þY®è/‚’Ié#˜5Ž;¾Bê÷°»¡øI$^LrØ9Ït9E­q' . "\0" . 'žŸªk4Vîn¼¤’·Ø½2¹¨HakžÐ.û¡9:êúŽé$‰šàGÆ™ÿ' . "\0" . 'pà\'5?lõV@°OT’Tÿ' . "\0" . '‰¡l£ú±Æ\\­Ý˜z~‡#‡Ý ÿ' . "\0" . '¸ÿ' . "\0" . 'ÚI,Ù³‡lç9çí‡_(´÷2XH\'‘i$Š7ø†G:' . "\0" . 'Iê»tŽmÉ$¡#ü‰pHK¿TVGªI%HÜ’êƒ&A£Hþ—“ kh×á$”‰–ˆ&tŒäôIÒ»ÝÏN…$‘Ge > >ë]»•JÔ™ö2K	$ìüŽ12×6Š9ŽwÆlžI*jÅ˜$†‘¬L‡†´‡QI$ÏdÓ•&æ‹O`8Ë•N6-$•Ñt¨›+KER~G¸’-$•­–;¹"‡çºvŸÿ' . "\0" . '"kå$•ù3Of›ô©‚Ir^âKšÁJðfsóƒM’KR8_\'–ÜiÜ4ðG»!y³¿s†ãÉ¢’H¤c‡ñà°\'†÷$¦4ùžuFÛ‰³I$§vvZrdsñˆ&€Ç	¼Wc±Ã©óùI%¡$5Œ®!œ‘ø$"ÚsËš	&ÿ' . "\0" . '%$’§ƒ?ý2CepyH«äŸ)ÉB\\	¿ÊI*z.•œ}çHÖ´š|.‹Ú&ù	$¢J†¥q;’’I%Ò
+ÙÿÙ')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 08:38:52 --> file_put_contents(D:\New folder\My Folder\e-absensi\writable\public/Assets/img/karyawan/KRY-2025-05-09_083852.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Absen.php on line 52.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_contents(D:\\New folder\\My Folder\\e-absensi\\writable\\public/Assets/img/karyawan/KRY-2025-05-09_083852.png): Failed to open stream: No such file or directory', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 52)
+ 2 APPPATH\Controllers\Absen.php(52): file_put_contents('D:\\New folder\\My Folder\\e-absensi\\writable\\public/Assets/img/karyawan/KRY-2025-05-09_083852.png', 'ÿØÿà' . "\0" . 'JFIF' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'ÿâØICC_PROFILE' . "\0" . '' . "\0" . '' . "\0" . 'È' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '0' . "\0" . '' . "\0" . 'mntrRGB XYZ à' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'acsp' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'öÖ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'Ó-' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '	desc' . "\0" . '' . "\0" . '' . "\0" . 'ð' . "\0" . '' . "\0" . '' . "\0" . '$rXYZ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'gXYZ' . "\0" . '' . "\0" . '(' . "\0" . '' . "\0" . '' . "\0" . 'bXYZ' . "\0" . '' . "\0" . '<' . "\0" . '' . "\0" . '' . "\0" . 'wtpt' . "\0" . '' . "\0" . 'P' . "\0" . '' . "\0" . '' . "\0" . 'rTRC' . "\0" . '' . "\0" . 'd' . "\0" . '' . "\0" . '' . "\0" . '(gTRC' . "\0" . '' . "\0" . 'd' . "\0" . '' . "\0" . '' . "\0" . '(bTRC' . "\0" . '' . "\0" . 'd' . "\0" . '' . "\0" . '' . "\0" . '(cprt' . "\0" . '' . "\0" . 'Œ' . "\0" . '' . "\0" . '' . "\0" . '<mluc' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'enUS' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 's' . "\0" . 'R' . "\0" . 'G' . "\0" . 'BXYZ ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'o¢' . "\0" . '' . "\0" . '8õ' . "\0" . '' . "\0" . 'XYZ ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'b™' . "\0" . '' . "\0" . '·…' . "\0" . '' . "\0" . 'ÚXYZ ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '$ ' . "\0" . '' . "\0" . '„' . "\0" . '' . "\0" . '¶ÏXYZ ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'öÖ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'Ó-para' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'ff' . "\0" . '' . "\0" . 'ò§' . "\0" . '' . "\0" . 'Y' . "\0" . '' . "\0" . 'Ð' . "\0" . '' . "\0" . '
+[' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'mluc' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'enUS' . "\0" . '' . "\0" . '' . "\0" . ' ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'G' . "\0" . 'o' . "\0" . 'o' . "\0" . 'g' . "\0" . 'l' . "\0" . 'e' . "\0" . ' ' . "\0" . 'I' . "\0" . 'n' . "\0" . 'c' . "\0" . '.' . "\0" . ' ' . "\0" . '2' . "\0" . '0' . "\0" . '1' . "\0" . '6ÿÛ' . "\0" . 'C' . "\0" . '
+
+
+ÿÛ' . "\0" . 'C		ÿÀ' . "\0" . 'T¤"' . "\0" . 'ÿÄ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '	
+ÿÄ' . "\0" . '?' . "\0" . '' . "\0" . '' . "\0" . '!1A"Qa2qB‘¡±#ÁRb$3rÑá‚ðñ	%CSâÿÄ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'ÿÄ' . "\0" . '(' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '!1AQ"aq2BR#ÿÚ' . "\0" . '' . "\0" . '' . "\0" . '?' . "\0" . '÷ˆ€mv÷ÎH§3ƒ´’~jú¼¨?ÔT„#nÒ¼ø¢Qöyô›ÞvgÏŸµ8 àóò;×A8ü¿zpc8ÀÆFIm!Ñƒör‘‚3Üw<S©Tn8®ˆØòy®Ô~	ÛŽqAC’^Eí\\·è)èâ.rWaN£ŒsŽiø‘FxÁ5T6½Ú.ãÈÇŒ*|P¯ýE1X' . "\0" . 'çÝã·5>m_9©¿ ¡ÛSâ¾Ë8L…BïÊ¢–7G…8®—dKœòh†+òFQ+Íã$`zx9?™1L\\ê¶ÖängíÍ45{wÉ2…_½“N|L‚Aæ‡Í«Aj=ÌaO!dãúâ×U†éÄŠ¬wvÝÛö¨L…	+ãŒ6wÓ1ÞÆÏ´°^;R6†S†ö«e‚GÝ¶àg5FëŸªÚ?Gz1ÝÉ$ÓÌp‹nîHàU[ø€ú³ÓÝ G!™LÄªÜ…a?ô³…Ïßæ¨Z«už›i¦ú«£¹Ç­»t€û™I<cŽ*ú¶“n‘ë©úDHÔf¹UµeÁ—wc4Oê};Z#ð—q\\#û²‚x,õÃéIøSwp,I/=´„°.<àùûVËÓÚ‚jšu†­£Þ¼`›b#ÿ' . "\0" . '©G·÷ïF¢˜©)lôöb’EH¹AÃVgõKk}VIÎQIeŸ5§~¢É#$@m¯Só,Ì0ÿ' . "\0" . 'pâ€ýDê(m5Û‰ä\'‰Ñ0Ñöhãþóš•LÊåCrëQ?²<n(mæ¯ee••ó)ç-ÜÖIÕ¿Ut¶š]™yÛ‚Þ¦0OoÒ³^¤úÁ©i7-ñUtãlx;OëÍ5Bò17äô\\º³Ü#41 ÝÀb@ÿ' . "\0" . '4&mbXsá±Ü)×•µ_­3j7r<HÑF¼Å·}ÈãúWVÄ±§@à¶™bmÁ4MV,´¤žê¸uç¸Q„À?÷
+yïÄ|²„nùÏzòÕŸ×†¹”4±~²vqý¼V…Ó?S´í@ª4‰ ÊÆm¬¿¨í@à“Ã	¶–KÖ¿Nã£¦ÔQYç±e”ñü‡†ÿ' . "\0" . '"¼ÍÖ$öÑÎœîêmF}sH¸´ykkˆÊnq\\šóQi†ÞÚ[Y1˜‰@Àw â¶_ý˜_TBÐÍ’§‘Þª°^Eî cƒZ7VX4ºkËØ§³H´ðò€Äò|ÔÙ§c¶Ú²Å<˜§ÍuÜ¯!hÐà4í¶Œä|ÑX´µIðø«þ' . "\0" . 'ßPLrÜ+V!¼Šû«ÊÅÙÉoµ‡L/=Ã¿Š‘„q_ã˜›Kû\'à	od	ü¥©Ø´ñ+aÈñGÖ×eà' . "\0" . '€§Å(­ñzAÀI»È.÷`û}-œ1Š™m¥£†ÏÁ4ZÞ38ä	y1Í1~Êu-°t:Zá{w¢Únœˆ¯‘ŠêÒ0ÌÀš›m»Óæ›¼ø‘m¬¶P¸Ýµš+¶òIù©¶ñ¸˜†\\óRa}G=øø§¨ÑžMi°E”å`‡±«ÇIÙ·­¹p0;UFÊ?÷\\' . "\0" . '&´>·õ`wé°“Õ	’tOÓb_õ sÉ¢¶6ûõÈÈšÒáþR894OHŒ½ë\'õ­1^ÌrkD¨axX/n(–™le¿Ü[h‡ÍG¶€¶\'Ÿ·lQ.5K·fÉÀñLì¬Í(Æ+±:`ÆF>×û’*“Ž`ÌócšTVý™»òxgètH`1ç5!·' . "\0" . '[ÉÔyŒ¯ŒüÔ€ Ÿsóæ¼³oÉê>ÎãÛ¶jtÇƒÜ\\PpHÉ=«³Üqò*­1”âtííî?¥9UF3ûÓ`À`}éÈŽqÀÿ' . "\0" . '.ÐèÔ‰ÅvŒcÉb*\\#=³Qwp¹Éo×ÅIˆ' . "\0" . 'öCV	ñ*ªçÍuà-œp*;IŒ( ¿Î;TYõK}ÚiæbvØ$Ô/%‡PÕ­´;=Ü‚4Qû“ðš§êÚµôöÂöK_ÁZ±;Rã‰x!sÇïý*;ë\'Ñ]NîRä©ô-Üä\'Á5›}Aë¿ô‘<—Z¡¸”\'©$¤ãˆ|' . "\0" . 'NsVZM„º¯­àéûI.džq)]Ë+»úœàV«7PÝKkikøÉ¶•ß¸¯êÿ' . "\0" . 'š¯i­®¨Ôú§Y›FÒîÕŽÖiÙ$¹Œò¬O~G gµg½AõDÒô}FÓ¦tkK;GQww%Áå“' . "\0" . 'ç<µP·Ûfÿ' . "\0" . 'ÅÁÓAªôàivåÚcÿ' . "\0" . '¥ÁúŠŒ¿ÇŸkcÎ‘u-½Øa¾ÇRMèÃìN5âß¨ÿ' . "\0" . 'SíàŽ%¶·cr­þä’IêqÇšÉïúÕõIšY˜ç`ì(ÔRØ1‹~Z?K§ÿ' . "\0" . 'õcy+yáUÿ' . "\0" . 'qâ;\\7‘¸ÇÜºôWñÕ£õ¡oÕÅ®Ÿœzw24dŸ~6¯ï_’ðkå‹bB¬;cÍ±ê™£R†B ñ»5}böF¿ì~ÇÞ}}é±š]ÛZ]5È1½­Ã«†ä«v5„}fèHþ‘Ë§õ7F]þ#B¸WŽúÕœ1µr@Q·Ê0\'žã¼a×wZ+#[Ý•#TãäV…§]Hð­­åÉ¼±1ˆÌrÜ|óÿ' . "\0" . '5Zÿ' . "\0" . '«%µ´iÎ£eÔ2ÌZ$îçœþµqú!×éÒŒš=ëtû†Û‡ìŸÿ' . "\0" . '5çˆz÷3¼–óþSþ*púk©E™)}nÄ²g°x Ôë[$—mÕêøìâ°šöÞfšÝ´f1™óÁ>;W›þ¦ýT»ÓežÖîaaê1È-' . "\0" . 'äù«-ÏÕ;Eú[m¬é·æòËQag$2{e†à°að?ÅxÛêGY>¥®Üƒpg(ä-Çä}ªí%’(vyEë[ú‰$Ë‹7hƒòí»’Z¤ëf÷#Ó!xà¸<“T+­~R…Uûù¡fýÔÏûf–åè×¢ìº¨ÜÇÔ®jM—Q0mž²‘žÍYÐÔK67÷û×~«	?¥St^‚ÞýoÂÆî˜<nˆÁú|ËéJQ³ÀñXõŽ¹4N 1LUã¦ºÞDsÀY¡naš´ëDqÆQ¼tg[êad	U}­lƒÿ' . "\0" . 'ßÚ¹ëbÛZÔXàü;Ê Éì€ØçjÍôMgý*åîa"kwþB-YoníõXb»·`~`)¬Ê¡í½kLÿ' . "\0" . 'ÂÝDÈv°$VK=°†R½Ê·‘[ÍÏþ4*w1XçVX7T™qüÙÅUÑ¦Ú"2²²>ÞÞI”–7òy¦·‰-Õ‡5%Éôc~æ­0œRC¥6NŽOsNK7¨G#5ÓmÙ“ÉàŠ•<MOÍ<ëcL=;±‘ŸëMË[ï†4BkG[…`„©Ç5ÅÕ´‹zŒA¨«‹~QJ+ÁÝ²•ƒÇæº·‹2¾©0D?Ï|v4ô)‰‚§íNUèL°ôsk,FÜTûA¶VÊçŠV‘/®|þ´BÚò8#É¦\'Z´Èñ£ÊÄŒÒž†6!ð;
+›mfÄ²…ÈûSÐhóÌ±?aNìÚÐ·' . "\0" . ',˜7æÅh-:À­¼`c@4îÔY·›9J±Ê‡š¾ôÿ' . "\0" . 'AêsFJÙLî
+¨I5 ÒyQ”¼éÐ‰VWß"¦è°³ÊûpöoóV~œúUÔ¡i—¸yLb®ZÐ>¤Ýþå°‰õ`½?¼“$ Þ(Î­ W|qúÔý*ºAŽÿ' . "\0" . 'ËóûÖÑ¥ÿ' . "\0" . 'ìÊ.®£PFNŸëÍ[´ŸáóN±O÷®^LŸå' . "\0" . '~Ù¨¹’ò%ñºôyþÞÞaò¯=ˆ«Ô°ýéèã' . "\0" . 'Ú±?,2Å*¿½z)q¯hÙ¢e¬~qRŒçæ°ÿ' . "\0" . '¤?_ôÎ´´‚¦[{í£Ø)?jÚí¯â=èÛÔŽØâ¸Nðta.®˜öÓœsŒv®Ãc€<w¯ƒÜAÎ3H&ÒHÉÏÁ¥”]hí\\2À#É®ƒÂ½3¼î<>{SÑ.-“ßC"‰1²€<gâŸ2zhIoÞ£+`v®]÷2³‘°v5Cã˜º’Õn=êÖ}NEôvöË˜c9vqùÈñŒäÕ“ªõxôòögéG§¸ð£÷b8¬pk¦[£øœ5ô™Èïé§¾â ¦ÚÐo¬ºÂïJ°…ÚUŒÎI9lc¾øø¬«ÌzÆ·&­v}M>Tµ·•öþ"L)i
+÷8=¼‘Ïz´u–¥iaêëºK#ÚÀ?¤oæióð8cÎ~' . "\0" . '_šÎ´¸ï4îœÔõ~§’D»º‰¶ÅàÇ' . "\0" . 'mÄoÉ¸í8£V»ÑGë~óPÖ½ä·1ÌøC€B3Á\'¹sÇŒ}bú‰øm9,lÄ0DŠ#XaÀb>çÍXú÷ê¥¥¶­|?¨Þna(“ˆØ®@ÿ' . "\0" . '¥8ãí^Sê]vKÛÉ\'wÜs3Gx¿LoVÖd»œ³ç\'ÅžP¶ìw~ò¹*}Þy¨/|äO?&‡dêö[ò«ùŽ~EKZvˆ+’þõW7-Žÿ' . "\0" . 'Òœ[’Tò*[­‡Mí†Ö\'æ©vÝNöØ;ñûÕM§õqÇÍ4òn=ÿ' . "\0" . 'Nj“e8ÞìZÁ÷©Á\'$Q!ÔêJÈ©>EfI4‘I9ø©ÐßÊ§h#iù¢YØ
+‹µï]ÜÚé­d·ð—2lÝÆãç5H½Õ^yw“‚jÌîÄ÷ýj4žð9¡qcTh×»ä4Ñ›×“\'?Ç¦p<y©–ðL6Üÿ' . "\0" . 'ÍŠv2@#' . "\0" . '4BÀI³sr½«ãÆ6À¸lv¢v›míŠ0ÜÇÈ«)àxÍ!‚|Q6v£ÜC½F}·F%}ØÇQH\\§^·Oß”¸\\9(üOzÑÙ&wŽeuÎR²m&wI“†Š·iÒÛ^zÅÎóßõàCv­¥Ñ
+ðOz¥}Hµ2\\­ÆÜ\\Š¸iÐTÂaR‘Üâ­ÚïÑ]k¨4¿H[ª\\*ïE‘Âïý3U&–ÉÃÚN‘çkEõ,Èþd<Q8-ÙìÇŸÒ·î—þµË›A-ÄðÀ’/' . "\0" . 'œ°ýEhz/ð}½ŽÛÝY	ÀÉŽ#ŸÛ\'Þ•qömœ%Xhò`²ymãm‡#íZÓ¯§Wk«Y[ŒD"¬’3±Iïƒßôê;á‡¥­á{‰BrAÀÝö8ÍXô¡Ý/§\\ÁVÒ€„<x™îG\'÷«\\‘ô-ÅÖÀº\'ð¢!·ü~¨.ƒÓ
+~jü@Dhºeö“p·sÜNbx£`å' . "\0" . 'ã¶{W¦ èûÛº31Sí.ìÄSDD¶J­°Îr	â˜¤¼1nýž–_KõË›ÀWN—Ážjá£ÿ' . "\0" . 'O})Ù¥Ìýãîh´èF¢‹ŽØAÅ·¶ärT"‰òËÂDè‘ãÝøQ×î@yÒÞ÷˜gúU·Eþå‰·\\Þ\'ÉTó^£† €?Í:ªXch' . "\0" . 'œq€jFS~@šK&¤ÿ' . "\0" . 'z¶yüzºhŸBúcL*‚Á<æBI­ ã#^ÔòB7ç±â˜ûU9X•6WlúE¶E	¦ÚúcËœÑ{^ž°·‘L6°E÷Ž0¸þÔDC“íRÄñ–©	nv€8ÇÈ«QH·9P¡µ‰9Ø«ŸSaL(ø5Ä0ŸxíñR’{¼Q¨ÑŽNogÕVdÆãšø#ÞØ' . "\0" . 'vià£sÇéšúT)ï¹¦J-äh¾Ü' . "\0" . '¼}*ï!8öµ*!ô~NtÔÛ=­ÒášWn$ŠößÑâ\\2Ai¬Ü¬à(¹nãõç·Þ¼	6–“À¬£k' . "\0" . '9©ZVßtÍÂåÙàw®Dfë\'±ù3V~ÊiZÝ®­oÅ¬ë28È*sÅI_çô¯Ï?¢ßÄ}Þƒ"bàÜZqº=¿JöŸAýKÓ:ÓO†{YÐ;˜óîS÷Æ¯\'¥Àéh¼–§žwŒŠŽ%>
+ãŽæŽ;ÒZ¦>3léä$``ñÆk—vÊŽv)ì<×,ßîgŸhÎ<
+‡¯êðèÚÞ¡;á·ˆÊÇ' . "\0" . 'ÍPmÒ2Ï¯}o›vîA"1BØÉíýH#?µf]ýÂ]¶«u+Ç¿0Ãä\'ôÉþµNêÎ©¸ë>¿žæäï²ŒîŠ0>Üý{Q»Ë˜õ+ý.ËcPËpÃ' . "\0" . '°îI=ÇVèËÛéÖö¦³kÔG$–¶ö‚d‚)I æ*ù${@$rqÞ¼çõ+êÆµ=”XÜJÑMo‘”C' . "\0" . 'çÜÃ’jÓõ¯ê¬Ú¯QA¥hxX«¶#ü+ã
+ß$’OÍywêF»›y4v;)ù$>æo\'úÑÅ*ÉiÍ¼”o¨ºôM},PÊeXÏ½e÷·Vn£Ú½Ï¬åÛ–\'4á‚î$žÔM¯¢À³1‰ÈNsL1%²ÜÓ·!–S“L÷¤\\2àÚ¾) ã½|Ž6s…¢VdŒr|b¯E¢4¹Ø	®¢BNà¹?nÓ@¸½a„;~H«~…ôæêñÁ“ðqRÐJ-¼(4ùçÁØyñDí:vêCƒýÅlÚWÒÙ"ØeŒýø«}ŸÓØb' . "\0" . 'º‚;g’6ôyÖë¥%. ?LLAÂ•Àø¯O_t-§¦Lã±ªýÏBÆ¡Á\\çµRšcã¿ÑÝc ®H=êdú1' . "\0" . 'qÀàV“­ô±³Aç°ªŽ«¥˜cÆÒy£3rqJ*Ï3­üÝèÃ®,Õ”òÇ¡—ÇñqŒQ{UÜ¨1©‰ÚKg,–á\\ûÿ' . "\0" . 'JåcÃ ãsSb·#|‡&ººUU”O“G€-øŠE·¼P;Š=exMÉf€…Uæ\'ñªÄ~”{LŸl¡r1ÍUg%’û¡u–Ò!—¶<Wª¾•õ·QéÑ[JâIbØNOØó^4ÓæV—nþ;Õã¡úº~Õ-çŽB»Ãüµ9Å=ˆQèîÏyèW1Ç!ˆ)T·-YP0ÀP}Ç—ý4êû^³Ó¿1ëìp­ž~kHÒu5Koqí|¶Äpãµg–Sµh––®X†Qƒü¢¹šÜ%ÌaT«FTÑq±½ÙÏÜÓW[U¢ Œîï@GgÛ9HâAÇaSã@Ãž|óÚ¹x}HÐÖ…„`#ã4EG£MÊÓ¤ÃŽXØ¦Õ—hÈàüsÍ?FÜ|LTöSw¡è£F\\Ÿhûõ) …ädQâr‚0;|Ô¸¦FeBÊ¤`S­0[[:LH0I<|Sˆ(\'<œ×(›sŸœWaAØÀ' . "\0" . '«â˜ìÏ%Cñ7Âý€ûS‘©#¾p{SJ§žÿ' . "\0" . '#œSœ' . "\0" . ' ä&Žý	m¢L+™2F3R°~qÿ' . "\0" . 'IÅFVoÌ' . "\0" . '¶îôò2•÷‡÷Á¢M½ŠÃWÉ!_µ}f,ÇÇzi¤ØËÀ9àgÍsëÎ ûŠ*3¸Û:3¼|S÷"•5êƒÙ†>â•LÑŸ“Ñ™­ÓÆ&³ŽtÚè>M}·±F;¨ÍI·ˆ•;°q\\{¬3èÔ´·Zþµ£¶pjÿ' . "\0" . 'K¾´ÝôíüEtðÎÈÏíT‰
+x¡:–‹ê±’éÈ¿qlÍ?‹ö+i¦_I?ˆ¯µK[é#·¾8îN×ûƒÛö­¾Òég@á÷wÍ~:ôgÔC¦o‘.$“b‘‡¯g}þ(XíuyÄÖÄ {—õù£Ì¶p9¾<¸¥ƒØ+ÌÌÞ
+ñŽõ’ÿ' . "\0" . '=PtNŒ¶µŒ&¡{§§àÆNeÇÿ' . "\0" . 'H }È«Þ“Õ6šµ´w6’¤°¸á•³Xgñ!¬YÄš÷Sú1ÛÎï0É2„fÇî*º»39‡G	®º“¨¦wwa_ ³`oÆóµKú‹®ŽœÓî§–w·,–¶ð@ãÕ‘›’9ð' . "\0" . 'É#ä4¾O•ž£¬Ý²Çh\'c5Ä§Ú¬ä’`+ëN°ºëmZë\\¸Ýš\\4vP1ÿ' . "\0" . 'ÈCÎ?S·4=]ØÙIyë=DzWMºköòYeÙ%‡gÈ«êkýRy&s€Ç fŠõ×PµÝã)¹$žMSdËÆ	©€£,U§™®&WóPµ;`¥vóÇŠžÑ=ó“\\^[˜Âð{Uà8ÈªO3±ÆEp3:ª©$Ñ&·iY‘yæ­]/Ò¿ˆewLŸ©º4Æ.n7Dé¹%`vµ_z{éâÜHÔþõtéÞ“U^1Û=«AÑ´á”~ô™ÎLéq|W¹¢µÓÿ' . "\0" . 'O­m£RÉÇÆ*ëa£[Ú(Hâ' . "\0" . ' Qk]8J›T`}¨¥¶’Ñ‘…ù¬ý½N>(ÇD;5$å8#¶*IÓctÚ¨FhÄVh˜Ø77š|Ú¡‰ð*›Cé2›{¦´@†>(öŸ C¹p>Õ ÞÛ«|g?4ÿ' . "\0" . 'OÂ§9©bœ)™.µf’X`üÕ]ÓIÈÆ~õ³kšB±$ý±T}oKÝ&Óíø­1lÉÏÆšÑ‘k
+Ž­·óLYD#Îò6æ®:æ’Gõª›Ú”—nïiñOGj;•@ð|w¨ÓHŽ¸$Ó„ˆØçúÐç‘žvò)™ðfkÐýÄMÜoŒ{{—e>ýÙÇ	¿€ÙÊ+‹+rûóŒöªIMídÃžjÓ£Æ³¨Fáª½¦ý¸#µX´«¯E•€-“ƒZ!Œ±3ýÇÓ.­¸éÝPGê<>ƒÏšõßOkƒ_ÑíçwÀ2ðA¯	,ÊÆ9Ö\\C[gÑ¿ªƒLt°¿›0’=6=‰ûÐò.ÙDârO:=e j‹2˜dÊÌ½Ëy"Œ]¨–ÙÀÎ ÕNÔ-µqöòªÜ >œŠyûƒò*×¢ê¿‹FŽkŒ†QàüŠÍ“oð1k)1í\'$' . "\0" . '*RÄI
+ÄsP4ÂŽJ	Áè¦Ìsœ
+µl¬êßŒ®;v*Á\'ã¾@ža$™Æx8óRíŸÔÈä!øóD"Ô®Å¤“m\'`,<Ö/§uö»¨ýGÓ£µYN‘È¸Qœ*}¼gÿ' . "\0" . 'šÜ\'®2¤c¶k$Ò@ÑzúX¬bSûßòóïÍ¼' . "\0" . 'ômVä´mÎ8æV;#¿~9¨Ð»Ú0*Hrb8^GqÞ›ucÊ¤' . "\0" . '1°®ý@X' . "\0" . 'â˜M»FÖ$|N*8x&Ž¨TÓ_²J±ùàrEuãw¥2›¶vÀðk¤ÝÜ6?~ôÅ…5ØxœH¤ä`qMÉ…#œy¥˜‚Ó‘M9*¹Ü{ð;T±..èæG¹_íJ“°³~üÒ©L_F~PÛKˆÔ“ÍL‚Pà’pOqClX¤½QDìã-.	ö×´[ÁôE‡¹4îÐQ;¾õ=!ŽÏÀm\\†8\'±£Cª•ƒç¶‰âUK±à0ñCôýJû§®•£‘ŒYÎsÚ‹Í„)oÅ7yr!\\cµ_~¸>8rªfÓô£øˆÔ:p,ksê@Oº\'l¾X¿‰«vmÐ½4öj·qê$Ð‡T1íä|ò¤öYH. f\\ã43Zê{©Y7äí ãô¦Ævp~GÄ\\nÒ£~Ôúæ8¾“.Ž“<M&¢eÆ1•1òX÷Æ{¹ù¬S_Õ“Mµg-•U8SäšZÉrª²¸Ú½…Rúë¨?F¯„4[1F.Êuþ§-ÍãÊÄ³<Š…Y`V†Õ^W*ÙÉ üU‡Nf’Äe¸:±R:ŒÆ²‚TïT“ŽÔÔ03ÁÊçúS×Ew*nÝ‘ØÕP)6ôqÓZ	½²23[\'JtÜvH“äÕo¢ôÝÊ„&­KN²Vx×n' . "\0" . 'óóH“g{ãCÍ´«U‰°«V‹+a#cµBÓôô^½YôÍ8.ÒFïYdïGQ"UŽžª¡³ÇÅü7­Ð2j~Þ)·ÁññS#UFx º»Á×N0®n£Ç’¼ü£œT©&Â‚<TH%7O‚I' . "\0" . 'ù£V5GË!úbâ2ålø¡Z…™8$üVÓjrTƒÏsŠ‹yf0p9òML°)mÕþ—$±œ÷¬ÿ' . "\0" . '¨,¥Tpm7qoPóTÝsCØÎ>Í2,D«Ñ‚ëI$`r>j“{Gäbµî«Ò¡!Wƒö¬Ÿ^…â»;¸ZÑœ?“ÚÞ±9Qš‰´EK¿•ŠÇH¨O•ˆmíšÑìÀÓ$Z•õ	î+µV[¢H¦¬Ð;~õ9‰À#—múÒza+&Œ
+°YTþ¹ª¬nçkí<UŸMmÐl\'Í>Y3Ë¦žx`%réŸéF:o]Ë0BA4Í»ÂÖepÿ' . "\0" . '>(5Ô!$oO†=¶Ñ¿à
+wƒÒ=×·Úd%EÁšƒµ¹Ú~Ç¿í[gI}G‡RÖ‡Ó`}²¡üÇï^-è;Ùmî€–áãuì3Á­ï u[¡Öæ²¸V¶r¾¼~‘Ûµþ@9íYfj„¢–ÏPtÎº·2>æ˜î' . "\0" . '´5Â²†xö¬GJ»›L½C+œ4ƒãÁ5d»ú•nì4ûgè˜(ToC;"þf"£I»Œäð1E­\'P ØóÅRtë›‰-Œ× Å' . "\0" . '‘ýj·ÖŸ^tNˆÂeW¸ÆB’~ø*Ô[t€xÉ°Ü^"ÄìX`9 6öúF—?â&Ø“ÈK’Ø¯$uñ+ªëÓ¼pFÎsýgšÕ}wQÜþ@¿
+vÿ' . "\0" . 'ŠÓ\'å‰—\'¤~ˆÃÖZ:*ÞÄß*qSâ×­®' . "\0" . '+:q€kóVß¯u€wéØŒ£šgÕn ÓgGMBg®Ù§®(½1Nrô~ŽEp’p„ñÏŠ‘öáNGÜæ¼[Ñ¿Äþ¥§J©¨–<‘Ïö5èž„úÉ£õb.ÉÑ$\'µT¸å{û4øß?˜~Ÿ÷`“ƒßŠfb¸PÁ¸=ˆ©jùB 5.Ð·!·_Wºòw¯p¹÷?jx–#Úy>H¦¤-³~3ö¯bd4ÑóØÖ•rÍ¸äÇÅ*™ôXú?(-ÔzhGÇšŸâ"ûÔÈ‰9àg4üGt¨±ù®Bö}GÛ,paÐ\'çæºþ|ƒœW°ô×
+¤eP[‘š&ýmºÀP„íÉ¡r’ùÀÚgVÀ?j¨ŽG)61E¯ ö.6;Õ7_TÉc‘ýªá:z0äsäš¡ë÷`¤¤îÏÅg?å/Ç,ªßê¢ÝÏ$¯Úƒj7ÿ' . "\0" . 'ˆ\\÷_5÷QÝ3!8ç½FüXf÷ûQJ%u—iEt–"ÙÎ8´K$–Üçýéki%EldñW‘IÛ¡Gu¶ƒ#ÝÞ§Ø[›‹¸ÓnâN	 Æ`ªP÷\'<U¯£ÿ' . "\0" . 'ß¿' . "\0" . 'É5NüãÍ·Jék[Gç5zÓ£
+Á‰' . "\0" . 'DC#*ÀPd³V`¾ÍdmÞOOÅÇ‚Á§FÒÀñð*Û§ÛNXnÇz¯iVÌ 6CV+	à1sÈ¡qôÍm$Š´' . "\0" . 'yóR–ÜÉ€' . "\0" . '8ÿ' . "\0" . 'Ô
+àÑ;TW*r¤ö' . "\0" . 'PådÓ^W
+xC÷ÿ' . "\0" . '5:ÚÂ5e rjjgaP€' . "\0" . 'ÜÓñF…ð@\\r0h“e9½2%Í²’1äŽhTö…YÔƒ8«\' –êÎƒ¿8îsPeUvÜÃ\'ã£ÃBÜ½Ytí“°RpGšÔ:CÉl°ç¯·v¹•[…î(6¥l³)N>OÞŠ1±mÞ#ª,°º2dX‡VÙ<2ÈdWª5Ý ]	‚&â£À¬?­:u‘&¯ ž)±U³›ÏòcF?Z#‘î¨' . "\0" . 'ÕžÔrKp¥Æ0jå“,{Õr~)êŽK<žŒ‹ŸiÍÕÕ$\\düÐ‹ÈÂ¨${…IÓØ¼{ãŠ;^Êü ÔžÅ}¤çŒÛ…”ø"€ØNXçÚš=o;' . "\0" . '{óOƒzbÍPb-Àï¸sš<Œ—±Š!a!–ãaÀ8ï]]Ù–‰Qs‘G$Á¤öGµºš²/$|U»LëKí>êÎþ²æÕ·,ƒ¾;bªúb+Hž<ý¨´º{Àm##µÙi+=\'Òë«õÚ[I¨ë-äŒ6-×iaáK
+×ú?¥4^š´šD…!ÚrgqºOÜÿ' . "\0" . 'í^Iú]×¯§GøYæ1¢¶1öðÅ^ºÿ' . "\0" . 'ë9ºÑ…•³²¼‰¶FçËÖ©ÂOLon¡¬ÄD»§Òôi' . "\0" . '	&×qÈà¹û×ž/õ‹Nw’iä‘ß’ÌÙ$ýé»Øå·zžØ¢zH^êÎ=($‘süŠXŸØSà’À-öY9ÒUÖÎyHÎ}¡©[XIråcBÕ¿ôOÒÃ¦nn:Âåô“0i	âAŽKäŸ¹Ó%é¾½vÒmn/IàÍrª@÷§¨û“¼ldÛÊzl%OÉm-»„‘J°ù¸Úë<z¤jÓØ„Þ„r3ç9Úœê~–Ðºû«}*â.9áÜmçQg¾1Š*h\'¬£€ýò~ôA×¯4[Ä¸·”ÆéÈÁ«Ô?¦×wo}xæˆ8p¤' . "\0" . 'sÈÿ' . "\0" . 'ŸÞ©O§ŒŒ5]¸‚ã[ýúî5‚ÇQp%ÀS‚AÏÈ¯EÙ^Gs
+È½\\d_šF£&Ÿsñ¹IPä^Éþ~£ÇÔ6Iiq/ûÈv…cØã°ýŽiŠ–P‡7P¡¢Èã› •9Âã¿ëN†€Êy8¦UÎ0{ç>i4Ð¶×’4¨Kòp¥*íÀ\'8\'ïšUvŠÁù?ÿ' . "\0" . 'a8ð3S!]øQƒƒ“šjA¶VR	eäRB+ù¼‘\\”­äú"Iì,²?(¾õÉqÆ{ƒâ¡ÚÝ.Óêò|W2Ý¨n3Ÿš¼-Ç‚KÊ‹!p{PëÝIZ2¾3æ£Þ4ˆœúkñB.×a"¾qü¦‰P—Um5­IÖÑÊª8¬ÃR¹õËäò	«†½r´„´w¬Æúõ•%`ÿ' . "\0" . '˜Ñ$–ŽO<”ü•ýMGâXæ”Qí‰]FO“Pî\\É31<æ‰Ûal¸n&®Îc§Š	i—/€¨5.âë-Žüâ«ÿ' . "\0" . 'ˆÚ[5.ÞàIœž~I«ÿ' . "\0" . 'DHû4ÇÔ$WŸ§Ïÿ' . "\0" . 'îÄk<ž@f8£ý4„Ë.â|Šê™¯…[£~éûrmË“‚ÔzÒ0òçŠÓñ“l«ØVM:Ì±mÜŸÖ¹é4ìô<qèÓîT)Çš5jÀ¶æóÀ¡öVg€WïEã€FFOÍNþ=¬–' . "\0" . ')¨Ý„œ ný¨<6øea~ôrÄžr~ôIû)/AˆeŒä0;“ÅIhcR`IñBáv*w‚|T˜Ü¹$ûí“ƒD˜.ÑÚÜ&â;Šé–6•™J“€?/"¸„$rn‘Nkì1[*¥p~rMµ¡RÕP¼ *Žàwªô–êNæŒïOŠ¶ßH²Ç·xUP¶ÆIÏ|S±6Ö‘S»·9ŠrIÎ+(êí5¦Ž}éíçšÛî"QÔRãâ³îºÓŠÚž2žlË$ÞÏ)ë:áïe' . "\0" . '`N*4#Ú«©ïàUóªô.K÷~•HšÑ­%p?)çØœ~URejúÔ#3ïPzrñFî2ÌÀöûÐ‹À¯‰eˆuäŸo	p$SÃwkN¹Um„óâ«V—Ÿ…à’ÂÀêé¸cžr)õ$!¥à?o9IÃæ­Vn—–ûXÅRlýáIlFm/
+H@ß‘L_¶-Ä™q§µ´íèþ¦ˆXßúˆ¤>áØŸÄW)v@f@ïóPnÇ§6åì<Š7 ;V	³Bl/w)á†k³z$áÆsäÔ{rnñ¿üö§å³aÈ<+©&òOÓì¤»˜GnK3v¶nêvúu¢ÜÃ,šÎ,2#Çù¬»¡/¿ÑµHîdgE˜Üðrÿ' . "\0" . 'œÑ‡Ô%]@Üíi”¶JžÀ|QaŒífŠ–º§U_ÛÝÝ»È\'™#–åù—qíiÒtN˜é»J-RqxFÖ·ió¯;”€}¤5EŸ«ïuM>ÚÊÂ ' . "\0" . 'Ärsã_Iéˆ§
+n"¹º†H
+NOíLsé°‡ØêéíÓ¤ï¬ôÈU·½šEŠâF~#Rø.9çT›Þ€{‰­Æ‘2Î
+¹š†á0Ø@¤ì9æ‡†[˜U•u§€ÅHúf¾iý+ÕC2Axl¡bß8OÓ’i©¶®…rÅñ™&Ñz†Þâåô>¥Cqio)€™y–ÍÁÉïŠªýhè›N“êâ³ËYÍM¸ö¸>A¢‹Ð—pßM}«éË$¤™Yî”–ÏrqGu¨ Öt7JÔõ«	"ÓÁH\'@YÖ2s´œr*úÞÙÏÙ†Ç1´çÏj¿}.êYzS©m.UÙcv
+Ø<d‘ƒF´Î‚éÝBý-#Ö”M/²"Ñ¥¼|~µW¿Ñçéûù-äC±’0Ã±ªQi‹’ì­ zðÕ´k[Å` ,ãÈýjs§9ä©ù¬¿è>»&§ÒÖ‘JÌûKàn#œ~â´ö]ÎIÉÏŒÖiG«®†;6Aì' . "\0" . 'Å*E@<à½*–Ký“:uÇ­lŠ1Ú¦Å‘r{®èú¢,kà9£†éM¾àÜ×KÉô^Ýãº’c¨®fºÆó9ññPeº1¦æÃgŠ­ëQÚBÞÜóD°€M¥–?¨ë
+óËsÛžÕñ`.Ä>æ=Å@†ÕœnØÏ<×UmÅxUìÔ]X‰,Ý‚zâùm4ïJ3þëYž±>U|w"¬]WªÇs3ŸSÚ¤€“T‰å2““š*£›ÍÉDàš*?Ó0Nõ¡8Í=4¹EQù@«1ÙðH¡qŽk¸\'e TaÍ;“œU¬êI8ðkbúajÑG	+ÄVCl—H€ÜÀW :Ä[Û@|€jTÛ7|hv‘¯hãÑØA\'ŒVí9ÆÒÃ‚?½Rt©ÞY' . "\0" . 'sæ®' . "\0" . '”þk=¿,ôI*,ö%J«`·ØQd‡zûF3ýhv‘mˆŽOíG#¶h£ÉÈÍ!<†°ö$R xQKbŠ2|T 2ËÇ|Q;K}ŒN1ð£šweYd¡ñ¿òþôêDT†Î' . "\0" . 'ð{ÒHNÕ;sÎI\'µw/8Ëš‰¯' . "\0" . 'vö4çÕ—†ùÍHŒïŽ894ÚªÄIÚI<f”›SWÜN9¦ª¿CwRdÃðhd·Ž' . "\0" . 'ž3Dî‰pK‘ØÃP™C,T«ÂŠÐ§ý"ê!J÷ÁðªÎµ§½å¹]¹^q““FÚYK6' . "\0" . 'ø¦/²DY3r=µiþÌ3Œ¶`_¡ºÝ¾T`k×"x§‘JGšõSèF{f“oû s÷¬­ô£Ë{šµ,Ñƒ–Œâc“’¹ÅD¸.ce\\ÔëÅòö¨í}á€Ï4äaê_iäçFÆá¢ò§Åut‰*‡àšæ`ÀÍmim.Ä£«Qx\'¤àùªìAU‡9ûQ[UÜ‡Ûñæš€Õ ´r´ckdÜj\\3¬ëÉù5Ö#8
+s¶§ÛYF¯ùöÞœœ‘´ðÉVÈˆ¿›i~jwâ}ŠÊùIR6Ó¹lù©V× 2í5wh	/1Ú_¬|‚3VíöãP·aq*ÜŽõ›<É$ª#;~õiÑ/ä²v¶sÜfŠ)-xÙ£tÓk·ºÕž§ÜúWI¹¡e8	Ç$~ÕdÔ“¨?¥ÝÉ¬ËqýÀ¶YV$É§àŒ·JéŽ¤6·ë«nPóÍYçêeÔtXt«8%>•ñ¼¿$d~P>Üó÷­Q¤‹MMª¾šK¤é¤£Zžê[=HƒQ;Òk3¸†ÔYi3­ñ–YÛmÌ\'–‹ÝŒþ˜æµmcê!Öm5·Òî}[«a&åPŒ{—àýë2Óz7T©*ÚHÅX>
+8=©‰´òŠµãf‰ÕÝ¦ØôÕÎŸò,(
+Ý+Fÿ' . "\0" . 'Ô' . "\0" . 'â± ¤ÚÄžkv“Uê½.óO¶Ñ·ãÓ¸’5l7ŒíTÔú]©2–h–5òÏ"®½I.Ú)Wÿ' . "\0" . '¥etÉ,í »Yl†]§Ýò*û×â=O¥zW[¹Ù§©C*Ë0H‰‚‰þ¯ø ëÑ%%he»Š0€1&AÛíÏzï¬5”×5(½)gm‚‡!TÉÏ4¼i²9GÎ·øm–I´­Œr±nE$ã<äÿ' . "\0" . 'šÝ™2w2í1XÇðñ¦½¯Oïø‹³r?)cÿ' . "\0" . 'ù­§–N8äsŒVnZOìÈò¸öb)R“%Îà	òA¥J±”~4Ì¡G' . "\0" . ' sñSmo%”¸cÄ‘úö¨‚Gø “<Ú{€¤•®RM³ÙJ+,1q©lVY	yæ€i“-ÝûÜNãjŸj·Š‰ªë¢{S8“°"„nô¢ ¹\\ùÍ5	|ÙÙxÕµ4šÝO|U/Zê¿NÑ¢‰¶·cŠwuµeb¦Üoå¦8Çj$/“ÉPÞ¡3NA\'>O5' . "\0" . 'ŠNKNkávÌ-Ø€Í,ãÍ,}Å}-Q|®ÀÈø®<×\\|
+–Èé;1u«Ä1¸ƒšôŸKY‘l¸QñXwÓ3×¼3Æq“^Ð.¡·!ŽÜb³ÎNèë|UÕYoÑmŽ™Ž8«í…’ª(qÉàU]«ìmÀW;[µ (÷YÚvu£l;eDUþâŒB»ŠÆ;âƒÚÜnQ´cZÖp‘€$÷&‹­mm-…b°bNÖÄdg½N‚ËÔ9*Œb›±r~xïñF EÁyÅN‚œÈéaé¿ qÛ)ƒm\'â\\ãÛãŠ±C«1ÈÎO¡ÞÁH2ØÉçšjŒP®öðžßÓBÄn=ñ÷¨mµ€nÄw¢7Ã$p6Ÿ49T	Ú5±ÏN ›´:e5#â¾`Þh¥¢F‹†aœö©BHá•FÑ¶5=×\'­ƒ^¶ÒÅÓ€¦F|¹5SÒHQÂü/uµ¼„³2œä`Œc5í¢1ÎIãžh–6b”Ÿ£#¾µfŽRÑ¶ÒOV+×½>¥åÈÀî+Òºµ¬L…A!OÍe½g¡$‘¶ñÍ«±n™äýoOÃ°+†¾*·wjÛŽEk=eÓä;²äYÍý¦Ç!ÁSñNMy8é€¶!Ü+¸gÀàië«=Ùý*3£ÅŒÓ\\Q>!žJþôü&\'Îj7@Æj@•wâ/bÜ¼Pjd  š•m~]‰Oé@ct-ÊŠ/dcÎÔ\\šl_¦Hž×ˆÍ†R¿.ÚA2Tx¦íãIFqö4VÚ@
+#?zÐ­Ý" ÙÎÃö"§éòº0Px?ÚœŽÎ3–øìNµµMÃh$
+¶ð¥°ÝÌŠbÅ{fµ„ÖZ2«ëG' . "\0" . 'f“$}òEeP£FÀ' . "\0" . ';ö«–òFÊíqQE½œbí£s¿ê3;›Ti[¸
+GüUqµÝ_Sºiutq„•‡ø4ÏGè–šÁßuv"HÎA9kNµ¸Ó4(ÌJÄãñ2.1MPqÛ|Šj¢¨ƒ¨iM¥tà²žf¹Ô.”9HwC÷þŸÖžÿ' . "\0" . 'D]éýî©,o%ÍäÑÇjÿ' . "\0" . 'ã‹Ì~ùÅé¾’7±O¨Þ».Ÿ—•ÏþËö ÝCÖëp½Ÿ¶;?íÆ¿·4äÚ[3¸Å¼–Óe÷6F|“g¦³í‹' . "\0" . '3vÀóE—O9Ëíï·5zúyÓ#UÔUÌYE`wñC¼±-\'£aúG¡6“Ó1FW–ÚK‘ŒàîM^J{É9ÀÖ¾iZRiÚtIÈÚ00iý„ã?bk÷‚Ò[d`™' . "\0" . '÷¥Oz`òG4©V/gâë\\¤vÈ›J¶4\'P™ÌD¡ÜWÀ¢²ÄÓ[)ÙhçöªôË5¬­p\'µsâ“Ó=—$^ïfâV2>T©ÏšaÚB…™Æ>æÝ®”ïM’8ïU›ÈGªË“·ãÅ9`æË>I|¥F@8â‡j	 É±àÓÓZ9¡SÄ~üQˆ>ï°5É¤}ÅÙgÎ08¥¶—†IÅ¯%	~ã5ÚâY€MrGƒâ¥é¶­=Âíª²Õ²ûÒz„Zm²ª{N9ûÕ¢ß¬^AïŠÏ­b¹^Èp<b‹EŠ„•=¨³Rä’T›§~¡íQê0õ­CëHiF[¶MyE.®¡on@¢vZåä`bfxÍU&6?*QÃ=¡£uu¬èXù4n×[F<°5ãíêí†6qðjû¡ýRWÚ%sŸ<Ðõ6ñ|•-ž¶³×#1 V»
+;¥ëQÿ' . "\0" . 'åùÆA\'Åy÷@ë¨®cŒ#dŽõ}²×”Â®$Ëø àÕš£#ZŠö9ß	¸šùªlH‘œƒŽj“¥uŒ.â=ñD¨™I`êyÉñD”CP~	ÏnnàïÚqŒð*LZd6¬7÷òAî(;kÑ+@ËÄ9¡÷ýJîÙ·÷¦¥ì7~K5õÈ@
+¼ÝêkÑI8s“Íg·ýfÆVÅñÀø 3uêF€~()’QË5©u˜!‘öÏšwÔaÝÔ°Ý¹íXž·õTi;‰rî{Š«_ýdy¶ì#$Õ5fIòÁííÞ½ŽWÔÜàäUK©õ‹cnæV­cS}S’äíiy>GQëk›¡*	i<sQE_2Ò,½Cor.œÖmÔ±ß.å' . "\0" . '0>)éïïßÞ†\\É"¶òØ\'çµ_Xø2Ï“¶
+ÄÛ­®J7¯­fÓ·Ò4’–pšz;vž5ehCÝ[' . "\0" . 'r?7ÅwoÚ89ò;u!#Çšâ;6NjÐ¦¿Dû{@Ç‘E--Ärv0<P¨Ÿ‘SãÃ.N<Ö˜×\'íµÌgËvâ‹Á(ôðiùªí£ð' . "\0" . '=¨åŒ,ü“ÈËLÉ(Þ‚Ö¡0G5>ÒÄ»´ÎŸn@Ëóð(Å½¬¥€ÎsDÿ' . "\0" . ' ´Ç­ìpÁœqF´ËQ$Š;dâ¸±Ó†åÜØ?­Óì’\'Ü~{ÑFËÂ5‰éH-ôñ<÷1C¶áùjû}9¦éMr’‹Û„?ùn¸P~ß5•hÓNö¾ŽöÚ§€‚Ð¼aœ»¿Úµ-W¶»ëJîÎKQ KG;}5b Gi˜ ½J¶Ó]Ô' . "\0" . '8=ªÏ£tíÅâ¤ÆÄç–½ZBæÖ€ºn…-ô‰q—Î+|ú[Ðk¦i›äM¬£q\'¹¯ôõlIr¡ŠùÇzÑ„bÚJ4ÀóÇŠG$Ö1’0@1Œ‘ØÕÃÂ„åH©íOí;Tc|×^žFBçÏjËýúÐ8ŽxÖ•H‘pÇ…©v¿`õGâýºnŠ ORÓ„…š6‡Ú§Z`À„r6Šz(·¿#*;×-4ò{Ç)“f	1< PÍJiQŠ¡Zå’IÁA’(5õ´jÛÎ<Óc?Ñ“—‰¥ƒ6e
+3´ííÍ	Õ-ãÁhÔsÞŒë7qÛj2@46@9=ûSîöreº`A· R0HJ(Š)VäÔWnûŠ‚*’°xÇdÏÎxó]Én°(>~õ"i–ó–øYÍ“Ú­à¡õ¹«Ji˜‘Ó!¿µ' . "\0" . 'Ñ¬Ló#c#5¬töš˜ò¿¥›ø ªÆ-t"ò®Õ#ÍYmúp\\ ?·:Ê(ò2¸gÒ’8È ôýð©y+‰ôÚ)â÷£nÆxóC®>—N¯˜ò>Æ¶Í.4•W·#Š0Ú<sí`¡|dP)0_Å“Í7?OnZ>w¤Êî+ÛŠôV¹ÒÁ=ÊpÞ1T=kJxøu£íOIìL~:Oñ+\'­Ía*+Á&µª=XÐobÞ+)šÌ+ŒcÐ.JIî0j3LM›†ª³*ø>A«_ú‡nAÈÎI¬ëH½`¡‡ž*Ùbò72' . "\0" . 'i½mPFîíŒyW<psA¯õA’üõ.çyÚvÕZ®' . "\0" . '' . "\0" . 'Trh·,ÍwT{wg\\žqÅR¦ÖÙ&’RÄŒš°kLÄð|Õqôð2¹óÚ‰JÎ|ûIÒeOU¸¸¿™¤u>îÂ†I§]m8ˆ€|â´?ÀÃ‘„ÝúQk$¸Œ ‹#çwBòÌ{ðWö”aûw¢šeÄƒ6äÖËcÑðË†hT¸©StÄQò?J‰¶!ð»Á’G£Ê°óœš¤Èä(Ïè+_ºÐ€v…*M#v!1Ÿ8«Ø/…˜íöŠÈ	U<w®tËyŠíâ´½OJVLª¾º4‹6UqT%Ä¨jÐíSÅ	‚3‚AóVî¡²	YyøªÚÂÊAÏ?j8ìD“;†3ÜÑdcÀ¨±#(æ‰[!À#œÖ—?¡XÂfLš=cp¹VƒCÂ®F<Ñ]>|
+¸Å&¼–3î÷œQë6\'x v_“V>ÍÛhPjh¦â³¶30À9ù«v‰Ó3]¨oMÝAçS ¾ž_ë»fX‚À¼ï~Çí^‹é§¢ÓOZÞ6' . "\0" . '{¿ûI¨ì[ièÇ´ž‘ RªäŽÀŠ·Øô%ü«ôsž3Ú·7¤áŽÀ‰Wïÿ' . "\0" . 'æ­VšZÃ·Ó‰A^Aÿ' . "\0" . 'Z%Ì’Ð¿ªödý9ôŠWD’un;®+CÑºF×J8ÀÇŒU˜<’å^Fb|7zîfÝî ØŠT¹°ÃúãÚB¨UpkæÂ=ÍÀíŒÔïCØÇÃÆp»±ƒI«-´‘
+H7Ÿž+‚
+09ûTöB©ŸéQæ‹nqÉñVÛFwì2‚ü¡<wªC£>ô¨JìÅ+BÙ' . "\0" . 'ï€µJIŽ*ª…9î¢¥dÇ‘äW%¤™ôV’Ó>–ßî¡×Vž¹=Ââˆ,dŽ?zúªª„Aù¦Z¯Ç®Ê™™kÝ.óÊòËƒj©}iqf0èqâ¶é-\\¹íóBõŸK´9DùäSâÚY0Ká§”Ì†ÒÆæï
+ Ú¦ËÓ7%Fæ8ûV¡KÂ)Pý©ù4X’Ì sÅSäk_Ã­˜´úL‹!\\çf Ënbr	«õÝˆ{Æp=ª·«Xî¸P«‚Oj.Í£;âKH;ÒFèÑ˜wí÷­GM·Ñ(#°ªïIi¢;XF=Ø|ŽÀþî¤K,èpB)în}\'öÿ' . "\0" . 'AD4ÝJäí?­V5Ù$¶bTãµêÙ£•T+ndQF>‡öP{7-*þÿ' . "\0" . '	·ÓãïW3UÔ‹*£gÉÆk³ëË»8Ë”l(æ‰i\\¥X•6¶q’h’iå	Ÿ<<³xÔo0æO#ÃgWÔ–´`˜`µg×ÿ' . "\0" . 'Zw9ŠV-úsOXuwâ‘ƒ*7œTmøEBqzv?©X›f,¸Å5¦Þ2Œ
+°A©À<²Ÿ5_¾³:uâ®;øÅWôÓ×²É h·lQ9ÏÅ_4e{À;ñYoM³ÈŠÃŒÕ®ôuÄÑ2³' . "\0" . 'qƒ‚*“wC”RX\'ÏöðR2ÜÕ/]¸p]±Çý5®k%íšL‡<ñYoWZ,óŸœ
+ŽÞ' . "\0" . 'Ï£>Õ.óŽhtQ<ïƒœ}ªt‘5ÄÇŒ­H†ßÒñÀ¢B$£äêÃMD##ƒæ¬Zf°
+¸ûã½VÛVXŽÕ4{FÕbm¡çŸ­Ú(¯ÂËJR™l/ÇZ·(*ù©–ãNhË©‘Že8þ”X··Xç\'È;ªZ·€T§kœÐëÌ~)‹æ1;”þæ¢Ç39lžß­E‚¦èvâÙ$OËšui´gn¬d!ÍFžsÛ‘óDfq{3ž®µÙ
+ä{ÍT»+Žõ£õ­®Øc%sžÆ‡h}2·_îÈ¹ÏƒMRtc{*Öö,þÖá~jl20E¾júzV)#`0¬£8«riÆ9˜c88¦)13‹Y±›h¿¹«ŸdN)‹?p2OVíEšöxâE,ÄøÅ6ðfÒN‡¡Éu""FN|[Cýšt‚{¼+³D{ãÎjÍô£éœZU¼WÀMÛÙqØ~õ¶ôþˆ‘MëlË%ªÜ©P7±Î”éK]2cD
+©ÜÞ¯¶v¨B¯´üTqê¸9àU‚Ò{þ´ ”aC–P€c·ŒÔô„@NÚÛd¸ÁñSáµ' . "\0" . '3òhÒ+µiVØ{pî§–®1ŒÔßÂª÷Zí ùH?z~À»ÙZ€É¶xÊŸµôŒ' . "\0" . 'Iýk‘ìF' . "\0" . 'æ¢²ŸèaãÝ–>qMK	Û“1ŒQV´ÎsÎOš,ñ‚<`ºBZý[Û·qJ¦IFÒqÅ*˜\'T~Z¾ÛTÈçhâ¤Å#lÀ5Ô“oàÈý*b1' . "\0" . 'Œçâ¹Yô,#¥' . "\0" . '.êûü”à|WÏMˆÁìM|A´:Žßz´¼ ×ìqv³`ŽaI“Ü=£Å|ˆù9þÕÚ£Ý÷«Xòœ„€ÍE™D`TùñN6w•ÁÁ9§@žßz	¬YPÔ4Ð²žê(öšÂef^«CžÄ\\(`6œâ êºúq·pÈÅîÌ|œv­“zfÀ¤	´qÞ¯6ºyxã§`q‚1Ž*ócdÁ?öÒžKâ,™¯Tè;•¸ÁªrtÜ‰.ð¹·=SIüRV«WÛ7	•øÅZoØN{)ö: ºµ’îãò+<ÔúRóMÔDNË»†Q[Œ:t[³’ŽqR¬l“óIµÛ?Ì)©³\'ÆììÅtnÔu+Ø†EMÀ’GŠÙŸAu°ŠÚÞÐ¶Õqêé¥I²±[+³Œd-Xll8·Î¡@…¯%ÃŠ1Ú)NaºÓ/ZÚö3ørxÜ3Šk­á‰õ‚-×ÚoµYµ]@.cˆ*ØÍU®çœÈÄ·=ë;’¼øâ¨™Ó(ZUVÎ3ØVÏÒÖê…»œqY?OD#™H8ó[7M¢˜á‘ðÄø¥öÉ£Æ‹ÜÚ"ÜéBXÎÍœþZÈ:âÕ”?³çæ·Í!áÿ' . "\0" . 'D¹›’¼)ïXÇTCêLëŒ®Oza‘<äÍ´M/ñ.šÖ‰£ºYÆ¥å“ŒüUºÎÑ¬îÌòqN^tý¾¦í,¨O¸«‚MŠ›ƒ!†Ýîâ}®<f©÷úþ¥¦^Ê‰!UCýkp½éK(œ—_Oî*½«}7Óõ5Œ;qZºÙÏäŒ¶™™ÁõT/­‚xYu.­<%ä¯ßæˆKô–ÞÚáXÜï°Å*‰¤ˆIQÁ5N—qS¬2§.¹¨I.r
+ýèÖ‹$²2´€óæ¥CÒŒ¥‰9çµXt]GÃGÛí@ØÈ©^N­ fÇé]Mlv{ÿ' . "\0" . 'Š;ž#@F7|
+fkBF~õI›J:(adÒ[Ä' . "\0" . '\'\'È¢º+iÑ¶Ì' . "\0" . ';â§uœÅìÐ¨Ë63WKºjÄ' . "\0" . '§Eø2q¤å’¥m`Þ£' . "\0" . '=Äc4^–¸{·%-ýkLÒ´¦’ýQ@÷sæµîœúiÞœòÂ¸^O·¹¦&£‘?*6°Œ3¥~—ÞßÝná[‘Åo¿O~ŽE¤*\\Î¿ïÃnvÿ' . "\0" . 'óZ“ GfÀª„ý¹«-¥»gž(Ÿ-áÞei:jÛ¢d' . "\0" . '<U–ÊÑcÄœàš‹a<w?4jÎ Î~<Ð$ÞÅ»Ñ6ÎœmÆjÅgn †' . "\0" . 'Žx¡vQTÀ½Y4ûofpqñLH¬¢U­¶' . "\0" . 'Êàõ5lñÈøÅJ°µÂ‚sÛµOþÜmçâŽë`Zô
+6‡È>q]lò0|QahìÛ½|dÁªì‰°Yµ“ßÈQKð‡i>|QoÁ' . "\0" . 'Nk¡gØæ«²€e¶Î	ïL5¶Ôíƒö«¶ÙR6çïQg³ldçš»½' . "\0" . '“EbkußÂñŠTfKRŽ@Í*¼—Gàu¡ŠààqûT´e;G‘P,×ý˜ˆc€£üT¥)»ïÎMr2{ÿ' . "\0" . '>Ò3eXsJ6;ÿ' . "\0" . '.ñ\\zþ£cóRVe>îÃ¶*F4:)%h~I
+‚)*¡³Áñ_]Y”g<ÓrgŽj:ð£­Ë)ãÛšúÞøÎHÈ®6’„Ÿ™—iÉ¡kÀ6ÉÖ%}¡†FG©5è-ï"¶nïÀ¤XÊªÈqíTë¸ÃõnžËùXnãæ®+¨ŽFâ°h0¡ÂœvïZuxñóYïL>ÄSò9­#LuX—ŽqýiL¸e
+aãã¾i—Ó£˜meÒŽB=T\'ŒWÖ°e ' . "\0" . 'aFÖ¬¨ÏÓ°n9^On*]§OÛF9PM{ãÈý«…ÓZ»–Åû—¡[ZA' . "\0" . '¡Gö¨º¥Ùsé¯œ¸FLŽÄö¦0#Ë‘æ®Rðˆ¡› –¥ä#nI¦&²ôÔƒŒŠ+”¶' . "\0" . '\\×Øi' . "\0" . 'À?¥!,šUƒ
+÷À9­w§uÚ³~´‹C´í5¯ôÖŸî@8À«nÀn‹Î‰›3IŒúd€|ŸŠÊ5è½IÜyÎH­Šò$·Ñ<p|ÖU¨ÄÌÜä“Üv¨ñ³*vòŠ¹Ó‰eöþ>öfåq‘G"Wgm}”,„«~_UE;²åË¬Ë¦Çs×\\šwÒ2wÀåqÎ*ÿ' . "\0" . 'þ½Y¢ “PÚÞHÜ¹&¶F™™Å­™ÜúEú6=üðqN.—rØ%>x­°$1Q“ÇÍ}[tvá1TÒ½Iá{]Nìœžy©É¥uP1ó÷«¼o¨›Œl×K@çØ1ÿ' . "\0" . 'V(p‹EF[U^' . "\0" . 'ÆE–Í@\'5f½³PNGÚƒ¼8—ŽüU¡2²¿ÔÚI#O`y' . "\0" . '¶hÆ‘†UùÇÔÏ¨ßG}"ä' . "\0" . 'Íh&vÉ#Ú›ÒàÄ2ž+LU“y°ÏLZÚÃ«B÷Râ' . "\0" . '
+Øìºß@´a¾‹>Bäÿ' . "\0" . 'jÌú{¥×]Y"‘Ú%Ë-[´ÿ' . "\0" . '¤ÚAØÝÄ­Øà€qBãœ˜9ä”‹\\?Qô Ødøá¦Aõ;FGê;ûPš§}#Ò^M©Ä™àe²Å[ôï¡ö1¢3i“ïÇæcƒþ(—~L2åˆÝ—Ô­/U•¿ô¯&¬¿Ql_c|cãGGú!nê== ñüÌy?Þ­ú_Ñø­Ý3¥ R9ÜÃÛ5¡qÁm™¥Ëéí;® u³îð¬jÛ£õ3L µ¸Éà.ïþ*Å¦ý4³€){h”' . "\0" . 'f¬V½-ejªÀí•ÍNÜQÿ' . "\0" . '¤´6¤²¨>†ÑúÑ¨®e=ãÖ§EaC
+Š?AOÔx¤O–/Hjá›òie„ø®=yóùýè¦Åø¶Kû þ‰èëÏÿ' . "\0" . 'õýë“%Á°ý¨¶Åø¶/À«û¢¿ãËÿ' . "\0" . '@†{Œp¢™”ÝúlTÇÇÅØ¿—¦¿­r¥à¯øòöT5ÇÚjUnô×â•Ü¿òO¢^ÏçrÑƒÛF6àmâ¤.ão5ÒV[8Tp»Gø©‘±#9ãïX2gÛÒÚ_mt§Ï$|W1(y$šûØ;xÍ_ôd_aÙ\\88øó‚9RG‚<W	9?­v‘Çx¡ê$%SÏÚ“)<…Àû×B@öÍ|f$`1ÏÅDë`vWŠ®uU„“ê¶WE¶¬<2üæ¬VêÛÇ#æ‡õ45 ‘WòXÑ[È¯E›¦¥Pç ã´mc…\'î|ÖSÓ—;ãŒ1ŒV£ßl‹àŠ[ÎÁƒ~Kõ…ØRƒ' . "\0" . 'çŠ9BQ¹¿7ÇÅT¬gõUH`*Ïg6è†yªÃÁ¢ãà“è)L2dùµrÖÁ—6 <TˆæYp¥Hã4ûa¢Ãr1Š5 ‘^ºµŒÄ‚sÅ' . "\0" . 'Õ£+…[om?ÚÜ8¶j­NÊYóD“öLâcÈÏëMz¾«dsÍ	’õpÊw¢ZZTm÷ÜPÐ*‹ßGÛ«°Ü>3Z×NA²D,C)ðg=n±D$l‡½jý-’eÈÜO‘â­D	ºV[õ¸' . "\0" . 'éˆ¥ÆßvqÈÅd Û;dd[~¿hÒôêÆc8ýsŠÇ5‹p%%²1L’tdã’mƒ!l!Àýª>ß÷' . "\0" . 'íçšF_NBo½6»Œ îÇè{ÐSc{ì?òUN
+Ÿìºr67€*=’¤ŒàŒ`QT]á0Ho9ïLŽI/' . "\0" . '·Ñ’Y³Êãíæ»‹IH›‘ž†ÕŠ­7)€*nj;b¦@keŽ<>	ãÞ§±4NæB' . "\0" . 'É|ƒÞ…ÝxÀ>MSiø	ÒË`{¤¬@<üPF·inUF2x' . "\0" . 'üÕ†rœyÁ5ÂÝ.õ‹H8yTñÍ\\RF^IE,ˆÕ:—M·7&;‹M.ÔÈîÏ¹®Z£t´^•‚1½BúËtÝEõƒ]– ÆnD)ƒ‘±(ý¸«më´0F¹EiR¬#ŸÓnÍc£´Áe¡C;û`_8çâ­šIÈ£8O|Ð»bÜi°[¤i‘¨S³±À©9“eØ;N‰ƒ—òvÙ«tœj·°`´ŽOÍk‰n®ˆØ#=ëÐµ›k;¤gž4Ë|ŠÖ¬ú»M1(7#1qýjÚ2õEêÁU P?ÍMŒ­Ðõ{kôÛÈÿ' . "\0" . 'ú[4aO5šiÞFñº$Ò¯Šr+í è,Š•*U*TªT©R¨AR¥J¡J•*„?K5†‡ÉØ?ÅKT&2íMY„±{y*3Ò¥¨>ž¥ëg¥OÒYe' . "\0" . 'bœMÊÄŒñšl¢ñ´àÔ‚“ù¾hi§º>²ìb«És\\†!Iný©‘ÎŠéÝLCûÕÐÄÛð0T?ð;ÓÁ€]Éƒæ¾${‡#¿jé¡Ú¾ÓÅZT¥²M‰2¹Œs_u;f›Nœiæ¸´à	À§æmÑ<{ˆFQ?à®¶é™·[¦ÓŸš»h×$IïbV¨' . "\0" . 'ü4RDNY\\€~ÕnÓ®@#íÞ—]vg„²húUÐÈªÅ§ß<«µ<ŠÏôíC+Áÿ' . "\0" . 'Þ¬Z|Í´2¸8 ¶Ù²2Z£B€·¤¤÷©@qÇÇ¶‚é·¹]òqÚ‹ÄñÝµÅ1EŒnŽo”z|¶ä>+5êÔXgiµZÓnUQxÔV_×„É!æ5vÄ9^ŠE³´×Mÿ' . "\0" . 'I9Íh]1nƒŽüU^-8[D€(>IiéÙÒ7Mø¨“4þ›µ(ààù­c£l}Iãn	A»Ídý;u¹ããÆk\\Ñn#°³2#`Žä
+%v#–‘nÕu|XÉìñŒëé¸;ã#&­7ÚÊ¾ì°ÀóUMrú)“o·š\'\'ª2ñÃ£²¡9!ËrqñMÚÏêJ	=¼TójdRÊ	$Pi!’Îè™Ç4¦¿c¥*y.z~|üQèQaŒ9qÏz©i·Y	µ˜“ÁÀíVfÊ®H,>ÔqV•ø	¤ŠQÿ' . "\0" . 'æ¢ÝèI9ÇzBPÍ–äfât€>[T/Gv9ûš¨²E  àcæˆ^:$Là€' . "\0" . 'ì*½upóŸií(\\ÑÍÌ›•²HÏ‘\\h‹-En[ÜýûãœS	p’“Ž)¶Ì6·A”€>h’{9¼’ðŠþ›k6£}}|ã-<¬Ù#žæ´>„Ñ${øø$\'º†hZQ†Ö àç |šÐºRhìC€y?hÓÉžMÖÆ:•ã¶pO|çé@4ÝrHä$HBž<×]_©‰ä3d˜Oåç?z¬XÌY³ŸÐV¸¤Îtâiú>¼«"nÚrAïZî“×Ñh×ÓoÊ3Šó¶™r¨à±9ýjé¤ëbŒ™ÆsNÁ–QŒOFô÷UYL#¦=Þ@ÁþÕ§èÚÂÊ	}h±ÜžEygEÖ÷°#\'©ô§Q4.¬$<ã+æñ¦…)ufï‡\\Šr‚èÚ´w–êÁ†qÈ£áÆErçu¸yW"ýR¥J–h*TªT©R¨AR¥J¡J•*„?›‘­`
+¸öŒ“úTÅ~qÆj&•·‡¸R£üTÈá¹‡ùæ—û=,ºØâª–÷4àR1ÈòkˆÓÿ' . "\0" . '«ÿ' . "\0" . '¢ÌÌqÉ7e©W‘²¡²„àÞ¾ˆ°˜üÊkä‘>ìã$œâ¤ˆd|' . "\0" . '=ßaš4›òÞH¥ò@-ƒNð' . "\0" . 'ÈóSízvêé”Ç³g¾*ÉaôÇU¾ ,ˆ{³p*ú_“<ù¡•SêI ãh}éÁHJ…ÏŠÔt¯£ÍÅÊŽ8Ø7³é¿OôÍ12`õœs¹ùþ‚‹ë¯&Y|¸/òyôi2Y\\34F5~rGz%`V7#wz¿}G±Ûn‘,j8¬ýaÉ÷ yM$ãç|8YIÆ×;[µ[4ÉHÂîÏÚ©s]ª{æ¬úmÉ' . "\0" . '1?®)O,èA¿¿iW>™RÀ“Š²éóoRIÉ<T6ìñ“íaÜÕŸM»/EÉ#š49ÛY
+ËDaäóœö¬·«dSTÏžsZ=ÝÐ1¸“ßŸ”u”Œ×Æ_ƒÏ4Rv©Ó§»2*@>' . "\0" . 'ð+?UXnCqŸ5WÕµ‡²açU6M_VÓä>dÉI5¢>N¬ôîƒ¯ˆÚ6VV§õƒÍÆpH9ï^Yé~·yâL«#gÉÅ^­:©¶~s¸ój9V$\\¦ÞÍžã¨U‰> Ç4ë¨cÈ;ã¬“Wë\'HØ©gqØ
+¢¾Ön/ØC ƒÍNŽY@ý‰y=K§j)@¸üÓ:žÛ”,Äc]3ÖÚ’H#¹þ• i:»ê’¬AK;]Ú/»’ÉmÒó†çoj5.x¶rOz‰˜[Qð4£œ$›OnøþÔk' . "\0" . ')%š4åXnlóQçºÛ!Èíß<Tyd&6PNìö?ñPÚá¥BÞGqšv¼ÐåÜï\' ásÇ>(£½C„nŽõ>v!' . "\0" . 'Ùã=¨c’Î\'½fNYÞˆ¶qÈ­‘ÏÏÍ(†4õã<æ¡FÌ®HÓâ¢õ6ªl­a–nOÑ­˜%¼—Õá··ö•QŽäð+ˆ:—ñ¶DDFÏlÿ' . "\0" . '’Ï¯ÜÜ)Bä.8ŽôÝÌâÛp¼äö¦õò\'’I"Í«j&âUÚ>' . "\0" . 'ÇÒ¢A>n{ãÅDºv‘K†Éò+‹Y˜<g4èÛ9Òw¢ÑdHeÇÿ' . "\0" . 'Q5mÒe
+äý*Ÿ¦+K´y<bµþœúw$VÆmJ9à-äOOŸ¸5²*ÖLnI<éwL0¾Ò?Z¾ôýøEQ•öE¸ÒŽžÛ‘·€~1Š1¤^' . "\0" . 'Ã Ž9>*Z.”×¥5†â ÚÇœqZÍŒ£_‚jó§Lßé–)­Ó¥õub˜`ÅG8ñJù¸Ù|2é=–*UðŠû\\³¸*T©T ©R¥P‚¥J•B
+•*U;Ögÿ' . "\0" . '^ÛíS #$–ÏÚ¥èzÖ§Á3;Õªô¿ÐËËõF»sÈàŒÐG9g[“—‰~lÊííž\\âbjÇ£t.­ª:úv²o8í^‰éÿ' . "\0" . '¤zN’ª–EîÌ?â­péÖ+éÚÂ«ã*?âšá£¾\\_øF£ý¼••®äHÔ÷ç&¯:OÒ=3LE’XÚw$rÇÛú|ÖŒÖ…h@Mw—#a¤Ïl~Ôi#4¹ÛÛ+v}?cj‡Ó·' . "\0" . 'ðšyìÕU€LyÆ{8£,[çÊÇöBù‰¦F!ò\'¶WÞ\'U8RÚ£II’ÍÛÀzI£2' . "\0" . 'ˆF85þ/Sj€\'’;Ñ(
+íOfaõ#O’ïG–TF),Çµc¯•U9óŽkÓ]M¦‹ÝXáv+ÍW°›k‰­äº1ñYç7üydn	I‚2ÅXtçîÊ;Œ`Õb‡%¸ÇŠ1c)
+·é/\'f,¼é7[Ô+¸UºÚqo`1Ærgšdî$V' . "\0" . 'œÕž;¼¦Žâƒ¸«òŸQ®|Ÿš¥u¯ã•ÊÅ–uþcšŽÒ$¼2ã5¨#/¸’k)n™œÓÑ<7ƒk¨ûV½gHŠpí´Š ê¥„¤\',§¡R[â“Üi0Û¢´G¿SK¶˜¨žEéömA•ŸòÖ³£ôôfÍ%+Î;U7{3ÍE”ý?Gi.IuãïEgÒ¬­†ð‹»çïGç±E8¼â¢ÛéßËµ¤
+sŽjÖt\\~¿%mG«t#…K6F0+fè•6p,ÓçÕa“ö¯½\'ÑV:k,î‰;ã‚Ã…5rÕW… `}èõä	+Ž…r8Ê©
+¾hC¸WmØ8>yƒ±SßzqíÈÎF~(/!W]Œ<¯$w_¨rÈ#µ¹?ì£ic°¨sJNG5]@r¢+1õŽìóÍ4ÒmßÍ)ä(Ùnr;æ£€flâ¡‡’W’|•P¾öóš«u¬’5ØŒ…QÜUºÆÝ@Üñúý«Òp}<ÑºƒG‚ÎûM†P#^]FàqÏ5¢³ËÌ¸üQ¬;ù«–¨† Œ^…êá6ÖrfÑ/$·“¸†a½b9¬³©¾†uGLQìH—»ÁïÏíOúÿ' . "\0" . 'òÌïäA¬•Ô›ráH9Ô›wØ¹¹‡Þ£Ec4*ÂXÙYNG9ø§ GVà}é\\pÌ®]ÿ' . "\0" . 'Ë-]1wú“Éí%FoÙ¯YõÕ+fg†Ô‡™F7J`œW¬d1°ÀÏqâ¯ZUz0' . "\0" . 'Ø‘Ï5v…¨8¼š#j&ñ®7.óÅÓïR)¶òry9æ€ËÕhJÂ1‘Î+‹+Íì¬\'89š‰Ó	¸û5­XÚË†Ø§ŽÍk=Õ«dŒ2¹#¹=ëÎº}ÑÚ' . "\0" . 'l÷äU£KÕ)Ž0qLnÕVí®ÓúŽÞê;Ô1#4N;ÈäèkÎZF¾U@WÏóÚ­zoRˆ}PW8ÎI¬Òá‹Ñªœ«Ì$SæºÈ>jaÔLT{Àç¿<Ñ˜uÌ‘¹€sJ|i_!é¢ÍšE€ó@ÖTŽ0OÚ Üë\'a÷ÿ' . "\0" . '4+…½„þEx-FUkç®ŸõUMcpÜÎ3ðsMd	eÓ>„¼÷È¿~"?ú…*Îd×$Vãyâ•ÕeýÒ<ÓM,º~ÑÒÝí eïVÈ´­¨ÆUûŽsV¨ô«kW$PŽÙâ”Œ–‹¸"«wÈ1‚Û1>VÝ°' . "\0" . 'Ñ_»Æ2Üb¹’Î@\\‡qÜÔpí¸99aŽ½D½°P»‘FGœv¢¤´ÙÙ`,†ÿ' . "\0" . 'm@$câ JF]ìT¿íDNC…#·œW3GåXG8jžÊ\\Žˆ/a#' . "\0" . 'Èr99ªõÅ×¡+.q·š²nŒ©R¤‚[5Z× ô•ˆ\'qæŽ½‚¥lbÎPÈ2Î+«ð»¢Ø¾ã“’x;H¸ÚÄ1ËÞˆ_ÓDÀe~<Š§é#TUl‹s‡ƒi<‘Žõç¯©qÓu¶erŸ5è;ÀDdç?o…ýcºWvNAÃ±^GjÏ,8åœñ¤…NEN±˜¬ ~EEw |€Msjá$\'àÖgý;|Sµ’ã¤]€Hí÷£‹!r0?J¨Ø¸EÎxÎjZê^¡ °Uµ~Mq“[5æNáŠR^¨PGz«ÜëQÇ)XÛœv&£Í«;ªäí^K|— ŸPk‚oÇÍfRÝ‹ÝA‹·íSõ‹³=ÞÇbF3C4ý>A©ª²‘žœ•lÉËÉú4Nˆ´pcr0¾3[5®¡:_´n sT®–éãøÊò1ÜU¥´æŠÐ¢‚ì*ê/Á!?h¯]ëŸ†ºfä#qÏ8¡Ç¨ž;Õ’26n¸ïR¯4™f‘ò=¦‚6‰4Rmîâ«\\“»6Î“ê“yÄ|V³vaBùÏjÂz{U}:àGŸïWû.¥õ#Ã7s“Tÿ' . "\0" . 'A)R.2H¢MÇ84Ä’€§Éùï@¸¦På>jBêˆWžìsB›)ò%‹–à>sC®î”îÝí¶=;®ß=ùöàoÖ‰6IKªÑÔ·>±ÈíØS6ÂŽ;f†$Ä¸Á>(”dºª/sF•˜\'+,Ý/ã:³§-J[›èƒ(ã*§qþÂ½Q¤Êó²Õ‚‚p5};éÑ7Ô—…øü5„úŒÃÀfØŸÞ½£YIez¤1ù­p#Ï|ŽG)R¥úÙ®ÍßúTµ¼·»]ÎªàñÈÅFÖí’[s ã÷ªìWÎ’¤`œD‘6‘7\\ú[ÓNÅ¤±$<' . "\0" . 'jÎ5á––I,o“ùc’0qýüÖÙ¢N&‹FïÖ§¼­ÜŽÀçµ1rI`­`ò®¡ô\\²ö.<í#ö?ûÕnë¡uÞ²œ®q”Œ·øÍ{)àŠá†cËc¸¨ÒiqÜ«.àî5dZÊDS—»<fcž)6¼rFìËŠ)m+±Pªrlq^ ÔþŸiZ²žÎ&nÛ¼ÿ' . "\0" . 'Z¤kßC·$’iìCŒäqG¯Ùù3{;ŸN' . "\0" . '9ççŠ5§ß’ÃIÆHïBõ^’Ôô9w6ì¡9ÝM5k+DƒwcÁÁÅS}MQ§þKíŽ¨7(Ý·wŽjÃa«”`„ŒVoo‡EÚ(Õ¦¢pÙlñƒUw±­J²ÍcN×J¢.qà(ÄÙÜü¬ÇNÔš@Œ} ö' . "\0" . 'ÑtÔxÈn~z*ô)gfƒ¿¼_#þÚjMPrØøªt7ìFHcß8l`SvÏyvÍF¨7I`³É¨¶Ñ‚pyÍ3þ¨ÙÃ9ìVN¢È¸$¯ÆM6ú§·ÎÞÃ-@ÀìžËš™-ËÝiUHê¬Avûeÿ' . "\0" . 'ù¥JµìgRƒ„Æ¥—q<üS“@“ œÿ' . "\0" . 'ZaÛ’r¾<_a¸+(ÜFaš`Å	R£¸­D@{p¾Jû*G1Ù€~r8Ì×x#ÀÁÆj—$H	` žV…I«!_¢Ääc‚xÅ@¸höÃžÕ#Y˜fsÀPcuŒ†' . "\0" . '0òM•h5:X9YLr°-íð<T-mÌL' . "\0" . '”w©››Íïí |bššõdi\'ïŠ‰ù²àÓvÊµ£~ðÀdçòâ¬:œ`$.8Ï$U½NOFu‘}¸næ‹Ý\\ú–íŒ“UMš‡ÉðÑ>0|Žkþ mÀÑ­å_ÍÁ³ö­±îB«€1À²?­1›þ•¼<ƒo"²Í?f¾)4ÌªÆå&°LÇÔrf_°ð*· jËé,l –3¿2nÉ\\w™àìðÍÅà,/š%À8 z—T\\ÆŽ7Ô}kVh  ' . "\0" . '¼qT£;Ü]|œù5ÉÍlºX^½Ä¾¬—<â‹ÛÜ–bÙ\'ÇÚ«ZXöóÏ=g"B2XTêÃãmìrM®åƒæ‹XiëlƒÕå‡n{T!¬Æ‘‘L¾¯¸v~)‰Úß&½Ò}Koo' . "\0" . '‰Ü8æ¯º}þ4D´¡C<Šó]¾¢I8ûf­v:Ü‚-¦c´Ù©LgâòÍ[Ôm­ä)«šŒÄ=×y¬î]Iå‘²ÇoŠv£{I@/ÅŒ¬®ÑZE¾ïJ¾äÏ\' Šv7x3ûV…é}W¥VVÇš.÷pO:‘’8ª·uB¤›Ñ~ 0±Pq9¢gP‰Ð)&©×ÞëŒ‘ìûS6—¦Šp3ÚÚÑ¾¯Fµk©n‰{;v…@¼”<Þhm½Ø6(GÇã}b¶;Jü–Árí°¸`Ã=þjýôã¥Ÿ©5”XÁÜìö¬ûNW¼ºH“–r\'$ñ^¯úgÒô~“l×' . "\0" . 'eõ¦cãÉ ­<jÝ³Ÿòy:Å¢·Ðóˆ¾©õ=äHž…šE§ Œð(gÿ' . "\0" . '+ýëtÓu(¦T rŠÆ¾é£SéË­m°²jºÅÂ’?4{°‡÷Áâ¯^I§IÉoØb´œn×¶h:ƒ£Y—Úãã›_]¬YWÀÍX×¨Z}=%N<D¾Rë ’¤üÔ#‘¤ôÆ ­ç>>MXäxÉÉUÉîk7Ð®M¸^IÁïñWkKßR%=ÿ' . "\0" . 'nhÓåa8Â°ÊŸh
+“¦Ó†^>h\'®Ñ1*Åsâ“^ÈP³“€|P¶Š´ŠPY‰' . "\0" . 'Ûï]Üß¤	íewÆH€&¢íŸqûgŠçÖ2‘œƒžxª¿Aß »,¢2Ï
+:°ÁVO×þ”é÷ƒÔ³ÛlÝööš»éØ½ØýªEåÈŽ2rr03ŒÑ)%²&Ï9ë=%}¡\\0tWùÈ8"£èEfÕ9ÿ' . "\0" . 'òüžÀVùrÑÊÞåÏÈ#þ*½®t¥ñ2Á›yÜJ‚~1Iï4²Çºs§ô¹Œ@°*Ýùÿ' . "\0" . 'æ´SéÞ“cÓWwV¡šx iUšOnBçö¬*æÛTÑû<Sù—‘DÔVM
+ãLk©=	ÐÆê@åHÁ' . "\0" . 'ø«—$šÃJ_’´\\º[JÒõ8c’WÚÚÄŸšÐô¾…Ñd*Ïädö5ç[. »°eôçhÐT(ÍŸÔ=^3í¿tñÆüTûT¤Qítúˆ°é½Kumo¶8£|(îHÀóU9¯FÜ°sžØý«½SW}Rs<îd•žAb’1R@þnÔ‡&¶Í×Àó\\z‡pnýý´©µŒ¨XàóÀÿ' . "\0" . 'â•+y›K' . "\0" . '5¸oOq
+NqÈ¦år²\'’Ã$šT©œ˜ÑÎäð5+–;dàâ‡I3ð3ÆêTª@ºT}ºBŒå|Õ;QoFóÙ»‚1Þ•*ÒÊŠ]ˆNBdqŠ,…”v©RÖÍ)"·#¤ä}è¶’Xã+À¥J§&†y!Ã3°' . "\0" . 'œñæ¨RQeÐ®ãa•(ÙûÒ¥Y<ã’<¶²47(àâ­¹/jŸwÈ¥J”öua°6¨L’c*$Vè?—½*UAËaOöÔ…í_ÔŠNÍ*UÍ<gNä÷ï]E3Až)R­ü‡"}¼î%ïýjÏ¥ÌÎ‡\'Å*T•þ€†dq5Ã‡8jupîA\'‘J•SÆ†#ÔgÎjÅ¦kwd2piR¥ˆ,ï$xcš“o
+"ld“J•P©lµ+˜m°½ˆ¨âB¹¥J ¦h?Gl¡Ôú¶Í.z«Ç‚@â½;õ:îM;é÷PObTÓg*Äò	B3úóJ•jŽŽ;ncÿ' . "\0" . 'Kíc³èÞ%ÄQÛ¢€AVNÊ¶òHìiR¢2È¨ÌÐA*¯aíçž(ÈC®8Ç<R¥V¶H­€XÀÃ0Ñí"wcËM*Uvìd’ ÊÈ^#žqŸÞ»Aì“žÔ©TbÖˆ*ç×ùÅK‘±ÇÁïJ•P¦°‘Š’=¹È5Q™ÄøqžÔ©Q!¼c!pàääš"=öùnN3J•Ðää+™(;{f³®©¶K;ƒéd]ØÍ*T¡ñHÄŽÊ0)ÄÈ`ØqßšT©Od‘ÌÓ6Jx¿“OÅpîN|
+Tª¥ øÉpáF?sJ•*Ì>ÿÙ')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 08:38:57 --> file_put_contents(D:\New folder\My Folder\e-absensi\writable\public/Assets/img/karyawan/KRY-2025-05-09_083857.png): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Absen.php on line 52.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_contents(D:\\New folder\\My Folder\\e-absensi\\writable\\public/Assets/img/karyawan/KRY-2025-05-09_083857.png): Failed to open stream: No such file or directory', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 52)
+ 2 APPPATH\Controllers\Absen.php(52): file_put_contents('D:\\New folder\\My Folder\\e-absensi\\writable\\public/Assets/img/karyawan/KRY-2025-05-09_083857.png', 'ÿØÿà' . "\0" . 'JFIF' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'ÿâØICC_PROFILE' . "\0" . '' . "\0" . '' . "\0" . 'È' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '0' . "\0" . '' . "\0" . 'mntrRGB XYZ à' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'acsp' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'öÖ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'Ó-' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '	desc' . "\0" . '' . "\0" . '' . "\0" . 'ð' . "\0" . '' . "\0" . '' . "\0" . '$rXYZ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'gXYZ' . "\0" . '' . "\0" . '(' . "\0" . '' . "\0" . '' . "\0" . 'bXYZ' . "\0" . '' . "\0" . '<' . "\0" . '' . "\0" . '' . "\0" . 'wtpt' . "\0" . '' . "\0" . 'P' . "\0" . '' . "\0" . '' . "\0" . 'rTRC' . "\0" . '' . "\0" . 'd' . "\0" . '' . "\0" . '' . "\0" . '(gTRC' . "\0" . '' . "\0" . 'd' . "\0" . '' . "\0" . '' . "\0" . '(bTRC' . "\0" . '' . "\0" . 'd' . "\0" . '' . "\0" . '' . "\0" . '(cprt' . "\0" . '' . "\0" . 'Œ' . "\0" . '' . "\0" . '' . "\0" . '<mluc' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'enUS' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 's' . "\0" . 'R' . "\0" . 'G' . "\0" . 'BXYZ ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'o¢' . "\0" . '' . "\0" . '8õ' . "\0" . '' . "\0" . 'XYZ ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'b™' . "\0" . '' . "\0" . '·…' . "\0" . '' . "\0" . 'ÚXYZ ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '$ ' . "\0" . '' . "\0" . '„' . "\0" . '' . "\0" . '¶ÏXYZ ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'öÖ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'Ó-para' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'ff' . "\0" . '' . "\0" . 'ò§' . "\0" . '' . "\0" . 'Y' . "\0" . '' . "\0" . 'Ð' . "\0" . '' . "\0" . '
+[' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'mluc' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'enUS' . "\0" . '' . "\0" . '' . "\0" . ' ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'G' . "\0" . 'o' . "\0" . 'o' . "\0" . 'g' . "\0" . 'l' . "\0" . 'e' . "\0" . ' ' . "\0" . 'I' . "\0" . 'n' . "\0" . 'c' . "\0" . '.' . "\0" . ' ' . "\0" . '2' . "\0" . '0' . "\0" . '1' . "\0" . '6ÿÛ' . "\0" . 'C' . "\0" . '
+
+
+ÿÛ' . "\0" . 'C		ÿÀ' . "\0" . 'T¤"' . "\0" . 'ÿÄ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '	
+ÿÄ' . "\0" . '?' . "\0" . '' . "\0" . '' . "\0" . '!1A"Qa2q#B‘¡R±3bÁÑá$%Cðñ4DS¢ÿÄ' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . 'ÿÄ' . "\0" . ')' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '' . "\0" . '!1AQa"2q#BRbÿÚ' . "\0" . '' . "\0" . '' . "\0" . '?' . "\0" . 'î!ä
+¾>iX¢àêó^‡B‘´R¨žÂFØÑ¦™ç×y}šYØ’¸' . "\0" . 'æ³ðû_žçŒŽ1JÂ<òÇ4¾Ìdƒ‚|¡*4KpÈÂ÷ÆiHâ' . "\0" . 'ñƒŸ' . "\0" . '×¨7eN[ïKG\'ŸjŽh(lUìÖ(‚‘€u81° ŒñŸµ(vŒ€@íö¥­†÷ËU“±X U' . "\0" . 'cw9Î(¼' . "\0" . '0ÈãÀ¤!@Œ2sD!>ñ’8ñR†Ò[Ú.-Àí÷¯v' . "\0" . '0xÇ“J@…sß”Î7c·É5tø6™U†óóZÃj°·ó»¸¥C,CyPQì*-¬õ4·"T°ŠYýïœ±¯Û>cUA[%nO\'µ3{¸ä%SóÈÅUš¶¼éÞjÆÎÖ<—iˆãá$ÿ' . "\0" . 'j«ú›ø]*/f±¾r#0Y×ä3šºNðÎš‘¥…7mŒý!²?Ú›Y\'& þ™mo?¥rÿ' . "\0" . 'Å„â}K}ø7ãi…Ë¶Õ­Ó?ŠŽš²´Ýg©Á4*8†E+&>á½Â¤—€\\ãy:¾Âö0û$b§°ÝÅvœø®D·þ7ºbùä¶ËmH8þÃµL´oâÛ¢õÙ"[Yä' . "\0" . 'Œ¶ˆ?|ãŠ§	z/º?P/ú_H1CfínÇi¹6©ð€~qŠã~²ÕSXÍ?¤±Æ§ùûpSžù®¿Ö~£hOc4QÅÜWÈÊ¬?½qWÕž”^€ê—KgŸJ¼bÂÚE*Ð¿•ãoÁ¢¡ræÈ~¯ÿ' . "\0" . 'ðÒÜ½½„‡ó¡Ê†\'¹ø«GW´Ký:ÃPµ•?ñ€\'„Î;gÿ' . "\0" . 'z©!ÓŸX·rªZ^H@2Ç\'ÒŒý3ê±c+i·r f#cs·ÿ' . "\0" . 'úu¡-%š->•ê‰â_Ã_±ŒUðØ}ªCw¨Ù¥Æ!%‹©açŠƒêÖj!mßj1öþ_Þ†Úõi–æ{\'º·B ùÇsûyªVRÚ&z–¯i¦2i•	9Ú\\C[¯lnß\\ã¹ý*«ê~³Ð¡…¿ZTÉ,Cå¤o·Àª·^úa}q›XŒJ0©ncúŸš>­¡±äêeëÛ8Ùc‚)esÛÛÿ' . "\0" . 'zUµ§™Ì±¢±’pq\\j>¥^Û7¢^VŒ~Q¼ŒR–ßTïìeõŒ²;•1aþh:j~€úÃ|nzqîDl&¶på1ý=Ž?½s§W»H¤ù,“ë|:ž“$¥—çR=T3ûŠ­ïº‚+èJ¡TûAø ”Z.“Ë!}Qjb”:þR9ÍDí¯’–{v<Öñ¥˜gÔ&m1^r(o5I³BÎ¾ª‘]' . "\0" . '”í[C¨8ŒqäqˆcW9V¢+¥-½ÀNàÕ¶½’K@uüAºûIð)H`–F$1Ü{š7žÞ…#¿Í<ŠÒ5»*5™jX ¶œXò[pÿ' . "\0" . '4´V981óGÖÛ#â½Ž,]ž' . "\0" . 'Ål*Ð.ÛJ2~<SÈ4íÉ1E`ˆ	X`àø¼pÄ€(ê„·c[k2>qOl¬ãÃhÇƒŠ^ÞOîÎ' . "\0" . 'ù—øQ½ˆÛY´e¸\'µ+’´§+ƒŽqOm“c1akhóOJô.W U­¢ú§NºFÈ­Æí¼j!j¹¶Ÿ5atlo½YH\'àštS[Èû¯Ô}eíIÀQƒäQ[uµrÀóIXAéÝÈßÕãíE´EÍÓ³Œ°óŠÒ›ðaqqØ¬HRpT©^	ûÑm./þvyÎ4·eÔ‡<yÅÑ•%½$Ÿo=Çz•BºßƒmB+ƒtÅ[íŠÊ)èz¬ÏÏ\'Íe?' . "\0" . '8¿³èD]‡$Ï"œÄÊc;yÇÆsMÐqŽÄÔâ6Øv–ÈøÍy‘ÚŽÍÁV›öûR€o’' . "\0" . 'â“S‚@ãÎ)MÛW“í±íWF„Åcc¸2Å(ŽãíIñŒcpù5´d)94ƒI¶9DxÎsN 9oÊ>2iØíú©Ì8ànª¨}jAÀî{fŸÛ«oƒã·jaàãœÓÈd+ŽpIÇÆj‘ „àx¦wn¤[¡çŸ4´“­¥šœà‘…& }w«M|±hÓþ[Ñ‰§·Ðˆƒ—\'ÇlUŒ¡·Ru<7Ó:É$ƒN…½ñÄ¹3ŒüT­~¥ÜZÛ(‚!km¨ ?Lô¨ºù[FéÑ~Îh`Ž~ÕNßT‚|ã ŸžÕDuŸQÞj?ˆf¼3*(Ø©óþ‘ñW.IŠj¿Qõ¾²Õî.¬5E·†×tRj^–Ø»b÷ã¾|w¨Ru“¤Ky¨_\\ÕU
+þ"GÚªäc9Ç8øâ™Øi·ÚÂÁc2YØÀI' . "\0" . 'B¸åÛU\'õSê†—iÚxfH‹ožS†öÈ±Å6Hqõ]™¯Ô¨f{_Äj73Ü])À‘›Ú?(ýS÷PZúäºÈQÇ“Qî ê	µYŽÅ—9Á5¸“i,ƒíGÔ%vË*~¨–ñÔ=Ã÷n)î™Õ×–Rn‚öhX
+9Z¨“T|òäÛ&Ç¯Hc?#µ2SrÅ3¡´o®Ýa¥ßCu·r%ˆaXAqæ¬áüM·TèðjÜFòI¸Ì=Ã=÷|ƒŸÖ¸î.¢•c`_\'àRÖ½VdÚ‘¶¥§±2âwhèØ:á­5/ÅÚO¶h˜²88#Ç±¤®zÊÄ]ÛßA(I¦ÃNª1é¶pGýÿ' . "\0" . 'z£mz±7ãÔ8ýiyõ•’"cq“ÎEU¤Nìë¹:ºm\'FŠ/TÈ’F|?LußÔy­Å¼æ9™J;#`{Š[}T·^ŽÎl‹ØOµÙ».;UE¯u·7;9“qÏz«²ãl™^õŒ×£,åøïMbê«m9=\\	\\÷æ«¶ÔääƒßâšµÛ;wcKroLÐ£Z\'7]L×÷>¦v/À¥—Y’é¢×P‹Û¨"Ýe€Œù¥–}„€Ü5ž‹,í?TôI•gQØi«F½H“ÑVð½ªk<r‡(í†¼Å6ÉüÄ\'œÑçÈVB&I¶U‡Š#]Û?j)éú‹êCîSÎÓâ“xxŸQd›B2¦ÕFÏ"”4lx\'æ•*pßÚ–Ô-C,l0GJÞg„bíXùæ·˜vœç¯fPL£ŒE:¹ˆ¬±2¯,)ØÑ¦Ü\\)"“ØEæ§ïjZdÊ“žø¤ï-
+]£möšwø¯&ÖÄƒâ”†3°¥ ‡3çF84êÚó‘ÎiŠ*BñàòÖ0®Ã$Ü{o”ùå¼ë¶A$Q;WgcŒSTz,' . "\0" . 'ãˆÂ¥ÎjÞÜq!#·NÎÔ¶ðSqðkxt™¤.0ñD˜¶×†±ˆ~%ˆ©÷L4pnG…Ó:Jüîajû3ùŠœTó¦úR¹ˆzv’Éž0æ›Yl¬ÞÁÀ–LqÅÒ‹7‡z—tßÒN¢»…„zdÍÎ9Çþª[ ý@s¾ÔG’{¶@¦~hùhTá*´ŠæÕs3ÀûÓý¬íƒµ|Šº4ÏáÎð¾é®îHÉý‡Š–i_ÃÞ™h™¸•Ü·nh—:öfQ~YÏém!CíûšÊêH~ôüIµa`ËšÊgå^™]_ÑqÆÉ#©íÏzr!
+w' . "\0" . ';|öª3é×Í;¬­ ·¼‘ ¾*	SÂ±ÇŠ»lîÖxÁŒîÏ<×ž”qhÑ5úÍUBí+ny*?&¼
+¸pÕ¾ÓÇö¤³tG„±P¢`' . "\0" . '3ßšI»‘ŠR5É$ƒãÅVÇïÈò3œß¿ëNc%yãžÔÎÇßqNã\'½J/ÀþF<gÅ>Y6”Î0M1‹ò÷ÎiVuR§«É¨1\'ä5{ †Ÿ' . "\0" . '°#ò×7}Eêµ¸×nâIÄ·¢I8Ê©=Ï’jáú—Ô‹ÓÝ5%Ì’&*Xù#ŠãË[äê=V×TžI=L†3z§Œ~ÇûÔ*Å:ãR²Õld’ù„EŽ&TÝ¶K×•qår3µTVšµãZjA¯Gµ°bmmÎ' . "\0" . 'løò{cÍNu=eº‹©.nµK„²Ð,G2ºíU' . "\0" . '1þÃ¹8®púÏõnÓ[Õšâ%6ºmª4VŠ}ÒIÿ' . "\0" . 'QÆ~Ù¦%z	\'°Õ?¬m-…®l«eo	i$ä‰\'cù}FøŠæÎ§×æÕ®^i$,IäÒÚæ·>£pò»nÉ¨~­yé±Uç4ÎÉ’ê”‹ì|Ó7¾%Aî{bšÉ+Jrß°­*9Xiš|òÃ"±æ' . "\0" . '@ ŠjN+dpE)²Â>¶rò|Ò‰`ÝóLÑŽq“Ïq[íÄœv©vMŽ–õ÷wÇÛ4þÇTtB¥¿N{P–A#p¤4´Vížçš%*(w6®Ä°>ãC§¹i»“ŠVâÊHÜíRÃ¾i³FÙäb§êC=BG<×‚M¾kþ+Ò»~µ{XEP¢åØp)is´c>+k8p·
+iÌÖî$àåMW_¢Íì¤ß
+9dÓ­Ïo*î9â”ÒíÕÐò9­¤;¦R' . "\0" . '%|Õ¬' . "\0" . 'ò±º“`dm¸ñE¡OÄ@$y¨í¼Æ6ÏÉì*I¦¸™/‘NŠú$…Œ&e_nGÈ§Ú»YàgÛÚ¥]7ÒíªBàqàUÃÓA,µ³Žâðbq–
+¼¯ÚŠT²É
+xG:Çg,¶É„Æ*{ôçé´ým¬Y[Xb2*É3°žàw?µuŸü1ôÅ¼£Ks&ßÌN' . "\0" . 'cñÞ¤ÚWÐ¾—Òî£Ú¸#Ü£Ölù¡\\±ô6\\r~@ÚGðÓ±¼"ëU+k©Ž?^j½þ ?‡};¤tïEŸñw3Ü´2ÅnÚ6’øÒt…‚²;E¼¨ã,HþÙÅ‡@´FSéFí÷Q*~LÚÑ¯\'Ï­?éf¹sw²->â@xFMK´Ÿáï©ï.04ù±‘¿šîk}>(±„;dŠ¢¨$ƒØùÈó?	­hä-øU×nI9‚Ø©ö©V—ü(Ê¤›‹¨ñ»¼ñ]9o‚q€sÇÍ.‘†ûg5}¦ó`ÜtÑIèßÂî‡k’Y¤”ÿ' . "\0" . 'RöµKôŸ¢=1§8ÿ' . "\0" . 'éÑÊ1ŒËÎZ±Äm°.;p1[ˆ™› ò¾' . "\0" . 'ïQgú`Ë®£€ŸCi*©…²¨ìKò(­®ƒaoÿ' . "\0" . '*Ò²{¨À4ýQ·IñNb€*î9?j%*NKÉ­½œQü°ç*3Nâ"ÃíGŒâµH™q ñN¢…$P7yü¿ã4Ä‘šI½³uÆÍÇ?~Õ°vXdŒ|ó^¢c‚è{Ò‰´®3ãœ
+.ÑF[QtÐp 8íšÊS,œØÿ' . "\0" . '¦²¸£ìù?ôÿ' . "\0" . 'êeÆ™4)s#FÊ×íÍvÇÑâ_|PYë3¢áRprÊ<gæ¸M=n"RT#c‚>Ð:š÷¦®UX³Fr-Åäõ\\ß	MÝd´mzÛX¶I­¥#Œ†Sš*².Ÿ±Æ+ç¯Ñoâ*ç@1‘sø›S€Öî/é]›ÐŸS4¾¸²Ym.7f@ySñENG*\\RâðOw†p<ŽÙ¥QUœ¹#ïMb}Ä{xù§
+r1ñJq¡v…–BÊ2p@ññNmß8óŸŠižrp' . "\0" . 'íŠs…Šð' . "\0" . '¡’öBTQÀñœÒ¶Œg‘‹ädûGÍ5’ç’3[Üjk£ÙÉvØ&%gçì*~Žqþ1:Ò]FëNÐmK%œJ­u b›Û9
+ÿ' . "\0" . 'ª»IÞM
+K¸RµZáÙFƒ¹ÆóA~°ê²êºÏDÉ%èšÏPÕ®f±Â•T÷“ò2À¸ª¯¬}i&¥j0\\-ÑJÊØÜX‘é(òxÉk8@gtC>´ýcMO¦b°·™œþ#ÔcheÇwÇsÏÅsF¿ªË{Ì’-ý?ã¨õóuvdÜXçÅGfcq9|ð¥àjC;ë…·±Ø¨¥ä­3döÏ&jvæ‡\\Zª[’9Iú	4°n+\\â½~"½D/ùFj›¡‹&½üVégÀÑM
+æä®ªK¥td…Õ¶–?qRãY¸Ü´Dâ°,9îií¾‹+…Ü*ÑÑ¾››‡ËÏÆ*{ ý)Œ6éñŠSœbhÇ›Ú¢‘Ó:>k­­ƒÏŒTžÏéÉl3)yÛô-µ¡þ\\c?¥‹¦`‰3°žØ ü©Œ_û9ûRèfN3¹GŠŽÜt‹Îb;¾q]5w¤E `"Qžõ¼éxv±ÚûÑÇ‘£™/zyá-µ2M–ÒDeÆ<ÕýÔ]9JD*üvªïYéö8^œS#4ðcŸŠÉŒn‰}¾ÁäR¦pò‚?/l^X(™J’3Šdö¤2qÍ7­äËM…lÂÄÄœüR†5IQÁóJXÂD`°ö§rDÊªØ' . "\0" . 'Þ¯$n„v˜#—$ù¢º<åTx\'šezAµ§‘Åf–ûaPx\'°¦E«39ß‚Ôémq4×ùŸ¯5Õ]	©[ê°Ú2/¹#zž;WÚÍ­œc¸®‚ú#×CF¹.Ô·q´ÿ' . "\0" . 'Ò>i“]0Ã:ÛD¹{¥dÊ?/Èðh› ‘a\\“Ü1¨î‘qÖ±^[°š<gØs¹{Ô¢)à»‚ˆ±Ø?oµcòkNÇñ¹ìYyóÚžª2ç~G—ÿ' . "\0" . '¬@ää÷ù³lÀ Š»!‘*ºv1ÚžAUÈ9\'ÇŠd‘þ ²“î¢PH=ÊcñF-º‚“É&œz[1Œ‘ày5¢ª€7>ùïK«£aIÉìÅŸ{q2xqK)~Œç‘MÜ’„Œ’sÚ–VörqŠjÂ+Òvûgàæ•Š"®W%T÷\'½$©“œç·C¼ä‚' . "\0" . '8Ïnh²)ÿ' . "\0" . '£´ìy$cµ- ' . "\0" . '' . "\0" . 'Óds’H¥VlÏ÷¦&*Xð-,Å›œ“áh[i%·=¾õ¡2ã=ÅjÒ’<íÍøg“¯Í;…<Ø¬¦ÆàùAýë*ò.þ“Ö¤z1‘ßƒJ\\ZGr¥\\Rp’#L)#Šu†câ¸vÛ>Ž¸šØm®t{‘-©*£ž[L¾´]ôýüN—&€@äðjéM¬0<Š{¥üØ}Œ;S”«B9¾$d¥ßH¿ˆ+­Š+;éÞûoæ<ý3W­ÊO²:²‘ù¯#××šâ¥Ë6Q†ÙŠì£?ÅqÅ®«pe· *Ì[%Zgô²;Éñ¥Æí#²”¨ìsÇŽE9ˆ•+‘æ¢úTYêö±Ïi2K®àTŽßµH­¤YÄ3Å)¦…¦ô¶`Ó¼àÔKêMÿ' . "\0" . 'áºKSbHŒ#+sƒ‚cúT’+€®ìœ‘Þª_¬}RËkslUZÚkY”' . "\0" . 'y2í ¸\\ƒ@žKwGuŽ¾uŽ¡Ð ‰ž=?§lWO·þ¶
+Ò|’Gz¡~²õ§ücTžÞ%E¶‰¶©\\å±ÆOÞž·R5¤rÜÈÍ3e†Xþ¼ÕE¯êO<Òqf&žëÁp¬‘íFì²NyíH[ÈÒÊÇwàÅÔ®·»9ù§k£GyíúÔNÇ¤¼ÈîÒã¼»RmÉ	À­Ó-.3Š}{
+-žT÷î*Ôh”E–Ýnæ
+‘RnŸé=òou$}«]HiåÞ«’jÖé~œ1ÆŽã' . "\0" . 'Òå%àÝÁÆ¥–šGJ	]@N?Ú§ºJG¨Ø	¢Ú6†¨Û' . "\0" . '}»Ô¯K°XAm¸ý«#âÎ¬8½´Ý;b3µŽÝƒB4BÏN3‘yíE×IXQXšV*5°5µƒ;n#òÓßÀ™' . "\0" . '¤nìqE£¶p¨GÞ–K]ÀsóÞ®ÐUdRóI³þµ¼°ÉuÛýªÄ¸¶$ÊXc½G¯´ô`JŒ0ñV—°z•N·¦…› ‚ëšfwç5ujºgª=Ã\'¶1PÍoBÚŒU9?jr’ô#’*[E+¥/¤àŒsúP)í”@9¬}[LÁÇšˆjb\'!ySþ+L8œ°èÄ,TŽóã[ÎìP6­%lO\'Åi;ûOû^Q‘¬›¾}‘ž+,[j©ÝñHÚÝ+çœqŠÌ˜&\\žý±U”âHRà, œ†óS–ÖšÄ#ÄrAìj™•F9ÆqF47h¦›ØŠj˜©ÓÑÙŸDúùÚÞ;Yq4' . "\0" . 'žWíú
+¸%œéÞ¥ÔM›gÃ:òvýëˆ:7«.º{Q†H˜˜ò]cÑ]gk¯ið_Õ—Þ§ºç½&iÝ ¸Ý*e¹§Íð+)sš%~™Èa#T¥µ&°f¶úþ[ý³Ú§‘Ê³DÄcitÆ]Ž£PÊF9ø&¼…ŒTø¬„±ûR«•R3Ï‘D“+>Ouñmi$»C]À
+¦4Î¾×/~¥XEé,&;e' . "\0" . 'åc\\ò_·z¹¥Xä…‘Á' . "\0" . 'üµUOÿ' . "\0" . 'Iú‡q
+˜ˆ&ï,1ŸØÑ­è	,`»#—ÔŒžKvÒ¡‰F ;BÝÙöv®;
+q˜lg¿jjBÝÐ²{SsÁ­ãvÝ´{OÒ’Vläž VÛI$äîÅÄ8ù¬ŽdÃüqJ+mÎ0éMØ¶ÕÚwæ¶÷ªc8#æ`ö,ÒmuÉý±šÖI“•ÈÇ<r+Ç“~n<Òm <‘Ž½¡MzM3öày²¼ä\'¾ø¬«ì\'õ>U@ÌaPXŽâÛœÄs…$þ_4:Ò\\/bF' . "\0" . 'úÎ0Óm9ç“šâÓòÏ¤xØñ²øÊ“·ÅhÇz(°…GhíÍ2šÉ' . "\0" . 'm5i—š°{[Äñ¾ôÍÆqÚ˜iš…÷M]‡1‡9àö¢ò¾ÍªM!u®¥@ÈïÍ°%ÅEEïô‡ø‚½é›¨B]4–§óÀÇƒú|Wh}:úÃ§õ…¤Oo:¬¤{¾?ò‘¬$²•n!fVS ðjiÑŸV/ô[ô1Lö“/g½wƒÏ|Ÿˆâð}XÔú¦5Ä¬G;WÜMsOñ¯\\ÙtíÍ»ÿ' . "\0" . 'óCoß¹ˆÿ' . "\0" . 'î7ÛooÔŠtñCa>Ž¶š†Øõ#Úá´ŒƒûÕgõ«¯½-=`žè•ÆŠrÛ	äþôJ³›ÒZhåwYôàx7YÊüT#P¸#~;c4ë¨µVòr§' . "\0" . '¹#Ÿ½¾õ!m§µ\\ÝºFˆÅÖ@×²—“ gš%¤¨“r¨ŒÓU‡ñ•' . "\0" . 'îù§Z8h¤*ÃIBe*y§’snªsœù¦ñ;GrÜŽyæœÃ]Éï“Ûæ¨¸¬“NÒ÷"\\çžjÕÓ,ý8#LdŽp*%Ò–´cn	š°ôK|þROÞ²ÍîRÐCN´•—q]£â¤–±3"(\\µ4„mUÀÆ<Ñý6ö>zEÙÑ‚l{§Ûð7!' . "\0" . '|QDÎŒ)H¶Pª?µ;‹€r8±Þ‡e$\'ofrG´÷±‰QIqØŒR‚cŒ“ÀñŒS(î%¸¸dT8‚h£Ó}Ó}/Oæ†]XV}¹Ï5,K2q?¯\'°þV
+ÄvoM0h­/´Ç•É ¨<Š‰ëúlÞ›`5lÞiù~3â£º¶…˜I"Š8Øçn Š@$P¼ŽE@µxL7r|UÕÕš0ƒÔ;p;vªŸªm}¸{€­g/äFÕ‘øÉŠcpÌ#aå©i¤Ã$ˆqI] w¤óâž™Én°Ð…¤ËbHS÷§’HeXX0i¼)ŒçÇù§HƒÑP­î¦!m0¥ÁVBO"ŽFÊ_8£ö|¨Èz[¨{p@' . "\0" . 'ŠlkÁžWaý7S*J¹ù?nô6ºÖqÅ¾ÝÄ(lcõª&üF' . "\0" . 'ÈeâŒèúåÎ—xˆ\\”üU¸ØÄß“²:[­ÛM»:¬oÉ‚²í ù®-UŽOJ—ÖB7+g9Ç+®E¨XíüLŠÑá¤bÜy' . "\0" . 'š½ºy¯º|ÛeƒÃ"‚²/!‡ŸŽô§”½—Äs$„•¿íJúŒx<dTOE×”@¯1UNå~µë¯¯ZIFè—YóÂŒþÔ
+n’j¶Yò^ÇlŒ$ÈÜx¡(š&™rgan—ï!îSšäŽ¤þ"5MzêAlío	$óÿ' . "\0" . 'ª¯µ?©ºåì›ù°Oô¾?ÚŸ¹:)$}‡¬t¿7ÖãÀÌ€bŸÁ­ÙÜåÏ°í‡Í|Ù^¹ÕÃäßOŸŸTÿ' . "\0" . 'æŽé_U5Ý5•–övÛþ§$jwáORÝ¼¤}†å&N»½8ˆå7{×ôwñ1ªiÓF·ÄMy`{Ð×DôÖ}#«¡"•¼ñVød¾Å9{Ág¨gsÉÛÛšTÏ`0)µ¤Ë:Œ‚;Ó¨‰l’¤|@’[(ðéŽXµkè…àãŽÂœdàŽùÅ$Ü.H?¨w¡#I6î;@ÇØVW‚VÃq÷¬¢ê+¬O”Ö¿òÔ)Å´ÌÓ·#æšÚÿ' . "\0" . 'ËS¸i{W	7mqÕŸKm7„IíHô@ õÛh;—p<' . "\0" . ')¤3æ ¼½*gäƒÈø«Âþˆûz–0Wr}zbXîÃq4úK&í ‚8¦—8XýAßÉ5]SÒ/5Ci´Œäý¨V£
+´jãÙ(ç"”¼¹ëê' . "\0" . 'JŽù 7z‘”–ü«Ž3MQbyi­šIÔ÷6E±ÝØ1 º×[\\ÝÇ‰ç3m]¨	íAú‹WR€þõ{£$¤îãïL‹ðp¦•Ñæ¡~^v9\'\'4ÁîC¨ÁÀûÒW—' . "\0" . 'ÍñŠE#28Î;f£I
+j‰‚D· Þ|SíBiq½' . "\0" . '#âXJÐºp>ÔNæå¤UÞÙ?5@]ŒEËµÃ1ûT££!7œ;†S<ýª4Þ”­†ÝúT×éîæºPpsàÔ“Á§…7$‘xèÖË”TÆ' . "\0" . 'ã,Ó‘”àŸztý±X‹v8ÅJ¬Õ‰EÆqX^OKÆ±L7§' . "\0" . 'ùBA©6ŸðÜ°þÔNHøÉ‡j=èÝKÃíKfmáð;SÅ‡vÜ.M2³“rƒ4NÑÕÉr<TJÞ@“6m<Í"¨ñÆ)ý¥”qf0£ž	5½¼Xb' . "\0" . '%[É§P¡F\\' . "\0" . 'yóOJ…IàEâU£—?46òÒDRÀÝŠš=(Q!` çÍ4˜zêÛ¶àz#-²/%„ŽØ-ÁïŸÊþÕ’¤c%žÇhbxÅ0¾€ˆÊ²pïEH¦ÊS«ôç’)w®ÓúU\'ÖY[9Þk¥ú“NõKÉê—ëm0©•}?i¨’^@äý£E˜‡r¸ÈÏŠMG¸äðhž¥oè]:(Ç>i”ñ0É­G
+xcfOH÷4úÐFb˜33&qóJiŒÈ]ÜS‡A[uÙ&FJçš9e.ÇVîžTÐ;g-Â‘ß4V>˜BF{æŽb¤¬9j;‚Ã…<Šyqsx˜=Å1´™e;qJÄLsŸ>kMXª,ŽÖRÚÑ­dDmÃnàÕÁô¯ê½½î“ªK¸D¶Ó3HÎTýû~µÍío<e‰ˆ\'œŠV=vîÙ€õJ±àœÒœÓh½~¢}n’(f²Ò›jck=êŸQºÖgyg•™™·Æ“e–ä´‡“4W§újÿ' . "\0" . 'V­â,£‚f™Z›yhöÎ6Ki[’Æ{ÒvÚ\\÷’Ž6sßW—E}2Ñ4ÞŸž~²™ôÃ>¢rüÄyÉì)Æ—yÓ]u#é—å†Ó5ÎÕ|€9Æ~iÊ–Å¶ÛÂ(Ø´» OM™ûb–žÒkbÔ¯Í]ÖºïO¯R¦¡.€«CR@Ã?¡àÖÝEÓ:Ô®YtÛ˜´¨ç‡sC:ÀaqÇ#š‰^v°QÑ)õ2I+ñFômzçE¼K‹yž^ÅMJ>¤ý5n†Ô Š9…Ì2Ç¿ÔQÀ>@>jøp0Z³‘M=3­~‹ývˆ†ÏPuõ' . "\0" . 'ÀÉÁýk¢¬u¿$Ç¦ÜŒù§¥]É§\\Ç,,É"Ab»è\'ÔdÖíÖyó2àlcÎiroØ_íx/wò3Z2ƒ‚Íù~<ÖÌÇb‘Œ|Òn¯QYÑN/ØÞ@ªç‚k+w
+òß¸¬¢¶\'íˆô×ÙÁœG¶"¹Á\'ÇÅ!¬±£ 8À¯%uGãŒ×!ÅíŸB’”r†U#òí8àÖŒò•.HÇn)¥µÐ–!È\\y­ÞåG¸v¨Ÿ‚á\'±]ØÎÖ$ã4Êîù}0‡%³Mïõ4¬Áàw¨ð¼{©ò™94}}2§ÈžCQ”!ý©ñóQ{¹v¤»	àT†ýÄVå¥`‰¨n»~¾™8
+ª3š‰{2J)&äBµ»ð÷%9àñ@îg÷' . "\0" . 'JêŸŠ½w.x¦.AlÓ|œy,Ù³±qÉÉù§¶è\\Ô0óE¬v=ÉüÄÔëzrÎˆ¡S=ûÖér²€	4Åä	Çzñe>*©ùÝÜ6|UôåçFÆyïUœ˜gÕ·ô¶ßØ¬ÃÚ{P6háMÊ‘|ôÜJmÐ’jGf›%`9â‚è!W±ÅJ4èC{ˆæ²JE
+BöVÆR8ûQ»fhÀã8ù¤mí2À€9ç\'ÅX=8Çoœš]Û¦9¾Û·®ƒþ(½Žc#rïý·‰UCd6{v¢ö' . "\0" . 'S· wçÛH©5 µµï¤»rçŽiê¼F0sžÆ˜C€ù+…\'·Å+03Ž<sDšb
+~#|»r@ùÇjÛl`¯¸yÈ¯c$ŒY4a¤È9_š4Ð™Zð5ºc%•òO\'"â}ë¹x y£ó(‘0Ìª	ÇÜP»‹xÐãÇj&Àì½ÍRÌÜHìÝ¹<ÕcÖR8`GqW.¥ìŒgÇê]0AÈ©ŠØ¼¶rŸZéŸ‚Ô€À&‚,#fO¸U¥õH¶‚Gz®' . "\0" . 'XŸ¶Gb+D*©Ÿ‘–€×v¥XÀ¤r«cí“G.àÞ€6üP‹…0Þjé§F&ýÀ
+È0{Ñ«e.F1ŽÔÁZ@ÆÍ‚ 8\'ÛóštSbØZÞ3è[·ÞˆÜD”ìy……%—Í´¹SˆÎ' . "\0" . '›ŠÂÐæçþ‹cÞ™J‡‡»œæœ¸P<ƒØŠo ‚Œ0Om4ÁÊé×/p¢68>[ßOºµúE¼†Ýïo
+²ÌO1žß®jž°¶dÏú‡cR+©•#L— çµôYdF×½Ey×RÈD’' . "\0" . 'ó¹Ë`žqSM3Fé®ž¹»·Öf†õ‰Y­KÉÉ±ÁÎjª¥ë[GhÉ?Ú¤Ú6…èJ²O>98É¦¾±ûßD¯N^•Ô´ý.ËÔŠFYVî%b»AsîøäÑk¯§æ{vÒ¦LóG3‚c`ØEw,?n>h]÷' . "\0" . 'š|èç³mÛþõí—LueŠ+¡i	`Íê\\*öòy¢U%èH¾7jvéþ¥µ¸¹m©ÝX¤ž‰3Ìµ`qý³Q«½Mu§eü‘¬‘¸ìÙïÒ‹ZôT¦ñî¦Ôì½YN\\´à—\'¹ûÑýr[A²Óu=jÕ–Ë>”¨¬Ï°“ííÛ$ÕUá‰ïðR‘D' . "\0" . '@8ù©ÇÓN¤~šê[IÖR‰#r;žìhÆŸÐÝ;}<v°ë[®§!b"ªXöš‹ê:$ú«-´èRH\\©c±¢JžO Z¦ºÎmt2UÔqßÈãïš r	9ö|ãµU¿Aú…µnš‚"ùhÐdä÷«Pž\'ŽÙ9æ³M8ÈM¡´¡LmÅead^
+? Êe`ù;jB¤{p¼b‘¾š3\'¿É5½«nˆqíRwrnŒ¨ìk™)$ò{ù¹ƒâÔ=Øß…=Å:{¸Â¦Ö#É¨åÌŸ„—×õ¦Zóú
+Oqì¢¤nB4–w·ï«ßþ&5<‘E„Ê0¨8äÔZÊýl#Â“Üù4ö^£#É“/ñš¾ÒN‘Qvížê—1ØÇ#¹Éª÷¬õUQ6sù±O:‡©˜³ˆ˜û‡j„K,—Ìùfî3GŸ&N~\\ÔDwä
+ó?jôå‡#®ÚœüžÓ„¸	ÏšlT5™çš´ÑFÏÍ`95îExqRÈ-™fT’qW¿AéfÞÎÙŽU†S}/§5þ­
+ªî' . "\0" . 'ä×GôõŽÈŒ£µ*r¬_‰[&ÚTÊYT¾ML4ù%š„èÖŒ$Ü9©¦›ldUÜ8¬Î¶v’Æú|ÛÜ`phÜ0‰qŒç¨~›
+ÄFGŠ=m
+Ì¨SA”´i¸ˆdâŸ[°ÜŠîóHClþ¦ÞH\'ŒQx-öª2{cÍdSc‹[R@€‘žÔá­•s—^<Ò‘ÄU!rÅkv¯ î\'‚Gi6+{Èã»<v"”‰"Ž1œüÒ!8ÜØb·ËN2‚ØÞ‹­ýÝH~@~)‹¶ÒB°wûžÔBàúðªg9ÈçŠ4l¶®ä
+,™¤«Hcv©vŸš‹k¶ñ½³ÿ' . "\0" . 'ª¤÷NÎ»àyÅ¾cp‚;š¤éåˆÊÍ”_ZiŠY
+®09ÅS·6‚)f‰—sšé.­ÓU-]Ðr{ñTgRÙ*Þ<‹O§Áù³\':rË!ÒBTž(=ü\'Ôù¢wä¤Æ7$‡Hwnr¾i·g:†°ÜÈ²¯8âÛÝ	bR[Ü¾>j>bò3ŠwŒ6c‚>(Òh\\¢žÉe•ÂJ˜e' . "\0" . 'Ó›fXä<dÕ³ã~sÏG-îD£ ã±§ÆT%Æ–jñ¢€ø!¼Þ{\\>PçÍ3I2TwïD}è€!Ü>~(ûX»ûÙ—Ù’§"¤zn¤ÙUT2ŒGzÍ…Çp9Å,f6ä0Éÿ' . "\0" . 'µÞ‹I2À°’òöê;#2Çs¹‡G=CK–/;fp$dð	Á<z…ô¯Q%µòÉ"úÉŒo"¦’u_éPÙE	%³H9$|b›îˆÒ¢ÇÖz!ì4Ëù#ÕÚy-`ITm!dÛ<œTêD:DËxf’á™na?š6?|Žje¤õ´ÓèZEa-Ô²Cøpd9
+;dœTcOèýY¯ã‘m$”«Û´žGÍhý“¥’Äêþ‡Ò­:fæãNŠæX¢Uh®•ƒ!gxîµLªÈí‚ÇjòŸX×µ=*÷L¶Ò¢µ[Ôô®v‚8íçPÔú[¨¬˜s{Õ:ÿ' . "\0" . 'æªM½§
+#£½µ„	!ßÃpy§uz¯Ht¾½uCªßÅ ¹SŒ¾ÆÚ²|óƒßÿ' . "\0" . '42.Š–]n.áA$HÇìkn´×Sjð¼J"´µ…-`‰FÆƒû÷ýéwo9)õnÑsÿ' . "\0" . 'Îï¢dµ]ÐFÜ6sÿ' . "\0" . 'ýŠ¾}0A9µS?ÃÆ%®†$Ýÿ' . "\0" . '0»§Áçö«œ‚¤n5—‘¶Å)‚±k)IÑ]òxãâ²•L”ý$íØ°9¤ï	`ÄËÏë^iÓ,–ñŽ8QŠNü²DÌ§?"¹÷~ Í·¦Eõ™‘ÖMÃoÇŠ†I¨4wI\'©¹úMJu"—ÎÑ“±ª!¨é³Z±þ^äï‘LM#›6ÖÅ®µŸY°NÜø¡W/4˜üÒSÝ(ˆaHqLRâC&sÈñŠ$¢ü˜dÛxbM(ï\'?4‡?z)ø€ËüÄÏzmw8c€»jšWB[¡™\'o5®MnÙ<ž+^(iÏ?zóŠ÷ Vá†9i"„ñšôô·Ú”·ŒÜJˆ<œTÁ¶X_L4ŸRC;y<Uù¡Ú¨A9ª«¢šßN·T,¢¦úQìq™' . "\0" . 'íIi³»Ã8ñÅ&ËSH´DÛœæ¥–±E#? ?Õæ$ƒž*ce«Ã8UF‡tÑºŠH’Ûª§o÷£6Ùm `äjŽZÝE³ºX—’7c¶jt­XÊ$V¶ÊÆ2x#¾Ú/ofŠx$gÉ¡:Ve@èq÷<â¤ÏœŒ+”ð[¦F4&rbÿ' . "\0" . '‚b9ãô¦º‘%UAdQý>h¢\\Á!ñMîæTWË' . "\0" . 'ÆAã4Tü™Ô›yÈª°òAãÿ' . "\0" . 'T:Gl•;cµ¼•š QF' . "\0" . 'P³#$É€äEU¡£ÈØ~rpHìMmø&f' . "\0" . 'iäJ[Yœniá–Œ' . "\0" . 'éŒþRy¡I	“ %Þ€²+8a÷¨õþžÊÇ#ûÔÊmI°R§Š¨Ì’‚' . "\0" . 'Áù«ÿ' . "\0" . 'PŒ·’¼×¬·C"¨n¼ÒYevEÆ<WHêð–WÀ‘œÕWÕú›{ï@¥‘3…œÛ¨[³;1­	~xìN:£IkIßÚ@ÏŠ‡\\GœñœÐ¾ŽlÒ°i-ã’)Ì8ÜšöX±†#Šð' . "\0" . ' `S“­ˆªÆGƒÏÍÓÑ¦<qÏ4sÈãíElfôÏõ¦Áæ¨¦˜v;eö€psE!¶S;¾ÔÚô$€µ†î7s€iõéd™¶À§ŽÍ*%ÊmeÜµ¡$ð=Æ—‹rÆAŒç4V¿ô#¦²¼m©§Lß›7”ÄáC§*·9qµpÆ¥Hô@ÝË7·e­¥j«af¬·Î›óìLö­“SÕµKå[+‹¥Vã#s÷¡}§Øêz”QÝÜxOæ-œŠ¶¬5=;E·–Ä3·´\\K‚WüV˜%Ù§»j’ºÓF‡ÓÐÚO/âu¥s<ñúR§F] \'Õ§…žâþDŠÝ›9HýÜý³Š3Ó]!&©ú…ûìàŒÉ+þæ</À OÖWZä-d¨°Ù#aQGÅ“ObÜ¢ŠÞá%cÉ\'<RÖ:kÈáHËE6@}£©ßÓþ˜¾¢Œaþ^ìäš¤ÞÌÒ’z.¤Z/ü+¦¡' . "\0" . '
+¨Î9Èÿ' . "\0" . '’ju´‡ç#Ï5šN–šn`Œ"á~kb¡Ï‘' . "\0" . 'Ö9þÌ«I¾Y²2e*bsÈSÒ²“kÙhøçb?”‡¾dy§sD$·È$óL¬†c\'½:i@Ïžø®rmìú*^È¦¯¦´RÎÁ ó-Ìg‚HØsÅNîâ[°r ÔsPÑç€“ÂžhÕ·F^,Ý«û5g8ˆ…ÏÇj5¬Q£>ï¿zšIî=°ÈšŠjáä›˜ö‘ñMHåòÆ²¸˜hà"›†,ÙbMžN\\wòi…Ì{_ØÓVÝ10í~)\\VW#±¯UÏMß‚7fµèÍ(¶ÌHŠWðû’0?ÍWýL@`óDt›a$»ËQäÓFš@ª¹\'À©v‰Ó¾´>ãƒÜŠ»½š8£›böššÚ®Õc¸ÿ' . "\0" . 'U·ÕYá+f“ƒ§—Ô‡ïE¦š%pÀüTnÍSN°‡ÚGZ=›(g<ê5`h?Sâˆáßæª[ŽŸ¸Áe‰žÔ×ÒšØœ¸ïš¨Î§É\'OèŸQá”mÞ<äš—ÙõRJ ú£önkìõ¹ìÀÚåjS¤}B¸ÔÜ{B£^M|_"¿¦vNÕ¨!@²qŽß ´ê8;”2O&¹“¥~¢4á#s†Ïj´ôÎ¥OÃ–.wc¶jW³¡©å"êIpê«ƒòE/w~M¶BŽ9ÊÕi¥kjÌH~þ3FÆ´ì ,§Ž‘â®‹êîÉ,r…S)*–ãüÖÓE¤M!#q<sÆ*:u1ûâ‡^ëþª' . "\0" . '}ø©Öƒkì“\\ê+;c]»¹Îi˜ÖAµ‰ÿ' . "\0" . 'ó÷¨ïUâ}…ƒ(ðg2¶[lÐÐ¶’,Y.£FÉ”*g8ÝMPV,ej±¾ú‹«îÀ' . "\0" . 'Ð‹Ïª¶Å@Ž\\yàÑ$Ìüœª-;»„aÃhîDz•¢01{T*o©Q9öÉú‚j=®õé¸Bäø"©@Ë.{ulÈYN*±Õ´ïAÉ*~*U¨ëmt¬X~MG/n˜©Þ7LHÃ9)x´i"mžØ¦¦Ý£l0âž&CnGŠRP®ƒçÍ24%¤2…ˆ8©ìRÃãÍ\'' . "\0" . '1ÀÈ§öÐdqÞØ‡ÖŽ²' . "\0" . 'E·_ÊUý¨]• R5´ôÁÇÅ5HLÒYÆ»dÉÍ1Ç${vsö FUÀ>h¤2(;rG*ög¡,‘B¶' . "\0" . '4fÆÝ‰¥kk' . "\0" . '‘rAäÑ›K0|Q%Z/¬v=Ó"f' . "\0" . 'H?5pô\'átý.[»ð&’0}8™±“óU¶›hÍ Ú™8ø©ŽŸ2"¾O‡Šd[B¿e¢AuÖšµí¤–ÍrÂÑò¾Šð1ñLíl•¡/\'“ö4½¾–ÌA*Ùï“R]¥¦ÔÂEY!²Çÿ' . "\0" . 'tÚr)´ýµHâËxÇŠ¿>–ô@ÓôÅyîA’ÍÆOšÛ¡~œ­‹G$àSÈÇz²6¥ª"\\(”`V~I(áÇËC?HmÀ#Èâ´x€PÃïàÓ¡€Àæµe$€¼f²¿Ø9$†;Iþ–ý«)ËSoØÖT§èã©Ú‘ÁÚ2jvK6äÐûBLQœäíÓÈ½LöÇÍs£¥ÐàG”=Á=©³!ÈÉ$ƒÀ§÷Œ2ŒžÇâ’“n@Ï#È«Ï²uLs!ÜÁ“‘ÅW]WpÖ³ˆ{ŸŠ³ç·2;TK¨zq®d,?¨SbþÎwÈârþH¨—Q““Ú‘»´”$ãÅÔt‹ðJ÷àSháÓb®?j:û8²„“ªþ…<f”ŽÜzd€wQGÓæŠ ì›sC%YŽBŠ¾Í*+¤ý³ˆ.CŠo¼Îã“xO¿9ûÑ-ÐÊøœšÝÇ	]úkEif8ý*ÅÓ´€‘Æ>Â˜ôîè :•CEãñHròÎ§ôežå—9íö£º^„’¸Ü>ô=I"”ÝªE¦ë1v~M_k5(A’KN–Šhðª´†£ôÒÒa“|âiÕ°
+¨>j[oukw!×?Ô¿l[ãŠ(ÝSéõµ³1TgTé·' . "\0" . 'Ûœ8ñW×P[FÊ@
+j¨éË’Ápi©yø`ò‘Ò’m>dfÈpjÅÑzŠ@¡XäžÜÔ^æÕyÝÁ§zR42©<y7²×£¢áÐ¯ÚH”¹Á÷©e¶¦Í·o2jµÑ®½¨7n5/ÓÝ”†Y2;m £\\p²¸ºoE¹;¼šuxËÄƒOçŠU¡åOTkY™ØÑRÑR’­µPÛ£Jìx¨]ÇP;9>ÑàQzgÝé¯»?4,“Þ¹A£_g:}›°³«K;1ÜvC/ýC>T2°&0~Ø§_ü;Ï	ÂxíEÚŒòŒÞ™\\Es0çq\'â#K1Ùäæ¬{O§°–ÜÉÏÅ8~‹‚Û²T¶!ñMä®½7(r¿½šÑÜ‘ŒŸ‘VeßO' . "\0" . '¸TÀ¦ DˆC&	óD¤.š+\'µ{yG¥ÜËn	©]þ‡±²v<ÐmZØÅŒ`ö©m‹v€údfˆÁ·F3æ™$|€À“OíbË' . "\0" . 'A4ø·ä„­PHTw£–p¹šf1•=è¥¨e8¦¦¼¤³µœLXŠ9kjŒŠ§¬ƒ†jCbKíöùñQX¯ð-cd²àT‚ÃKQ"Žÿ' . "\0" . 'qLt«)nCœÕ£Ñ]-äñµÀôPö.1šdp)°U‡NÉ.$lxïRý¦îî8Ö¼šµtO§ÖÁ·1äãSÝ#¥c´*ÅP1€½¨ß"#M~šúFòÛÇ%Ád¿ûf¬}£í´ˆBF›ŽsŠ=oH‚#äc±æžEo•ÁäüT§e¤œzQ°ÀÈí5êEÜ’¡»äÓ¨íÀB@Çí^á°Øx¥¼…ÛÀÐÆOæ$(ð;ÑÐ' . "\0" . 'Ï4ùár\'äb›:)xVíœÐÐ™c@Ù' . "\0" . 'FÅe;xw¶sÇïYWlŸíd_F5ÛŽiurÊÑ[ÐŒvíOV¹lú.VØª‚£¿íZãqÈ­cwcß' . "\0" . '|Òªƒ²~ÕjÃìÒG;Bä{W“"Ì«¸cVî›6³
+ÀwŸMµè,0mÝŒs' . "\0" . '›Ï’)ªèÑ&G¢	>@£Ã' . "\0" . 'ð9¬eR2OañCkØ·CuÍ$T``x}7k¨Õe^Ûþ%@ÿ' . "\0" . '†4×*1ùE­gÆäð@:—OkVŒüÑþ‹Ò„Ñ+0ËRÝWa¹žãíR.ŒÓÉ·‹hà
+’ýtd\\R„í’/NØ€œÒÚŒmGÍÓ­•J)_q«}SKia;WŸš_dötb±’µ¹Ô#‚lJ6Ÿ“Dt¾¡³…”Sžô7©4IXŸÖƒXèÅ%H5)¤ä¥e½¤õ.œUÙ' . "\0" . 'ùÍM4Î¡Ñ]NlW9kz]Äy¸ˆ6ú~*=¦k×–»”JÄ“ÎãÚE³4¹oú‰Ô¦¹l\\›yøÿ' . "\0" . 'I9 Ï©­ël`ÜU/Ó·Ú–«ª$1Jî3ÏšŸ]Åq¤²’û±ß-;ÇÈž_Q€¿ bšY»$›IÈ\'Ð4ä×ì–Hÿ' . "\0" . '1ƒÞƒjZsYê%nÆ‰~I>…:„QÙ³V…i-Û…	‚xÎj¸éës Ú½Z}-eq#¬›@ñCØ»êuÅ¥¾ÇãŠ¯õÉ3Ø"­Ý\\Èlˆ•IÇžÕTuj,jìŠ~Ô=“Ñ»v’lº²ÞÄË&O' . "\0" . 'ý©å…ƒÎ	(ryÍ1­”{ŽÉ4jÅ·×Ò×MEpÅÓôe—iQQc® p21RÎŸÕíHQ$Ås÷¢£,ÒÚC9³AµÙã‘Rç°š&)>ÓõTGQSêå\'8ªi0;b†òíf9ïñL§E“Œ½\',®¬s&á^Û“+db¥#<êò×:p,v¨¨wTÙ' . "\0" . 'TcùeËŠ‰u~œZhrp¤ø¢ŽšD,ÝÛ{vâŸAjSp©­–…p®åÅ7Ö´¨á‘L|gÀ§©xbÚiXÞ-Ì8ÉóG­-ˆ•žžêT„ÉÍJtiŠ*!$øÅ;f9ogºU‹±TÙ¸µZôÞÿ' . "\0" . 'U*þŽØ²2_ŒÔ£é‡ÒYn6]ßBSñ]£ôÌPE^TP0Àÿ' . "\0" . 'Nj8Mà…ô\'Ò›kwÜÛªÞÜŠ¹t¾•³1¨!Ú8iÞ¦$P¬j ' . "\0" . 'j’ÚZQƒÇŸ—+atëäkm¡ÛEôãÊŒ.šj F
+ý©õµcß4þ\\°¢DÇ JÙ“Í/°C–$yÉ¢F…xøêÛž1‘çæŠØ7CCqá¸øÅdgöýè‚Û÷ûÖß‡Ü»IÀø„°I„¨ÆrçÞHv®y+žÇ½–Ø¢`' . "\0" . '' . "\0" . 'íšjñe2Kbš`Yc;½ ‘ö¬§’Àð' . "\0" . 'ýÎ+*¬e/gÃËº…öŒÚž/´óL­°–ñm;‰QÎ~Ôâ0àÄ÷®{^ §xB©çŒ½nÑ€riç~ô¤`rdŠh+qÁ²în[ü× ƒí­Iäg¿Ú°ey`3ò*ÞM´«gvsâ¼‘öžkläŸóXÁ6çó
+5‘ŠžÌµ@òd‚	©H4õ_RF\\}ëÛAµÔãŠ|Æ&gÛ=©±¡2¤ŠûªaõT…Ï‘â¤½!	[4ÂòV·_s>¡øL._n~Ù«[¥$XÀ3F%\'‚o§Aº0vƒŽçÍkC4Ec¹¬Ò Cc¸£ÑØ‚9Ï|VlÙª?ek­è#îÀ#?$è†ü»Oø5qI¢Ç&2€ü“@µ’YYŠÛy)«+ÇÒño$RE¾20qLm>‘i÷ÛçõZ=ÿ' . "\0" . 'ÓŽÕ`ðÝÊƒn	ïD´î›º £H|SSô"|Qd{§¾–éº,Bh&&R9\'½“ ­.wfr|R«Ÿ{î g“NoýXÉœvWí™ÔxdoBÑÓ¤·…pQ†qñQ­EV÷R’_©ÿ' . "\0" . '­tÇÇÚ˜?l{<óIroFèÅÖMºr6õ€#=êâéx}6#<sUv‹%GžÕotÔf8ãÏb—lcN´Ju=gÓÃsÇo' . "\0" . 'U\'Ö¶¤HW' . "\0" . '' . "\0" . 'Oï]Ñ¥€©vÛÇÞ©>¬°õæ~ƒW…“*tDt+hý/Ü5ê¹ïnçŒÆâl£½Nàµ6ùÀÇÍ<m>/Lâ;†OøIx9vE9©ÚmÓ­Épj5íFÞ\\zì1Á«úîÆÅò—á>àTkWèósÂ~ä©§]˜\'à€i}Q©Ü0&\'\'É¢÷zåê_W-Š-gÑ¶Ö½$üšVç¦=FŒ-ËÓ‘€lõ[»ÙB1óŒc½LtÈYT)8ç4×OéßFUePØîH©•¾–‹£?4„”—ô0n…u”n.,×C~µ+ü6ÜûFk/4Ó-Õ³x\\ÔWà	\'d~M<¦óIzãW<q4€Ž6üÑ?øs<ª¡rIñWßÓ.—ŠÚYc&W]ÙÇåÏŠzuàdºÒ*®—ú#s3Â×1BrF?Þ®’ú?e§H·70«Ç¦ƒýÍO¬ôØ”°qà
+5mn«AÏ¨çg5B¶%¤é‰oŒ 9¼
+“éÖ`yæšØÂ7u²Œ¡TpÅÊo#ë{e-‚¹=êEcnv€{‘C, fpIlç¸5%±·!yLüQ¤À“C«(ã#Ûñš~¶£€§Îi{\\€p	ò1Dâ·\'úr|}©š' . "\0" . 'Âä' . "\0" . 'cãºÚmÆ?J*Ö ‘•¬ü&<wÿ' . "\0" . 'vNÏÈ,Û	8äw­E™Ý£ÏÑÂž8?|
+ôY?.*Z#v{\\øç·>iœ–Œs‘Ï÷©4–‡Ši5™' . "\0" . '{[šŸà.¼‘y`*äw¥e’Éwcn1ÅeOØ»GÀÛ1¶Þ.FBŠzÎp~huƒbÞ%>ïhÿ' . "\0" . 'jy°îÿ' . "\0" . '÷\\¥l÷ÉÑº¨ÏjÚ!–íÍhÀŽ[Dsçš>¾Æ«yü„ƒÇï^ªã¹ý&ç#û×»»föZ›6R#µkŒä‘Z†Ü@Æ)Cü¶Ú§<rh*^J·x7µ-ê`v§÷®eÒîalça#M1µeî1O®ËjûO`AÍ2+Ø©¶“ÉÏÑÉŽ ËŒ¨’¯.–eÄYãÚªŽ¥Ñ×LÖ£Š' . "\0" . '_Ô}Üþµkt´{R/iÞ¤Ó9Ü1}²ÑÑå@f¥–J„äÔ+I}Š¼æ¦šD©q½#xGN-h\'%¦1âšOlÄ€(òOz;k"¾6û±Ü
+q6ŸëÅp;ŒÓ­ Üo$>Kc‚FïÒ—‰ØjmaÛ"¤çL¥ŠƒMå°Ê¤Ÿ‘Eijñ`9\'dSŽøÂxÞXËA£“iì…‰Çz¨Jv)ÅÈJ
+9@û{%˜’2<RVŠ8Å³UóM§ÃÈ?¸¥d;lÛE¶Ýr ÕjtÜNÌ¡À{
+¯ô+BnŽ2j×é»"ÓÄçÄŽ1S>Ï$¶F[}!‹¬T®qU.¹' . "\0" . '–FóƒW¾­ˆ}»Xð¤÷5TêPÿ' . "\0" . '0ãƒžhºÈËy#m¤òáµü;`.sÞ˜“p<R#…+Ïj5eÊ
+Z' . "\0" . '\\éÑ\\†,ƒž0h%×J<LZÏ8©äÚ^ÔÎlS?ÁÌƒòç4÷¬œ|YC»@IAÍ,š4Äd®A©Â«È(3ñJÅ`$Rª¼÷Î)ô*XÂ!öºPå9V+UKpqGÎ˜±©ÈçàSk‹CÆÑƒRÐ=RËD~H9¿&ˆjöÙìóÎøUÇèyã÷¥Ô4ËÇsŒQ¾¸Ž8z™´åM¢ÞÚßqÎc’ñÜS`èÌŸìÓí£–î"í²<Œ¶{Uë¦u—OØZDŸŽ‰J¨.|U[Ó7³pñ³â0¼•î*oeôŸJ' . "\0" . 'n¹Ïr3ûS¶#–Q²UÔ}\'ÿ' . "\0" . 'Ê9ñì<ÿ' . "\0" . 'Š{oõ/IàvÇÂš¥ý&ÓíŠ;‰IìdŸíS3è’ÒióŽ2OùKŽ?g>\\©=cõ\'NØÇûerhåŸÔ+"å;íE´Ÿ¢ò…1iLF3¹¹?äÔ»Lú3 gLŒÈÞFM=qAy._HŽiýu0Œš˜éNfA˜ož(þ›ô¾ÖV{8SíÜÔžÛ¤,-€Ûœ
+·.‹ÿ' . "\0" . 'É= 6™«´ Hù£‘]JÀ0AÛµ‡N†¢®>.!Qâ³Ë–HráŸSM?˜ÀýjÕ¦¸9Ú€âŒl_Y±~ä^‚ü~@Ÿˆ»>˜ÇÅj³ÝÈŒB~êGø£»àVl_WùW¢~	{' . "\0" . 'z‘ý…!#ß !\'äÔ›bü
+ðÆ§ÅZæ^€OÉ’-@¶JòjÊšz)ñYEùãÿ' . "\0" . 'É?ãËÙùÒÓ™d·‹=öŽß¥=,¡°OØÓB!·‹hýø§K!•x' . "\0" . 'ïóXj=²i‹ú¡Ÿ#ãÍ(Š»O8=óIÀ¿Ë$ŽkrÇnå|ÔêØÊlòBó[œm`ÆÞÝ«Ñÿ' . "\0" . 'q«Ð}úù=ðýëÇ%~Â¼Ï¤àß"µvR¤q5o>KRì:·,ïD#ÜùO|ÐûWÔ÷"žÇ/óžÆ¢~,©¼.»Ò^_N¸†Lf¥z\\Ì²¦ì!øÃê";i‡»l ñàfœiê”8Í­˜¸ée2ÃÐæ-·ãæ¦º|ªHÀYéw…xø©Žu’¤1ÇÁ¬ê4h‹eƒ¥H¡À$ûÔ–\'GŒvâ¡7H<œf¤–·¢W
+3‘WOØüU„ðQöc*O5íäÛÅmi\',qK<»Óvr3Ú© ¾ˆýétóÍCõ;„‘ƒÅN5äõ`$6;Ug«]þ9a’¦#“¾š¶8½›‰0Äã>*1¦gç }ªK¤ÀnB•çô I‘l›t½¨iPwýªÖéx6ÜFO“æ«Î”¶ôUN~ø«G¥bÛ*‚6{ãµHçBùj¶Hºº!ÿ' . "\0" . '‹Œc*ÔUV]½ÏÁïWgWE»NwÊöªwUŒ	=Ôù§>ÈËÅ+C4ÁŒÇÚ›Ûû¦#ù&“Ñ°9ý¼RÙs.œŸ4¼7‘©ç,-o¿9#çŠØÙgíKÙ 08ÖˆÄE×ú‰ÈÏjb^…¸ç' . "\0" . '³¦+íôëÔ³ˆhÁŒ*äM3–MÊC.GŠ·€?èqùûÐû¡ØòN9¢7…^Iã:éA%•óžâªŒü‹}"ÍubÎÜe•PŒ|)÷Ô' . "\0" . '·Sº¢óp›}éŒ8ìÂ5XÁþÈ)^Œ1ÛuEËýwsÿ' . "\0" . 'O=¼Ð˜a{½RPÍÿ' . "\0" . '6fv9ÎK1\'ŸÞ›ðsÛ¦Y=¦þKüC(ŒÈs’9ÅMô–Y\'U½MJÚßIµµTH¤B¿Ô>{Qš¼‡ñ.„ç½kŠ9¼©ÉÙjô¢¨ÔaÈ' . "\0" . '©â­Õ‡ÕTld|Õ%ÓúÝ½Äfi•yÏqÚ­«¬Ó$‰Ü+6ìx¨ìÉþ“í!1n8çæ‰G€j? kV×©ˆ¦I>6š:­žAÍgšÈpi1Õej‡"¶¬çE;FVVVT,ÊÊÊÊ„2²²²¡¬¬¬¨C+++*üèZ¨0FÄn;F?µ;†>[ƒæ’ÓØ5”CìíN‰ôÔ8ð)1ÎL<ž@' . "\0" . 'Èþ†—)€F+ÄR~Àø­ÈQŽsMªØÅgŠ wã÷¯HÚã£r+^íFŽÕj™-ù<ØY·w¬' . "\0" . 'óâ·E÷?¥dÑÃš”¼–˜¥œÍûy¥gÛûN1^Yådnjñã2IùNjêßê‚¿°gSÄ×š4ÊÀ’à6éù\\YFÌ2qÞ¤Ðtíî«$P»ñØ
+	e¤ÜéÍmp…[…o®›ÙŽm^–ÊÃœðA©MèhÈÏjˆZ¸½ØÈâŠE Œ®[åGj	•ö]F~*Y¥jA[icäÕo¦\\‚±Ú¥z]ÙÁå{æ–hìÖ‹ÕŒ›‘ßiPOâ%þYíšg 6ÈÌ}¿`Ü4qÇÆî;ƒâŽ*ÁÂÍõvÄ.~*œê‹¯RäÄ§ÜOjµ:‚v0Iî' . "\0" . 'ÚªCâõy$sœÕ4–JŒ¬ocfÊAn«§"ÚQ¹aEU öñEôïF@2(09W’Ôéës•óÚ¬þœ·hã¤|óUOKÞ¡•¾xjÉMh%ªª«q“F¨G+o[R2ÆT±cØæ«Ýe7o8$“žE»Õœ`r{w ZÂ°$0 ñA\'à’5}˜ŽsŸœS­"ef_µÅ˜ž3·ÐÍ5M¥ÛF[äU$+o˜X_9üÓó(Æv“ãµ²uqoíO£œÉcÎ	¦;	¯CÆ÷sc#)„ê°¶Í9‘ö¡qßÇÍ3šEt,Ã¹5_è™6†7ÏÆÆr|-	fÝ¸¯ÿ' . "\0" . 'ºuyp¨Ç¯šf-Î|U«2Nmo#í½$¸•°¦ÜüQ~ŽÓÒïXQJûÈ¡B¦' . "\0" . '$žsóR®€€Gu-Ã`(R2i±´bžU…:‰ÖÁ‡$béÚÓÅ7²Bˆ~qÏé^õn¢g—Ôe"&á0{ýê=bä1xÇíZálæÍ4Y:6¸©$m’Çv{dÕµ¥}@ DôH\'šçí:ô&Ð8ð>Õ1ÓuI%TŒ{¶ù\'4Þ¦i\'àèžœë+9¥PÄÆO1V¦‰®z»È.!#¹üÂ¹WBÔ±‚ÇcŒßÞ­>’ê\'†T-&<`cŒdª„\\®Î‚·H€ŽÔ­ÐõXîíÃƒÏžhâ8uÈ®TââÎ¯\'eOfÕ••”³A••••eeeeBYYYP†VVVT!ùÓ³%mâ;síüSäH' . "\0" . '…ŠÃÄ1`#ûQ[]>âð¨XÙŽ|TIVè¥?xô¸àW¾–dTßAú]¬k,»mc?ÖÜU‰¢ýbþ2l7ËPyýè”}³<¾T ¶QÚ3µƒÏj}‘s(°±Ïœs]1¦})ÑìnƒÖ+äŸ4n›³¶\\Ãb‘ÛŠ*½ßÍ½ÁgÐš½ÔxK)H=˜¯bÏé>±,Y1øÜ{×KÂÙ6œž;W§¤o™C}cHCù³º(}3èÜË&ë™Ôç¢¥z_Ó-\'Nÿ' . "\0" . '™oø§?Õ&xý³VKA$ŒäŠF[DX÷(ãÉïD¢ä."olŽ[éöö‘†ŒÒ1T×Õ­C­Gx˜Pè‚Ž>Æ¯+»?æ,JÇwrvâ«ï«JÇ¤¼‡Ý"àäœñK”zè\\&û,”Œgd˜$‘Oíg(FÑ|PðHqŽGÉ§ªÛ
+˜ÆqIn¶w8¦’X$:uÆA øòj[¥\\.Õ" ¶²íÃm#5$Ò®P>2A¥Ú6ÆžQaéwàmðxÅ·|4‡;”öûT3Mv•Ç#ÍHã»' . "\0" . 'a±ûSâÕaƒ*­‰u£YÈ@÷`óUOã;çRyÉýêÉ×%-lËò<
+¨5”–ÖõŸú~j©HJIm†ouèm Ë0ý	¦oVÅøŒ¬€Œã' . "\0" . 'ÔgPuB9ý3Å
+~•¸†àInÌçŠµÇ~F6ã”tÔÊ¡#>9©­‡VŸD+ËÏÉæ¹ÇJÕ®lŠ¤¥_½JbêGhñ’8«qk@þTö\\}Y9,ùø$Ð¹:¦+™ð<ŽÕRêZÖ¡<$ZÆ[î|S->ÓTcëM;OlâAíƒ)Àè{MUe·P¤m=þâ‘M·§n2{Ug¢ê÷PªÄÎÎÝ°zµz_N—ðÞ¬£k‘Ÿj.­yòøÚ·¤~qàšvÍéŒœÙÉ¦Ï¸1G|Vz„xã¿-ø)ºÈ¤“óäÓi.7)ýÞF)»\\nœí÷xÎi™bRØ 7“š¶.RMdazû˜KÅ#l…Ügƒñ[Mù‰‚iHŸðÐÉ3øÄsfÓfº†µXÃÈÍÐz‰¥ÑÈ‰ðò>ÑúõUßÞ5ÕìŽÇ¹©MÜMµ{Ž5CÍˆ›tJµ{ÖšUF8Ø1ŒÓdº€' . "\0" . 'àøø¦3NL{ÉÎ+Ëi÷`þlŸí[Q‚R¼}=É
+ÄŠ—h·ÙAöŒù¨~šNTw-€ëÚ­Î›úy<6¦mN)a.›£M¼’{dÔÕ%>¸Ò®U
+€§qî>jw¡êEF' . "\0" . 'Q÷¨4ÚsXM•o`¢Ú5á\\†#Éç5ä™yEïÒzË¬¨¦@¿Å[–ï…s‘\\éÓwÌŒ„0nr' . "\0" . '<f¯–Ô?h‹œ²‘JçhÙ8æã<’zÊñN@5írÎÖÌ¬¬¬¨C+++*ÊÊÊÊ„2²²²¡‰Ý	ü>ê•­¼·ˆmT¨Ê0Éÿ' . "\0" . 'z»ºcè¾Ÿ¡ª°´ß!ìîÅYv­Q„Š-»;às[®©Ì‚&lÛŠzŒS£™ÿ' . "\0" . '\'““2dv>™[C±B¯ØãüÒ²èÑÃŒ‚íò;Që7lÉ‘ƒTâ‡[ßK…&^~{ÿ' . "\0" . 'šgT²E6üƒ¯GàXƒgÜSY%üT%âð0qØÔƒR…ní
+!¹ÁäÔ;‰,.ÌDädà|Š·í‡Vèzºˆ˜„—ÚÊqÈóZjâ"ÊOÇŠorë4‚EØS‰Éç#¿&‰5"[¼°MàbÈxaþ(­¬H¸VûñQ‰K]IW\'-þjQfáUr„óDšÅ·c)T¼Ò÷m8ÅCþ¢iâçA¹Br
+Œy©{=M Ä’jõ>ùáé]H£ë~ow¥IäÕÇg;deø8â•ŠLG4/K™§Dv' . "\0" . 'æ*ÄË&v8§Œ†­®†õ$QØ/‘Ur|ÔZØW<“æŠØÈå¹ÉóAµz7ÅÚÃ\'ú6 ¥oo‘Ešï\'þŸšˆXÌ"PÁ°>ÔGñ¹q#=Ri„ì1=Áqù·8Ö´y#¿Å[•T-œŠFKøÖ#œ€<Qß¡®)­ýö–öR{xíž¦ m®Ãâ·ê½i6Òsö¨Î›\'â.w9ÏÀ5j^Ñ´SëDÂ!¨¹u{ÑhôVØ¸_Öžô}—©;A#Ôb˜ÈOŠnÖÀj/:ÙC¤$?»#±…Ú=Ó
+`ø¢¬AÕÎ1þ*]Òmëï`íâ‡Ê\\‘Xú{Ñ“òõv®}ªÂ­Iý;h¶Æ œx¦QH-À
+Š¸ì¾)9.™±TmP4žO\'$±nyóÿ' . "\0" . 'šk<ä¯qàRÍ `sÁ¦s™\\wç4¤Ð=¨FC°äÈ¡ó—GÁ<žô½ÄŒ[
+û°iŒ’³ÌA;¼äÕÙ›’yÀ¢Q•@ç?<R=M7àôwU\'sñúSÝ=ýÄ`x5pôG@é=YÓ¡õnÌÄ…•¸+ƒŽiãmœÞ^em¢?›†lgâ¤–šŒfÚ5ÎÒ*îêá:Fg¸Ñ/@Ï£p¹ÀøcüÕeÔHú“¦9¼Ó$E\\ñá¿LSÜ?ùvb&/x,› ïœù¥ì¤1’§Í –²F^7VÃb•ˆ…È9óEË`6¥¦Jº^XÓV³i$ñÈÄŒþVñ]qÔ¿Tlµ¨.n-íÑ^`
+çº' . "\0" . '1\\ca/¤ww©Þ‡Õ¦–)î;çµ2ü‚£Eƒ%ü—«9p0rrOjk¦ÜˆäàGr*3?SoS?•»±ï[é÷­ QÈÉÎâj,‰še½¡kiÂ¤xÿ' . "\0" . '½[!Õig	ÄKç]"ñ#Ú€Àã¿z•iÚ·¢Ãàž@ù¢^™c«4¾¤‚ò;Àb<š/ÒH?¡®sÒº€†n~;TÇLê3AžO=ë<¸bôj$â‹€0>kÚ‡é½F\\' . "\0" . 'Ä~æ‹E¬Å ÉÞ³¾´9|h5^n4MQÀqúî¡÷Ã€J°ÇÎMRâod#è”Íkë§ƒP¹uv#&@	í÷¦‡V@»w)óßð¯e~i="}ø˜ÿ' . "\0" . 'Ô?½eWñ©öGëYSñ ÿ' . "\0" . '$ŽT7¨N' . "\0" . 'RZÖxC!`0Þr)ì{qùXšÏKÕ9_oê<ÓQÏï	·ƒ°ÎWàñZjv¨Ð‡' . "\0" . '†ö¯o-šlƒã þÕ’·¯	Œ~O5}|…Iäo»P \'€3Q¬µôf¬dã“úT®8Ì2 ïÏ4†µ§‹ûwYƒŒä’9«Ã"šxd4ºp äwîEÒaÁÇ¸|qÞ˜éñ~V·‘F<~”zÝB¡Hýª–ˆù#3Ô¶{.*ƒŸ¸§ÚC³Ûû‰by¥uøÌÈm¦ZUd;p1V×ÐJ]•š1$È>O|ÕoõuYúcSmçjÂÄ°«À&@©9¨\'Ô¨Ý=|€pð°aß<Rå[4ñ»{9ƒD•¿¤Ÿcv¢Ä(@s’h/N6mdV(N~ôN\'&GjÅ$ìêq´˜á\'#qOí%Á,WÎ()˜«O šìéÇ’4JbÔ”çw©ÉÕåóð*>º–|–…6¨ýö†ÀÏ«êæ¯ä±TTL†Ü~(&¯ÔL±aH_±¡1ÝµCqóÞ†ëÝ—œŠ¥+óZÎÀúÍô³Ý«;§ÅIúKK,®à‘B`ÑŽ 9]¸ìjÍèH1 8¦ãÁ\'\'d‡§-Í©ö‚«Jk³ÈKñRK-N' . "\0" . '' . "\0" . 'ù¦z¾€Ñ–2ð¢¯zX¢»»Ô]AŒ“ÇŠ;ÑzëÛHªX ÏÍy{¢G3£u6/a:úd‘žhd¨Lã×-—m†°“Æ‹¿$Ó³t…\'$yÇj¬t]]¢RKveºÚ=Àí#Æ{Ð<‘Ñ0k’ÙçÒâì€yÍµ×w£s“ŽÂœCt“¦ây=òjQRiåÍtW8äŸœ¤bÌyø¦wŸTíoÐâœéò±“äŽZ$¬Ã7Ya„V‡O¸›ÿ' . "\0" . 'òŒ¿=€û×Bý0´hzkN\'p‰Xœóÿ' . "\0" . 'z§5qôáÓ!nµËÈlcLáŠîÜHý‡û×EôÞø+¨Äcl' . "\0" . ']¿”€01Z¡„q¾Lû:DŽ+¿Ã{T4ö1k¨.%Pñžà®E6Ö,Ò[}ÄçŒäP+kù-ÙP1\\žF|ShÅmá™Ô?Gzw¨òÍmèÈ®/mTÝ_ü9ÞY)›JÝ 9ØüèÍ%ÖéFCqÈ9§²0' . "\0" . 'sŸõb‹³öUuÊ8†÷¢5m]·63¡HþâŽÆh¹YXv®Ù¹³³¼ÿ' . "\0" . '™O’4Pú}¤ê›‰´ˆ“œ±oïEúùrKÊ9NÞVRA,cÅ°¸)ÀŸÆ\\§Ð«7V[Fx}»›wù5Õþ›j=#–‰¥@2$C‘Ú®—þ¬cäLJÂïÑ ¶íÞjAc¨‘X³>;œT)šX	GM¸¦h®{°kønõ-­š"ß’Ã°Õ	 ïŸê+°Öœºí8ÇUÙÞ’qËþô~ÇSó¨íR×Ý.™¯m–.ÞEƒ_*—9\'ÀíU>™«Èp¤°©£Ñjn?#óæ¥/šŠÉ?›Y/¸†$üàSi5RÊNâGéQÕ$gs|wÅ*oY€$OÜÿ' . "\0" . 'zŠVÃï«(,äöü½©u¼úÇ‘QÉu£ªOcžÔ”ºŽIËäÏ» rHdýdÕH÷‘YQ)µrd;IÀãŠÊ®Ãª>ÊøH‘@' . "\0" . 'äâ·’â3ýYý5šEeü¿µk<êP2Œ9Èâ¢i+9W(¼žßB.#.©œyÏjo)sé\'ú³ÅWo@Æ<óÇ"Y¥Ê““Ïå©—´\\g›:ºÉîQŽøïKÜ)–ààšCñ"V-·¿À­Méf
+@qÈ£x	´ôˆRic7¬¸!³Ú›Øj¿ˆ{‰~Üš9Ô–ì î±ªö{§²º,?&{é—ÚÉ$ÔæŽx8c½O€qCt»—L8Æ	¤“U7†öŒp{Ðøî]£“ÎxÅZqÆƒS6&nàŽ3Q.´‰ntÙ£	ÈA\'!Ô®8ŽyãÅGuöõ-d÷qœPK*èÕü3“´èE¾­}lNÈÂ•Óo‚É<îÚÄ
+[«¡?[]lŠ\\8çÍ·ºeÖfÇ
+þáXÚ~Nœ[¬0ÛÊ‰8$%.¥éFÛ{Îi½émÙî5¸C4@s··Þ¢û6FÚªßê¯u)àv¢:Cœ6i¬ºaIsŒKÄ†ÌîŠ€SO(”éÄ7Ÿ4AŒräŠ‡6°`-¶½]d‘ÃnûÐ¤ö9J1&K|ˆ¥ÛòiÆ•ªËk8‘dÛ´üÔ"-GsrßÚˆ[ße¸íæ›Ùy¦]:Ô"ÂÊ7zu¬õô·ˆAßÖªý3Q9ûÓË«ð,XØÛòL,5øËåÎûÑW{{õ+½Uòê#v¿õNìúŒÛ8RÇ½IèL¹"Ùb#Jä¯Þ…ê„¨¶i¦Ö1ÊÈsžÔÚÿ' . "\0" . 'PŽlº6Aªª3ò?(%§ëRE0ÉÈ?z–ÚÞí\\öaÚ«(#‘æIÁóS{IXYÆ¬y¡›³#›©9lS_§ý2ýA«FŠp‰Ëíýêe33,iîv8' . "\0" . 'w9®žú?Ò¢iñI=¿óæPÌ3ÈÍ:(Åò9ºªd{¨á×¦6ZÞÆgÔ áW`\'ïîâ¯½õ(Ð.ª[I…º£êÿ' . "\0" . 'R_DXÙéÉ„@o©Ïþãš°­.eÓ¥*T’;dSÓInI¢ÄÔX5¶xÎßžÕ¼#¸- \'½—_2Ø7;N1ƒæ¡wKqq–³ÀñE`vÅ¤Y3z¦1îÎF>hì¤6CÒ«íù¢UÉ*G?û©…½éš ÜóQû°F3Î	àý©Ãô·nÈ>;æƒ‹–SË6~iIo‰Nü' . "\0" . 'Uv.3—‘Üw9-ãŽäÓ‡Ž)`a2«nÉð(4z‡¤ò@=Íx×­rJ†eÏÚ§oASzëßM´}|3[˜­äi?°ªÇ¨>ŸjZ»*	"‡ˆþÕyXFy2{ŒSÙ;× øeïWÝùE)¸³˜"¸6ØY0®xÅÐn#¹Ô#IôÇõžÕgõ\'Óý3UÌª-çoêDã÷¨=ÿ' . "\0" . 'G_hrÒFN7ªö¢R±ÿ' . "\0" . '™Ë‡Oôö›pbE]üŸqÿ' . "\0" . 'nÕdk?Nt«•½¼µîa·iVFlƒŸûW6éúõÝ‘¼DqŠ–ª¬ÚTšq¾“ðò)GR¸ã·j7É/ŠýWöN:KIÓ5XÜ…ÜÞjÅÓzF’õF9Ãÿ' . "\0" . 'c\\ãkÔWVQ‘ÍŽù' . "\0" . 'p?j3eõ\'T·Œbñ×ŽÇRä“UØ•¥h}õ­t¾¡¾µ„¤pÃ6>¨ßüSØ@e w#ÏßRÕŸU¸’æFÜîrÌy$ÿ' . "\0" . 'zfç$ñØ¤v~rl\\‹ÂµëgÚ2?ZÊhWn1¼‚3À¬¥öa~O¢(Ó9†àÀÚÆfiä`šÊÊ!ÈŸö<†W9\\>Ô#P•¤)¸ç8óYYMZL]ˆãÇõpF)˜£*¨
+2G²²…šxrÐÊoæpï‘Uÿ' . "\0" . 'Qc7{ÖVR­l	erêpâœ¼§Ö\'ÏÒ²²—|R¡íôŒ,F03@îçw·|œñÜÖVQ-ÚVsÏÖ”©ZÈ£kr	jºõu(H8%qYYBôta„Hd%”gâ‘Éþõ•”–iâÙ´¼’1IL‹€qYYYmö-ŒuXP´mŽM+ck˜ÊÖVWE!3k»âË.Aæ›Çq$R€#ïYYDÐÈl=§ÝÈ€mÀÍ=½½•Âû±úVVRÒC˜<î;›{dÖ²gh;Žk+(šFFÓA}¹cÚ¤ö+ò1æ²²ƒ\\ôÓãPù‹	ÜcšÊÊRÿ' . "\0" . '©:úYe¥Õúz\\.ô¾ë]x—O§Â²Ã€Ñƒ·#àVVV˜èàü·ûÏ Q,ýÚ‹×w×ÓÍ<‡»6òì' . "\0" . '¬}BÒ!ŽïYYMF@ì€;Ph§v¸LšÊÊ%”öƒ‘ûqþy©—u#ÄùoÊ@¬¬¥²§°¢ä+O¼ŒïŒ“ÜþÕ•”ËeEZ¯pO“N±ž{ø¬¬«ãA	Y@ ó÷­æ•¦¸ØÇ ÖVT`­vÍßŠwé¤–ï¹Cv<ÖVUä„uFh¡æX‚8?Òx5f0k+*­›ÉâÞJ#,Vy.ò3Øw¬¬©!ÒþèËK¹^2qñóO#‘½wN1žÙãŠÊÊBÚý„æbŽüW&²²²”lIÿÙ')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-09 08:40:49 --> mysqli_sql_exception: Column 'id_karyawan' cannot be null in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Absen.php(32): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Absen.php(64): App\Models\M_Absen->saveDataAbsen(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-09 08:40:49 --> Column 'id_karyawan' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_absen` (`id_karyawan`, `tgl_absen`, `jam_masuk`, `lokasi_masuk`, `foto_masuk`, `created_at`, `updated_at`) VALUES (:id_karyawan:, :tgl_absen:, :jam_masuk:, :lokasi_masuk:, :foto_masuk:, :created_at:, :updated_at:)', [...], false)
+ 2 APPPATH\Models\M_Absen.php(32): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Absen.php(64): App\Models\M_Absen->saveDataAbsen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 16:08:23 --> Undefined array key "id_kantor"
+in APPPATH\Controllers\Absen.php on line 64.
+ 1 APPPATH\Controllers\Absen.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kantor"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 16:10:12 --> Undefined array key "id_kantor"
+in APPPATH\Controllers\Absen.php on line 64.
+ 1 APPPATH\Controllers\Absen.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kantor"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 22:08:29 --> Undefined array key "id_kantor"
+in APPPATH\Controllers\Absen.php on line 71.
+ 1 APPPATH\Controllers\Absen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kantor"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 22:08:31 --> Undefined array key "id_kantor"
+in APPPATH\Controllers\Absen.php on line 71.
+ 1 APPPATH\Controllers\Absen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kantor"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 22:08:32 --> Undefined array key "id_kantor"
+in APPPATH\Controllers\Absen.php on line 71.
+ 1 APPPATH\Controllers\Absen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kantor"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 22:08:35 --> Undefined array key "id_kantor"
+in APPPATH\Controllers\Absen.php on line 71.
+ 1 APPPATH\Controllers\Absen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kantor"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 22:08:52 --> Undefined array key "id_kantor"
+in APPPATH\Controllers\Absen.php on line 71.
+ 1 APPPATH\Controllers\Absen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kantor"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 22:09:30 --> Undefined array key "id_kantor"
+in APPPATH\Controllers\Absen.php on line 71.
+ 1 APPPATH\Controllers\Absen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kantor"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 22:09:30 --> Undefined array key "id_kantor"
+in APPPATH\Controllers\Absen.php on line 71.
+ 1 APPPATH\Controllers\Absen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kantor"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 22:09:31 --> Undefined array key "id_kantor"
+in APPPATH\Controllers\Absen.php on line 71.
+ 1 APPPATH\Controllers\Absen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kantor"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 22:09:31 --> Undefined array key "id_kantor"
+in APPPATH\Controllers\Absen.php on line 71.
+ 1 APPPATH\Controllers\Absen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kantor"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 22:09:49 --> Undefined array key "id_kantor"
+in APPPATH\Controllers\Absen.php on line 71.
+ 1 APPPATH\Controllers\Absen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kantor"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-09 22:15:43 --> mysqli_sql_exception: Column 'id_karyawan' cannot be null in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Absen.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Absen.php(89): App\Models\M_Absen->saveDataAbsen(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-09 22:15:43 --> Column 'id_karyawan' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_absen` (`id_absen`, `id_karyawan`, `tgl_absen`, `jam_masuk`, `lokasi_masuk`, `foto_masuk`, `created_at`, `updated_at`) VALUES (:id_absen:, :id_karyawan:, :tgl_absen:, :jam_masuk:, :lokasi_masuk:, :foto_masuk:, :created_at:, :updated_at:)', [...], false)
+ 2 APPPATH\Models\M_Absen.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Absen.php(89): App\Models\M_Absen->saveDataAbsen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-09 22:15:45 --> mysqli_sql_exception: Column 'id_karyawan' cannot be null in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Absen.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Absen.php(89): App\Models\M_Absen->saveDataAbsen(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-09 22:15:45 --> Column 'id_karyawan' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_absen` (`id_absen`, `id_karyawan`, `tgl_absen`, `jam_masuk`, `lokasi_masuk`, `foto_masuk`, `created_at`, `updated_at`) VALUES (:id_absen:, :id_karyawan:, :tgl_absen:, :jam_masuk:, :lokasi_masuk:, :foto_masuk:, :created_at:, :updated_at:)', [...], false)
+ 2 APPPATH\Models\M_Absen.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Absen.php(89): App\Models\M_Absen->saveDataAbsen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-09 22:16:53 --> mysqli_sql_exception: Column 'id_karyawan' cannot be null in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Absen.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Absen.php(89): App\Models\M_Absen->saveDataAbsen(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-09 22:16:53 --> Column 'id_karyawan' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_absen` (`id_absen`, `id_karyawan`, `tgl_absen`, `jam_masuk`, `lokasi_masuk`, `foto_masuk`, `created_at`, `updated_at`) VALUES (:id_absen:, :id_karyawan:, :tgl_absen:, :jam_masuk:, :lokasi_masuk:, :foto_masuk:, :created_at:, :updated_at:)', [...], false)
+ 2 APPPATH\Models\M_Absen.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Absen.php(89): App\Models\M_Absen->saveDataAbsen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-09 22:16:54 --> mysqli_sql_exception: Column 'id_karyawan' cannot be null in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Absen.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Absen.php(89): App\Models\M_Absen->saveDataAbsen(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-09 22:16:54 --> Column 'id_karyawan' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_absen` (`id_absen`, `id_karyawan`, `tgl_absen`, `jam_masuk`, `lokasi_masuk`, `foto_masuk`, `created_at`, `updated_at`) VALUES (:id_absen:, :id_karyawan:, :tgl_absen:, :jam_masuk:, :lokasi_masuk:, :foto_masuk:, :created_at:, :updated_at:)', [...], false)
+ 2 APPPATH\Models\M_Absen.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Absen.php(89): App\Models\M_Absen->saveDataAbsen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-09 22:17:28 --> mysqli_sql_exception: Column 'id_karyawan' cannot be null in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Absen.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Absen.php(89): App\Models\M_Absen->saveDataAbsen(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-09 22:17:28 --> Column 'id_karyawan' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_absen` (`id_absen`, `id_karyawan`, `tgl_absen`, `jam_masuk`, `lokasi_masuk`, `foto_masuk`, `created_at`, `updated_at`) VALUES (:id_absen:, :id_karyawan:, :tgl_absen:, :jam_masuk:, :lokasi_masuk:, :foto_masuk:, :created_at:, :updated_at:)', [...], false)
+ 2 APPPATH\Models\M_Absen.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Absen.php(89): App\Models\M_Absen->saveDataAbsen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-09 22:17:31 --> mysqli_sql_exception: Column 'id_karyawan' cannot be null in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Absen.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Absen.php(89): App\Models\M_Absen->saveDataAbsen(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-09 22:17:31 --> Column 'id_karyawan' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_absen` (`id_absen`, `id_karyawan`, `tgl_absen`, `jam_masuk`, `lokasi_masuk`, `foto_masuk`, `created_at`, `updated_at`) VALUES (:id_absen:, :id_karyawan:, :tgl_absen:, :jam_masuk:, :lokasi_masuk:, :foto_masuk:, :created_at:, :updated_at:)', [...], false)
+ 2 APPPATH\Models\M_Absen.php(31): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Absen.php(89): App\Models\M_Absen->saveDataAbsen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 22:20:00 --> Undefined array key "id_kantor"
+in APPPATH\Controllers\Absen.php on line 71.
+ 1 APPPATH\Controllers\Absen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kantor"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 22:20:03 --> Undefined array key "id_kantor"
+in APPPATH\Controllers\Absen.php on line 71.
+ 1 APPPATH\Controllers\Absen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kantor"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 22:20:04 --> Undefined array key "id_kantor"
+in APPPATH\Controllers\Absen.php on line 71.
+ 1 APPPATH\Controllers\Absen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kantor"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 22:20:05 --> Undefined array key "id_kantor"
+in APPPATH\Controllers\Absen.php on line 71.
+ 1 APPPATH\Controllers\Absen.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kantor"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 22:20:59 --> Undefined array key "id_kantor"
+in APPPATH\Controllers\Absen.php on line 64.
+ 1 APPPATH\Controllers\Absen.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kantor"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 22:21:00 --> Undefined array key "id_kantor"
+in APPPATH\Controllers\Absen.php on line 64.
+ 1 APPPATH\Controllers\Absen.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kantor"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 22:21:00 --> Undefined array key "id_kantor"
+in APPPATH\Controllers\Absen.php on line 64.
+ 1 APPPATH\Controllers\Absen.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kantor"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 22:21:01 --> Undefined array key "id_kantor"
+in APPPATH\Controllers\Absen.php on line 64.
+ 1 APPPATH\Controllers\Absen.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kantor"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 22:21:01 --> Undefined array key "id_kantor"
+in APPPATH\Controllers\Absen.php on line 64.
+ 1 APPPATH\Controllers\Absen.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kantor"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 22:30:26 --> Undefined array key "id_kantor"
+in APPPATH\Controllers\Absen.php on line 64.
+ 1 APPPATH\Controllers\Absen.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kantor"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 22:30:27 --> Undefined array key "id_kantor"
+in APPPATH\Controllers\Absen.php on line 64.
+ 1 APPPATH\Controllers\Absen.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kantor"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-09 22:31:36 --> Undefined array key "id_kantor"
+in APPPATH\Controllers\Absen.php on line 64.
+ 1 APPPATH\Controllers\Absen.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kantor"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')

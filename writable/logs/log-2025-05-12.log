@@ -1,0 +1,95 @@
+ERROR - 2025-05-12 00:35:18 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_absensi', 3306, '', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_User.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Auth.php(89): App\Models\M_User->getDataUser(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Auth->admin_login_checker()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\New folder\My Folder\e-absensi\app\Models\M_User.php(22): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\New folder\My Folder\e-absensi\app\Controllers\Auth.php(89): App\Models\M_User->getDataUser(Array)
+#5 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Auth->admin_login_checker()
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#10 {main}
+CRITICAL - 2025-05-12 00:35:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_user`
+WHERE `username` = :username:
+ORDER BY `id_user` ASC', [...], false)
+ 3 APPPATH\Models\M_User.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Auth.php(89): App\Models\M_User->getDataUser([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->admin_login_checker()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-12 00:58:23 --> Undefined variable $variable
+in APPPATH\Views\Backend\MasterKaryawan\master-data-karyawan.php on line 77.
+ 1 APPPATH\Views\Backend\MasterKaryawan\master-data-karyawan.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $variable', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterKaryawan\\master-data-karyawan.php', 77)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterKaryawan\\master-data-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterKaryawan/master-data-karyawan', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(25): view('Backend/MasterKaryawan/master-data-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->master_karyawan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-12 01:07:04 --> Call to undefined method App\Models\M_Karyawan::hapusDataKaryawan
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Karyawan.php(193): CodeIgniter\Model->__call('hapusDataKaryawan', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->hapus_data_karyawan('KRY001')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-12 02:16:02 --> Undefined array key "nama_jabatan"
+in APPPATH\Views\Backend\MasterPengajuan\master-data-pengajuan.php on line 67.
+ 1 APPPATH\Views\Backend\MasterPengajuan\master-data-pengajuan.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_jabatan"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterPengajuan\\master-data-pengajuan.php', 67)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterPengajuan\\master-data-pengajuan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterPengajuan/master-data-pengajuan', [], true)
+ 5 APPPATH\Controllers\Izin.php(97): view('Backend/MasterPengajuan/master-data-pengajuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Izin->master_data_pengajuan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Izin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-12 02:34:46 --> Undefined array key "status_izi"
+in APPPATH\Views\Backend\MasterPengajuan\master-data-pengajuan.php on line 70.
+ 1 APPPATH\Views\Backend\MasterPengajuan\master-data-pengajuan.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status_izi"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterPengajuan\\master-data-pengajuan.php', 70)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterPengajuan\\master-data-pengajuan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterPengajuan/master-data-pengajuan', [], true)
+ 5 APPPATH\Controllers\Izin.php(97): view('Backend/MasterPengajuan/master-data-pengajuan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Izin->master_data_pengajuan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Izin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-12 03:10:04 --> Call to undefined method App\Models\M_Izin::getDataJabatan
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Izin.php(111): CodeIgniter\Model->__call('getDataJabatan', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Izin->terima_data_pengajuan('IZN2025051000002')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Izin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')

@@ -1,0 +1,191 @@
+CRITICAL - 2025-05-25 01:51:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gaji.php on line 197.
+ 1 APPPATH\Controllers\Gaji.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Gaji.php', 197)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->simpan_pembayaran_gaji()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-25 01:57:38 --> Undefined array key "gaji_poko"
+in APPPATH\Views\Backend\MasterGaji\daftar-gaji\master-daftar-gaji.php on line 52.
+ 1 APPPATH\Views\Backend\MasterGaji\daftar-gaji\master-daftar-gaji.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gaji_poko"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGaji\\daftar-gaji\\master-daftar-gaji.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGaji\\daftar-gaji\\master-daftar-gaji.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterGaji/daftar-gaji/master-daftar-gaji', [], true)
+ 5 APPPATH\Controllers\Gaji.php(33): view('Backend/MasterGaji/daftar-gaji/master-daftar-gaji', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->daftar_gaji()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-25 01:57:44 --> Undefined array key "gaji_poko"
+in APPPATH\Views\Backend\MasterGaji\daftar-gaji\master-daftar-gaji.php on line 52.
+ 1 APPPATH\Views\Backend\MasterGaji\daftar-gaji\master-daftar-gaji.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "gaji_poko"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGaji\\daftar-gaji\\master-daftar-gaji.php', 52)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGaji\\daftar-gaji\\master-daftar-gaji.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterGaji/daftar-gaji/master-daftar-gaji', [], true)
+ 5 APPPATH\Controllers\Gaji.php(33): view('Backend/MasterGaji/daftar-gaji/master-daftar-gaji', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->daftar_gaji()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-25 01:58:50 --> Undefined variable $data
+in APPPATH\Views\Backend\MasterGaji\daftar-gaji\edit-daftar-gaji.php on line 50.
+ 1 APPPATH\Views\Backend\MasterGaji\daftar-gaji\edit-daftar-gaji.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGaji\\daftar-gaji\\edit-daftar-gaji.php', 50)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGaji\\daftar-gaji\\edit-daftar-gaji.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterGaji/daftar-gaji/edit-daftar-gaji', [], true)
+ 5 APPPATH\Controllers\Gaji.php(107): view('Backend/MasterGaji/daftar-gaji/edit-daftar-gaji', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->edit_daftar_gaji('81daa4870118833fe8be4f3a600671654657492b')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-25 01:59:01 --> Undefined variable $data
+in APPPATH\Views\Backend\MasterGaji\daftar-gaji\edit-daftar-gaji.php on line 50.
+ 1 APPPATH\Views\Backend\MasterGaji\daftar-gaji\edit-daftar-gaji.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGaji\\daftar-gaji\\edit-daftar-gaji.php', 50)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGaji\\daftar-gaji\\edit-daftar-gaji.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterGaji/daftar-gaji/edit-daftar-gaji', [], true)
+ 5 APPPATH\Controllers\Gaji.php(107): view('Backend/MasterGaji/daftar-gaji/edit-daftar-gaji', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->edit_daftar_gaji('81daa4870118833fe8be4f3a600671654657492b')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-25 02:34:13 --> Undefined variable $sub_total
+in APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php on line 95.
+ 1 APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_total', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php', 95)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/pdf/pdf-gaji-karyawan', [], true)
+ 5 APPPATH\Controllers\Gaji.php(330): view('Backend/pdf/pdf-gaji-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('54bfc00023b5364ba8768de416c3308c464a8fc0', '84d311325b890d6e7f1c0eb875c1263253c32947')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-25 03:46:52 --> mysqli_sql_exception: Unknown column 'is_delete_jabatan' in 'where clause' in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Absen.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\History.php(72): App\Models\M_Absen->getDataAbsen(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\History->input_rekap_bulanan()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-25 03:46:52 --> Unknown column 'is_delete_jabatan' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_absen`
+LEFT JOIN `tbl_karyawan` ON `tbl_karyawan`.`id_karyawan` = `tbl_absen`.`id_karyawan`
+LEFT JOIN `tbl_jadwal` ON `tbl_jadwal`.`id_jadwal` = `tbl_absen`.`id_jadwal`
+WHERE `is_delete_jabatan` = :is_delete_jabatan:
+ORDER BY `tbl_absen`.`id_absen` ASC', [...], false)
+ 2 APPPATH\Models\M_Absen.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\History.php(72): App\Models\M_Absen->getDataAbsen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->input_rekap_bulanan()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-25 04:06:59 --> Invalid file: "Backend/template/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/template/header.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/template/header', [], true)
+ 3 APPPATH\Controllers\History.php(101): view('Backend/template/header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->rekap_absen_bulanan()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-25 04:13:00 --> Undefined array key "nama_lokasi"
+in APPPATH\Views\Backend\MasterRekap\rekap-absen-bulanan.php on line 101.
+ 1 APPPATH\Views\Backend\MasterRekap\rekap-absen-bulanan.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_lokasi"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterRekap\\rekap-absen-bulanan.php', 101)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterRekap\\rekap-absen-bulanan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterRekap/rekap-absen-bulanan', [], true)
+ 5 APPPATH\Controllers\History.php(102): view('Backend/MasterRekap/rekap-absen-bulanan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->rekap_absen_bulanan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-25 04:15:38 --> Undefined array key "id_jabatan"
+in APPPATH\Controllers\History.php on line 96.
+ 1 APPPATH\Controllers\History.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_jabatan"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\History.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->rekap_absen_bulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-25 04:15:58 --> Undefined array key "id_jabatan"
+in APPPATH\Controllers\History.php on line 96.
+ 1 APPPATH\Controllers\History.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_jabatan"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\History.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->rekap_absen_bulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-25 04:16:01 --> Undefined array key "id_jabatan"
+in APPPATH\Controllers\History.php on line 96.
+ 1 APPPATH\Controllers\History.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_jabatan"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\History.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->rekap_absen_bulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-25 04:16:42 --> Undefined array key "id_jabatan"
+in APPPATH\Controllers\History.php on line 96.
+ 1 APPPATH\Controllers\History.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_jabatan"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\History.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->rekap_absen_bulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-25 04:16:58 --> Undefined array key "id_karyawan"
+in APPPATH\Controllers\History.php on line 96.
+ 1 APPPATH\Controllers\History.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_karyawan"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\History.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->rekap_absen_bulanan()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-25 04:17:18 --> Undefined array key "nama_lokasi"
+in APPPATH\Views\Backend\MasterRekap\rekap-absen-bulanan.php on line 101.
+ 1 APPPATH\Views\Backend\MasterRekap\rekap-absen-bulanan.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_lokasi"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterRekap\\rekap-absen-bulanan.php', 101)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterRekap\\rekap-absen-bulanan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterRekap/rekap-absen-bulanan', [], true)
+ 5 APPPATH\Controllers\History.php(105): view('Backend/MasterRekap/rekap-absen-bulanan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->rekap_absen_bulanan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-25 04:32:52 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Absen.php on line 165.
+ 1 APPPATH\Controllers\Absen.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 165)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->simpan_absen_masuk()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-25 05:49:43 --> Undefined array key "nama_kantor"
+in APPPATH\Views\Backend\MasterAbsen\detail-absen-karyawan.php on line 166.
+ 1 APPPATH\Views\Backend\MasterAbsen\detail-absen-karyawan.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_kantor"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterAbsen\\detail-absen-karyawan.php', 166)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterAbsen\\detail-absen-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterAbsen/detail-absen-karyawan', [], true)
+ 5 APPPATH\Controllers\Admin.php(89): view('Backend/MasterAbsen/detail-absen-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->detail_absen_karyawan('344f992e1373a6a5c0f60087e0b881cffd4a5fe2', 'c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')

@@ -1,0 +1,124 @@
+CRITICAL - 2025-05-17 01:15:15 --> Call to undefined method App\Models\M_Gaji_Karyawan::getDataGajiKaryawanJoin
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Gaji.php(311): CodeIgniter\Model->__call('getDataGajiKaryawanJoin', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->detail_gaji('da0f885934d64ae67150e836ca11aa9a439cef78')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-17 01:15:31 --> Call to undefined method App\Models\M_Karyawan::getDataUserJoin
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Gaji.php(313): CodeIgniter\Model->__call('getDataUserJoin', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->detail_gaji('da0f885934d64ae67150e836ca11aa9a439cef78')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-17 01:15:32 --> Call to undefined method App\Models\M_Karyawan::getDataUserJoin
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Gaji.php(313): CodeIgniter\Model->__call('getDataUserJoin', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->detail_gaji('da0f885934d64ae67150e836ca11aa9a439cef78')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-17 01:15:33 --> Call to undefined method App\Models\M_Karyawan::getDataUserJoin
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Gaji.php(313): CodeIgniter\Model->__call('getDataUserJoin', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->detail_gaji('da0f885934d64ae67150e836ca11aa9a439cef78')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-17 01:15:34 --> Call to undefined method App\Models\M_Karyawan::getDataUserJoin
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Gaji.php(313): CodeIgniter\Model->__call('getDataUserJoin', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->detail_gaji('da0f885934d64ae67150e836ca11aa9a439cef78')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-17 02:37:46 --> mysqli_sql_exception: Duplicate entry 'GM' for key 'PRIMARY' in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Gambar.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Admin.php(159): App\Models\M_Gambar->saveDataGambar(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Admin->simpan_logo_perusahaan()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-17 02:37:46 --> Duplicate entry 'GM' for key 'PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_gambar` (`id_gambar`, `nama_pt`, `gambar`, `bagian`, `is_delete_gambar`, `created_at`, `updated_at`) VALUES (:id_gambar:, :nama_pt:, :gambar:, :bagian:, :is_delete_gambar:, :created_at:, :updated_at:)', [...], false)
+ 2 APPPATH\Models\M_Gambar.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Admin.php(159): App\Models\M_Gambar->saveDataGambar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->simpan_logo_perusahaan()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-17 03:43:51 --> Undefined variable $data
+in APPPATH\Views\Backend\template\sidebar.php on line 12.
+ 1 APPPATH\Views\Backend\template\sidebar.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php', 12)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/template/sidebar', [], true)
+ 5 APPPATH\Controllers\Admin.php(107): view('Backend/template/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->logo_perusahaan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-17 03:50:27 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\template\sidebar.php on line 11.
+ 1 APPPATH\Views\Backend\template\sidebar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/template/sidebar', [], true)
+ 5 APPPATH\Controllers\Admin.php(107): view('Backend/template/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->logo_perusahaan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-17 03:50:56 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\template\sidebar.php on line 14.
+ 1 APPPATH\Views\Backend\template\sidebar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/template/sidebar', [], true)
+ 5 APPPATH\Controllers\Admin.php(107): view('Backend/template/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->logo_perusahaan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-17 03:51:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\template\sidebar.php on line 14.
+ 1 APPPATH\Views\Backend\template\sidebar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/template/sidebar', [], true)
+ 5 APPPATH\Controllers\Admin.php(107): view('Backend/template/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->logo_perusahaan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-17 23:39:10 --> Undefined array key "keterangan_absen"
+in APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php on line 34.
+ 1 APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "keterangan_absen"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/pdf/pdf-gaji-karyawan', [], true)
+ 5 APPPATH\Controllers\Gaji.php(268): view('Backend/pdf/pdf-gaji-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('da0f885934d64ae67150e836ca11aa9a439cef78')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')

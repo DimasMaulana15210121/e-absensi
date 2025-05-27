@@ -1,0 +1,560 @@
+CRITICAL - 2025-05-15 00:33:21 --> Undefined variable $page
+in APPPATH\Views\Backend\template\sidebar.php on line 53.
+ 1 APPPATH\Views\Backend\template\sidebar.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/template/sidebar', [], true)
+ 5 APPPATH\Controllers\Admin.php(19): view('Backend/template/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-15 00:36:34 --> Undefined variable $page
+in APPPATH\Views\Backend\template\sidebar.php on line 53.
+ 1 APPPATH\Views\Backend\template\sidebar.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/template/sidebar', [], true)
+ 5 APPPATH\Controllers\Admin.php(19): view('Backend/template/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-15 00:37:35 --> Undefined variable $page
+in APPPATH\Views\Backend\template\sidebar.php on line 53.
+ 1 APPPATH\Views\Backend\template\sidebar.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/template/sidebar', [], true)
+ 5 APPPATH\Controllers\Admin.php(19): view('Backend/template/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-15 00:37:51 --> Undefined variable $page
+in APPPATH\Views\Backend\template\sidebar.php on line 53.
+ 1 APPPATH\Views\Backend\template\sidebar.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php', 53)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/template/sidebar', [], true)
+ 5 APPPATH\Controllers\Admin.php(19): view('Backend/template/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-15 02:01:43 --> Undefined array key "tj_trasnportasi"
+in APPPATH\Views\Backend\MasterGaji\daftar-gaji\edit-daftar-gaji.php on line 82.
+ 1 APPPATH\Views\Backend\MasterGaji\daftar-gaji\edit-daftar-gaji.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tj_trasnportasi"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGaji\\daftar-gaji\\edit-daftar-gaji.php', 82)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGaji\\daftar-gaji\\edit-daftar-gaji.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterGaji/daftar-gaji/edit-daftar-gaji', [], true)
+ 5 APPPATH\Controllers\Gaji.php(96): view('Backend/MasterGaji/daftar-gaji/edit-daftar-gaji', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->edit_daftar_gaji('a3ebf3d361d4878db577f3976293302d38158e3d')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-15 02:45:55 --> mysqli_sql_exception: Column 'id_jabatan' in where clause is ambiguous in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Gaji.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Gaji.php(42): App\Models\M_Gaji->getDataGaji(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Gaji->simpan_daftar_gaji()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-15 02:45:55 --> Column 'id_jabatan' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_gaji`
+LEFT JOIN `tbl_jabatan` ON `tbl_jabatan`.`id_jabatan` = `tbl_gaji`.`id_jabatan`
+WHERE `id_jabatan` = :id_jabatan:
+AND `is_delete_gaji` = :is_delete_gaji:
+ORDER BY `tbl_gaji`.`id_jabatan` ASC', [...], false)
+ 2 APPPATH\Models\M_Gaji.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Gaji.php(42): App\Models\M_Gaji->getDataGaji([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->simpan_daftar_gaji()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-15 02:54:34 --> Undefined variable $data_jadwal
+in APPPATH\Views\Backend\MasterGaji\daftar-gaji\master-daftar-gaji.php on line 156.
+ 1 APPPATH\Views\Backend\MasterGaji\daftar-gaji\master-daftar-gaji.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_jadwal', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGaji\\daftar-gaji\\master-daftar-gaji.php', 156)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGaji\\daftar-gaji\\master-daftar-gaji.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterGaji/daftar-gaji/master-daftar-gaji', [], true)
+ 5 APPPATH\Controllers\Gaji.php(28): view('Backend/MasterGaji/daftar-gaji/master-daftar-gaji', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->daftar_gaji()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-15 02:56:29 --> Undefined variable $data_jadwal
+in APPPATH\Views\Backend\MasterGaji\daftar-gaji\master-daftar-gaji.php on line 156.
+ 1 APPPATH\Views\Backend\MasterGaji\daftar-gaji\master-daftar-gaji.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_jadwal', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGaji\\daftar-gaji\\master-daftar-gaji.php', 156)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGaji\\daftar-gaji\\master-daftar-gaji.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterGaji/daftar-gaji/master-daftar-gaji', [], true)
+ 5 APPPATH\Controllers\Gaji.php(28): view('Backend/MasterGaji/daftar-gaji/master-daftar-gaji', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->daftar_gaji()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-15 03:31:12 --> mysqli_sql_exception: Table 'db_absensi.tbl_posisi' doesn't exist in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Gaji_Karyawan.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Gaji.php(158): App\Models\M_Gaji_Karyawan->getDataGajiKaryawan(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Gaji->master_pembayaran()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-15 03:31:12 --> Table 'db_absensi.tbl_posisi' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_gaji_karyawan`
+LEFT JOIN `tbl_user` ON `tbl_user`.`id_user` = `tbl_gaji_karyawan`.`id_user`
+LEFT JOIN `tbl_gaji` ON `tbl_gaji`.`id_gaji` = `tbl_gaji_karyawan`.`id_gaji`
+LEFT JOIN `tbl_posisi` ON `tbl_posisi`.`id_posisi` = `tbl_user`.`id_posisi`
+WHERE `is_delete_gaji_karyawan` = :is_delete_gaji_karyawan:
+ORDER BY `tbl_gaji_karyawan`.`id_gaji_karyawan` DESC', [...], false)
+ 2 APPPATH\Models\M_Gaji_Karyawan.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Gaji.php(158): App\Models\M_Gaji_Karyawan->getDataGajiKaryawan([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->master_pembayaran()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-15 03:32:27 --> Invalid file: "template/head.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/head.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/head', [], true)
+ 3 APPPATH\Controllers\Gaji.php(166): view('template/head', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->master_pembayaran()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-15 03:32:29 --> Invalid file: "template/head.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/head.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/head', [], true)
+ 3 APPPATH\Controllers\Gaji.php(166): view('template/head', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->master_pembayaran()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-15 03:33:14 --> Undefined array key "nama_posisi"
+in APPPATH\Views\Backend\MasterGaji\pembayaran\master-pembayaran.php on line 98.
+ 1 APPPATH\Views\Backend\MasterGaji\pembayaran\master-pembayaran.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_posisi"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGaji\\pembayaran\\master-pembayaran.php', 98)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGaji\\pembayaran\\master-pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterGaji/pembayaran/master-pembayaran', [], true)
+ 5 APPPATH\Controllers\Gaji.php(168): view('Backend/MasterGaji/pembayaran/master-pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->master_pembayaran()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-15 03:45:00 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gaji.php on line 182.
+ 1 APPPATH\Controllers\Gaji.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Gaji.php', 182)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->simpan_pembayaran_gaji()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-15 03:45:32 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gaji.php on line 182.
+ 1 APPPATH\Controllers\Gaji.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Gaji.php', 182)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->simpan_pembayaran_gaji()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-15 03:46:42 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ORDER BY `tbl_gaji`.`id_jabatan` ASC' at line 4 in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Gaji.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Gaji.php(181): App\Models\M_Gaji->getDataGaji(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Gaji->simpan_pembayaran_gaji()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-15 03:46:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ORDER BY `tbl_gaji`.`id_jabatan` ASC' at line 4
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_gaji`
+LEFT JOIN `tbl_jabatan` ON `tbl_jabatan`.`id_jabatan` = `tbl_gaji`.`id_jabatan`
+WHERE 0 = :0:
+ORDER BY `tbl_gaji`.`id_jabatan` ASC', [...], false)
+ 2 APPPATH\Models\M_Gaji.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Gaji.php(181): App\Models\M_Gaji->getDataGaji([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->simpan_pembayaran_gaji()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-15 03:48:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ORDER BY `tbl_gaji`.`id_gaji` ASC' at line 4 in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Gaji.php(24): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Gaji.php(181): App\Models\M_Gaji->getDataGaji(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Gaji->simpan_pembayaran_gaji()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-15 03:48:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ORDER BY `tbl_gaji`.`id_gaji` ASC' at line 4
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_gaji`
+LEFT JOIN `tbl_jabatan` ON `tbl_jabatan`.`id_jabatan` = `tbl_gaji`.`id_jabatan`
+WHERE 0 = :0:
+ORDER BY `tbl_gaji`.`id_gaji` ASC', [...], false)
+ 2 APPPATH\Models\M_Gaji.php(24): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Gaji.php(181): App\Models\M_Gaji->getDataGaji([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->simpan_pembayaran_gaji()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-15 03:49:29 --> Undefined array key "id_gaji_karyawan"
+in APPPATH\Controllers\Gaji.php on line 191.
+ 1 APPPATH\Controllers\Gaji.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_gaji_karyawan"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Gaji.php', 191)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->simpan_pembayaran_gaji()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-15 03:50:21 --> mysqli_sql_exception: Column 'id_karyawan' cannot be null in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Gaji_Karyawan.php(73): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Gaji.php(207): App\Models\M_Gaji_Karyawan->saveDataGajiKaryawan(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Gaji->simpan_pembayaran_gaji()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-15 03:50:21 --> Column 'id_karyawan' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_gaji_karyawan` (`id_gaji_karyawan`, `id_karyawan`, `id_gaji`, `tgl_gajian`, `is_delete_gaji_karyawan`, `created_at`, `updated_at`) VALUES (:id_gaji_karyawan:, :id_karyawan:, :id_gaji:, :tgl_gajian:, :is_delete_gaji_karyawan:, :created_at:, :updated_at:)', [...], false)
+ 2 APPPATH\Models\M_Gaji_Karyawan.php(73): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Gaji.php(207): App\Models\M_Gaji_Karyawan->saveDataGajiKaryawan([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->simpan_pembayaran_gaji()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-15 03:51:58 --> mysqli_sql_exception: Column 'id_karyawan' cannot be null in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Gaji_Karyawan.php(73): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Gaji.php(207): App\Models\M_Gaji_Karyawan->saveDataGajiKaryawan(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Gaji->simpan_pembayaran_gaji()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-15 03:51:58 --> Column 'id_karyawan' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_gaji_karyawan` (`id_gaji_karyawan`, `id_karyawan`, `id_gaji`, `tgl_gajian`, `is_delete_gaji_karyawan`, `created_at`, `updated_at`) VALUES (:id_gaji_karyawan:, :id_karyawan:, :id_gaji:, :tgl_gajian:, :is_delete_gaji_karyawan:, :created_at:, :updated_at:)', [...], false)
+ 2 APPPATH\Models\M_Gaji_Karyawan.php(73): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Gaji.php(207): App\Models\M_Gaji_Karyawan->saveDataGajiKaryawan([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->simpan_pembayaran_gaji()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-15 04:06:11 --> Undefined array key "id_jabatan"
+in APPPATH\Controllers\Gaji.php on line 182.
+ 1 APPPATH\Controllers\Gaji.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_jabatan"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Gaji.php', 182)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->simpan_pembayaran_gaji()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-15 04:06:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ORDER BY `tbl_karyawan`.`id_karyawan` ASC' at line 5 in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Karyawan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Gaji.php(181): App\Models\M_Karyawan->getDataKaryawan(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Gaji->simpan_pembayaran_gaji()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-15 04:06:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ORDER BY `tbl_karyawan`.`id_karyawan` ASC' at line 5
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_karyawan`
+LEFT JOIN `tbl_jabatan` ON `tbl_jabatan`.`id_jabatan` = `tbl_karyawan`.`id_jabatan`
+LEFT JOIN `tbl_gaji` ON `tbl_gaji`.`id_jabatan` = `tbl_karyawan`.`id_jabatan`
+WHERE 0 = :0:
+ORDER BY `tbl_karyawan`.`id_karyawan` ASC', [...], false)
+ 2 APPPATH\Models\M_Karyawan.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Gaji.php(181): App\Models\M_Karyawan->getDataKaryawan([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->simpan_pembayaran_gaji()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-15 04:07:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ORDER BY `tbl_karyawan`.`id_karyawan` ASC' at line 5 in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Karyawan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Gaji.php(181): App\Models\M_Karyawan->getDataKaryawan(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Gaji->simpan_pembayaran_gaji()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-15 04:07:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ORDER BY `tbl_karyawan`.`id_karyawan` ASC' at line 5
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_karyawan`
+LEFT JOIN `tbl_jabatan` ON `tbl_jabatan`.`id_jabatan` = `tbl_karyawan`.`id_jabatan`
+LEFT JOIN `tbl_gaji` ON `tbl_gaji`.`id_jabatan` = `tbl_karyawan`.`id_jabatan`
+WHERE 0 = :0:
+ORDER BY `tbl_karyawan`.`id_karyawan` ASC', [...], false)
+ 2 APPPATH\Models\M_Karyawan.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Gaji.php(181): App\Models\M_Karyawan->getDataKaryawan([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->simpan_pembayaran_gaji()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-15 04:11:04 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ORDER BY `tbl_karyawan`.`id_karyawan` ASC' at line 5 in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Karyawan.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Gaji.php(181): App\Models\M_Karyawan->getDataKaryawan(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Gaji->simpan_pembayaran_gaji()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-15 04:11:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ORDER BY `tbl_karyawan`.`id_karyawan` ASC' at line 5
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_karyawan`
+LEFT JOIN `tbl_jabatan` ON `tbl_jabatan`.`id_jabatan` = `tbl_karyawan`.`id_jabatan`
+LEFT JOIN `tbl_gaji` ON `tbl_gaji`.`id_jabatan` = `tbl_karyawan`.`id_jabatan`
+WHERE 0 = :0:
+ORDER BY `tbl_karyawan`.`id_karyawan` ASC', [...], false)
+ 2 APPPATH\Models\M_Karyawan.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Gaji.php(181): App\Models\M_Karyawan->getDataKaryawan([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->simpan_pembayaran_gaji()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-15 04:11:36 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gaji.php on line 184.
+ 1 APPPATH\Controllers\Gaji.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Gaji.php', 184)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->simpan_pembayaran_gaji()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-15 04:13:00 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gaji.php on line 184.
+ 1 APPPATH\Controllers\Gaji.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Gaji.php', 184)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->simpan_pembayaran_gaji()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-15 04:14:25 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gaji.php on line 183.
+ 1 APPPATH\Controllers\Gaji.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Gaji.php', 183)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->simpan_pembayaran_gaji()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-15 04:18:47 --> Undefined array key "id_jabaran"
+in APPPATH\Controllers\Gaji.php on line 183.
+ 1 APPPATH\Controllers\Gaji.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_jabaran"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Gaji.php', 183)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->simpan_pembayaran_gaji()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-15 04:30:14 --> Undefined variable $data_jabatan
+in APPPATH\Views\Backend\MasterGaji\pembayaran\master-pembayaran.php on line 125.
+ 1 APPPATH\Views\Backend\MasterGaji\pembayaran\master-pembayaran.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_jabatan', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGaji\\pembayaran\\master-pembayaran.php', 125)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGaji\\pembayaran\\master-pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterGaji/pembayaran/master-pembayaran', [], true)
+ 5 APPPATH\Controllers\Gaji.php(168): view('Backend/MasterGaji/pembayaran/master-pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->master_pembayaran()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-15 04:57:16 --> Undefined array key "id_gaji_karyawan"
+in APPPATH\Views\Backend\MasterGaji\pembayaran\master-pembayaran.php on line 165.
+ 1 APPPATH\Views\Backend\MasterGaji\pembayaran\master-pembayaran.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_gaji_karyawan"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGaji\\pembayaran\\master-pembayaran.php', 165)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGaji\\pembayaran\\master-pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterGaji/pembayaran/master-pembayaran', [], true)
+ 5 APPPATH\Controllers\Gaji.php(168): view('Backend/MasterGaji/pembayaran/master-pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->master_pembayaran()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-15 04:57:16 --> Undefined array key "id_gaji_karyawan"
+in APPPATH\Views\Backend\MasterGaji\pembayaran\master-pembayaran.php on line 165.
+ 1 APPPATH\Views\Backend\MasterGaji\pembayaran\master-pembayaran.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_gaji_karyawan"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGaji\\pembayaran\\master-pembayaran.php', 165)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGaji\\pembayaran\\master-pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterGaji/pembayaran/master-pembayaran', [], true)
+ 5 APPPATH\Controllers\Gaji.php(168): view('Backend/MasterGaji/pembayaran/master-pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->master_pembayaran()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-15 07:07:01 --> Undefined array key "tgl_izin"
+in APPPATH\Views\Frontend\MasterIzin\master-data-izin.php on line 22.
+ 1 APPPATH\Views\Frontend\MasterIzin\master-data-izin.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_izin"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Frontend\\MasterIzin\\master-data-izin.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Frontend\\MasterIzin\\master-data-izin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Frontend/MasterIzin/master-data-izin', [], true)
+ 5 APPPATH\Controllers\Izin.php(23): view('Frontend/MasterIzin/master-data-izin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Izin->master_Izin()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Izin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-15 07:18:01 --> mysqli_sql_exception: Column 'id_karyawan' in where clause is ambiguous in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Izin.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Jadwal.php(79): App\Models\M_Izin->getDataIzin(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Jadwal->simpan_data_jadwal()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-15 07:18:01 --> Column 'id_karyawan' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_izin`
+LEFT JOIN `tbl_karyawan` ON `tbl_karyawan`.`id_karyawan` = `tbl_izin`.`id_karyawan`
+LEFT JOIN `tbl_jabatan` ON `tbl_jabatan`.`id_jabatan` = `tbl_karyawan`.`id_jabatan`
+WHERE `id_karyawan` = :id_karyawan:
+AND `tanggal_mulai` <= :tanggal_mulai:
+AND `tanggal_selesai` >= :tanggal_selesai:
+AND `status_approved` = :status_approved:
+ORDER BY `tbl_izin`.`id_izin` ASC', [...], false)
+ 2 APPPATH\Models\M_Izin.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Jadwal.php(79): App\Models\M_Izin->getDataIzin([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jadwal->simpan_data_jadwal()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-15 07:20:27 --> mysqli_sql_exception: Unknown column 'tanggal_mulai' in 'where clause' in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Izin.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Jadwal.php(79): App\Models\M_Izin->getDataIzin(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Jadwal->simpan_data_jadwal()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-15 07:20:27 --> Unknown column 'tanggal_mulai' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_izin`
+LEFT JOIN `tbl_karyawan` ON `tbl_karyawan`.`id_karyawan` = `tbl_izin`.`id_karyawan`
+LEFT JOIN `tbl_jabatan` ON `tbl_jabatan`.`id_jabatan` = `tbl_karyawan`.`id_jabatan`
+WHERE `tbl_izin`.`id_karyawan` = :tbl_izin.id_karyawan:
+AND `tanggal_mulai` <= :tanggal_mulai:
+AND `tanggal_selesai` >= :tanggal_selesai:
+AND `status_approved` = :status_approved:
+ORDER BY `tbl_izin`.`id_izin` ASC', [...], false)
+ 2 APPPATH\Models\M_Izin.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Jadwal.php(79): App\Models\M_Izin->getDataIzin([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jadwal->simpan_data_jadwal()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-15 23:56:31 --> Call to undefined method App\Models\M_Izin::getDataAbsen
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Absen.php(23): CodeIgniter\Model->__call('getDataAbsen', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->presensi()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')

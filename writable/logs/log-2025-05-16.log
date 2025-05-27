@@ -1,0 +1,490 @@
+CRITICAL - 2025-05-16 00:05:01 --> Undefined array key "tgl_lahie"
+in APPPATH\Views\Frontend\MasterProfile\profile-karyawan.php on line 64.
+ 1 APPPATH\Views\Frontend\MasterProfile\profile-karyawan.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_lahie"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Frontend\\MasterProfile\\profile-karyawan.php', 64)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Frontend\\MasterProfile\\profile-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Frontend/MasterProfile/profile-karyawan', [], true)
+ 5 APPPATH\Controllers\Profile.php(23): view('Frontend/MasterProfile/profile-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profile->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 00:05:02 --> Undefined array key "tgl_lahie"
+in APPPATH\Views\Frontend\MasterProfile\profile-karyawan.php on line 64.
+ 1 APPPATH\Views\Frontend\MasterProfile\profile-karyawan.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_lahie"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Frontend\\MasterProfile\\profile-karyawan.php', 64)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Frontend\\MasterProfile\\profile-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Frontend/MasterProfile/profile-karyawan', [], true)
+ 5 APPPATH\Controllers\Profile.php(23): view('Frontend/MasterProfile/profile-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profile->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 00:10:49 --> Undefined array key "tgl_izin"
+in APPPATH\Views\Frontend\MasterIzin\edit-data-izin.php on line 21.
+ 1 APPPATH\Views\Frontend\MasterIzin\edit-data-izin.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_izin"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Frontend\\MasterIzin\\edit-data-izin.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Frontend\\MasterIzin\\edit-data-izin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Frontend/MasterIzin/edit-data-izin', [], true)
+ 5 APPPATH\Controllers\Izin.php(104): view('Frontend/MasterIzin/edit-data-izin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Izin->edit_data_Izin('522a963522463a802d0e6ae23df0846932d5b058')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Izin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 01:10:03 --> Undefined array key "tgl_selesao"
+in APPPATH\Controllers\Absen.php on line 25.
+ 1 APPPATH\Controllers\Absen.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tgl_selesao"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->presensi()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 03:48:34 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Controllers\Jadwal.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jadwal->simpan_data_jadwal()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 03:51:11 --> Undefined array key "status_izin"
+in APPPATH\Controllers\Jadwal.php on line 84.
+ 1 APPPATH\Controllers\Jadwal.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status_izin"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Jadwal.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jadwal->simpan_data_jadwal()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 03:52:02 --> Undefined array key "tbl_izin.status_izin"
+in APPPATH\Controllers\Jadwal.php on line 84.
+ 1 APPPATH\Controllers\Jadwal.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tbl_izin.status_izin"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Jadwal.php', 84)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jadwal->simpan_data_jadwal()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 03:58:04 --> Undefined array key "status_izin"
+in APPPATH\Controllers\Jadwal.php on line 85.
+ 1 APPPATH\Controllers\Jadwal.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status_izin"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Jadwal.php', 85)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jadwal->simpan_data_jadwal()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-16 04:43:01 --> mysqli_sql_exception: Unknown column 'tbl_absen.tgl_absen' in 'where clause' in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Absen.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\History.php(61): App\Models\M_Absen->getDataHistory('KRY202505130000...', '1', '2025')
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\History->view_history()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-16 04:43:01 --> Unknown column 'tbl_absen.tgl_absen' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_absen`
+LEFT JOIN `tbl_karyawan` ON `tbl_karyawan`.`id_karyawan` = `tbl_absen`.`id_karyawan`
+WHERE `tbl_absen`.`id_karyawan` = :tbl_absen.id_karyawan:
+AND MONTH(tbl_absen.tgl_absen) = :MONTH(tbl_absen.tgl_absen):
+AND YEAR(tbl_absen.tgl_absen) = :YEAR(tbl_absen.tgl_absen):
+ORDER BY `tbl_absen`.`id_karyawan` ASC', [...], false)
+ 2 APPPATH\Models\M_Absen.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\History.php(61): App\Models\M_Absen->getDataHistory('KRY2025051300002', '1', '2025')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->view_history()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-16 04:43:03 --> mysqli_sql_exception: Unknown column 'tbl_absen.tgl_absen' in 'where clause' in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Absen.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\History.php(61): App\Models\M_Absen->getDataHistory('KRY202505130000...', '5', '2025')
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\History->view_history()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-16 04:43:03 --> Unknown column 'tbl_absen.tgl_absen' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_absen`
+LEFT JOIN `tbl_karyawan` ON `tbl_karyawan`.`id_karyawan` = `tbl_absen`.`id_karyawan`
+WHERE `tbl_absen`.`id_karyawan` = :tbl_absen.id_karyawan:
+AND MONTH(tbl_absen.tgl_absen) = :MONTH(tbl_absen.tgl_absen):
+AND YEAR(tbl_absen.tgl_absen) = :YEAR(tbl_absen.tgl_absen):
+ORDER BY `tbl_absen`.`id_karyawan` ASC', [...], false)
+ 2 APPPATH\Models\M_Absen.php(43): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\History.php(61): App\Models\M_Absen->getDataHistory('KRY2025051300002', '5', '2025')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->view_history()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 04:45:08 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Absen.php on line 26.
+ 1 APPPATH\Controllers\Absen.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->presensi()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 05:00:36 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Absen.php on line 26.
+ 1 APPPATH\Controllers\Absen.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->presensi()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 05:03:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Absen.php on line 26.
+ 1 APPPATH\Controllers\Absen.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->presensi()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 05:05:05 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Absen.php on line 26.
+ 1 APPPATH\Controllers\Absen.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->presensi()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 05:05:06 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Absen.php on line 26.
+ 1 APPPATH\Controllers\Absen.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->presensi()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 05:05:14 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Absen.php on line 26.
+ 1 APPPATH\Controllers\Absen.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->presensi()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 05:05:14 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Absen.php on line 26.
+ 1 APPPATH\Controllers\Absen.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->presensi()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 05:07:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Absen.php on line 50.
+ 1 APPPATH\Controllers\Absen.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->presensi()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 05:20:05 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Absen.php on line 50.
+ 1 APPPATH\Controllers\Absen.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->presensi()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 05:21:11 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Absen.php on line 50.
+ 1 APPPATH\Controllers\Absen.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->presensi()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-16 05:42:14 --> mysqli_sql_exception: Unknown column 'tbl_absen.tgl_absen' in 'where clause' in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Absen.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\History.php(61): App\Models\M_Absen->getDataHistory('KRY202505120000...', '5', '2025')
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\History->view_history()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-16 05:42:14 --> Unknown column 'tbl_absen.tgl_absen' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_absen`
+LEFT JOIN `tbl_karyawan` ON `tbl_karyawan`.`id_karyawan` = `tbl_absen`.`id_karyawan`
+LEFT JOIN `tbl_jadwal` ON `tbl_jadwal`.`id_jadwal` = `tbl_absen`.`id_jadwal`
+WHERE `tbl_absen`.`id_karyawan` = :tbl_absen.id_karyawan:
+AND MONTH(tbl_absen.tgl_absen) = :MONTH(tbl_absen.tgl_absen):
+AND YEAR(tbl_absen.tgl_absen) = :YEAR(tbl_absen.tgl_absen):
+ORDER BY `tbl_absen`.`id_karyawan` ASC', [...], false)
+ 2 APPPATH\Models\M_Absen.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\History.php(61): App\Models\M_Absen->getDataHistory('KRY2025051200001', '5', '2025')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->view_history()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-16 05:42:14 --> mysqli_sql_exception: Unknown column 'tbl_absen.tgl_absen' in 'where clause' in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Absen.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\History.php(61): App\Models\M_Absen->getDataHistory('KRY202505120000...', '5', '2025')
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\History->view_history()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-16 05:42:14 --> Unknown column 'tbl_absen.tgl_absen' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_absen`
+LEFT JOIN `tbl_karyawan` ON `tbl_karyawan`.`id_karyawan` = `tbl_absen`.`id_karyawan`
+LEFT JOIN `tbl_jadwal` ON `tbl_jadwal`.`id_jadwal` = `tbl_absen`.`id_jadwal`
+WHERE `tbl_absen`.`id_karyawan` = :tbl_absen.id_karyawan:
+AND MONTH(tbl_absen.tgl_absen) = :MONTH(tbl_absen.tgl_absen):
+AND YEAR(tbl_absen.tgl_absen) = :YEAR(tbl_absen.tgl_absen):
+ORDER BY `tbl_absen`.`id_karyawan` ASC', [...], false)
+ 2 APPPATH\Models\M_Absen.php(44): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\History.php(61): App\Models\M_Absen->getDataHistory('KRY2025051200001', '5', '2025')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->view_history()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 05:46:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRowtArray()
+in APPPATH\Controllers\History.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->view_history()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 05:46:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRowtArray()
+in APPPATH\Controllers\History.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->view_history()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 05:46:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRowtArray()
+in APPPATH\Controllers\History.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->view_history()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 05:46:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRowtArray()
+in APPPATH\Controllers\History.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->view_history()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 05:46:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRowtArray()
+in APPPATH\Controllers\History.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->view_history()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 05:46:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRowtArray()
+in APPPATH\Controllers\History.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->view_history()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 05:46:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRowtArray()
+in APPPATH\Controllers\History.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->view_history()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 05:46:25 --> Cannot access offset of type string on string
+in APPPATH\Views\Frontend\MasterHistory\view-history.php on line 12.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Frontend/MasterHistory/view-history', [], true)
+ 4 APPPATH\Controllers\History.php(71): view('Frontend/MasterHistory/view-history', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->view_history()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 05:46:26 --> Cannot access offset of type string on string
+in APPPATH\Views\Frontend\MasterHistory\view-history.php on line 12.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Frontend/MasterHistory/view-history', [], true)
+ 4 APPPATH\Controllers\History.php(71): view('Frontend/MasterHistory/view-history', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->view_history()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 05:46:26 --> Cannot access offset of type string on string
+in APPPATH\Views\Frontend\MasterHistory\view-history.php on line 12.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Frontend/MasterHistory/view-history', [], true)
+ 4 APPPATH\Controllers\History.php(71): view('Frontend/MasterHistory/view-history', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->view_history()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 05:46:26 --> Cannot access offset of type string on string
+in APPPATH\Views\Frontend\MasterHistory\view-history.php on line 12.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Frontend/MasterHistory/view-history', [], true)
+ 4 APPPATH\Controllers\History.php(71): view('Frontend/MasterHistory/view-history', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\History->view_history()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 23:08:03 --> Undefined variable $page
+in APPPATH\Views\Backend\template\sidebar.php on line 110.
+ 1 APPPATH\Views\Backend\template\sidebar.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php', 110)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/template/sidebar', [], true)
+ 5 APPPATH\Controllers\Kantor.php(21): view('Backend/template/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kantor->master_Kantor()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kantor))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 23:08:06 --> Undefined variable $page
+in APPPATH\Views\Backend\template\sidebar.php on line 110.
+ 1 APPPATH\Views\Backend\template\sidebar.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php', 110)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/template/sidebar', [], true)
+ 5 APPPATH\Controllers\Kantor.php(21): view('Backend/template/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kantor->master_Kantor()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kantor))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 23:09:52 --> Undefined variable $page
+in APPPATH\Views\Backend\template\sidebar.php on line 110.
+ 1 APPPATH\Views\Backend\template\sidebar.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php', 110)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/template/sidebar', [], true)
+ 5 APPPATH\Controllers\Kantor.php(21): view('Backend/template/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kantor->master_Kantor()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kantor))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 23:12:12 --> Undefined variable $page
+in APPPATH\Views\Backend\template\sidebar.php on line 121.
+ 1 APPPATH\Views\Backend\template\sidebar.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php', 121)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/template/sidebar', [], true)
+ 5 APPPATH\Controllers\Kantor.php(21): view('Backend/template/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kantor->master_Kantor()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kantor))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 23:14:56 --> Undefined variable $page
+in APPPATH\Views\Backend\template\sidebar.php on line 110.
+ 1 APPPATH\Views\Backend\template\sidebar.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php', 110)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/template/sidebar', [], true)
+ 5 APPPATH\Controllers\Kantor.php(21): view('Backend/template/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kantor->master_Kantor()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kantor))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 23:16:22 --> Undefined variable $page
+in APPPATH\Views\Backend\template\sidebar.php on line 110.
+ 1 APPPATH\Views\Backend\template\sidebar.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php', 110)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/template/sidebar', [], true)
+ 5 APPPATH\Controllers\Kantor.php(21): view('Backend/template/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kantor->master_Kantor()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kantor))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 23:16:24 --> Undefined variable $page
+in APPPATH\Views\Backend\template\sidebar.php on line 110.
+ 1 APPPATH\Views\Backend\template\sidebar.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php', 110)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/template/sidebar', [], true)
+ 5 APPPATH\Controllers\Kantor.php(21): view('Backend/template/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kantor->master_Kantor()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kantor))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 23:18:18 --> Undefined variable $page
+in APPPATH\Views\Backend\template\sidebar.php on line 110.
+ 1 APPPATH\Views\Backend\template\sidebar.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php', 110)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/template/sidebar', [], true)
+ 5 APPPATH\Controllers\Kantor.php(21): view('Backend/template/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kantor->master_Kantor()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kantor))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 23:20:41 --> Undefined variable $page
+in APPPATH\Views\Backend\template\sidebar.php on line 115.
+ 1 APPPATH\Views\Backend\template\sidebar.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php', 115)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/template/sidebar', [], true)
+ 5 APPPATH\Controllers\Kantor.php(21): view('Backend/template/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kantor->master_Kantor()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kantor))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-16 23:23:41 --> Undefined variable $page
+in APPPATH\Views\Backend\template\sidebar.php on line 54.
+ 1 APPPATH\Views\Backend\template\sidebar.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $page', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\template\\sidebar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/template/sidebar', [], true)
+ 5 APPPATH\Controllers\Kantor.php(21): view('Backend/template/sidebar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kantor->master_Kantor()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kantor))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')

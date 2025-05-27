@@ -1,0 +1,94 @@
+CRITICAL - 2025-05-22 02:03:46 --> Undefined array key "tanggal_mulai"
+in APPPATH\Controllers\Izin.php on line 203.
+ 1 APPPATH\Controllers\Izin.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_mulai"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Izin.php', 203)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Izin->terima_data_pengajuan('IZN2025051900001')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Izin))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-22 03:02:41 --> Undefined array key "jam_keluar"
+in APPPATH\Controllers\CekAbsen.php on line 23.
+ 1 APPPATH\Controllers\CekAbsen.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jam_keluar"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\CekAbsen.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CekAbsen->cek_alpha()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekAbsen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-22 03:46:23 --> Undefined variable $data_kantor
+in APPPATH\Views\Backend\MasterLokasi\edit-data-lokasi.php on line 90.
+ 1 APPPATH\Views\Backend\MasterLokasi\edit-data-lokasi.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_kantor', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterLokasi\\edit-data-lokasi.php', 90)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterLokasi\\edit-data-lokasi.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterLokasi/edit-data-lokasi', [], true)
+ 5 APPPATH\Controllers\Lokasi.php(93): view('Backend/MasterLokasi/edit-data-lokasi', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Lokasi->edit_data_lokasi('628ab43b1d6d3bdaa84d4a60008cb445dac0358b')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-22 03:47:46 --> mysqli_sql_exception: Unknown column 'id_kantor' in 'field list' in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Lokasi.php(29): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Lokasi.php(73): App\Models\M_Lokasi->saveDataLokasi(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Lokasi->simpan_data_lokasi()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-22 03:47:46 --> Unknown column 'id_kantor' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_lokasi` (`id_kantor`, `nama_lokasi`, `alamat`, `lokasi`, `radius`, `is_delete_lokasi`, `created_at`, `updated_at`) VALUES (:id_kantor:, :nama_lokasi:, :alamat:, :lokasi:, :radius:, :is_delete_lokasi:, :created_at:, :updated_at:)', [...], false)
+ 2 APPPATH\Models\M_Lokasi.php(29): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Lokasi.php(73): App\Models\M_Lokasi->saveDataLokasi([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Lokasi->simpan_data_lokasi()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lokasi))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-22 03:56:12 --> mysqli_sql_exception: Unknown column 'tbl_karyawan.id_kantor' in 'on clause' in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Karyawan.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Auth.php(24): App\Models\M_Karyawan->getDataKaryawan(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Auth->karyawan_login_checker()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-22 03:56:12 --> Unknown column 'tbl_karyawan.id_kantor' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_karyawan`
+LEFT JOIN `tbl_jabatan` ON `tbl_jabatan`.`id_jabatan` = `tbl_karyawan`.`id_jabatan`
+LEFT JOIN `tbl_gaji` ON `tbl_gaji`.`id_jabatan` = `tbl_karyawan`.`id_jabatan`
+LEFT JOIN `tbl_kantor` ON `tbl_kantor`.`id_kantor` = `tbl_karyawan`.`id_kantor`
+WHERE `username` = :username:
+ORDER BY `tbl_karyawan`.`id_karyawan` ASC', [...], false)
+ 2 APPPATH\Models\M_Karyawan.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Auth.php(24): App\Models\M_Karyawan->getDataKaryawan([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Auth->karyawan_login_checker()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-22 14:26:01 --> Undefined array key "alamat"
+in APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php on line 28.
+ 1 APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "alamat"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/pdf/pdf-gaji-karyawan', [], true)
+ 5 APPPATH\Controllers\Gaji.php(282): view('Backend/pdf/pdf-gaji-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('8fa8d140258729adca859a13945ad8889fc4c068', '84d311325b890d6e7f1c0eb875c1263253c32947')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')

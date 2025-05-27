@@ -1,0 +1,370 @@
+CRITICAL - 2025-05-18 00:33:26 --> Undefined array key "tj_pendidikan"
+in APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php on line 54.
+ 1 APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tj_pendidikan"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/pdf/pdf-gaji-karyawan', [], true)
+ 5 APPPATH\Controllers\Gaji.php(303): view('Backend/pdf/pdf-gaji-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('302474050ce0f8ab3df37d6840aa514e65438324', '84d311325b890d6e7f1c0eb875c1263253c32947')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-18 00:34:20 --> Undefined array key "keterangan_absen"
+in APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php on line 34.
+ 1 APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "keterangan_absen"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/pdf/pdf-gaji-karyawan', [], true)
+ 5 APPPATH\Controllers\Gaji.php(303): view('Backend/pdf/pdf-gaji-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('302474050ce0f8ab3df37d6840aa514e65438324', '84d311325b890d6e7f1c0eb875c1263253c32947')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-18 00:36:03 --> Undefined array key "keterangan_absen"
+in APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php on line 34.
+ 1 APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "keterangan_absen"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/pdf/pdf-gaji-karyawan', [], true)
+ 5 APPPATH\Controllers\Gaji.php(303): view('Backend/pdf/pdf-gaji-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('302474050ce0f8ab3df37d6840aa514e65438324', '84d311325b890d6e7f1c0eb875c1263253c32947')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-18 00:38:03 --> Undefined variable $dataAbsen
+in APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php on line 34.
+ 1 APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataAbsen', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/pdf/pdf-gaji-karyawan', [], true)
+ 5 APPPATH\Controllers\Gaji.php(308): view('Backend/pdf/pdf-gaji-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('302474050ce0f8ab3df37d6840aa514e65438324', '84d311325b890d6e7f1c0eb875c1263253c32947')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-18 00:38:21 --> Undefined variable $dataAbsen
+in APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php on line 34.
+ 1 APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataAbsen', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/pdf/pdf-gaji-karyawan', [], true)
+ 5 APPPATH\Controllers\Gaji.php(308): view('Backend/pdf/pdf-gaji-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('302474050ce0f8ab3df37d6840aa514e65438324', '84d311325b890d6e7f1c0eb875c1263253c32947')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-18 00:38:58 --> Undefined array key "keterangan_absen"
+in APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php on line 34.
+ 1 APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "keterangan_absen"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/pdf/pdf-gaji-karyawan', [], true)
+ 5 APPPATH\Controllers\Gaji.php(308): view('Backend/pdf/pdf-gaji-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('302474050ce0f8ab3df37d6840aa514e65438324', '84d311325b890d6e7f1c0eb875c1263253c32947')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-18 00:40:39 --> Undefined array key "status"
+in APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php on line 34.
+ 1 APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/pdf/pdf-gaji-karyawan', [], true)
+ 5 APPPATH\Controllers\Gaji.php(308): view('Backend/pdf/pdf-gaji-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('302474050ce0f8ab3df37d6840aa514e65438324', '84d311325b890d6e7f1c0eb875c1263253c32947')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-18 00:40:47 --> Undefined array key "status"
+in APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php on line 34.
+ 1 APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/pdf/pdf-gaji-karyawan', [], true)
+ 5 APPPATH\Controllers\Gaji.php(308): view('Backend/pdf/pdf-gaji-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('302474050ce0f8ab3df37d6840aa514e65438324', '84d311325b890d6e7f1c0eb875c1263253c32947')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-18 00:40:54 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php on line 34.
+ 1 APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/pdf/pdf-gaji-karyawan', [], true)
+ 5 APPPATH\Controllers\Gaji.php(308): view('Backend/pdf/pdf-gaji-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('302474050ce0f8ab3df37d6840aa514e65438324', '84d311325b890d6e7f1c0eb875c1263253c32947')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-18 00:40:55 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php on line 34.
+ 1 APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/pdf/pdf-gaji-karyawan', [], true)
+ 5 APPPATH\Controllers\Gaji.php(308): view('Backend/pdf/pdf-gaji-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('302474050ce0f8ab3df37d6840aa514e65438324', '84d311325b890d6e7f1c0eb875c1263253c32947')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-18 00:41:02 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php on line 34.
+ 1 APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/pdf/pdf-gaji-karyawan', [], true)
+ 5 APPPATH\Controllers\Gaji.php(308): view('Backend/pdf/pdf-gaji-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('302474050ce0f8ab3df37d6840aa514e65438324', '84d311325b890d6e7f1c0eb875c1263253c32947')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-18 00:47:23 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php on line 34.
+ 1 APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/pdf/pdf-gaji-karyawan', [], true)
+ 5 APPPATH\Controllers\Gaji.php(308): view('Backend/pdf/pdf-gaji-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('302474050ce0f8ab3df37d6840aa514e65438324', '84d311325b890d6e7f1c0eb875c1263253c32947')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-18 00:47:58 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php on line 34.
+ 1 APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/pdf/pdf-gaji-karyawan', [], true)
+ 5 APPPATH\Controllers\Gaji.php(308): view('Backend/pdf/pdf-gaji-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('302474050ce0f8ab3df37d6840aa514e65438324', '84d311325b890d6e7f1c0eb875c1263253c32947')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-18 00:48:12 --> Undefined array key "status"
+in APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php on line 34.
+ 1 APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/pdf/pdf-gaji-karyawan', [], true)
+ 5 APPPATH\Controllers\Gaji.php(308): view('Backend/pdf/pdf-gaji-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('302474050ce0f8ab3df37d6840aa514e65438324', '84d311325b890d6e7f1c0eb875c1263253c32947')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-18 00:51:09 --> Undefined array key "status"
+in APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php on line 34.
+ 1 APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/pdf/pdf-gaji-karyawan', [], true)
+ 5 APPPATH\Controllers\Gaji.php(308): view('Backend/pdf/pdf-gaji-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('302474050ce0f8ab3df37d6840aa514e65438324', '84d311325b890d6e7f1c0eb875c1263253c32947')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-18 00:57:02 --> mysqli_sql_exception: Invalid use of group function in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Absen.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Gaji.php(294): App\Models\M_Absen->getDataAbsen(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('302474050ce0f8a...', '84d311325b890d6...')
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-18 00:57:02 --> Invalid use of group function
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_absen`
+LEFT JOIN `tbl_karyawan` ON `tbl_karyawan`.`id_karyawan` = `tbl_absen`.`id_karyawan`
+LEFT JOIN `tbl_jadwal` ON `tbl_jadwal`.`id_jadwal` = `tbl_absen`.`id_jadwal`
+WHERE `tbl_absen`.`id_karyawan` = :tbl_absen.id_karyawan:
+AND count(tbl_absen.status) = :count(tbl_absen.status):
+ORDER BY `tbl_absen`.`id_absen` ASC', [...], false)
+ 2 APPPATH\Models\M_Absen.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Gaji.php(294): App\Models\M_Absen->getDataAbsen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('302474050ce0f8ab3df37d6840aa514e65438324', '84d311325b890d6e7f1c0eb875c1263253c32947')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-18 00:57:11 --> mysqli_sql_exception: Invalid use of group function in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Absen.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Gaji.php(294): App\Models\M_Absen->getDataAbsen(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('302474050ce0f8a...', '84d311325b890d6...')
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-18 00:57:11 --> Invalid use of group function
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_absen`
+LEFT JOIN `tbl_karyawan` ON `tbl_karyawan`.`id_karyawan` = `tbl_absen`.`id_karyawan`
+LEFT JOIN `tbl_jadwal` ON `tbl_jadwal`.`id_jadwal` = `tbl_absen`.`id_jadwal`
+WHERE `tbl_absen`.`id_karyawan` = :tbl_absen.id_karyawan:
+AND count(tbl_absen.status) = :count(tbl_absen.status):
+ORDER BY `tbl_absen`.`id_absen` ASC', [...], false)
+ 2 APPPATH\Models\M_Absen.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Gaji.php(294): App\Models\M_Absen->getDataAbsen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('302474050ce0f8ab3df37d6840aa514e65438324', '84d311325b890d6e7f1c0eb875c1263253c32947')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-05-18 00:57:11 --> mysqli_sql_exception: Invalid use of group function in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Absen.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Gaji.php(294): App\Models\M_Absen->getDataAbsen(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('302474050ce0f8a...', '84d311325b890d6...')
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-05-18 00:57:11 --> Invalid use of group function
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_absen`
+LEFT JOIN `tbl_karyawan` ON `tbl_karyawan`.`id_karyawan` = `tbl_absen`.`id_karyawan`
+LEFT JOIN `tbl_jadwal` ON `tbl_jadwal`.`id_jadwal` = `tbl_absen`.`id_jadwal`
+WHERE `tbl_absen`.`id_karyawan` = :tbl_absen.id_karyawan:
+AND count(tbl_absen.status) = :count(tbl_absen.status):
+ORDER BY `tbl_absen`.`id_absen` ASC', [...], false)
+ 2 APPPATH\Models\M_Absen.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Gaji.php(294): App\Models\M_Absen->getDataAbsen([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('302474050ce0f8ab3df37d6840aa514e65438324', '84d311325b890d6e7f1c0eb875c1263253c32947')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-18 01:11:25 --> Undefined array key "tj_pendidikan"
+in APPPATH\Views\Backend\MasterGaji\daftar-gaji\edit-daftar-gaji.php on line 58.
+ 1 APPPATH\Views\Backend\MasterGaji\daftar-gaji\edit-daftar-gaji.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tj_pendidikan"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGaji\\daftar-gaji\\edit-daftar-gaji.php', 58)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGaji\\daftar-gaji\\edit-daftar-gaji.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterGaji/daftar-gaji/edit-daftar-gaji', [], true)
+ 5 APPPATH\Controllers\Gaji.php(103): view('Backend/MasterGaji/daftar-gaji/edit-daftar-gaji', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->edit_daftar_gaji('a3ebf3d361d4878db577f3976293302d38158e3d')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-18 01:17:19 --> Undefined array key "potongan"
+in APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php on line 58.
+ 1 APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "potongan"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php', 58)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\pdf\\pdf-gaji-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/pdf/pdf-gaji-karyawan', [], true)
+ 5 APPPATH\Controllers\Gaji.php(305): view('Backend/pdf/pdf-gaji-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('302474050ce0f8ab3df37d6840aa514e65438324', '84d311325b890d6e7f1c0eb875c1263253c32947')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-18 01:39:33 --> syntax error, unexpected single-quoted string "X", expecting "," or ";"
+in APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php on line 71.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/pdf/pdf-gaji-karyawan', [], true)
+ 3 APPPATH\Controllers\Gaji.php(305): view('Backend/pdf/pdf-gaji-karyawan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('302474050ce0f8ab3df37d6840aa514e65438324', '84d311325b890d6e7f1c0eb875c1263253c32947')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-18 01:39:34 --> syntax error, unexpected single-quoted string "X", expecting "," or ";"
+in APPPATH\Views\Backend\pdf\pdf-gaji-karyawan.php on line 71.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/pdf/pdf-gaji-karyawan', [], true)
+ 3 APPPATH\Controllers\Gaji.php(305): view('Backend/pdf/pdf-gaji-karyawan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('302474050ce0f8ab3df37d6840aa514e65438324', '84d311325b890d6e7f1c0eb875c1263253c32947')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-18 02:40:09 --> Undefined array key "tbl_absen.status"
+in APPPATH\Controllers\Gaji.php on line 271.
+ 1 APPPATH\Controllers\Gaji.php(271): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tbl_absen.status"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Gaji.php', 271)
+ 2 [internal function]: App\Controllers\Gaji->App\Controllers\{closure}([...])
+ 3 APPPATH\Controllers\Gaji.php(270): array_filter([...], Object(Closure))
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->cetak_pembayaran('302474050ce0f8ab3df37d6840aa514e65438324', '84d311325b890d6e7f1c0eb875c1263253c32947')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-18 22:10:54 --> Undefined array key "tj_pendidikan"
+in APPPATH\Views\Frontend\MasterRiwayat\detail-pembayaran.php on line 47.
+ 1 APPPATH\Views\Frontend\MasterRiwayat\detail-pembayaran.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tj_pendidikan"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Frontend\\MasterRiwayat\\detail-pembayaran.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Frontend\\MasterRiwayat\\detail-pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Frontend/MasterRiwayat/detail-pembayaran', [], true)
+ 5 APPPATH\Controllers\Gaji.php(366): view('Frontend/MasterRiwayat/detail-pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->detail_gaji('302474050ce0f8ab3df37d6840aa514e65438324')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-18 22:16:39 --> Undefined array key "tj_pendidikan"
+in APPPATH\Views\Frontend\MasterRiwayat\detail-pembayaran.php on line 47.
+ 1 APPPATH\Views\Frontend\MasterRiwayat\detail-pembayaran.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tj_pendidikan"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Frontend\\MasterRiwayat\\detail-pembayaran.php', 47)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Frontend\\MasterRiwayat\\detail-pembayaran.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Frontend/MasterRiwayat/detail-pembayaran', [], true)
+ 5 APPPATH\Controllers\Gaji.php(366): view('Frontend/MasterRiwayat/detail-pembayaran', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->detail_gaji('302474050ce0f8ab3df37d6840aa514e65438324')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-18 22:42:06 --> Array callback must have exactly two elements
+in APPPATH\Views\Frontend\MasterRiwayat\master-riwayat-gaji.php on line 29.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Frontend/MasterRiwayat/master-riwayat-gaji', [], true)
+ 4 APPPATH\Controllers\Gaji.php(336): view('Frontend/MasterRiwayat/master-riwayat-gaji', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->riwayat_gaji_karyawan()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-18 22:42:42 --> Array callback must have exactly two elements
+in APPPATH\Views\Frontend\MasterRiwayat\master-riwayat-gaji.php on line 29.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Frontend/MasterRiwayat/master-riwayat-gaji', [], true)
+ 4 APPPATH\Controllers\Gaji.php(336): view('Frontend/MasterRiwayat/master-riwayat-gaji', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->riwayat_gaji_karyawan()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
