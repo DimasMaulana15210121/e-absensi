@@ -10,3 +10,13 @@ in APPPATH\Views\Frontend\MasterAbsen\sudah-absen.php on line 22.
  8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-30 03:54:42 --> Invalid file: "Frontend/MasterProfile/edit-daya-rekening.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Frontend/MasterProfile/edit-daya-rekening.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Frontend/MasterProfile/edit-daya-rekening', [], true)
+ 3 APPPATH\Controllers\Profile.php(97): view('Frontend/MasterProfile/edit-daya-rekening', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profile->edit_rekening()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')

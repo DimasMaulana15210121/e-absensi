@@ -1,6 +1,6 @@
     <!-- App Capsule -->
     <div id="appCapsule">
-        <div class="section bg-dark"  id="user-section">
+        <div class="section bg-info"  id="user-section">
             <?php
                 use App\Models\M_Karyawan;
 

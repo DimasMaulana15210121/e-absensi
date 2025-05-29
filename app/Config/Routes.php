@@ -33,6 +33,8 @@ $routes->get('/', 'Auth::auth_karyawan');
     //Profile
     $routes->get('/karyawan/profile', 'Profile::profile');
     $routes->post('/karyawan/simpan-profile', 'Profile::simpan_profile');
+    $routes->get('/karyawan/edit-data-rekening', 'Profile::edit_rekening');
+    $routes->post('/karyawan/update-data-rekening', 'Profile::update_rekening');
     
 //Backend
     //CekAbsen

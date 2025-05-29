@@ -1,5 +1,5 @@
 <!-- App Header -->
-<div class="appHeader bg-primary text-light">
+<div class="appHeader bg-info text-light">
     <div class="left">
         <a href="#" id="profile-back" onclick="back()" class="headerButton goBack">
             <i class="fas fa-arrow-left fa-2x"></i>
@@ -88,7 +88,14 @@
                                             <button id="editButton" type="button"
                                                 class="btn btn-primary btn-lg btn-block" onclick="enableEdit()">
                                                 <i class="fas fa-edit mr-1"></i> Edit Profil
-                                            </button>
+                                            </button><br>
+
+                                            <a href="<?= base_url('/karyawan/edit-data-rekening') ?>" id="rekeningButton">
+                                                <button type="button"
+                                                    class="btn btn-warning btn-lg btn-block">
+                                                    <i class="fas fa-edit mr-1"></i> Edit Rekening
+                                                </button>
+                                            </a>
 
                                             <div id="editActions" style="display: none;">
                                                 <button type="button" class="btn btn-primary btn-lg btn-block"
@@ -139,6 +146,7 @@
         document.getElementById("passwordEdit").style.display = "block";
         // Tampilkan tombol Simpan & Batal, sembunyikan Edit
         document.getElementById("editButton").style.display = "none";
+        document.getElementById("rekeningButton").style.display = "none";
         document.getElementById("editActions").style.display = "block";
     }
 
@@ -155,6 +163,7 @@
         document.getElementById("passwordEdit").style.display = "none";
         // Tampilkan kembali tombol Edit
         document.getElementById("editButton").style.display = "block";
+        document.getElementById("rekeningButton").style.display = "block";
         document.getElementById("editActions").style.display = "none";
     }
 

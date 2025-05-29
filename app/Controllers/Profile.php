@@ -78,4 +78,49 @@ class Profile extends BaseController
         session()->remove('idUpdate');
         session()->setFlashdata('success','Data Profile Berhasil Diperbarui!!');
     }
+
+    public function edit_rekening()
+    {
+        $uri = service('uri');
+        $page = $uri->getSegment(2);
+
+        $modelKaryawan = new M_Karyawan;
+
+        $dataKaryawan = $modelKaryawan->getDataKaryawan(['tbl_karyawan.id_karyawan' => session('ses_id')])->getRowArray();
+
+        $data['data_karyawan'] = $dataKaryawan;
+        $data['page'] = $page;
+        $data['judul'] = "Edit Data Rekening" ;
+        $data['menu'] = "rekening" ;
+
+        echo view('Frontend/template/header' ,$data);    
+        echo view('Frontend/MasterProfile/edit-data-rekening', $data);    
+        echo view('Frontend/template/bottom-menu', $data);    
+    }
+
+    public function update_rekening()
+    {
+
+        $modelKaryawan = new M_Karyawan;
+
+        $no_rek = $this->request->getPost('no_rek');
+        $nama_bank = $this->request->getPost('nama_bank');
+        $atas_nama = $this->request->getPost('atas_nama');
+
+        $dataKaryawan = $modelKaryawan->getDataKaryawan(['tbl_karyawan.id_karyawan' => session('ses_id')])->getRowArray();
+        $idUpdate = $dataKaryawan['id_karyawan'];
+
+        $dataUpdate = [
+            'no_rek' => $no_rek,
+            'nama_bank' => $nama_bank,
+            'atas_nama' => $atas_nama,
+            'updated_at' => date('Y-m-d H:i:s')
+        ];
+
+        $whereUpdate = ['id_karyawan' => $idUpdate];
+        $modelKaryawan->updateDataKaryawan($dataUpdate, $whereUpdate);
+        session()->remove('idUpdate');
+        session()->setFlashdata('success','Data Rekening Berhasil Diperbarui!!');
+        return redirect()->to(base_url('/karyawan/profile'));
+    }
 }

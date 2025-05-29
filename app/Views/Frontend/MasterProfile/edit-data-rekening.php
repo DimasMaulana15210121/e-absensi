@@ -1,5 +1,5 @@
     <!-- App Header -->
-    <div class="appHeader bg-primary text-light">
+    <div class="appHeader bg-info text-light">
         <div class="left">
             <a href="#" id="izin-back" onclick="back()" class="headerButton goBack">
                 <i class="fas fa-arrow-left fa-2x"></i>
@@ -14,28 +14,19 @@
         <div class="row">
             <div class="col">
                 <div class="card">
-                    <form action="<?= base_url('/karyawan/simpan-data-izin') ?>" method="post" enctype="multipart/form-data">
+                    <form action="<?= base_url('/karyawan/update-data-rekening') ?>" method="post" enctype="multipart/form-data">
                         <div class="card-body">
                             <div class="form-group">
-                                <label>Tanggal Mulai</label>
-                                <input type="date" class="form-control" name="tgl_mulai" required>
+                                <label>No Rekening</label>
+                                <input type="text" class="form-control" name="no_rek" value="<?= $data_karyawan['no_rek'] ?>" placeholder="Nomor Rekening Anda !" required>
                             </div>
                             <div class="form-group">
-                                <label>Tanggal Selesai</label>
-                                <input type="date" class="form-control" name="tgl_selesai" required>
+                                <label>Nama Bank</label>
+                                <input type="text" class="form-control" name="nama_bank" value="<?= $data_karyawan['nama_bank'] ?>" placeholder="Nama Bank Nya" required>
                             </div>
                             <div class="form-group">
-                                <label>Status Izin</label>
-                                <select class="custom-select" name="status_izin">
-                                  <option value="">-- Pilih Status Izin --</option>
-                                  <option value="Cuti">Cuti</option>
-                                  <option value="Izin">Izin</option>
-                                  <!-- <option value="Sakit">Sakit</option> -->
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label>Keterangan Izin</label>
-                                <textarea class="form-control" name="ket_izin" required></textarea>
+                                <label>Atas Nama</label>
+                                <input type="text" class="form-control" name="atas_nama" value="<?= $data_karyawan['atas_nama'] ?>" placeholder="Atas Nama Nya" required>
                             </div>
                             <button type="submit" class="btn btn-primary btn-lg btn-block" style="text-align: center;">Simpan</button>
                             <a href="<?= base_url('karyawan/master-data-izin') ?>" class="btn btn-secondary btn-lg btn-block" style="text-align: center;"> Batal</a>
