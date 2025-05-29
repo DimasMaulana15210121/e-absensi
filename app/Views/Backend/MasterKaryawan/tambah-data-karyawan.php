@@ -70,6 +70,27 @@
                                   </div>
                                   <div class="col-md-6">
                                       <div class="form-group">
+                                          <label>No Rekening</label>
+                                          <input type="text" name="no_rek" class="form-control"
+                                              placeholder="Nomor Rekening/Bisa Dikosongkan Agar Karyawan Yang Mengisi" required>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                      <div class="form-group">
+                                          <label>Nama Bank</label>
+                                          <input type="text" name="nama_bank" class="form-control"
+                                              placeholder="Nama Bank/Bisa Dikosongkan Agar Karyawan Yang Mengisi" required>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                      <div class="form-group">
+                                          <label>Atas Nama (Rekening)</label>
+                                          <input type="text" name="atas_nama" class="form-control"
+                                              placeholder="Atas Nama (Rekening)/Bisa Dikosongkan Agar Karyawan Yang Mengisi" required>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                      <div class="form-group">
                                           <label>Alamat Rumah</label>
                                           <textarea name="alamat_rumah" class="form-control" required></textarea>
                                       </div>

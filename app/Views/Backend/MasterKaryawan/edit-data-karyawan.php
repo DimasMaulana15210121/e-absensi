@@ -181,6 +181,21 @@
                                           <div class="col-md-12">
                                               <div class="form-group row">
                                                   <div class="col-md-3">
+                                                      <label>Rekening</label>
+                                                  </div>
+                                                  <div class="col-md-1">
+                                                      <label>:</label>
+                                                  </div>
+                                                  <div class="col-md-8">
+                                                      <input type="text" name="no_rek" class="form-control"
+                                                          placeholder="Nama Karyawan"
+                                                          value="<?= $data_karyawan['no_rek']; ?> (<?= $data_karyawan['nama_bank'] ?>) a/n <?= $data_karyawan['atas_nama'] ?>" readonly>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-12">
+                                              <div class="form-group row">
+                                                  <div class="col-md-3">
                                                       <label>Username</label>
                                                   </div>
                                                   <div class="col-md-1">

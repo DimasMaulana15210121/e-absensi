@@ -57,8 +57,11 @@ class Karyawan extends BaseController
         $nik_karyawan = $this->request->getPost('nik_karyawan');
         $nama_karyawan = $this->request->getPost('nama_karyawan');
         $alamat_rumah = $this->request->getPost('alamat_rumah');
-        $tgl_lahir = $this->request->getPost('tgl_lahir');
         $no_hp = $this->request->getPost('no_hp');
+        $tgl_lahir = $this->request->getPost('tgl_lahir');
+        $no_rek = $this->request->getPost('no_rek');
+        $nama_bank = $this->request->getPost('nama_bank');
+        $atas_nama = $this->request->getPost('atas_nama');
         $id_jabatan = $this->request->getPost('id_jabatan');
         $username = $this->request->getPost('username');
 
@@ -100,8 +103,11 @@ class Karyawan extends BaseController
             'nik_karyawan' => $nik_karyawan,
             'nama_karyawan' => $nama_karyawan,
             'alamat_rumah' => $alamat_rumah,
-            'tgl_lahir' => $tgl_lahir,
             'no_hp' => $no_hp,
+            'tgl_lahir' => $tgl_lahir,
+            'no_rek' => $no_rek,
+            'nama_bank' => $nama_bank,
+            'atas_nama' => $atas_nama,
             'id_jabatan' => $id_jabatan,
             'username' => $username,
             'password' => password_hash('user123', PASSWORD_DEFAULT),
