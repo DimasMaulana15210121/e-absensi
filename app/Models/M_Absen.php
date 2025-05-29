@@ -32,6 +32,7 @@ class M_Absen extends Model
     {
         $builder = $this->db->table($this->table);
         $builder->select('*');
+        $builder->where('tbl_absen.status IS NOT NULL', null, false);
         $builder->join('tbl_karyawan','tbl_karyawan.id_karyawan = tbl_absen.id_karyawan', 'LEFT');
         $builder->join('tbl_lokasi','tbl_lokasi.id_lokasi = tbl_absen.id_lokasi', 'LEFT');
         $builder->join('tbl_jadwal','tbl_jadwal.id_jadwal = tbl_absen.id_jadwal', 'LEFT');

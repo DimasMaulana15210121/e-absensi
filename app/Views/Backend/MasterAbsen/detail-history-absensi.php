@@ -36,7 +36,7 @@
                                     <div class="col-md-6">
                                         <div class="form-group" style="text-align: center;">
                                             <label>Nama Karyawan</label>
-                                            <input type="text" name="nama_karyawan" class="form-control"
+                                            <input type="text" name="nama_karyawan" class="form-control bg-info"
                                                 style="text-align: center;"
                                                 value="<?= $data_absen['nama_karyawan'] ?> - (<?= $data_karyawan['nama_jabatan'] ?>)"
                                                 disabled>
@@ -47,7 +47,7 @@
                                     <div class="col-md-6">
                                         <div class="form-group" style="text-align: center;">
                                             <label>Tanggal Absen</label>
-                                            <input type="text" name="nama_karyawan" class="form-control"
+                                            <input type="text" name="nama_karyawan" class="form-control bg-info"
                                                 style="text-align: center;"
                                                 value="<?= date('d F Y', strtotime($data_absen['tanggal'])) ?>"
                                                 disabled>
@@ -59,14 +59,50 @@
                                         <div class="form-group row">
                                             <div class="col-md-6">
                                                 <label>Jam Masuk Absen</label>
-                                                <input type="text" name="nama_karyawan" class="form-control"
+                                                <input type="text" name="nama_karyawan" class="form-control bg-success"
                                                     value="<?php echo $data_absen['jam_masuk_absen'] == '00:00:00' ? '--:--:--' : $data_absen['jam_masuk_absen'];?>"
                                                     disabled>
                                             </div>
                                             <div class="col-md-6">
                                                 <label>Jam Keluar Absen</label>
-                                                <input type="text" name="nama_karyawan" class="form-control"
+                                                <input type="text" name="nama_karyawan" class="form-control bg-danger"
                                                     value="<?php echo $data_absen['jam_keluar_absen'] == '00:00:00' ? '--:--:--' : $data_absen['jam_keluar_absen'];?>"
+                                                    disabled>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group row">
+                                            <div class="col-md-6">
+                                                <label>Lokasi Karyawan Absen Masuk</label>
+                                                <input type="text" name="jarak_masuk" class="form-control bg-success"
+                                                    value="<?php 
+                                                                if (strtolower($data_absen['status']) == 'alpha') {
+                                                                    echo 'Tidak Melakukan Absen';
+                                                                } else {
+                                                                    if ($data_absen['jarak_masuk'] == null) {
+                                                                        echo 'Absen Belum Dilakukan';
+                                                                    } else {
+                                                                        echo $data_absen['jarak_masuk']. ' Meter Dari Lokasi (' .$data_absen['nama_lokasi']. ')';
+                                                                    }
+                                                                }
+                                                           ?>"
+                                                    disabled>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label>Lokasi Karyawan Absen Pulang</label>
+                                                <input type="text" name="jarak_keluar" class="form-control bg-danger"
+                                                    value="<?php 
+                                                                if (strtolower($data_absen['status']) == 'alpha') {
+                                                                    echo 'Tidak Melakukan Absen';
+                                                                } else {
+                                                                    if ($data_absen['jarak_keluar'] == null) {
+                                                                        echo 'Absen Belum Dilakukan';
+                                                                    } else {
+                                                                        echo $data_absen['jarak_keluar']. ' Meter Dari Lokasi (' .$data_absen['nama_lokasi']. ')';
+                                                                    }
+                                                                }
+                                                           ?>"
                                                     disabled>
                                             </div>
                                         </div>
@@ -145,60 +181,60 @@
 
 <script type="text/javascript">
     // Validasi jika data lokasi tidak null atau kosong
-        var lokasiAbsen = L.latLng(<?= $data_absen['lokasi']; ?>);
-        var lokasiMasuk = L.latLng(<?= $data_absen['lokasi_masuk']; ?>);
-        var lokasiKeluar = L.latLng(<?= $data_absen['lokasi_keluar']; ?>);
+    var lokasiAbsen = L.latLng(<?= $data_absen['lokasi']; ?>);
+    var lokasiMasuk = L.latLng(<?= $data_absen['lokasi_masuk']; ?>);
+    var lokasiKeluar = L.latLng(<?= $data_absen['lokasi_keluar']; ?>);
 
-        var masuk = L.map('masuk').setView(lokasiAbsen, 18);
+    var masuk = L.map('masuk').setView(lokasiAbsen, 18);
 
-        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(masuk);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(masuk);
 
-        var circle = L.circle(lokasiAbsen, {
-            color: 'red',
-            fillColor: 'blue',
-            fillOpacity: 0.5,
-            radius: <?= ($data_absen['radius']); ?>
-        }).addTo(masuk);
+    var circle = L.circle(lokasiAbsen, {
+        color: 'red',
+        fillColor: 'blue',
+        fillOpacity: 0.5,
+        radius: <?= ($data_absen['radius']); ?>
+    }).addTo(masuk);
 
-        var LokasiIcon = L.icon({
-            iconUrl: '<?= base_url('Assets/lokasi.png') ?>',
-            iconSize:     [38, 65], // size of the icon
-            shadowSize:   [50, 64], // size of the shadow
-            iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
-            popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
-        });
+    var LokasiIcon = L.icon({
+        iconUrl: '<?= base_url('Assets/lokasi.png') ?>',
+        iconSize:     [38, 65], // size of the icon
+        shadowSize:   [50, 64], // size of the shadow
+        iconAnchor:   [22, 94], // point of the icon which will correspond to marker's location
+        popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+    });
 
-        L.marker(lokasiMasuk).addTo(masuk)
+    L.marker(lokasiMasuk).addTo(masuk)
+    .bindPopup('Lokasi Karyawan')
+    .openPopup();
+    L.marker(lokasiAbsen, {
+        icon: LokasiIcon
+    }).addTo(masuk)
+        .bindPopup('Lokasi Absen: <?= $data_absen['nama_lokasi']; ?>')
+        .openPopup();
+
+
+    var keluar = L.map('keluar').setView(lokasiAbsen, 18);
+
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(keluar);
+
+    var circleKeluar = L.circle(lokasiAbsen, {
+        color: 'red',
+        fillColor: 'blue',
+        fillOpacity: 0.5,
+        radius: <?= ($data_absen['radius']); ?>
+    }).addTo(keluar);
+
+    L.marker(lokasiKeluar).addTo(keluar)
         .bindPopup('Lokasi Karyawan')
         .openPopup();
-        L.marker(lokasiAbsen, {
-            icon: LokasiIcon
-        }).addTo(masuk)
-            .bindPopup('Lokasi Absen: <?= $data_absen['nama_lokasi']; ?>')
-            .openPopup();
-
-
-        var keluar = L.map('keluar').setView(lokasiAbsen, 18);
-
-        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(keluar);
-
-        var circleKeluar = L.circle(lokasiAbsen, {
-            color: 'red',
-            fillColor: 'blue',
-            fillOpacity: 0.5,
-            radius: <?= ($data_absen['radius']); ?>
-        }).addTo(keluar);
-
-        L.marker(lokasiKeluar).addTo(keluar)
-            .bindPopup('Lokasi Karyawan')
-            .openPopup();
-        L.marker(lokasiAbsen, {
-            icon: LokasiIcon
-        }).addTo(keluar)
-            .bindPopup('Lokasi Absen: <?= $data_absen['nama_lokasi']; ?>')
-            .openPopup();
+    L.marker(lokasiAbsen, {
+        icon: LokasiIcon
+    }).addTo(keluar)
+        .bindPopup('Lokasi Absen: <?= $data_absen['nama_lokasi']; ?>')
+        .openPopup();
 </script>
