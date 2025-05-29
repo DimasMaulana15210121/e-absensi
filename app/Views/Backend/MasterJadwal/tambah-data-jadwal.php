@@ -32,7 +32,7 @@
                                                         <div class="col-md-3"></div>
                                                         <div class="col-md-6" style="text-align: center;">
                                                             <label>Keterangan</label>
-                                                            <select class="form-control select2" name="keterangan[]">
+                                                            <select class="form-control select2" name="keterangan">
                                                                 <option value="masuk">Masuk</option>
                                                                 <option value="libur">Libur</option>
                                                             </select>

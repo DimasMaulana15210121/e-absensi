@@ -61,7 +61,7 @@ class Jadwal extends BaseController
 
         // Ambil data dari form
         $tanggal_mulai = $this->request->getPost('tanggal_mulai');
-        $tanggal_selesai = $this->request->getPost('tanggal_selesai');
+        $tanggal_akhir = $this->request->getPost('tanggal_akhir');
         $keterangan = $this->request->getPost('keterangan');
         $jam_masuk = $this->request->getPost('jam_masuk');
         $jam_keluar = $this->request->getPost('jam_keluar');
@@ -75,17 +75,17 @@ class Jadwal extends BaseController
             return redirect()->to('admin/tambah-data-jadwal')->withInput();
         }
 
-        if ($this->request->getPost('tanggal_selesai')) {
-            $tanggal_selesai = $this->request->getPost('tanggal_selesai');
+        if ($this->request->getPost('tanggal_akhir')) {
+            $tanggal_akhir = $this->request->getPost('tanggal_akhir');
         } else {
             $dt = new DateTime($tanggal_mulai);
-            $tanggal_selesai = $dt->format('Y-m-t');
+            $tanggal_akhir = $dt->format('Y-m-t');
         }
 
         $tgl_mulai = new DateTime($tanggal_mulai);
-        $tgl_selesai = (new DateTime($tanggal_selesai))->modify('+1 day'); // include tanggal selesai
+        $tgl_akhir = (new DateTime($tanggal_akhir))->modify('+1 day'); // include tanggal akhir
         
-        $periode = new DatePeriod($tgl_mulai, new DateInterval('P1D'), $tgl_selesai);
+        $periode = new DatePeriod($tgl_mulai, new DateInterval('P1D'), $tgl_akhir);
 
         foreach ($periode as $date) {
             $tanggal = $date->format('Y-m-d');
