@@ -68,7 +68,7 @@ class Absen extends BaseController
                 return redirect()->to(base_url('/karyawan/home'));
             }
             // Jika belum absen masuk
-            elseif ($dataAbsen['lokasi_masuk'] == null || $dataAbsen['foto_masuk'] == null || $dataAbsen['status'] == null) {
+            elseif ($dataAbsen['lokasi_masuk'] == null || $dataAbsen['jarak_masuk'] == null || $dataAbsen['foto_masuk'] == null || $dataAbsen['status'] == null) {
                 $data['data_karyawan'] = $dataKaryawan;
                 $data['judul'] = "Absen Masuk";
                 $data['menu'] = "presensi";
@@ -78,7 +78,7 @@ class Absen extends BaseController
                 echo view('Frontend/template/bottom-menu', $data);
             }
             // Jika sudah absen masuk tapi belum absen keluar
-            elseif ($dataAbsen['lokasi_keluar'] == null || $dataAbsen['foto_keluar'] == null) {
+            elseif ($dataAbsen['lokasi_keluar'] == null || $dataAbsen['jarak_keluar'] == null || $dataAbsen['foto_keluar'] == null) {
                 $data['data_karyawan'] = $dataKaryawan;
                 $data['judul'] = "Absen Keluar";
                 $data['menu'] = "presensi";
@@ -115,9 +115,11 @@ class Absen extends BaseController
         $jarak_masuk = $this->request->getPost('jarak');
 
         $dataKaryawan = $modelKaryawan->getDataKaryawan(['tbl_karyawan.id_karyawan' => session('ses_id')])->getRowArray();
+
         $dataAbsen = $modelAbsen->getDataAbsen(['tbl_absen.id_karyawan' => session('ses_id'), 'tbl_jadwal.tanggal' => date('Y-m-d')])->getRowArray();
+        $idUpdate = $dataAbsen['id_absen'];
         
-            // Validasi data dasar
+        // Validasi data dasar
         if (!$foto_masuk || !$lokasi_masuk || !$jarak_masuk) {
             return $this->response->setStatusCode(400)->setBody("Data tidak lengkap.");
         }
@@ -125,7 +127,6 @@ class Absen extends BaseController
         if (!$dataAbsen) {
             return $this->response->setStatusCode(400)->setBody("Data absen tidak ditemukan.");
         }
-        $idUpdate = $dataAbsen['id_absen'];
 
         $dataJadwal = $modelJadwal->getDataJadwal(['id_jadwal' => $dataAbsen['id_jadwal'],'tanggal' => date('Y-m-d')])->getRowArray();
 
@@ -188,12 +189,18 @@ class Absen extends BaseController
         $modelAbsen = new M_Absen;
         $modelJadwal = new M_Jadwal;
         
+        
+        // $id_karyawan = session()->get('ses_id');
+        $foto_keluar = $this->request->getPost('foto');
+        $lokasi_keluar = $this->request->getPost('lokasi');
+        $jarak_keluar = $this->request->getPost('jarak');
+        
         $dataAbsen = $modelAbsen->getDataAbsen(['tbl_absen.id_karyawan' => session('ses_id'),'tbl_jadwal.tanggal' => date('Y-m-d') ])->getRowArray();
         $idUpdate = $dataAbsen['id_absen'];
-
-        // $id_karyawan = session()->get('ses_id');
-        $foto_masuk = $this->request->getPost('foto');
-        $lokasi_keluar = $this->request->getPost('lokasi');
+        // Validasi data dasar
+        if (!$foto_keluar || !$lokasi_keluar || !$jarak_keluar) {
+            return $this->response->setStatusCode(400)->setBody("Data tidak lengkap.");
+        }
 
         $dataJadwal = $modelJadwal->getDataJadwal(['id_jadwal' => $dataAbsen['id_jadwal'],'tanggal' => date('Y-m-d')])->getRowArray();
         $jamKeluarAbsen = date('H:i:s');
@@ -204,14 +211,14 @@ class Absen extends BaseController
         }
 
         //mengubah foto menjadi file
-        $formatNama= "KRY"."-".date("Y-m-d_His");
+        $formatNama= "KLR"."-".date("Y-m-d_His");
         $filePath = 'Assets/img/foto-absen/absen-pulang/' ;
-        $imagePart = explode(";base64", $foto_masuk);
+        $imagePart = explode(";base64", $foto_keluar);
         $imageBase64 = base64_decode($imagePart[1]);
         $fileName = $formatNama . '.png';
         $file = $filePath.$fileName;
 
-        if (!$foto_masuk || strpos($foto_masuk, 'base64') === false) {
+        if (!$foto_keluar || strpos($foto_keluar, 'base64') === false) {
             return $this->response->setStatusCode(400)->setBody("Foto base64 tidak valid");
         }
         if (!is_dir($filePath)) {
@@ -227,6 +234,7 @@ class Absen extends BaseController
             // 'tgl_absen' => date('Y-m-d'),
             'jam_keluar_absen' => date('H:i:s'),
             'lokasi_keluar' => $lokasi_keluar,
+            'jarak_keluar' => intval($jarak_keluar),
             'foto_keluar' => $fileName,
             'updated_at' => date('Y-m-d H:i:s'),
         ];

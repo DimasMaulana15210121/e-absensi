@@ -1,0 +1,12 @@
+CRITICAL - 2025-05-30 03:24:43 --> Undefined array key ""
+in APPPATH\Views\Frontend\MasterAbsen\sudah-absen.php on line 22.
+ 1 APPPATH\Views\Frontend\MasterAbsen\sudah-absen.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Frontend\\MasterAbsen\\sudah-absen.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Frontend\\MasterAbsen\\sudah-absen.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Frontend/MasterAbsen/sudah-absen', [], true)
+ 5 APPPATH\Controllers\Absen.php(97): view('Frontend/MasterAbsen/sudah-absen', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->presensi()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')

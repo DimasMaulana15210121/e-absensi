@@ -86,6 +86,7 @@
         L.marker([latUser, lonUser]).addTo(map)
             .bindPopup("Posisi Anda").openPopup();
 
+        //radius lokasi
         const circle = L.circle(lokasiKantor, {
             color: 'red',
             fillColor: 'blue',
@@ -93,6 +94,7 @@
             radius: radius
         }).addTo(map);
 
+        //posisi lokasi
         const LokasiIcon = L.icon({
             iconUrl: '<?= base_url('Assets/lokasi.png') ?>',
             iconSize: [38, 95],
@@ -106,6 +108,7 @@
             .bindPopup("<?= esc($data_karyawan['nama_lokasi']) ?>")
             .openPopup();
 
+        //validasi jarak user dan lokasi
         jarak = hitungJarak(latUser, lonUser, kantorLatLng[0], kantorLatLng[1]);
         document.getElementById("jarak").value = jarak;
 

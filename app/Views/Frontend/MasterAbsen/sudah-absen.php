@@ -19,7 +19,9 @@
     <div class="col-sm-12 text-center">
         <h3><?= date('d F Y', strtotime($data_absen['tanggal'])); ?></h3>
         <h3 class="text-success">Masuk : <?= $data_absen['jam_masuk_absen'] ?> WIB </h3>
+        <h6 class="text-success">Lokasi Masuk : <?= $data_absen['jarak_masuk'] ?> Meter Dari Lokasi (<?= $data_absen['nama_lokasi'] ?>)</h6>
         <h3 class="text-danger">Pulang : <?= $data_absen['jam_keluar_absen'] ?> WIB</h3>
+        <h6 class="text-danger">Lokasi Pulang : <?= $data_absen['jarak_keluar'] ?> Meter Dari Lokasi (<?= $data_absen['nama_lokasi'] ?>)</h6>
     </div>
     <div class="col-sm-12 text-center">
         <h2>Selamat Beristirahat !</h2>
