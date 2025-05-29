@@ -16,20 +16,29 @@
 
     <table border="0" cellspacing="0" cellpadding="5" style="width: 100%; margin-top: 20px;">
         <tr>
-            <td style="font-weight: bold">Nama :</td>
+            <td style="font-weight: bold">Nama</td>
+            <td>:</td>
             <td><?= $dataGajiKaryawan['nama_karyawan'] ?></td>
         </tr>
         <tr>
-            <td style="font-weight: bold">Jabatan :</td>
+            <td style="font-weight: bold">Jabatan</td>
+            <td>:</td>
             <td><?= $dataGajiKaryawan['nama_jabatan'] ?></td>
         </tr>
         <tr>
-            <td style="font-weight: bold">Alamat :</td>
+            <td style="font-weight: bold">Alamat</td>
+            <td>:</td>
             <td><?= $dataGajiKaryawan['alamat_rumah'] ?></td>
         </tr>
         <tr>
-            <td style="font-weight: bold">Telp :</td>
+            <td style="font-weight: bold">Telp</td>
+            <td>:</td>
             <td><?= $dataGajiKaryawan['no_hp'] ?></td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold">Rekening</td>
+            <td>:</td>
+            <td><?= $dataGajiKaryawan['no_rek']; ?> (<?= $dataGajiKaryawan['nama_bank'] ?>) a/n <?= $dataGajiKaryawan['atas_nama'] ?></td>
         </tr>
     </table>
 
@@ -40,11 +49,13 @@
             <tr>
                 <th style="text-align: center; vertical-align: top;">Pendapatan</th>
                 <th style="vertical-align: top;"></th>
+                <th style="vertical-align: top;"></th>
                 <th style="text-align: center; vertical-align: top;">Potongan</th>
+                <th style="vertical-align: top;"></th>
                 <th style="vertical-align: top;"></th>
             </tr>
             <tr>
-                <th colspan="4">
+                <th colspan="6">
                     <hr>
                 </th>
             </tr>
@@ -59,62 +70,73 @@
         ?>
         <tbody>
             <tr>
-                <td style="font-weight: bold; vertical-align: top;">Gaji Pokok :</td>
+                <td style="font-weight: bold; vertical-align: top;">Gaji Pokok</td>
+                <td style="font-weight: bold; vertical-align: top;">:</td>
                 <td style="vertical-align: top;">Rp. <?= number_format($dataGajiKaryawan['gaji_pokok'], 0, ".", ".") ?>
                 </td>
-                <td style="font-weight: bold; vertical-align: top;">Potongan Tidak Hadir :</td>
+                <td style="font-weight: bold; vertical-align: top;">Potongan Tidak Hadir</td>
+                <td style="font-weight: bold; vertical-align: top;">:</td>
                 <td style="vertical-align: top;">Rp. <?= number_format($potong_gaji, 0, ".", ".") ?>
             </tr>
             <tr>
-                <td style="font-weight: bold; vertical-align: top;">Tj. Kesehatan :</td>
+                <td style="font-weight: bold; vertical-align: top;">Tj. Kesehatan</td>
+                <td style="font-weight: bold; vertical-align: top;">:</td>
                 <td style="vertical-align: top;">Rp.
                     <?= number_format($dataGajiKaryawan['tj_kesehatan'], 0, ".", ".") ?></td>
-                <td style="font-weight: bold; vertical-align: top;">BPJS :</td>
+                <td style="font-weight: bold; vertical-align: top;">BPJS</td>
+                <td style="font-weight: bold; vertical-align: top;">:</td>
                 <td style="vertical-align: top;">Rp.
                     <?= number_format($dataGajiKaryawan['bpjs'], 0, ".", ".") ?></td>
             </tr>
             <tr>
-                <td style="font-weight: bold; vertical-align: top;">Tj. Transportasi :</td>
+                <td style="font-weight: bold; vertical-align: top;">Tj. Transportasi</td>
+                <td style="font-weight: bold; vertical-align: top;">:</td>
                 <td style="vertical-align: top;">Rp.
                     <?= number_format($dataGajiKaryawan['tj_transportasi'], 0, ".", ".") ?></td>
-                <td style="font-weight: bold; vertical-align: top;">Pajak :</td>
+                <td style="font-weight: bold; vertical-align: top;">Pajak:</td>
+                <td style="font-weight: bold; vertical-align: top;">:</td>
                 <td style="vertical-align: top;">Rp.
                     <?= number_format($total_pajak, 0, ".", ".") ?></td>
             </tr>
             <tr>
-                <td style="font-weight: bold; vertical-align: top;">Tj. Konsumsi :</td>
+                <td style="font-weight: bold; vertical-align: top;">Tj. Konsumsi</td>
+                <td style="font-weight: bold; vertical-align: top;">:</td>
                 <td style="vertical-align: top;">Rp. <?= number_format($dataGajiKaryawan['uang_makan'], 0, ".", ".") ?>
                 </td>
                 <td></td>
                 <td></td>
             </tr>
             <tr>
-                <td style="font-weight: bold; vertical-align: top;">Bonus :</td>
+                <td style="font-weight: bold; vertical-align: top;">Bonus</td>
+                <td style="font-weight: bold; vertical-align: top;">:</td>
                 <td style="vertical-align: top;">Rp. <?= number_format($dataGajiKaryawan['bonus_gajian'], 0, ".", ".") ?>
                 </td>
                 <td></td>
                 <td></td>
             </tr>
             <tr>
-                <td colspan="4">
+                <td colspan="6">
                     <hr>
                 </td>
             </tr>
             <tr>
-                <td style="font-weight: bold; vertical-align: top;">Total Pendapatan :</td>
+                <td style="font-weight: bold; vertical-align: top;">Total Pendapatan</td>
+                <td style="font-weight: bold; vertical-align: top;">:</td>
                 <td style="vertical-align: top;">Rp. <?= number_format($total_pendapatan, 0, ".", ".") ?></td>
-                <td style="font-weight: bold; vertical-align: top;">Total Potongan :</td>
+                <td style="font-weight: bold; vertical-align: top;">Total Potongan</td>
+                <td style="font-weight: bold; vertical-align: top;">:</td>
                 <td style="vertical-align: top;">Rp. <?= number_format($total_potongan, 0, ".", ".") ?>
                 </td>
             </tr>
             <tr>
-                <td colspan="4">
+                <td colspan="6">
                     <hr>
                     <hr>
                 </td>
             </tr>
             <tr>
-                <td style="font-weight: bold; vertical-align: top;">Jumlah Diterima :</td>
+                <td style="font-weight: bold; vertical-align: top;">Jumlah Diterima</td>
+                <td style="font-weight: bold; vertical-align: top;">:</td>
                 <td style="vertical-align: top;">Rp. <?= number_format($total_gaji, 0, ".", ".") ?></td>
                 <td></td>
                 <td></td>

@@ -324,13 +324,13 @@ class Gaji extends BaseController
 
     //     $dataGajiKaryawan = $modelGajiKaryawan->getDataGajiKaryawan(['sha1(id_gaji_karyawan)' => $idGajiKaryawan])->getRowArray();
     //     // $dataAbsen = $modelAbsen->getDataAbsen(['sha1(tbl_absen.id_karyawan)' => $idKaryawan, 'month(tbl_jadwal.tanggal)' => date('m') ,'tbl_absen.status' => 'Alpha' ])->getResultArray();
-    //     $dataAbsen = $modelAbsen->getDataAbsen(['sha1(tbl_absen.id_karyawan)' => $idKaryawan, 'month(tbl_jadwal.tanggal)' => date('m')])->getResultArray();
-    //     $dataStatus = array_filter($dataAbsen, function($status) {
-    //         return in_array($status['status'], ['Alpha', null]);
-    //     });
+    //     // $dataAbsen = $modelAbsen->getDataAbsen(['sha1(tbl_absen.id_karyawan)' => $idKaryawan, 'month(tbl_jadwal.tanggal)' => date('m')])->getResultArray();
+    //     // $dataStatus = array_filter($dataAbsen, function($status) {
+    //     //     return in_array($status['status'], ['Alpha', null]);
+    //     // });
 
     //     $data['dataGajiKaryawan'] = $dataGajiKaryawan;
-    //     $data['data_absen'] = $dataStatus;
+    //     // $data['data_absen'] = $dataStatus;
     //     $data['page'] = $page;
     //     $data['menu'] = "home";
 
