@@ -112,9 +112,16 @@ class Absen extends BaseController
         // $id_karyawan = session()->get('ses_id');
         $foto_masuk = $this->request->getPost('foto');
         $lokasi_masuk = $this->request->getPost('lokasi');
+        $jarak_masuk = $this->request->getPost('jarak');
 
         $dataKaryawan = $modelKaryawan->getDataKaryawan(['tbl_karyawan.id_karyawan' => session('ses_id')])->getRowArray();
         $dataAbsen = $modelAbsen->getDataAbsen(['tbl_absen.id_karyawan' => session('ses_id'), 'tbl_jadwal.tanggal' => date('Y-m-d')])->getRowArray();
+        
+            // Validasi data dasar
+        if (!$foto_masuk || !$lokasi_masuk || !$jarak_masuk) {
+            return $this->response->setStatusCode(400)->setBody("Data tidak lengkap.");
+        }
+
         if (!$dataAbsen) {
             return $this->response->setStatusCode(400)->setBody("Data absen tidak ditemukan.");
         }
@@ -146,7 +153,7 @@ class Absen extends BaseController
         }
 
         // Simpan foto
-        $formatNama = "KRY" . "-" . date("Y-m-d_His");
+        $formatNama = "MSK" . "-" . date("Y-m-d_His");
         $filePath = 'Assets/img/foto-absen/absen-masuk/';
         $fileName = $formatNama . '.png';
         $file = $filePath . $fileName;
@@ -166,6 +173,7 @@ class Absen extends BaseController
             'jam_masuk_absen' => $jamMasuk,
             'status' => $status_absen,
             'lokasi_masuk' => $lokasi_masuk,
+            'jarak_masuk' => intval($jarak_masuk),
             'foto_masuk' => $fileName,
             'updated_at' => date('Y-m-d H:i:s'),
         ];
