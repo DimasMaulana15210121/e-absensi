@@ -49,11 +49,11 @@
           
           <div class="card">
             <div class="card-header">
-                <h4 class="card-title">Jumlah (Kehadiran,Terlambat,Alpha,Cuti,Izin) Bulan <?= date('F') ?></h4>
+                <h4 class="card-title">Data Absen Bulan <?= date('F') ?></h4>
             </div>
               <div class="col-12">
                   <div class="row">
-                      <div class="col-3">
+                      <div class="col-4">
                           <div class="info-box mb-3">
                               <span class="info-box-icon bg-green elevation-1"><i class="fas fa-check"></i></span>
     
@@ -64,7 +64,7 @@
                               <!-- /.info-box-content -->
                           </div>
                       </div>
-                      <div class="col-3">
+                      <div class="col-4">
                           <div class="info-box mb-3">
                               <span class="info-box-icon bg-maroon elevation-1"><i class="fa fa-clock"></i></i></span>
     
@@ -75,7 +75,7 @@
                               <!-- /.info-box-content -->
                           </div>
                       </div>
-                      <div class="col-3">
+                      <div class="col-4">
                           <div class="info-box mb-3">
                               <span class="info-box-icon bg-red elevation-1"><i class="fas fa-calendar-times"></i></span>
     
@@ -86,8 +86,8 @@
                               <!-- /.info-box-content -->
                           </div>
                       </div>
-                      <div class="col-3"></div>
-                      <div class="col-3">
+                      <!-- <div class="col-3"></div> -->
+                      <div class="col-4">
                           <div class="info-box mb-3">
                               <span class="info-box-icon bg-lightblue elevation-1"><i class="fab fa-cuttlefish"></i></span>
     
@@ -98,7 +98,7 @@
                               <!-- /.info-box-content -->
                           </div>
                       </div>
-                      <div class="col-3">
+                      <div class="col-4">
                           <div class="info-box mb-3">
                               <span class="info-box-icon bg-yellow elevation-1"><i class="fas fa-info"></i></span>
     

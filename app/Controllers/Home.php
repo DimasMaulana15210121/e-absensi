@@ -2,6 +2,7 @@
 namespace App\Controllers;
 
 use App\Models\M_Absen;
+use App\Models\M_Karyawan;
 
 class Home extends BaseController
 {
@@ -11,8 +12,10 @@ class Home extends BaseController
         $page = $uri->getSegment(2);
 
         $modelAbsen = new M_Absen;
+        $modelKaryawan = new M_Karyawan;
 
         $dataAbsen = $modelAbsen->getDataAbsen(['tbl_absen.id_karyawan' => session('ses_id'), 'tbl_jadwal.tanggal' => date('Y-m-d')])->getRowArray();
+        $dataKaryawan = $modelKaryawan->getDataKaryawan(['tbl_karyawan.id_karyawan' => session('ses_id')])->getRowArray();
         $dataBulanan = $modelAbsen->getDataAbsen(['tbl_absen.id_karyawan' => session('ses_id'), 'month(tbl_jadwal.tanggal)' => date('m')])->getResultArray();
 
         //Mengambil data count seluruh status
@@ -23,6 +26,17 @@ class Home extends BaseController
         $dataCuti = $modelAbsen->getDataAbsen(['tbl_absen.id_karyawan' => session('ses_id'), 'tbl_absen.status' => 'Cuti', 'month(tbl_jadwal.tanggal)' => date('m')])->getResultArray();
         $dataIzin = $modelAbsen->getDataAbsen(['tbl_absen.id_karyawan' => session('ses_id'), 'tbl_absen.status' => 'Izin', 'month(tbl_jadwal.tanggal)' => date('m')])->getResultArray();
 
+        if (!$dataAbsen) {
+            $dataAbsen = [
+                'lokasi_masuk' => null,
+                'jarak_masuk' => null,
+                'foto_masuk' => null,
+                'status' => null,
+                'jam_masuk' => null,
+                'jam_keluar' => null
+            ];
+        }
+
         $data['data_hadir'] = $dataHadir;
         $data['data_terlambat'] = $dataTerlambat;
         // $data['data_sakit'] = $dataSakit;
@@ -31,6 +45,7 @@ class Home extends BaseController
         $data['data_izin'] = $dataIzin;
 
         $data['data_absen'] = $dataAbsen;
+        $data['data_karyawan'] = $dataKaryawan;
         $data['data_bulanan'] = $dataBulanan;
         $data['page'] = $page;
         $data['menu'] = "home";

@@ -47,8 +47,9 @@ class Profile extends BaseController
             if (!$this->validate([
                 'foto_karyawan' => 'max_size[foto_karyawan,10240]|ext_in[foto_karyawan,jpg,jpeg,png]',
             ])) {
-                session()->setFlashdata('error', "Format file yang diizinkan: JPG, JPEG, PNG maksimal 10MB");
-                return redirect()->to('/admin/master-data-karyawan')->withInput();
+                return $this->response->setJSON([
+                    'status' => 'error', 'message' => 'Format file yang diizinkan: JPG, JPEG, PNG maksimal 10MB'
+                ]);
             }
         
             $ext1 = $foto_karyawan->getClientExtension();
@@ -76,7 +77,11 @@ class Profile extends BaseController
         $whereUpdate = ['id_karyawan' => $idUpdate];
         $modelKaryawan->updateDataKaryawan($dataUpdate, $whereUpdate);
         session()->remove('idUpdate');
-        session()->setFlashdata('success','Data Profile Berhasil Diperbarui!!');
+        return $this->response->setJSON([
+            'status' => 'success', 'message' => 'Profil berhasil diperbarui'
+        ]);
+        // session()->setFlashdata('success','Data Profile Berhasil Diperbarui!!');
+        // return redirect()->to(base_url('/karyawan/profile'));
     }
 
     public function edit_rekening()

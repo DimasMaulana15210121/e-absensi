@@ -1,0 +1,40 @@
+CRITICAL - 2025-05-31 14:03:21 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Absen.php on line 29.
+ 1 APPPATH\Controllers\Absen.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->presensi()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-31 14:04:59 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\CekAbsen.php on line 24.
+ 1 APPPATH\Controllers\CekAbsen.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\CekAbsen.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CekAbsen->cek_alpha()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekAbsen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-31 14:07:09 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\CekAbsen.php on line 24.
+ 1 APPPATH\Controllers\CekAbsen.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\CekAbsen.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CekAbsen->cek_alpha()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekAbsen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-31 14:11:29 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\CekAbsen.php on line 24.
+ 1 APPPATH\Controllers\CekAbsen.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\CekAbsen.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\CekAbsen->cek_alpha()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CekAbsen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-05-31 20:52:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Absen.php on line 29.
+ 1 APPPATH\Controllers\Absen.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Absen.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Absen->presensi()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')

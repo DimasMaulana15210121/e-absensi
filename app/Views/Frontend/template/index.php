@@ -1,53 +1,57 @@
     <!-- App Capsule -->
     <div id="appCapsule">
-        <div class="section bg-info"  id="user-section">
-            <?php
-                use App\Models\M_Karyawan;
-
-                $modelKaryawan = new M_Karyawan;
-                // Mengambil data keseluruhan kategori dari table kategori di database
-                $dataKaryawan = $modelKaryawan->getDataKaryawan(['tbl_karyawan.id_karyawan' => session('ses_id')])->getResultArray();
-            
-                foreach($dataKaryawan as $data){
-            ?>
-            <div id="user-detail">
-                <div class="avatar">
-                      <?php 
-                        $cekFoto = file_exists('Assets/img/karyawan/'.$data['foto_karyawan']);
+        <div class="section bg-secondary" id="user-section">
+            <div id="user-detail" class="d-flex justify-content-between align-items-center">
+                <div class="avatar d-flex align-items-center">
+                    <?php 
+                        $cekFoto = file_exists('Assets/img/karyawan/'.$data_karyawan['foto_karyawan']);
                         if($cekFoto){
-                           if ($data['foto_karyawan'] == '-') {
+                           if ($data_karyawan['foto_karyawan'] == '-') {
                               $foto_karyawan = base_url().'Assets/img/default.png';
                            }else{
-                           $foto_karyawan = base_url().'Assets/img/karyawan/'.$data['foto_karyawan'];
+                           $foto_karyawan = base_url().'Assets/img/karyawan/'.$data_karyawan['foto_karyawan'];
                            }
                         }
                         elseif(!$cekFoto){
                            $foto_karyawan = base_url().'Assets/img/default.png';
                         }
                       ?>
-                    <img src="<?= $foto_karyawan?>" alt="avatar"
-                        class="imaged w64 rounded" />
+                    <img src="<?= $foto_karyawan?>" alt="avatar" class="imaged w64 rounded" />
+                    <div id="user-info">
+                        <h2 id="user-name"><?= $data_karyawan['nama_karyawan']; ?></h2>
+                        <span id="user-role"><?= $data_karyawan['nama_jabatan']; ?></span>
+                    </div>
                 </div>
-                <div id="user-info">
-                    <h2 id="user-name"><?= $data['nama_karyawan']; ?></h2>
-                    <span id="user-role"><?= $data['nama_jabatan']; ?></span>
+                <div class="dropdown">
+                    <button class="btn btn-sm btn-light dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-cog"></i>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+                        <a href="<?= base_url()?>karyawan/profile" class="dropdown-item text-primary">
+                            <i class="fas fa-user-tie mr-1"></i>Profile
+                        </a>
+                        <a class="dropdown-item text-danger" href="<?= base_url('/karyawan/logout') ?>">
+                            <i class="fas fa-sign-out-alt mr-1"></i> Logout
+                        </a>
+                    </div>
                 </div>
             </div>
-            <?php } ?>
         </div>
 
         <div class="section" id="menu-section">
             <div class="card">
                 <div class="card-body text-center">
-                    <a href="<?= base_url()?>karyawan/riwayat-pembayaran-gaji">
-                        <button class="btn btn-primary btn-lg btn-block">
-                            <i class="fas fa-search-dollar mr-1"></i> Riwayat Pembayaran Gaji
-                        </button>
-                    </a>
+                    <?php 
+                        if ($data_absen['lokasi_masuk'] == null || $data_absen['jarak_masuk'] == null || $data_absen['foto_masuk'] == null || $data_absen['status'] == null) {
+                            echo '<marquee behavior="left" style="color: blue;"><strong>Selamat Datang '.$data_karyawan['nama_karyawan'].'</strong></marquee>' ;
+                        }
+                    ?>
+                    <!-- <marquee behavior="left" style="color: blue;"><strong>Selamat Datang</strong></marquee> -->
                 </div>
             </div>
         </div>
-        <div class="section" id="presence-section">
+        <div class="section" id="menu-section">
             <div class="todaypresence">
                 <div style="text-align: center;">
                     <h4>Jadwal Jam Masuk Hari Ini</h4>
@@ -62,7 +66,7 @@
                                     </div>
                                     <div class="presencedetail">
                                         <h4 class="presencetitle">Masuk</h4>
-                                        <span><?= $data_absen == null ? '--:--' : $data_absen['jam_masuk'] ?></span>
+                                        <span><?= $data_absen['jam_masuk'] == null ? '--:--' : $data_absen['jam_masuk'] ?></span>
                                     </div>
                                 </div>
                             </div>
@@ -77,7 +81,7 @@
                                     </div>
                                     <div class="presencedetail">
                                         <h4 class="presencetitle">Pulang</h4>
-                                        <span><?= $data_absen == null ? '--:--' : $data_absen['jam_keluar'] ?></span>
+                                        <span><?= $data_absen['jam_masuk'] == null ? '--:--' : $data_absen['jam_keluar'] ?></span>
                                     </div>
                                 </div>
                             </div>
@@ -208,7 +212,7 @@
                 <div class="col-sm-12">
                     <div class="card">
                         <div class="card-header" style="align-self: center;">
-                            <h3 class="card-title" >Data Absen Bulan Ini</h3>
+                            <h3 class="card-title">Data Absen Bulan Ini</h3>
                         </div>
                         <div class="card-body">
                             <div class="table-resposive">

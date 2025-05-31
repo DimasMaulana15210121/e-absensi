@@ -17,6 +17,11 @@ class CekAbsen extends BaseController
 
         // Ambil semua data absen yang belum ada jam masuk dan jam keluar (berarti belum absen)
         $dataAbsen = $modelAbsen->getDataAbsen(['tbl_absen.status' => null, 'tbl_jadwal.tanggal' => date('Y-m-d')])->getResultArray();
+        if (!$dataAbsen) {
+            session()->setFlashdata('error', 'Data jadwal absen belum dibuat !');
+            return redirect()->to(base_url('/admin/dashboard'));
+        }
+        
         $dataJadwal = $modelJadwal->getDataJadwal(['tanggal' => date('Y-m-d')])->getRowArray();
         $count = count($dataAbsen);
         $jumlahAlpha = 0;

@@ -1,15 +1,15 @@
     <!-- App Bottom Menu -->
-    <div class="appBottomMenu">
-        <a href="<?= base_url()?>karyawan/home" class="item<?= $menu == 'home' ? 'active' :''?>">
+    <div class="appBottomMenu rounded"> 
+        <a href="<?= base_url()?>karyawan/home" class="item <?= $menu == 'home' ? 'active' :''?>">
             <div class="col">
-                <i class="fas fa-home fa-3x <?= $menu == 'home' ? '' :'text-dark'?>"></i>
-                <strong>Home</strong>
+                <i class="fas fa-home fa-3x <?= $menu == 'home' ? '' :'text-light'?>"></i>
+                <font size="3"><strong>Home</strong></font>
             </div>
         </a>
-        <a href="<?= base_url()?>karyawan/history-absen" class="item<?= $menu == 'history' ? 'active' :''?>">
+        <a href="<?= base_url()?>karyawan/history-absen" class="item <?= $menu == 'history' ? 'active' :''?>">
             <div class="col">
-                <i class="fas fa-file-alt fa-3x <?= $menu == 'history' ? '' :'text-dark'?> "></i>
-                <strong>History</strong>
+                <i class="fas fa-file-alt fa-3x <?= $menu == 'history' ? '' :'text-light'?> "></i>
+                <font size="3"><strong>History</strong></font>
             </div>
         </a>
         <a href="<?= base_url()?>karyawan/presensi" class="item">
@@ -19,16 +19,16 @@
                 </div>
             </div>
         </a>
-        <a href="<?= base_url()?>karyawan/master-data-izin" class="item<?= $menu == 'izin' ? 'active' :''?>">
+        <a href="<?= base_url()?>karyawan/master-data-izin" class="item <?= $menu == 'izin' ? 'active' :''?>">
             <div class="col">
-                <i class="fas fa-calendar-check fa-3x <?= $menu == 'izin' ? '' :'text-dark'?>"></i>
-                <strong>Izin</strong>
+                <i class="fas fa-calendar-check fa-3x <?= $menu == 'izin' ? '' :'text-light'?>"></i>
+                <font size="3"><strong>Izin</strong></font>
             </div>
         </a>
-        <a href="<?= base_url()?>karyawan/profile" class="item<?= $menu == 'profile' ? 'active' :''?>">
+        <a href="<?= base_url()?>karyawan/riwayat-pembayaran-gaji" class="item <?= $menu == 'riwayat-gaji' ? 'active' :''?>">
             <div class="col">
-                <i class="fas fa-user-tie fa-3x <?= $menu == 'profile' ? '' :'text-dark'?>"></i>
-                <strong>Profile</strong>
+                <i class="fas fa-file-invoice-dollar fa-3x <?= $menu == 'riwayat-gaji' ? '' :'text-light'?>"></i>
+                <font size="3"><strong>Payroll</strong></font>
             </div>
         </a>
     </div>

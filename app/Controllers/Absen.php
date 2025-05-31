@@ -22,12 +22,6 @@ class Absen extends BaseController
         $dataAbsen = $modelAbsen->getDataAbsen(['tbl_absen.id_karyawan' => session('ses_id'), 'tbl_jadwal.tanggal' => date('Y-m-d')])->getRowArray();
         $dataKaryawan = $modelKaryawan->getDataKaryawan(['tbl_karyawan.id_karyawan' => session('ses_id')])->getRowArray();
         $dataIzin = $modelIzin->getDataIzin(['tbl_izin.id_karyawan' => session('ses_id')])->getRowArray();
-
-        $dataJadwal = $modelJadwal->getDataJadwal(['tanggal' => date('Y-m-d')])->getRowArray();
-        $jamSekarang = strtotime(date('H:i:s'));
-        $jamMasukJadwal = strtotime($dataJadwal['jam_masuk'] ?? '00:00:00');
-        $batasTelat = $jamMasukJadwal + ($dataJadwal['absen_alpha'] * 60); 
-
         // Jika data absen tidak ditemukan
         if (!$dataAbsen) {
             session()->setFlashdata('error', 'Data jadwal absen belum dibuat !');
@@ -36,6 +30,11 @@ class Absen extends BaseController
             session()->setFlashdata('error', 'Data penempatan belum dipilih oleh admin !');
             return redirect()->to(base_url('/karyawan/home'));
         }
+
+        $dataJadwal = $modelJadwal->getDataJadwal(['tanggal' => date('Y-m-d')])->getRowArray();
+        $jamSekarang = strtotime(date('H:i:s'));
+        $jamMasukJadwal = strtotime($dataJadwal['jam_masuk'] ?? '00:00:00');
+        $batasTelat = $jamMasukJadwal + ($dataJadwal['absen_alpha'] * 60); 
 
         if (($dataAbsen['jam_masuk_absen'] == '00:00:00') && ($dataAbsen['status'] == null) &&
             $jamSekarang > $batasTelat
