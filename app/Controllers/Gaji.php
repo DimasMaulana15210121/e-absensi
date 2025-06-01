@@ -280,10 +280,10 @@ class Gaji extends BaseController
     {
         $uri = service('uri');
         $idGajiKaryawan = $uri->getSegment(3);
-        $idKaryawan = $uri->getSegment(4);
+        // $idKaryawan = $uri->getSegment(4);
         
         $modelGajiKaryawan = new M_Gaji_Karyawan;
-        $modelAbsen = new M_Absen;
+        // $modelAbsen = new M_Absen;
 
         $dataGajiKaryawan = $modelGajiKaryawan->getDataGajiKaryawan(['sha1(id_gaji_karyawan)' => $idGajiKaryawan])->getRowArray();
         // $dataAbsen = $modelAbsen->getDataAbsen(['sha1(tbl_absen.id_karyawan)' => $idKaryawan, 'month(tbl_jadwal.tanggal)' => date('m') ,'tbl_absen.status' => 'Alpha' ])->getResultArray();
@@ -362,35 +362,70 @@ class Gaji extends BaseController
         echo view('Frontend/template/bottom-menu', $data);   
     }
 
+    public function karyawan_cetak_pembayaran()
+    {
+        $uri = service('uri');
+        $idGajiKaryawan = $uri->getSegment(3);
+        // $idKaryawan = $uri->getSegment(4);
+        
+        $modelGajiKaryawan = new M_Gaji_Karyawan;
+        // $modelAbsen = new M_Absen;
+
+        $dataGajiKaryawan = $modelGajiKaryawan->getDataGajiKaryawan(['sha1(id_gaji_karyawan)' => $idGajiKaryawan])->getRowArray();
+        // $dataAbsen = $modelAbsen->getDataAbsen(['sha1(tbl_absen.id_karyawan)' => $idKaryawan, 'month(tbl_jadwal.tanggal)' => date('m') ,'tbl_absen.status' => 'Alpha' ])->getResultArray();
+        // $dataAbsen = $modelAbsen->getDataAbsen(['sha1(tbl_absen.id_karyawan)' => $idKaryawan, 'month(tbl_jadwal.tanggal)' => date('m')])->getResultArray();
+        // $dataStatus = array_filter($dataAbsen, function($status) {
+        //     return in_array($status['status'], ['Alpha', null]);
+        // });
+
+        $data['dataGajiKaryawan'] = $dataGajiKaryawan;
+        // $data['data_absen'] = $dataStatus;
+        $filename = 'GAJI-KARYAWAN-'.date('y-m-d H:i:s');
+
+        // instantiate and use the dompdf class
+        $dompdf = new Dompdf();
+
+        // load HTML content
+        $dompdf->loadHtml(view('Backend/pdf/pdf-gaji-karyawan', $data));
+
+        // (optional) setup the paper size and orientation
+        $dompdf->setPaper('A4', 'potrait');
+
+        // render html as PDF
+        $dompdf->render();
+
+        // output the generated pdf
+        $dompdf->stream($filename);
+    }
+
     public function detail_gaji()
     {
         $uri = service('uri');
         $page = $uri->getSegment(2);
         $idGajiKaryawan = $uri->getSegment(3);
-        $idKaryawan = $uri->getSegment(4);
+        // $idKaryawan = $uri->getSegment(4);
 
         $modelGajiKaryawan = new M_Gaji_Karyawan();
-        $modelAbsen = new M_Absen;
-        $modelKaryawan = new M_Karyawan();
+        // $modelAbsen = new M_Absen;
+        // $modelKaryawan = new M_Karyawan();
 
         $dataGajiKaryawan = $modelGajiKaryawan->getDataGajiKaryawan(['sha1(id_gaji_karyawan)' => $idGajiKaryawan])->getRowArray();
-        $dataAbsen = $modelAbsen->getDataAbsen(['sha1(tbl_absen.id_karyawan)' => $idKaryawan, 'month(tbl_jadwal.tanggal)' => date('m')])->getResultArray();
-        $dataStatus = array_filter($dataAbsen, function($status) {
-            return in_array($status['status'], ['Alpha', null]);
-        });
-
+        // $dataAbsen = $modelAbsen->getDataAbsen(['sha1(tbl_absen.id_karyawan)' => $idKaryawan, 'month(tbl_jadwal.tanggal)' => date('m')])->getResultArray();
+        // $dataStatus = array_filter($dataAbsen, function($status) {
+        //     return in_array($status['status'], ['Alpha', null]);
+        // });
         
-        $sqlProfile = $modelKaryawan->getDataKaryawan(['tbl_karyawan.id_karyawan' => session('ses_id')]);
-        $cekProfile = $sqlProfile->getNumRows();
-        if(!$cekProfile){
-            $dataProfile = '';
-        }else{
-            $dataProfile = $sqlProfile->getRowArray();
-        }
+        // $sqlProfile = $modelKaryawan->getDataKaryawan(['tbl_karyawan.id_karyawan' => session('ses_id')]);
+        // $cekProfile = $sqlProfile->getNumRows();
+        // if(!$cekProfile){
+        //     $dataProfile = '';
+        // }else{
+        //     $dataProfile = $sqlProfile->getRowArray();
+        // }
         
         $data['page'] = $page;
-        $data['data_absen'] = $dataStatus;
-        $data['dataProfile'] = $dataProfile;
+        // $data['data_absen'] = $dataStatus;
+        // $data['dataProfile'] = $dataProfile;
         $data['dataGajiKaryawan'] = $dataGajiKaryawan;
         $data['judul'] = "Detail Gaji Karyawan" ;
         $data['menu'] = "detail-gaji-karyawan" ;

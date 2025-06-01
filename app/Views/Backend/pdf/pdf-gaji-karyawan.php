@@ -93,7 +93,7 @@
                 <td style="font-weight: bold; vertical-align: top;">:</td>
                 <td style="vertical-align: top;">Rp.
                     <?= number_format($dataGajiKaryawan['tj_transportasi'], 0, ".", ".") ?></td>
-                <td style="font-weight: bold; vertical-align: top;">Pajak:</td>
+                <td style="font-weight: bold; vertical-align: top;">Potongan Pajak:</td>
                 <td style="font-weight: bold; vertical-align: top;">:</td>
                 <td style="vertical-align: top;">Rp.
                     <?= number_format($total_pajak, 0, ".", ".") ?></td>

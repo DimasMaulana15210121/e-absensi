@@ -1,7 +1,7 @@
     <!-- App Header -->
-    <div class="appHeader bg-primary text-light">
+    <div class="appHeader bg-secondary text-light">
         <div class="left">
-            <a href="#" id="edit-izin-back" onclick="back()" class="headerButton goBack">
+            <a href="<?= base_url('/karyawan/master-data-izin') ?>" class="headerButton goBack">
                 <i class="fas fa-arrow-left fa-2x"></i>
             </a>
         </div>
@@ -50,15 +50,3 @@
             </div>
         </div>
     </div>
-
-    <script>
-        // document.getElementById("profile-back").addEventListener("click", function(event) {
-        //     event.preventDefault(); // mencegah <a href="#"> melakukan reload halaman
-        //     history.back(); // atau bisa juga pakai history.go(-1);
-        // });
-        var profile = document.getElementById("edit-izin-back");
-
-        function back() {
-            profile = history.back();
-        }
-    </script>

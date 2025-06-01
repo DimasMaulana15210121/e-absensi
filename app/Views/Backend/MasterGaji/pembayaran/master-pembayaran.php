@@ -59,7 +59,7 @@
                                                     data-toggle="modal"
                                                     data-target="#hapus-pembayaran-gaji<?= $data['id_gaji_karyawan']; ?>"></span>
                                             </button>
-                                            <a href="<?= base_url('/hr/cetak-pembayaran')."/".sha1($data['id_gaji_karyawan']).'/'.sha1($data['id_karyawan'])?>"
+                                            <a href="<?= base_url('/hr/cetak-pembayaran')."/".sha1($data['id_gaji_karyawan'])?>"
                                                 title="Cetak Invoice">
                                                 <button type="button" class="btn btn-info"><span
                                                         class="fas fa-file-invoice-dollar"></span></button>

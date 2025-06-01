@@ -28,6 +28,7 @@ class Home extends BaseController
 
         if (!$dataAbsen) {
             $dataAbsen = [
+                'keterangan_absen' => null,
                 'lokasi_masuk' => null,
                 'jarak_masuk' => null,
                 'foto_masuk' => null,

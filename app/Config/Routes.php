@@ -15,7 +15,8 @@ $routes->get('/', 'Auth::auth_karyawan');
     $routes->get('/karyawan/home', 'Home::home');
     //Riwayat
     $routes->get('/karyawan/riwayat-pembayaran-gaji', 'Gaji::riwayat_gaji_karyawan');
-    $routes->get('/karyawan/detail-gaji/(:alphanum)/(:alphanum)', 'Gaji::detail_gaji/$1/$2');
+    $routes->get('/karyawan/detail-gaji/(:alphanum)', 'Gaji::detail_gaji/$1');
+    $routes->get('/karyawan/cetak-pembayaran/(:alphanum)', 'Gaji::karyawan_cetak_pembayaran/$1');
     //History
     $routes->get('/karyawan/history-absen', 'History::history_absen');
     // $routes->get('/karyawan/view', 'History::view');
@@ -106,7 +107,7 @@ $routes->get('/', 'Auth::auth_karyawan');
     $routes->post('/hr/simpan-pembayaran-gaji', 'Gaji::simpan_pembayaran_gaji');
     $routes->post('/hr/update-pembayaran-gaji/(:alphanum)', 'Gaji::update_pembayaran_gaji/$1');
     $routes->get('/hr/hapus-pembayaran-gaji/(:alphanum)', 'Gaji::hapus_pembayaran_gaji/$1');
-    $routes->get('/hr/cetak-pembayaran/(:alphanum)/(:alphanum)', 'Gaji::cetak_pembayaran/$1/$2');
+    $routes->get('/hr/cetak-pembayaran/(:alphanum)', 'Gaji::cetak_pembayaran/$1');
 
     //History Absensi
     $routes->get('/hr/laporan-absensi', 'History::laporan_absensi');

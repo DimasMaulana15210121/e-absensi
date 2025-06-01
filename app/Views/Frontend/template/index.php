@@ -62,8 +62,10 @@
                                 .$data_absen['jarak_masuk'] .' Meter Dari Lokasi Absen Dan Sudah Melakukan Absen Pulang: '.$data_absen['jam_keluar_absen'].', Lokasi Keluar Anda: '
                                 .$data_absen['jarak_keluar'] .' Meter Dari Lokasi Absen. Terima Kasih, Selamat Beristirahat !</strong></marquee>' ;
                             }
-                        } else {
+                        } elseif ($data_absen['keterangan_absen'] == 'libur') {
                             echo '<marquee behavior="left" style="color: #007bff;"><strong>Selamat Datang '.$data_karyawan['nama_karyawan'].' Hari Ini Sedang Libur, Silahkan Menikmati Liburan Anda</strong></marquee>' ;
+                        }  else {
+                            echo '<marquee behavior="left" style="color: red;"><strong>Selamat Datang '.$data_karyawan['nama_karyawan'].'. Jadwal Absen Belum Dibuat,Silahkan Konfirmasi Admin</strong></marquee>' ;
                         }
                     ?>
                     <!-- <marquee behavior="left" style="color: blue;"><strong>Selamat Datang</strong></marquee> -->

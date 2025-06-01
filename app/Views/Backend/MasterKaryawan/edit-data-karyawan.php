@@ -87,7 +87,6 @@
                                                           <?php
 									                        foreach($data_jabatan as $data){
 									                      ?>
-                                                          <!-- <option>-- Pilih Jabatan --</option> -->
                                                           <option value="<?php echo $data["id_jabatan"] ?>"
                                                               <?php if($data_karyawan['id_jabatan'] == $data["id_jabatan"]){echo "selected";} else"";?>>
                                                               <?= $data['nama_jabatan']; ?>

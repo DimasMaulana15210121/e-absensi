@@ -1,7 +1,7 @@
 <!-- App Header -->
-<div class="appHeader bg-primary text-light">
+<div class="appHeader bg-secondary text-light">
     <div class="left">
-        <a href="#" id="detail-riwayat" onclick="back()" class="headerButton goBack">
+        <a href="<?= base_url('/karyawan/riwayat-pembayaran-gaji') ?>" class="headerButton goBack">
             <i class="fas fa-arrow-left fa-2x"></i>
         </a>
     </div>
@@ -57,9 +57,22 @@
                                                 value="Rp. <?= number_format($dataGajiKaryawan['tj_kesehatan'], '0', '.', '.')?>" disabled>
                                         </div><br>
                                         <div>
+                                            <label>BPJS</label>
+                                            <input name="bpjs" class="form-control"
+                                                value="Rp. <?= number_format($dataGajiKaryawan['bpjs'], '0', '.', '.')?>" disabled>
+                                        </div><br>
+                                        <div>
+                                            <?php    
+                                                $total_pajak = $dataGajiKaryawan['gaji_pokok'] * ($dataGajiKaryawan['pajak']/100);
+                                            ?>
+                                            <label>Potongan Pajak</label>
+                                            <input name="pajak" class="form-control"
+                                                value="Rp. <?= number_format($total_pajak, '0', '.', '.')?>" disabled>
+                                        </div><br>
+                                        <div>
                                             <?php
-                                                $count = count($data_absen);
-                                                $total_potongan = $dataGajiKaryawan['potong_gaji'] * $count;
+                                                // $count = count($data_absen);
+                                                $total_potongan = $dataGajiKaryawan['potong_gaji'] * $dataGajiKaryawan['total_alpha'];
                                             ?>
                                             <label>Potongan Tidak Hadir</label>
                                             <input name="potong_gaji" class="form-control"
@@ -81,15 +94,3 @@
         </ul>
     </div>
 </div>
-
-<script>
-    // document.getElementById("profile-back").addEventListener("click", function(event) {
-    //     event.preventDefault(); // mencegah <a href="#"> melakukan reload halaman
-    //     history.back(); // atau bisa juga pakai history.go(-1);
-    // });
-    var profile = document.getElementById("detail-riwayat");
-
-    function back() {
-        profile = history.back();
-    }
-</script>

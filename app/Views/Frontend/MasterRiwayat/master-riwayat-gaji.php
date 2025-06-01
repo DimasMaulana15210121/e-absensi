@@ -1,5 +1,5 @@
     <!-- App Header -->
-    <div class="appHeader bg-primary text-light">
+    <div class="appHeader bg-secondary text-light">
         <div class="left">
             <a href="<?= base_url('/karyawan/home') ?>" class="headerButton goBack">
                 <i class="fas fa-arrow-left fa-2x"></i>
@@ -26,13 +26,13 @@
                                 <span>(<?= $data['tgl_gajian'] ?>)</span>
                             </div>
                             <div>
-                                <a href="<?= base_url('/karyawan/detail-gaji')."/".sha1($data['id_gaji_karyawan']).'/'.sha1($data['id_karyawan']); ?>"
+                                <a href="<?= base_url('/karyawan/detail-gaji')."/".sha1($data['id_gaji_karyawan']); ?>"
                                     title="Cetak Invoice">
                                     <button type="button" class="btn btn-primary btn-sm btn-block" title="Detail Data">
                                         <i class="fas fa-search mr-1"></i>Detail Invoice
                                     </button>
                                 </a><br>
-                                <a href="<?= base_url('/admin/cetak-pembayaran')."/".sha1($data['id_gaji_karyawan']).'/'.sha1(session('ses_id')); ?>"
+                                <a href="<?= base_url('/karyawan/cetak-pembayaran')."/".sha1($data['id_gaji_karyawan']); ?>"
                                     title="Cetak Invoice">
                                     <button type="button" class="btn btn-info btn-sm btn-block" title="Edit Data">
                                         <i class="fas fa-print mr-1"></i>Cetak Invoice

@@ -1,7 +1,7 @@
     <!-- App Header -->
-    <div class="appHeader bg-primary text-light">
+    <div class="appHeader bg-secondary text-light">
         <div class="left">
-            <a href="#" id="history-back" onclick="back()" class="headerButton goBack">
+            <a href="<?= base_url('/karyawan/home') ?>" class="headerButton goBack">
                 <i class="fas fa-arrow-left fa-2x"></i>
             </a>
         </div>
@@ -84,17 +84,5 @@
                     }
                 });
             }
-        }
-    </script>
-
-    <script>
-        // document.getElementById("profile-back").addEventListener("click", function(event) {
-        //     event.preventDefault(); // mencegah <a href="#"> melakukan reload halaman
-        //     history.back(); // atau bisa juga pakai history.go(-1);
-        // });
-        var profile = document.getElementById("history-back");
-
-        function back() {
-            profile = history.go(-1);
         }
     </script>

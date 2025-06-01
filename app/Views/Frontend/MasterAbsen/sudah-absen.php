@@ -1,7 +1,7 @@
 <!-- App Header -->
-<div class="appHeader bg-primary text-light">
+<div class="appHeader bg-secondary text-light">
     <div class="left">
-        <a href="#" id="masuk-back" onclick="back()" class="headerButton goBack">
+        <a href="<?= base_url('/karyawan/home') ?>" class="headerButton goBack">
             <i class="fas fa-arrow-left fa-2x"></i>
         </a>
     </div>
