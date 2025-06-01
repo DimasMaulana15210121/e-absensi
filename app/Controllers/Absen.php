@@ -77,7 +77,7 @@ class Absen extends BaseController
                 echo view('Frontend/template/bottom-menu', $data);
             }
             // Jika sudah absen masuk tapi belum absen keluar
-            elseif ($dataAbsen['lokasi_keluar'] == null || $dataAbsen['jarak_keluar'] == null || $dataAbsen['foto_keluar'] == null) {
+            elseif ($dataAbsen['jam_keluar_absen'] == '00:00:00' || $dataAbsen['lokasi_keluar'] == null || $dataAbsen['jarak_keluar'] == null || $dataAbsen['foto_keluar'] == null) {
                 $data['data_karyawan'] = $dataKaryawan;
                 $data['judul'] = "Absen Keluar";
                 $data['menu'] = "presensi";

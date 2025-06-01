@@ -44,7 +44,9 @@
                 <div class="card-body text-center">
                     <?php 
                         if ($data_absen['lokasi_masuk'] == null || $data_absen['jarak_masuk'] == null || $data_absen['foto_masuk'] == null || $data_absen['status'] == null) {
-                            echo '<marquee behavior="left" style="color: blue;"><strong>Selamat Datang '.$data_karyawan['nama_karyawan'].'</strong></marquee>' ;
+                            echo '<marquee behavior="left" style="color: #007bff;"><strong>Selamat Datang '.$data_karyawan['nama_karyawan'].' Silahkan Absen</strong></marquee>' ;
+                        } elseif ($data_absen['lokasi_keluar'] == null || $data_absen['jarak_keluar'] == null || $data_absen['foto_keluar'] == null) {
+                            echo '<marquee behavior="left" style="color: #007bff;"><strong>'.$data_karyawan['nama_karyawan'] .' Sudah Melakukan Absen Masuk Pukul: '. $data_absen['jam_masuk_absen'].', Dan Lokasi Masuk Anda: '.$data_absen['jarak_masuk'] .' Meter Dari Lokasi Absen</strong></marquee>' ;
                         }
                     ?>
                     <!-- <marquee behavior="left" style="color: blue;"><strong>Selamat Datang</strong></marquee> -->
@@ -53,214 +55,249 @@
         </div>
         <div class="section" id="menu-section">
             <div class="todaypresence">
-                <div style="text-align: center;">
-                    <h4>Jadwal Jam Masuk Hari Ini</h4>
-                </div>
-                <div class="row">
-                    <div class="col-6">
-                        <div class="card bg-success">
-                            <div class="card-body">
-                                <div class="presencecontent">
-                                    <div class="iconpresence">
-                                        <i class="fas fa-clock"></i>
-                                    </div>
-                                    <div class="presencedetail">
-                                        <h4 class="presencetitle">Masuk</h4>
-                                        <span><?= $data_absen['jam_masuk'] == null ? '--:--' : $data_absen['jam_masuk'] ?></span>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div style="text-align: center;">
+                            <h4>Jadwal Jam Masuk Hari Ini</h4>
                         </div>
                     </div>
-                    <div class="col-6">
-                        <div class="card bg-danger">
-                            <div class="card-body">
-                                <div class="presencecontent">
-                                    <div class="iconpresence">
-                                        <i class="fas fa-clock"></i>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="card bg-info">
+                                            <div class="card-body">
+                                                <div class="presencecontent">
+                                                    <div class="iconpresence">
+                                                        <i class="fas fa-clock"></i>
+                                                    </div>
+                                                    <div class="presencedetail">
+                                                        <h4 class="presencetitle">Masuk</h4>
+                                                        <span><?= $data_absen['jam_masuk'] == null ? '--:--' : $data_absen['jam_masuk'] ?></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="presencedetail">
-                                        <h4 class="presencetitle">Pulang</h4>
-                                        <span><?= $data_absen['jam_masuk'] == null ? '--:--' : $data_absen['jam_keluar'] ?></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- <div class="rekappresence mt-1">
-                <div class="col">
-                    <canvas id="myChart"
-                        style="min-height: 330px; height: 330px; max-height: 330px; max-width: 100%;"></canvas>
-                </div>
-            </div> -->
-
-            <div class="rekappresence mt-1">
-
-                <div class="row">
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="presencecontent">
-                                    <div class="iconpresence primary">
-                                        <i class="fas fa-check"></i>
-                                    </div>
-                                    <div class="presencedetail">
-                                        <h4 class="rekappresencetitle">Hadir</h4>
-                                        <span class="rekappresencedetail"><?= count($data_hadir); ?></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="presencecontent">
-                                    <div class="iconpresence warning">
-                                        <i class="fa fa-clock"></i>
-                                    </div>
-                                    <div class="presencedetail">
-                                        <h4 class="rekappresencetitle">Terlambat</h4>
-                                        <span class="rekappresencedetail"><?= count($data_terlambat); ?></span>
+                                    <div class="col-6">
+                                        <div class="card bg-info">
+                                            <div class="card-body">
+                                                <div class="presencecontent">
+                                                    <div class="iconpresence">
+                                                        <i class="fas fa-clock"></i>
+                                                    </div>
+                                                    <div class="presencedetail">
+                                                        <h4 class="presencetitle">Pulang</h4>
+                                                        <span><?= $data_absen['jam_keluar'] == null ? '--:--' : $data_absen['jam_keluar'] ?></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row mt-1">
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="presencecontent">
-                                    <div class="iconpresence danger">
-                                        <i class="fas fa-calendar-times"></i>
+                <div class="card bg-secondary">
+                    <div class="card-header">
+                        <div style="text-align: center;">
+                            <h4>Jam Masuk Anda</h4>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="card bg-success">
+                                            <div class="card-body">
+                                                <div class="presencecontent">
+                                                    <div class="iconpresence">
+                                                        <i class="fas fa-clock"></i>
+                                                    </div>
+                                                    <div class="presencedetail">
+                                                        <h4 class="presencetitle">Masuk</h4>
+                                                        <span><?= ($data_absen['jam_masuk_absen'] == null || $data_absen['jam_masuk_absen'] == '00:00:00')  ? '--:--:--' : $data_absen['jam_masuk_absen'] ?></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="presencedetail">
-                                        <h4 class="rekappresencetitle">Alpha</h4>
-                                        <span class="rekappresencedetail"><?= count($data_alpha); ?></span>
+                                    <div class="col-6">
+                                        <div class="card bg-danger">
+                                            <div class="card-body">
+                                                <div class="presencecontent">
+                                                    <div class="iconpresence">
+                                                        <i class="fas fa-clock"></i>
+                                                    </div>
+                                                    <div class="presencedetail">
+                                                        <h4 class="presencetitle">Pulang</h4>
+                                                        <span><?= ($data_absen['jam_keluar_absen'] == null || $data_absen['jam_keluar_absen'] == '00:00:00') ? '--:--:--' : $data_absen['jam_keluar_absen'] ?></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="presencecontent">
-                                    <div class="iconpresence primary">
-                                        <i class="fab fa-cuttlefish"></i>
-                                    </div>
-                                    <div class="presencedetail">
-                                        <h4 class="rekappresencetitle">Cuti</h4>
-                                        <span class="rekappresencedetail"><?= count($data_cuti); ?></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="col-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="presencecontent">
-                                    <div class="iconpresence danger">
-                                        <i class="fas fa-sad-tear"></i>
-                                    </div>
-                                    <div class="presencedetail">
-                                        <h4 class="rekappresencetitle">Sakit</h4>
-                                        <span class="rekappresencedetail"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
-                <div class="row mt-1">
-                    <div class="col-3"></div>
-                    <div class="col-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="presencecontent">
-                                    <div class="iconpresence green">
-                                        <i class="fas fa-info"></i>
-                                    </div>
-                                    <div class="presencedetail">
-                                        <h4 class="rekappresencetitle">Izin</h4>
-                                        <span class="rekappresencedetail"><?= count($data_izin); ?></span>
-                                    </div>
-                                </div>
+                <div class="rekappresence mt-1">
+                    <div class="card bg-secondary">
+                        <div class="card-header">
+                            <div style="text-align: center;">
+                                <h4>Data Absen Bulan <?= date('F') ?></h4>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-3"></div>
-                </div>
-            </div>
-
-            <!-- <div class="tab-pane fade show active" id="pilled" role="tabpanel">
-                    <ul class="nav nav-tabs style1" role="tablist">
-                        <li class="nav-item">
-                            <a class="nav-link active" data-toggle="tab" href="#home" role="tab">
-                                <h3>Data Absen Bulan Ini
-                            </a>
-                        </li>
-                    </ul>
-                </div> -->
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="card">
-                        <div class="card-header" style="align-self: center;">
-                            <h3 class="card-title">Data Absen Bulan Ini</h3>
                         </div>
                         <div class="card-body">
-                            <div class="table-resposive">
-                                <table id="table1" class="table table-bordered table-hover">
-                                    <thead>
-                                        <tr>
-                                            <!-- <th data-sortable="true">No</th> -->
-                                            <th data-sortable="true">Tanggal Absen</th>
-                                            <th class="text-success" data-sortable="true">Jam Masuk</th>
-                                            <th class="text-danger" data-sortable="true">Jam Pulang</th>
-                                            <th data-sortable="true">Status</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <?php
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="card bg-light">
+                                                <div class="card-body">
+                                                    <div class="presencecontent">
+                                                        <div class="iconpresence primary">
+                                                            <i class="fas fa-check"></i>
+                                                        </div>
+                                                        <div class="presencedetail">
+                                                            <h4 class="rekappresencetitle">Hadir</h4>
+                                                            <span
+                                                                class="rekappresencedetail"><?= count($data_hadir); ?></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="card bg-light">
+                                                <div class="card-body">
+                                                    <div class="presencecontent">
+                                                        <div class="iconpresence warning">
+                                                            <i class="fa fa-clock"></i>
+                                                        </div>
+                                                        <div class="presencedetail">
+                                                            <h4 class="rekappresencetitle">Terlambat</h4>
+                                                            <span
+                                                                class="rekappresencedetail"><?= count($data_terlambat); ?></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="card bg-light">
+                                                <div class="card-body">
+                                                    <div class="presencecontent">
+                                                        <div class="iconpresence danger">
+                                                            <i class="fas fa-calendar-times"></i>
+                                                        </div>
+                                                        <div class="presencedetail">
+                                                            <h4 class="rekappresencetitle">Alpha</h4>
+                                                            <span
+                                                                class="rekappresencedetail"><?= count($data_alpha); ?></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="card bg-light">
+                                                <div class="card-body">
+                                                    <div class="presencecontent">
+                                                        <div class="iconpresence primary">
+                                                            <i class="fab fa-cuttlefish"></i>
+                                                        </div>
+                                                        <div class="presencedetail">
+                                                            <h4 class="rekappresencetitle">Cuti</h4>
+                                                            <span
+                                                                class="rekappresencedetail"><?= count($data_cuti); ?></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-3"></div>
+                                        <div class="col-6">
+                                            <div class="card bg-light">
+                                                <div class="card-body">
+                                                    <div class="presencecontent">
+                                                        <div class="iconpresence green">
+                                                            <i class="fas fa-info"></i>
+                                                        </div>
+                                                        <div class="presencedetail">
+                                                            <h4 class="rekappresencetitle">Izin</h4>
+                                                            <span
+                                                                class="rekappresencedetail"><?= count($data_izin); ?></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-3"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card">
+                            <div class="card-header" style="align-self: center;">
+                                <h3 class="card-title">Data Absen Bulan Ini</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-resposive">
+                                    <table id="table1" class="table table-bordered table-hover">
+                                        <thead>
+                                            <tr>
+                                                <!-- <th data-sortable="true">No</th> -->
+                                                <th data-sortable="true">Tanggal Absen</th>
+                                                <th class="text-success" data-sortable="true">Jam Masuk</th>
+                                                <th class="text-danger" data-sortable="true">Jam Pulang</th>
+                                                <th data-sortable="true">Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <?php
                                         $no = 0;
                                         foreach($data_bulanan as $data){
                                     ?>
-                                        <tr>
-                                            <td style="font-size: 17px;"><?php echo $data['tanggal'];?></td>
-                                            <td class="text-success" style="font-size: 17px;"><i
-                                                    class="far fa-clock"></i>
-                                                <?php echo $data['jam_masuk_absen'] == '00:00:00' ? '--:--:--' : $data['jam_masuk_absen'];?>
-                                            </td>
-                                            <td class="text-danger" style="font-size: 17px;"> <i
-                                                    class="far fa-clock"></i>
-                                                <?php echo $data['jam_keluar_absen'] == '00:00:00' ? '--:--:--' : $data['jam_keluar_absen'];?>
-                                            </td>
-                                            <td style="font-size: 17px;">
-                                                <?php if ($data['status'] == null) {
+                                            <tr>
+                                                <td style="font-size: 17px;"><?php echo $data['tanggal'];?></td>
+                                                <td class="text-success" style="font-size: 17px;"><i
+                                                        class="far fa-clock"></i>
+                                                    <?php echo $data['jam_masuk_absen'] == '00:00:00' ? '--:--:--' : $data['jam_masuk_absen'];?>
+                                                </td>
+                                                <td class="text-danger" style="font-size: 17px;"> <i
+                                                        class="far fa-clock"></i>
+                                                    <?php echo $data['jam_keluar_absen'] == '00:00:00' ? '--:--:--' : $data['jam_keluar_absen'];?>
+                                                </td>
+                                                <td style="font-size: 17px;">
+                                                    <?php if ($data['status'] == null) {
                                                     echo 'Belum Hadir';
                                                 } else {
                                                     echo $data['status'];
                                                 } ?>
-                                            </td>
-                                        </tr>
-                                        <?php } ?>
-                                    </tbody>
-                                </table>
+                                                </td>
+                                            </tr>
+                                            <?php } ?>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="tab-content mt-2" style="margin-bottom: 100px">
                 <div class="tab-content mt-2" style="margin-bottom: 100px">
-                    <a href="<?= base_url('/karyawan/logout')?>" class="btn btn-danger btn-lg btn-block"><i
-                            class="fas fa-sign-out-alt mr-1"></i>Logout</a>
+                    <div class="tab-content mt-2" style="margin-bottom: 100px">
+                        <!-- <a href="<?= base_url('/karyawan/logout')?>" class="btn btn-danger btn-lg btn-block"><i
+                            class="fas fa-sign-out-alt mr-1"></i>Logout</a> -->
+                    </div>
                 </div>
             </div>
         </div>

@@ -220,6 +220,7 @@ class Jadwal extends BaseController
         $dataJadwal = $modelJadwal->getDataJadwal(['id_jadwal' => $idEdit])->getRowArray();
         $idUpdate = $dataJadwal['id_jadwal'];
 
+
         $dataUpdate = [
             'tanggal' => $tanggal,
             'keterangan' => $keterangan,
@@ -233,20 +234,26 @@ class Jadwal extends BaseController
         $whereUpdate = ['id_jadwal' => $idUpdate];
         $modelJadwal->updateDataJadwal($dataUpdate, $whereUpdate);
 
-        if ($keterangan == 'libur') {
-            $statusAbsen = 'Libur';
-        } else {
-            $statusAbsen = null;
-        }
+        $dataAbsen = $modelAbsen->getDataAbsen(['tbl_absen.id_jadwal' => $idUpdate])->getResultArray();
+
+        foreach ($dataAbsen as $absen) {
+            //jangan ubah status
+            $statusAbsen = $absen['status'];
         
-        $dataUpdate1 = [
-            'keterangan_absen' => $keterangan,
-            'status' => $statusAbsen,
-            'updated_at' => date("Y-m-d H:i:s"),
-        ];
-        $whereUpdate1 = ['id_jadwal' => $idUpdate];
-        $modelAbsen->updateDataAbsen($dataUpdate1, $whereUpdate1);
-        session()->remove('idUpdate');
+            // Jika keterangan diubah jadi libur, ubah status ke Libur
+            if ($keterangan == 'libur') {
+                $statusAbsen = 'Libur';
+            }
+            
+            $dataUpdate1 = [
+                'keterangan_absen' => $keterangan,
+                'status' => $statusAbsen,
+                'updated_at' => date("Y-m-d H:i:s"),
+            ];
+            $whereUpdate1 = ['id_absen' => $absen['id_absen']];
+            $modelAbsen->updateDataAbsen($dataUpdate1, $whereUpdate1);
+            session()->remove('idUpdate');
+        }
         session()->setFlashdata('success','Data Berhasil Diperbarui!!');
         return redirect()->to(base_url('/admin/master-data-jadwal'));
     }

@@ -33,7 +33,9 @@ class Home extends BaseController
                 'foto_masuk' => null,
                 'status' => null,
                 'jam_masuk' => null,
-                'jam_keluar' => null
+                'jam_masuk_absen' => null,
+                'jam_keluar' => null,
+                'jam_keluar_absen' => null
             ];
         }
 
