@@ -31,7 +31,7 @@ class Profile extends BaseController
 
         $nik_karyawan = $this->request->getPost('nik_karyawan');
         $nama_karyawan = $this->request->getPost('nama_karyawan');
-        $alamat = $this->request->getPost('alamat');
+        $alamat_rumah = $this->request->getPost('alamat_rumah');
         $tgl_lahir = $this->request->getPost('tgl_lahir');
         $no_hp = $this->request->getPost('no_hp');
         $username = $this->request->getPost('username');
@@ -47,9 +47,8 @@ class Profile extends BaseController
             if (!$this->validate([
                 'foto_karyawan' => 'max_size[foto_karyawan,10240]|ext_in[foto_karyawan,jpg,jpeg,png]',
             ])) {
-                return $this->response->setJSON([
-                    'status' => 'error', 'message' => 'Format file yang diizinkan: JPG, JPEG, PNG maksimal 10MB'
-                ]);
+                session()->setFlashdata('error', "Format file yang diizinkan: JPG, JPEG, PNG maksimal 10MB");
+                return redirect()->to('/karyawan/profile')->withInput();
             }
         
             $ext1 = $foto_karyawan->getClientExtension();
@@ -65,7 +64,7 @@ class Profile extends BaseController
         $dataUpdate = [
             'nik_karyawan' => $nik_karyawan,
             'nama_karyawan' => $nama_karyawan,
-            'alamat' => $alamat,
+            'alamat_rumah' => $alamat_rumah,
             'tgl_lahir' => $tgl_lahir,
             'no_hp' => $no_hp,
             'username' => $username,
@@ -77,10 +76,7 @@ class Profile extends BaseController
         $whereUpdate = ['id_karyawan' => $idUpdate];
         $modelKaryawan->updateDataKaryawan($dataUpdate, $whereUpdate);
         session()->remove('idUpdate');
-        return $this->response->setJSON([
-            'status' => 'success', 'message' => 'Profil berhasil diperbarui'
-        ]);
-        // session()->setFlashdata('success','Data Profile Berhasil Diperbarui!!');
+        session()->setFlashdata('success','Data Profile Berhasil Diperbarui!!');
         // return redirect()->to(base_url('/karyawan/profile'));
     }
 

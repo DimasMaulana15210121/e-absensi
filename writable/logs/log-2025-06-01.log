@@ -385,3 +385,78 @@ WHERE `id_karyawan` = :id_karyawan:', [...], false)
  6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
  8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-06-01 12:28:00 --> mysqli_sql_exception: Unknown column 'alamat' in 'field list' in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `tbl_kar...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_kar...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_kar...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_kar...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Karyawan.php(58): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Profile.php(78): App\Models\M_Karyawan->updateDataKaryawan(Array, Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Profile->simpan_profile()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-06-01 12:28:00 --> Unknown column 'alamat' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_karyawan` SET `nik_karyawan` = :nik_karyawan:, `nama_karyawan` = :nama_karyawan:, `alamat` = :alamat:, `tgl_lahir` = :tgl_lahir:, `no_hp` = :no_hp:, `username` = :username:, `password` = :password:, `foto_karyawan` = :foto_karyawan:, `updated_at` = :updated_at:
+WHERE `id_karyawan` = :id_karyawan:', [...], false)
+ 2 APPPATH\Models\M_Karyawan.php(58): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Profile.php(78): App\Models\M_Karyawan->updateDataKaryawan([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profile->simpan_profile()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-06-01 12:30:18 --> mysqli_sql_exception: Unknown column 'alamat' in 'field list' in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `tbl_kar...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_kar...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_kar...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_kar...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Karyawan.php(58): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Profile.php(78): App\Models\M_Karyawan->updateDataKaryawan(Array, Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Profile->simpan_profile()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-06-01 12:30:18 --> Unknown column 'alamat' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_karyawan` SET `nik_karyawan` = :nik_karyawan:, `nama_karyawan` = :nama_karyawan:, `alamat` = :alamat:, `tgl_lahir` = :tgl_lahir:, `no_hp` = :no_hp:, `username` = :username:, `password` = :password:, `foto_karyawan` = :foto_karyawan:, `updated_at` = :updated_at:
+WHERE `id_karyawan` = :id_karyawan:', [...], false)
+ 2 APPPATH\Models\M_Karyawan.php(58): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Profile.php(78): App\Models\M_Karyawan->updateDataKaryawan([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profile->simpan_profile()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-06-01 12:31:33 --> mysqli_sql_exception: Unknown column 'alamat' in 'field list' in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('UPDATE `tbl_kar...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbl_kar...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbl_kar...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_kar...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Karyawan.php(58): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Profile.php(78): App\Models\M_Karyawan->updateDataKaryawan(Array, Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Profile->simpan_profile()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-06-01 12:31:33 --> Unknown column 'alamat' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2475): CodeIgniter\Database\BaseConnection->query('UPDATE `tbl_karyawan` SET `nik_karyawan` = :nik_karyawan:, `nama_karyawan` = :nama_karyawan:, `alamat` = :alamat:, `tgl_lahir` = :tgl_lahir:, `no_hp` = :no_hp:, `username` = :username:, `password` = :password:, `foto_karyawan` = :foto_karyawan:, `updated_at` = :updated_at:
+WHERE `id_karyawan` = :id_karyawan:', [...], false)
+ 2 APPPATH\Models\M_Karyawan.php(58): CodeIgniter\Database\BaseBuilder->update([...])
+ 3 APPPATH\Controllers\Profile.php(78): App\Models\M_Karyawan->updateDataKaryawan([...], [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Profile->simpan_profile()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')

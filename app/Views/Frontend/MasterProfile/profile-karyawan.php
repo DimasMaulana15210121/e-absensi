@@ -1,7 +1,7 @@
 <!-- App Header -->
 <div class="appHeader bg-info text-light">
     <div class="left">
-        <a href="#" id="profile-back" onclick="back()" class="headerButton goBack">
+        <a href="<?= base_url('karyawan/home') ?>" class="headerButton goBack">
             <i class="fas fa-arrow-left fa-2x"></i>
         </a>
     </div>
@@ -55,9 +55,7 @@
                                             </div><br>
                                             <div>
                                                 <label>Alamat</label>
-                                                <textarea name="alamat" class="form-control" disabled><?= $data_karyawan['alamat'] ?></textarea>
-                                                <!-- <input type="text" name="alamat" class="form-control"
-                                                    placeholder="Alamat" value="<?= $data_karyawan['alamat']; ?>" disabled> -->
+                                                <textarea name="alamat_rumah" class="form-control" disabled><?= $data_karyawan['alamat_rumah'] ?></textarea>
                                             </div><br>
                                             <div>
                                                 <label>Tanggal Lahir</label>
@@ -120,17 +118,7 @@
     </div>
 </div>
 
-<script>
-    // document.getElementById("profile-back").addEventListener("click", function(event) {
-    //     event.preventDefault(); // mencegah <a href="#"> melakukan reload halaman
-    //     history.back(); // atau bisa juga pakai history.go(-1);
-    // });
-    var profile = document.getElementById("profile-back");
 
-    function back() {
-        profile = history.back;
-    }
-</script>
 <script>
 
     function enableEdit() {
