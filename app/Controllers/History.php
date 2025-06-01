@@ -60,6 +60,47 @@ class History extends BaseController
 
         echo json_encode($response);   
     }
+    public function detail_history_absen()
+    {
+        $uri = service('uri');
+        $page = $uri->getSegment(2);
+        $idAbsen = $uri->getSegment(3);
+        $idKaryawan = $uri->getSegment(4);
+
+        $modelAbsen = new M_Absen;
+        $modelKaryawan = new M_Karyawan;
+        $modelIzin = new M_Izin;
+
+        $dataAbsen = $modelAbsen->getDataAbsen(['sha1(tbl_absen.id_absen)' => $idAbsen])->getRowArray();
+        $dataKaryawan = $modelKaryawan->getDataKaryawan(['sha1(tbl_karyawan.id_karyawan)' => $idKaryawan])->getRowArray();
+        $dataIzin = $modelIzin->getDataIzin(['sha1(tbl_izin.id_karyawan)' => $idKaryawan])->getRowArray();
+
+        if ($dataAbsen['keterangan_absen'] == 'masuk') {
+            //Jika status nya cuti
+            if ($dataAbsen['status'] == 'Cuti') {
+                session()->setFlashdata('info','Anda Sedang Cuti Pada Tanggal: ' .$dataIzin['tgl_mulai']. ' s/d '. $dataIzin['tgl_selesai']);
+                return redirect()->to(base_url('/karyawan/history-absen'));
+            }
+            //Jika status nya izin
+            elseif ($dataAbsen['status'] == 'Izin') {
+                session()->setFlashdata('info','Anda Sedang Izin Pada Tanggal: ' .$dataIzin['tgl_mulai']. ' s/d '. $dataIzin['tgl_selesai']);
+                return redirect()->to(base_url('/karyawan/history-absen'));
+            }
+        } else {
+            session()->setFlashdata('info','Hari Ini Adalah Hari Libur !');
+            return redirect()->to(base_url('/karyawan/history-absen'));
+        }
+        
+        $data['page'] = $page;
+        $data['data_absen'] = $dataAbsen;
+        $data['data_karyawan'] = $dataKaryawan;
+        $data['judul'] = "Detail Absen Karyawan" ;
+        $data['menu'] = "history" ;
+
+        echo view('Frontend/template/header' ,$data);    
+        echo view('Frontend/MasterHistory/detail-absen-karyawan', $data);    
+        echo view('Frontend/template/bottom-menu', $data);      
+    }
 //Akhir Karyawan
 
 //Awal Rekap Admin

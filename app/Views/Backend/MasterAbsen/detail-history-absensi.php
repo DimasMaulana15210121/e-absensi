@@ -64,7 +64,7 @@
                                                     disabled>
                                             </div>
                                             <div class="col-md-6">
-                                                <label>Jam Keluar Absen</label>
+                                                <label>Jam Pulang Absen</label>
                                                 <input type="text" name="nama_karyawan" class="form-control bg-danger"
                                                     value="<?php echo $data_absen['jam_keluar_absen'] == '00:00:00' ? '--:--:--' : $data_absen['jam_keluar_absen'];?>"
                                                     disabled>
@@ -74,7 +74,7 @@
                                     <div class="col-md-12">
                                         <div class="form-group row">
                                             <div class="col-md-6">
-                                                <label>Lokasi Karyawan Absen Masuk</label>
+                                                <label>Lokasi Jarak Absen Masuk</label>
                                                 <input type="text" name="jarak_masuk" class="form-control bg-success"
                                                     value="<?php 
                                                                 if (strtolower($data_absen['status']) == 'alpha') {
@@ -90,7 +90,7 @@
                                                     disabled>
                                             </div>
                                             <div class="col-md-6">
-                                                <label>Lokasi Karyawan Absen Pulang</label>
+                                                <label>Lokasi Jarak Absen Pulang</label>
                                                 <input type="text" name="jarak_keluar" class="form-control bg-danger"
                                                     value="<?php 
                                                                 if (strtolower($data_absen['status']) == 'alpha') {
@@ -144,7 +144,7 @@
                                                          $foto_keluar = base_url().'Assets/img/default2.png';
                                                       }
                                                     ?>
-                                                    <label>Foto Absen Keluar</label><br>
+                                                    <label>Foto Absen Pulang</label><br>
                                                     <img src="<?= $foto_keluar; ?>" class="img-fluid" width="300px"
                                                         alt="Karyawan Image">
                                                 </div>
@@ -161,7 +161,7 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <div style="text-align: center;">
-                                                    <label style="text-align: center;">Lokasi Absen Keluar</label>
+                                                    <label style="text-align: center;">Lokasi Absen Pulang</label>
                                                 </div>
                                                 <div id="keluar" style="width: 100%; height: 200px;"></div>
                                             </div>

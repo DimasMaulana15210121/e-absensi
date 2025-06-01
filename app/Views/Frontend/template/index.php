@@ -279,6 +279,7 @@
                                                 <th class="text-success" data-sortable="true">Jam Masuk</th>
                                                 <th class="text-danger" data-sortable="true">Jam Pulang</th>
                                                 <th data-sortable="true">Status</th>
+                                                <th data-sortable="true">Action</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -302,6 +303,13 @@
                                                 } else {
                                                     echo $data['status'];
                                                 } ?>
+                                                </td>
+                                                <td>
+                                                    <a href="<?= base_url('/karyawan/detail-absen-karyawan').'/'.sha1($data['id_absen']).'/'.sha1($data['id_karyawan'])?>"
+                                                        title="Detail Karyawan">
+                                                        <button type="button" class="btn btn-sm btn-primary"><span
+                                                                class="fas fa-search mr-1"></span>Detail</button>
+                                                    </a>
                                                 </td>
                                             </tr>
                                             <?php } ?>

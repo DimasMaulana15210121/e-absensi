@@ -13,6 +13,7 @@ $routes->get('/', 'Auth::auth_karyawan');
     $routes->get('/karyawan/logout', 'Auth::logout_karyawan');
     //Home
     $routes->get('/karyawan/home', 'Home::home');
+    $routes->get('/karyawan/detail-absen-karyawan/(:alphanum)/(:alphanum)', 'Home::detail_absen_karyawan/$1/$2');
     //Riwayat
     $routes->get('/karyawan/riwayat-pembayaran-gaji', 'Gaji::riwayat_gaji_karyawan');
     $routes->get('/karyawan/detail-gaji/(:alphanum)', 'Gaji::detail_gaji/$1');
@@ -21,6 +22,7 @@ $routes->get('/', 'Auth::auth_karyawan');
     $routes->get('/karyawan/history-absen', 'History::history_absen');
     // $routes->get('/karyawan/view', 'History::view');
     $routes->post('/karyawan/view-history', 'History::view_history');
+    $routes->get('/karyawan/detail-history-absen/(:alphanum)/(:alphanum)', 'History::detail_history_absen/$1/$2');
     //Absen
     $routes->get('/karyawan/presensi', 'Absen::presensi');
     $routes->post('/karyawan/simpan-absen-masuk', 'Absen::simpan_absen_masuk');
