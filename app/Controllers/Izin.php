@@ -275,7 +275,7 @@ class Izin extends BaseController
         }
         session()->remove('idUpdate');
         session()->setFlashdata('success','Data Pengajuan Diterima !');
-        return redirect()->to(base_url('/admin/master-data-pengajuan'));
+        return redirect()->to(base_url('/hr/master-data-pengajuan'));
     }
 
     public function tolak_data_pengajuan()
@@ -296,6 +296,6 @@ class Izin extends BaseController
         $modelIzin->updateDataIzin($dataUpdate, $whereUpdate);
         session()->remove('idUpdate');
         session()->setFlashdata('success','Data Pengajuan Ditolak !');
-        return redirect()->to(base_url('/admin/master-data-pengajuan'));
+        return redirect()->to(base_url('/hr/master-data-pengajuan'));
     }
 }

@@ -5,12 +5,12 @@
           <div class="container-fluid">
               <div class="row mb-2">
                   <div class="col-sm-6">
-                      <h1>Edit Data Kantor</h1>
+                      <h1>Edit Data Lokasi</h1>
                   </div>
                   <div class="col-sm-6">
                       <ol class="breadcrumb float-sm-right">
-                          <li class="breadcrumb-item"><a href="<?= base_url()?>admin/master-data-kantor">Kantor</a></li>
-                          <li class="breadcrumb-item active">Edit Data Kantor</li>
+                          <li class="breadcrumb-item"><a href="<?= base_url()?>hr/master-data-lokasi">Kantor</a></li>
+                          <li class="breadcrumb-item active">Edit Data Lokasi</li>
                       </ol>
                   </div>
               </div>
@@ -34,7 +34,7 @@
                       <!-- /.card-tools -->
                   </div>
                   <!-- /.card-header -->
-                  <form action="<?= base_url('/admin/update-lokasi').'/'.$data_lokasi['id_lokasi']?>" method="post" enctype="multipart/form-data">
+                  <form action="<?= base_url('/hr/update-lokasi').'/'.$data_lokasi['id_lokasi']?>" method="post" enctype="multipart/form-data">
                       <div class="card-body">
                           <div class="form-group">
                               <label>Nama Lokasi</label>
@@ -70,7 +70,7 @@
                       <!-- /.card-body -->
                       <div class="card-footer" style="text-align: center;">
                           <button type="submit" class="btn btn-primary btn-lg">Update</button>
-                          <a href="<?php echo base_url('admin/master-data-lokasi');?>"
+                          <a href="<?php echo base_url('hr/master-data-lokasi');?>"
                                     class="btn btn-danger btn-lg">
                                     Batal
                           </a>

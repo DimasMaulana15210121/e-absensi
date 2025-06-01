@@ -21,7 +21,7 @@ class CekAbsen extends BaseController
         $dataJadwal = $modelJadwal->getDataJadwal(['tanggal' => date('Y-m-d')])->getRowArray();
         if (!$dataJadwal) {
             session()->setFlashdata('error', 'Data jadwal absen belum dibuat !');
-            return redirect()->to(base_url('/admin/dashboard'));
+            return redirect()->to(base_url('/hr/dashboard'));
         }
         $count = count($dataAbsen);
         $jumlahAlpha = 0;
@@ -33,7 +33,7 @@ class CekAbsen extends BaseController
 
         if ($jamSekarang < $cekStatus) {
             session()->setFlashdata('error','Waktu Pengecekan Karyawan Yang Belum Hadir Bisa Dilakukan Pukul ' .date('H:i:s', $cekStatus).' !');
-            return redirect()->to(base_url('/admin/dashboard'));
+            return redirect()->to(base_url('/hr/dashboard'));
         } else {
             foreach ($dataAbsen as $data) {
                 $jadwal = $modelJadwal->getDataJadwal(['id_jadwal' => $data['id_jadwal']])->getRowArray();
@@ -51,7 +51,7 @@ class CekAbsen extends BaseController
                 }
             }
             session()->setFlashdata('success','Pengecekan Kehadiran Sukses, Ada '.$count.' Karyawan Yang Belum Melakukan Absen Dan Sudah Diperbarui Menjadi Alpha !' );
-            return redirect()->to(base_url('/admin/dashboard'));
+            return redirect()->to(base_url('/hr/dashboard'));
         }
     }
 }

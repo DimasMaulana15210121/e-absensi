@@ -23,7 +23,7 @@
                   </div>
                   <!-- /.card-header -->
                   <div class="card-body">
-                     <form action="<?= base_url('/admin/history-absensi')?>" method="get" enctype="multipart/form-data">
+                     <form action="<?= base_url('/hr/history-absensi')?>" method="get" enctype="multipart/form-data">
                         <div class="col-12">
                            <div class="row">
                               <div class="col-4">
@@ -40,7 +40,7 @@
                               </div>
                               <div class="col-4">
                                   <button class="btn btn-primary">Filter Tanggal</button>
-                                  <a href="<?= base_url('admin/history-absensi'); ?>"
+                                  <a href="<?= base_url('hr/history-absensi'); ?>"
                                      class="btn btn-danger">Reset Filter</a>
                               </div>
                            </div>
@@ -106,7 +106,7 @@
                               </td>
                               <!-- <td><?= $data['nama_lokasi']; ?></td> -->
                               <td>
-                                  <a href="<?= base_url('/admin/detail-history-absensi').'/'.sha1($data['id_absen']).'/'.sha1($data['id_karyawan']). '?tgl_awal=' . $tgl_awal . '&tgl_akhir=' . $tgl_akhir ?>"
+                                  <a href="<?= base_url('/hr/detail-history-absensi').'/'.sha1($data['id_absen']).'/'.sha1($data['id_karyawan']). '?tgl_awal=' . $tgl_awal . '&tgl_akhir=' . $tgl_akhir ?>"
                                       title="Detail Karyawan">
                                       <button type="button" class="btn btn-info"><span
                                               class="fas fa-search mr-1"></span> Detail

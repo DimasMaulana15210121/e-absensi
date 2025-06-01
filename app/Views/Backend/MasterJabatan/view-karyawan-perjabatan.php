@@ -5,15 +5,8 @@
           <div class="container-fluid">
               <div class="row mb-2">
                   <div class="col-sm-6">
-                      <h1>View Data Karyawan <?= $data_karyawan['nama_jabatan'] ?></h1>
+                      <h1>View Data Karyawan</h1>
                   </div>
-                  <!-- <div class="col-sm-6">
-                      <ol class="breadcrumb float-sm-right">
-                          <li class="breadcrumb-item"><a href="<?= base_url()?>admin/master-data-karyawan">Karyawan</a>
-                          </li>
-                          <li class="breadcrumb-item active">Edit Data Karyawan</li>
-                      </ol>
-                  </div> -->
               </div>
           </div><!-- /.container-fluid -->
       </section>
@@ -132,25 +125,12 @@
                                           </div>
                                       </div>
                                   </div>
-                                  <!-- <div class="col-md-12">
-                                      <div class="form-group row">
-                                          <div class="col-md-3">
-                                              <label>password</label>
-                                          </div>
-                                          <div class="col-md-1">
-                                              <label>:</label>
-                                          </div>
-                                          <div class="col-md-8">
-                                              <input type="password" name="password" class="form-control"
-                                                  placeholder="Kosongkan jika tidak ganti password">
-                                          </div>
-                                      </div>
-                                  </div> -->
                               </div>
                           </div>
                       </div>
                       <div class="card-footer" style="text-align: center;">
-                          <a href="<?php echo base_url('admin/view-karyawan-perjabatan').'/'.sha1($data_karyawan['id_jabatan']);?>" class="btn btn-danger btn-lg">
+                          <a href="<?php echo base_url('hr/view-karyawan-perjabatan/'.sha1($data_jabatan['id_jabatan']));?>"
+                              class="btn btn-danger btn-lg">
                               Kembali
                           </a>
                       </div>
@@ -159,10 +139,6 @@
               </div>
               <!-- /.card -->
           </div>
-  </div>
-  </div>
-  <!-- /.card -->
-
-  </section>
-  <!-- /.content -->
+      </section>
+      <!-- /.content -->
   </div>

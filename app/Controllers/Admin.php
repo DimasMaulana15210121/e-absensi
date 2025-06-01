@@ -67,16 +67,16 @@ class Admin extends BaseController
             //Jika status nya cuti
             if ($dataAbsen['status'] == 'Cuti') {
                 session()->setFlashdata('info','Karyawan Ini Sedang Cuti Dari Tanggal: ' .$dataIzin['tgl_mulai']. ' s/d '. $dataIzin['tgl_selesai']);
-                return redirect()->to(base_url('/admin/dashboard'));
+                return redirect()->to(base_url('/hr/dashboard'));
             }
             //Jika status nya izin
             elseif ($dataAbsen['status'] == 'Izin') {
                 session()->setFlashdata('info','Karyawan Ini Sedang Izin Dari Tanggal: ' .$dataIzin['tgl_mulai']. ' s/d '. $dataIzin['tgl_selesai']);
-                return redirect()->to(base_url('/admin/dashboard'));
+                return redirect()->to(base_url('/hr/dashboard'));
             }
         } else {
             session()->setFlashdata('info','Hari Ini Adalah Hari Libur !');
-            return redirect()->to(base_url('/admin/dashboard'));
+            return redirect()->to(base_url('/hr/dashboard'));
         }
         
         $data['page'] = $page;
@@ -130,7 +130,7 @@ class Admin extends BaseController
                 'foto_user' => 'max_size[foto_user,10240]|ext_in[foto_user,jpg,jpeg,png]',
             ])) {
                 session()->setFlashdata('error', "Format file yang diizinkan: JPG, JPEG, PNG maksimal 10MB");
-                return redirect()->to('/admin/profile-admin')->withInput();
+                return redirect()->to('/hr/profile-admin')->withInput();
             }
         
             $ext1 = $foto_user->getClientExtension();
@@ -188,12 +188,12 @@ class Admin extends BaseController
         $cekBagian = $sqlCek->getNumRows();
         if($bagian ==""){
             session()->setFlashdata('error','Data Bagian Tidak boleh Kosong!');
-            return redirect()->to(base_url('/admin/logo-perusahaan'))->withInput();
+            return redirect()->to(base_url('/hr/logo-perusahaan'))->withInput();
         }
 
         elseif ($cekBagian > 0 ) {
             session()->setFlashdata('error','Bagian Sudah Ditambahkan Dan Tidak Bisa Ditambahkan Lagi, Silahkan Edit Bagian !');
-            return redirect()->to(base_url('/admin/logo-perusahaan'))->withInput();
+            return redirect()->to(base_url('/hr/logo-perusahaan'))->withInput();
         }
         else{
             $gambar = $this->request->getFile('gambar');
@@ -227,8 +227,85 @@ class Admin extends BaseController
         $modelGambar->saveDataGambar($dataSimpan);
 
         session()->setFlashdata('success','Data Logo Perusahaan berhasil ditambahkan!!');
-        return redirect()->to(base_url('/admin/logo-perusahaan'));
+        return redirect()->to(base_url('/hr/logo-perusahaan'));
         }
     }
 
+    public function edit_logo()
+    {
+        $uri = service('uri');
+        $page = $uri->getSegment(2);
+        $idEdit = $uri->getSegment(3);
+
+        $modelGambar = new M_Gambar;
+        $dataGambar = $modelGambar->getDataGambar(['sha1(id_gambar)' => $idEdit])->getRowArray();
+        
+        $data['page'] = $page;
+        $data['data_logo'] = $dataGambar;
+        $data['menu'] = "dashboard";
+
+        echo view('Backend/template/head', $data);
+        echo view('Backend/template/sidebar', $data);
+        echo view('Backend/MasterGambar/edit-logo', $data);
+        echo view('Backend/template/footer', $data);
+    }
+
+    public function update_logo_perusahaan()
+    {
+        $uri = service('uri');
+        $idEdit = $uri->getSegment(3);
+
+        $modelGambar = new M_Gambar();
+
+        $nama_pt = $this->request->getPost('nama_pt');
+        $bagian = $this->request->getPost('bagian');
+        $gambar_old = $this->request->getPost('gambar_old');
+        $gambar = $this->request->getFile('gambar');
+
+        $dataGambar = $modelGambar->getDataGambar(['id_gambar' => $idEdit])->getRowArray();
+        $idUpdate = $dataGambar['id_gambar'];
+
+        if ($gambar->isValid() && !$gambar->hasMoved()) {
+            // Validasi file
+            if (!$this->validate([
+                'gambar' => 'max_size[gambar,10240]|ext_in[gambar,jpg,jpeg,png]',
+            ])) {
+                session()->setFlashdata('error', "Format file yang diizinkan: JPG, JPEG, PNG maksimal 10MB");
+                return redirect()->to('/hr/edit-logo-perusahaan/'.$idEdit)->withInput();
+            }
+        
+            $ext1 = $gambar->getClientExtension();
+            $namaFile1 = ($gambar_old == '-' || !file_exists("Assets/img/logo/".$gambar_old))
+                ? "PP-".date("ymdHis").".".$ext1
+                : $gambar_old;
+        
+            $gambar->move('Assets/img/logo/', $namaFile1, true);
+        } else {
+            $namaFile1 = $gambar_old; // Tidak upload, pakai yang lama
+        }
+
+            $dataUpdate = [
+                'nama_pt' => $nama_pt,
+                'bagian' => $bagian,
+                'gambar' => $namaFile1,
+                'updated_at' => date('Y-m-d H:i:s')
+            ];
+
+        $whereUpdate = ['id_gambar' => $idUpdate];
+        $modelGambar->updateDataGambar($dataUpdate, $whereUpdate);
+        session()->remove('idUpdate');
+        session()->setFlashdata('success','Data Berhasil Diperbarui!!');
+        return redirect()->to(base_url('/hr/logo-perusahaan'));
+    }
+
+    public function hapus_logo_perusahaan($id)
+    {
+        $modelGambar = new M_Gambar;
+    
+        $modelGambar->hapusDataGambar($id);
+        
+        session()->setFlashdata('success','Data Berhasil dihapus!!');
+
+        return redirect()->to(base_url('/hr/logo-perusahaan'));
+    }
 }

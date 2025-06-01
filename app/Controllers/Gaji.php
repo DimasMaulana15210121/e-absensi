@@ -51,7 +51,7 @@ class Gaji extends BaseController
 
         if($cekGaji){
             session()->setFlashdata('error', 'Gaji Jabatan Tersebut Sudah ada!');
-            return redirect()->to(base_url('admin/master-daftar-gaji'));
+            return redirect()->to(base_url('hr/master-daftar-gaji'));
         }else{
             $hasil = $modelGaji->autoNumber()->getRowArray();
             if (!$hasil) {
@@ -80,7 +80,7 @@ class Gaji extends BaseController
             ];
             $modelGaji->saveDataGaji($dataSimpan);
             session()->setFlashdata('success', 'Gaji Jabatan Berhasil DiTambahkan!');
-            return redirect()->to(base_url('admin/master-daftar-gaji'));
+            return redirect()->to(base_url('hr/master-daftar-gaji'));
         }
     }
 
@@ -142,7 +142,7 @@ class Gaji extends BaseController
         $modelGaji->updateDataGaji($dataUpdate, $whereUpdate);
         session()->remove('idUpdate');
         session()->setFlashdata('success', 'Gaji Jabatan Berhasil DiUpdate !');
-        return redirect()->to(base_url('admin/master-daftar-gaji'));
+        return redirect()->to(base_url('hr/master-daftar-gaji'));
     }
 
     public function hapus_daftar_gaji($id)
@@ -154,7 +154,7 @@ class Gaji extends BaseController
 
         session()->setFlashdata('success','Data Gaji Berhasil dihapus!!');
 
-        return redirect()->to(base_url('/admin/master-daftar-gaji'));
+        return redirect()->to(base_url('/hr/master-daftar-gaji'));
     }
 //Akhir Daftar Gaji
 
@@ -205,7 +205,7 @@ class Gaji extends BaseController
         $dataKaryawan = $modelKaryawan->getDataKaryawan(['tbl_karyawan.id_karyawan' => $id_karyawan])->getRowArray();
         if (!$dataKaryawan['id_jabatan']) {
             session()->setFlashdata('error', 'Gaji untuk Jabatan tersebut belum diAtur!');
-            return redirect()->to(base_url('/admin/master-pembayaran-gaji'));
+            return redirect()->to(base_url('/hr/master-pembayaran-gaji'));
         }
     
         // Ambil data gaji berdasarkan jabatan
@@ -235,7 +235,7 @@ class Gaji extends BaseController
         ];
         $modelGajiKaryawan->saveDataGajiKaryawan($dataSimpan);
         session()->setFlashdata('success', 'Penggajian Sudah Berhasil Dibuat!');
-        return redirect()->to(base_url('/admin/master-pembayaran-gaji'));
+        return redirect()->to(base_url('/hr/master-pembayaran-gaji'));
     }
 
     public function update_pembayaran_gaji()
@@ -261,7 +261,7 @@ class Gaji extends BaseController
         $modelGajiKaryawan->updateDataGajiKaryawan($dataUpdate, $whereUpdate);
         session()->remove('idUpdate');
         session()->setFlashdata('success', 'Tanggal Pembayaran Berhasil DiUpdate!');
-        return redirect()->to(base_url('/admin/master-pembayaran-gaji'));
+        return redirect()->to(base_url('/hr/master-pembayaran-gaji'));
     }
 
     public function hapus_pembayaran_gaji($id)
@@ -273,7 +273,7 @@ class Gaji extends BaseController
 
         session()->setFlashdata('success','Data Gaji Berhasil dihapus!!');
 
-        return redirect()->to(base_url('/admin/master-pembayaran-gaji'));
+        return redirect()->to(base_url('/hr/master-pembayaran-gaji'));
     }
 
     public function cetak_pembayaran()

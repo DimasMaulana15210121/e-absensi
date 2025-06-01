@@ -72,7 +72,7 @@ class Lokasi extends BaseController
         ];
         $modelLokasi->saveDataLokasi($dataSimpan);
         session()->setFlashdata('success', 'Data Lokasi berhasil ditambahkan!!');
-        return redirect()->to(base_url('/admin/master-data-lokasi'));
+        return redirect()->to(base_url('/hr/master-data-lokasi'));
     }
     
     public function edit_data_lokasi()
@@ -119,6 +119,18 @@ class Lokasi extends BaseController
         $modelLokasi->updateDataLokasi($dataUpdate, $whereUpdate);
         session()->remove('idUpdate');
         session()->setFlashdata('success','Data Berhasil Diperbarui!!');
-        return redirect()->to(base_url('/admin/master-data-lokasi'));
+        return redirect()->to(base_url('/hr/master-data-lokasi'));
+    }
+
+    public function hapus_data_lokasi($id)
+    {
+ 
+        $modelLokasi = new M_Lokasi;
+    
+        $modelLokasi->hapusDataLokasi($id);
+
+        session()->setFlashdata('success','Data Lokasi Berhasil dihapus!!');
+
+        return redirect()->to(base_url('/hr/master-data-lokasi'));
     }
 }

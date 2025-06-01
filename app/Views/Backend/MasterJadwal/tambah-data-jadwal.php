@@ -18,7 +18,7 @@
                         <h3 class="card-title">Tambah Jadwal</h3>
                     </div>
 
-                    <form action="<?= base_url('/admin/simpan-data-jadwal') ?>" method="post"
+                    <form action="<?= base_url('/hr/simpan-data-jadwal') ?>" method="post"
                         enctype="multipart/form-data">
                         <div class="card-body">
                             <div id="jadwal-container">
@@ -120,7 +120,7 @@
                                     <div class="form-footer text-center">
                                         <button type="submit" id="submit-button"
                                             class="btn btn-primary btn-lg">Simpan</button>
-                                        <a href="<?= base_url('admin/master-data-jadwal'); ?>"
+                                        <a href="<?= base_url('hr/master-data-jadwal'); ?>"
                                             class="btn btn-danger btn-lg">Batal</a>
                                     </div>
                                 </div>
@@ -138,77 +138,3 @@
         </div>
     </section>
 </div>
-
-<!-- <script>
-    const jadwalContainer = document.getElementById("jadwal-container");
-    const addFormBtn = document.getElementById("add-form");
-
-    function updateSubmitButton() {
-        const forms = jadwalContainer.querySelectorAll('.form-jadwal');
-
-        forms.forEach((form, index) => {
-            const footer = form.querySelector('.form-footer');
-            if (footer) {
-                footer.style.display = (index === forms.length - 1) ? 'block' : 'none';
-                const submitBtn = footer.querySelector('#submit-button');
-                if (submitBtn) {
-                    submitBtn.textContent = (forms.length > 1) ? 'Simpan Semua' : 'Simpan';
-                }
-            }
-        });
-    }
-
-    addFormBtn.addEventListener("click", function () {
-        const allForms = jadwalContainer.querySelectorAll(".form-jadwal");
-        const lastForm = allForms[allForms.length - 1];
-        const clone = lastForm.cloneNode(true);
-
-        // Ambil tanggal terakhir dan tambah 1 hari
-        const lastDateInput = lastForm.querySelector('input[name="tanggal[]"]');
-        const nextDate = new Date(lastDateInput.value);
-        nextDate.setDate(nextDate.getDate() + 1);
-        const nextDateStr = nextDate.toISOString().split('T')[0];
-
-        // Ambil jam masuk & keluar dari form sebelumnya
-        const jamMasuk = lastForm.querySelector('input[name="jam_masuk[]"]').value;
-        const jamKeluar = lastForm.querySelector('input[name="jam_keluar[]"]').value;
-
-        // Reset semua input dan atur nilai baru
-        clone.querySelectorAll("input").forEach(input => {
-            if (input.name === "tanggal[]") {
-                input.value = nextDateStr;
-            } else if (input.name === "jam_masuk[]") {
-                input.value = jamMasuk;
-            } else if (input.name === "jam_keluar[]") {
-                input.value = jamKeluar;
-            } else {
-                input.value = "";
-            }
-        });
-
-        clone.querySelectorAll("select").forEach(select => {
-            select.selectedIndex = 0;
-        });
-
-        // Tidak perlu pasang event hapus di sini karena pakai delegasi global
-
-        jadwalContainer.appendChild(clone);
-        updateSubmitButton();
-    });
-
-    // Delegasi hapus untuk semua tombol remove-form
-    document.addEventListener('click', function (e) {
-        if (e.target.classList.contains('remove-form')) {
-            const form = e.target.closest('.form-jadwal');
-            if (document.querySelectorAll('.form-jadwal').length > 1) {
-                form.remove();
-                updateSubmitButton();
-            } else {
-                alert("Minimal harus ada 1 form jadwal.");
-            }
-        }
-    });
-
-    // Inisialisasi tombol simpan saat load halaman
-    updateSubmitButton();
-</script> -->

@@ -23,7 +23,7 @@
                           <h3 class="card-title">Edit Data Jadwal</h3>
                       </div>
                       <!-- /.card-header -->
-                      <form action="<?= base_url('/admin/update-data-jadwal').'/'.$data_jadwal['id_jadwal'] ?>"
+                      <form action="<?= base_url('/hr/update-data-jadwal').'/'.$data_jadwal['id_jadwal'] ?>"
                           method="post" enctype="multipart/form-data">
                           <div class="card-body">
                               <div class="row">
@@ -115,7 +115,7 @@
                               <!-- /.card-body -->
                               <div class="card-footer" style="text-align: center;">
                                   <button type="submit" class="btn btn-primary btn-lg">Update</button>
-                                  <a href="<?php echo base_url('admin/master-data-jadwal');?>"
+                                  <a href="<?php echo base_url('hr/master-data-jadwal');?>"
                                       class="btn btn-danger btn-lg">
                                       Batal
                                   </a>

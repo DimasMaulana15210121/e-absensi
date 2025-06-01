@@ -243,7 +243,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?= base_url('/admin/terima-pengajuan').'/'. $data['id_izin'] .'/'.$data['id_karyawan'] ?>" method="post"
+            <form action="<?= base_url('/hr/terima-pengajuan').'/'. $data['id_izin'] .'/'.$data['id_karyawan'] ?>" method="post"
                 enctype="multipart/form-data">
                 <div class="modal-body">
                     <div class="col-md-12">
@@ -367,7 +367,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?= base_url('/admin/tolak-pengajuan').'/'. $data['id_izin']; ?>" method="post"
+            <form action="<?= base_url('/hr/tolak-pengajuan').'/'. $data['id_izin']; ?>" method="post"
                 enctype="multipart/form-data">
                 <div class="modal-body">
                     <div class="col-md-12">

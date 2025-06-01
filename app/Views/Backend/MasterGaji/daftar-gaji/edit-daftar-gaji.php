@@ -23,7 +23,7 @@
                           <h3 class="card-title">Edit Gaji <?= $data_gaji['nama_jabatan']; ?></h3>
                       </div>
                       <!-- /.card-header -->
-                      <form action="<?= base_url('/admin/update-daftar-gaji').'/'.$data_gaji['id_gaji']?>" method="post"
+                      <form action="<?= base_url('/hr/update-daftar-gaji').'/'.$data_gaji['id_gaji']?>" method="post"
                           enctype="multipart/form-data">
                           <div class="card-body">
                               <!-- <div class="row"> -->
@@ -107,7 +107,7 @@
                           <!-- /.card-body -->
                           <div class="card-footer" style="text-align: center;">
                               <button type="submit" class="btn btn-primary btn-lg">Update</button>
-                              <a href="<?php echo base_url('admin/master-daftar-gaji');?>"
+                              <a href="<?php echo base_url('hr/master-daftar-gaji');?>"
                                   class="btn btn-danger btn-lg">
                                   Batal
                               </a>

@@ -49,8 +49,8 @@ class Jabatan extends BaseController
             'updated_at' => date('Y-m-d H:i:s'),
         ];
         $modelJabatan->saveDataJabatan($dataSimpan);
-        session()->setFlashdata('success', 'Permohonan izin berhasil ditambahkan!!');
-        return redirect()->to(base_url('/admin/master-data-jabatan'));
+        session()->setFlashdata('success', 'Data Jabatan berhasil ditambahkan!!');
+        return redirect()->to(base_url('/hr/master-data-jabatan'));
     }
 
     public function update_data_jabatan()
@@ -73,7 +73,7 @@ class Jabatan extends BaseController
         $modelJabatan->updateDataJabatan($dataUpdate, $whereUpdate);
         session()->remove('idUpdate');
         session()->setFlashdata('success','Data Berhasil Diperbarui!!');
-        return redirect()->to(base_url('/admin/master-data-jabatan'));
+        return redirect()->to(base_url('/hr/master-data-jabatan'));
     }
 
     public function hapus_data_jabatan($id)
@@ -85,7 +85,7 @@ class Jabatan extends BaseController
 
         session()->setFlashdata('success','Data Karyawan Berhasil dihapus!!');
 
-        return redirect()->to(base_url('/admin/master-data-jabatan'));
+        return redirect()->to(base_url('/hr/master-data-jabatan'));
     }
 
     public function view_jabatan()
@@ -115,17 +115,17 @@ class Jabatan extends BaseController
     {
         $uri = service('uri');
         $page = $uri->getSegment(2);
-        $idJabatan = $uri->getSegment(3);
-        $idKaryawan = $uri->getSegment(4);
+        $idKaryawan = $uri->getSegment(3);
+        $idJabatan = $uri->getSegment(4);
 
         $modelJabatan = new M_Jabatan;
         $modelKaryawan = new M_Karyawan;
 
-        $dataKaryawan = $modelKaryawan->getDataKaryawan(['sha1(tbl_karyawan.id_jabatan)' => $idJabatan, 'sha1(tbl_karyawan.id_karyawan)' => $idKaryawan])->getRowArray();
-        // $dataJabatan = $modelJabatan->getDataJabatan(['sha1(id_jabatan)' => $idView])->getRowArray();
+        $dataJabatan = $modelJabatan->getDataJabatan(['sha1(id_jabatan)' => $idJabatan])->getRowArray();
+        $dataKaryawan = $modelKaryawan->getDataKaryawan(['sha1(tbl_karyawan.id_karyawan)' => $idKaryawan])->getRowArray();
         
         $data['page'] = $page;
-        // $data['data_jabatan'] = $dataJabatan;
+        $data['data_jabatan'] = $dataJabatan;
         $data['data_karyawan'] = $dataKaryawan;
         $data['menu'] = "dashboard";
 

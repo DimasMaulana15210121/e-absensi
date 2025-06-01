@@ -166,16 +166,16 @@ class History extends BaseController
             //Jika status nya cuti
             if ($dataAbsen['status'] == 'Cuti') {
                 session()->setFlashdata('info','Karyawan Ini Sedang Cuti Dari Tanggal: ' .$dataIzin['tgl_mulai']. ' s/d '. $dataIzin['tgl_selesai']);
-                return redirect()->to(base_url('/admin/history-absensi'));
+                return redirect()->to(base_url('/hr/history-absensi'));
             }
             //Jika status nya izin
             elseif ($dataAbsen['status'] == 'Izin') {
                 session()->setFlashdata('info','Karyawan Ini Sedang Izin Dari Tanggal: ' .$dataIzin['tgl_mulai']. ' s/d '. $dataIzin['tgl_selesai']);
-                return redirect()->to(base_url('/admin/history-absensi'));
+                return redirect()->to(base_url('/hr/history-absensi'));
             }
         } else {
             session()->setFlashdata('info','Hari Ini Adalah Hari Libur !');
-            return redirect()->to(base_url('/admin/history-absensi'));
+            return redirect()->to(base_url('/hr/history-absensi'));
         }
         
         $data['page'] = $page;

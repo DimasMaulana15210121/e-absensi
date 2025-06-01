@@ -9,7 +9,7 @@
                   </div>
                   <div class="col-sm-6">
                       <ol class="breadcrumb float-sm-right">
-                          <li class="breadcrumb-item"><a href="<?= base_url()?>admin/master-data-kantor">Lokasi</a></li>
+                          <li class="breadcrumb-item"><a href="<?= base_url()?>hr/master-data-lokasi">Lokasi</a></li>
                           <li class="breadcrumb-item active">Tambah Data Lokasi Absen</li>
                       </ol>
                   </div>
@@ -34,7 +34,7 @@
                       <!-- /.card-tools -->
                   </div>
                   <!-- /.card-header -->
-                  <form action="<?= base_url('/admin/simpan-data-lokasi') ?>" method="post" enctype="multipart/form-data">
+                  <form action="<?= base_url('/hr/simpan-data-lokasi') ?>" method="post" enctype="multipart/form-data">
                       <div class="card-body">
                           <div class="form-group">
                               <label>Nama Lokasi</label>
@@ -65,7 +65,7 @@
                       <!-- /.card-body -->
                       <div class="card-footer" style="text-align: center;">
                           <button type="submit" class="btn btn-primary btn-lg">Simpan</button>
-                          <a href="<?php echo base_url('admin/master-data-lokasi');?>"
+                          <a href="<?php echo base_url('hr/master-data-lokasi');?>"
                                     class="btn btn-danger btn-lg">
                                     Batal
                           </a>

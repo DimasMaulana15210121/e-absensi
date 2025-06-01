@@ -59,7 +59,7 @@
                                                     data-toggle="modal"
                                                     data-target="#hapus-pembayaran-gaji<?= $data['id_gaji_karyawan']; ?>"></span>
                                             </button>
-                                            <a href="<?= base_url('/admin/cetak-pembayaran')."/".sha1($data['id_gaji_karyawan']).'/'.sha1($data['id_karyawan'])?>"
+                                            <a href="<?= base_url('/hr/cetak-pembayaran')."/".sha1($data['id_gaji_karyawan']).'/'.sha1($data['id_karyawan'])?>"
                                                 title="Cetak Invoice">
                                                 <button type="button" class="btn btn-info"><span
                                                         class="fas fa-file-invoice-dollar"></span></button>
@@ -89,7 +89,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?= base_url('/admin/simpan-pembayaran-gaji') ?>" method="post" enctype="multipart/form-data">
+            <form action="<?= base_url('/hr/simpan-pembayaran-gaji') ?>" method="post" enctype="multipart/form-data">
                 <div class="col-md-12">
                     <div class="row">
                         <div class="modal-body">
@@ -152,7 +152,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?= base_url('/admin/update-pembayaran-gaji').'/'. $data['id_gaji_karyawan'] ?>" method="post"
+            <form action="<?= base_url('/hr/update-pembayaran-gaji').'/'. $data['id_gaji_karyawan'] ?>" method="post"
                 enctype="multipart/form-data">
                 <div class="modal-body">
                     <div class="form-group">
@@ -200,7 +200,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?= base_url('/admin/hapus-pembayaran-gaji').'/'. $data['id_gaji_karyawan']; ?>" method="get"
+            <form action="<?= base_url('/hr/hapus-pembayaran-gaji').'/'. $data['id_gaji_karyawan']; ?>" method="get"
                 enctype="multipart/form-data">
                 <div class="modal-body">
                     <div class="col-md-12">

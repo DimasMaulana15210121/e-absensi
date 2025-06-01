@@ -866,3 +866,1036 @@ in APPPATH\Controllers\Jadwal.php on line 242.
  3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
  5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:01:18 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 8.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709', 'c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:03:08 --> Undefined variable $modelJabatan
+in APPPATH\Controllers\Jabatan.php on line 125.
+ 1 APPPATH\Controllers\Jabatan.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modelJabatan', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Jabatan.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709', 'c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:03:48 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 8.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709', 'c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:04:15 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 8.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709', 'c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:05:15 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 8.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709', 'c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:10:01 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 8.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 8)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709', 'c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:10:31 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-jabatan.php on line 6.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-jabatan.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-jabatan.php', 6)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-jabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-jabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(110): view('Backend/MasterJabatan/view-jabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_jabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:11:37 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-jabatan.php on line 6.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-jabatan.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-jabatan.php', 6)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-jabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-jabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(110): view('Backend/MasterJabatan/view-jabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_jabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:11:41 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-jabatan.php on line 6.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-jabatan.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-jabatan.php', 6)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-jabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-jabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(110): view('Backend/MasterJabatan/view-jabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_jabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:12:46 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-jabatan.php on line 6.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-jabatan.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-jabatan.php', 6)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-jabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-jabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(110): view('Backend/MasterJabatan/view-jabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_jabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-06-01 18:14:05 --> mysqli_sql_exception: Unknown column '10a34637ad661d98ba3344717656fcc76209c2f8' in 'where clause' in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Jabatan.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Jabatan.php(101): App\Models\M_Jabatan->getDataJabatan('10a34637ad661d9...')
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Jabatan->view_jabatan('da39a3ee5e6b4b0...')
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-06-01 18:14:05 --> Unknown column '10a34637ad661d98ba3344717656fcc76209c2f8' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_jabatan`
+WHERE `10a34637ad661d98ba3344717656fcc76209c2f8` IS NULL
+ORDER BY `id_jabatan` ASC', [], false)
+ 2 APPPATH\Models\M_Jabatan.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Jabatan.php(101): App\Models\M_Jabatan->getDataJabatan('10a34637ad661d98ba3344717656fcc76209c2f8')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_jabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:16:48 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 153.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 153)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709', 'c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-06-01 18:18:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `tbl_karyawan`.`id_karyawan` ASC' at line 8 in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Karyawan.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Jabatan.php(125): App\Models\M_Karyawan->getDataKaryawan(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0...', 'c8d04e0b7d29ef3...')
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-06-01 18:18:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `tbl_karyawan`.`id_karyawan` ASC' at line 8
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_karyawan`
+LEFT JOIN `tbl_jabatan` ON `tbl_jabatan`.`id_jabatan` = `tbl_karyawan`.`id_jabatan`
+LEFT JOIN `tbl_gaji` ON `tbl_gaji`.`id_jabatan` = `tbl_karyawan`.`id_jabatan`
+LEFT JOIN `tbl_lokasi` ON `tbl_lokasi`.`id_lokasi` = `tbl_karyawan`.`id_lokasi`
+WHERE sha1(tbl_karyawan.id_jabatan = :sha1(tbl_karyawan.id_jabatan:
+AND sha1(tbl_karyawan.id_karyawan) = :sha1(tbl_karyawan.id_karyawan):
+ORDER BY `tbl_karyawan`.`id_karyawan` ASC', [...], false)
+ 2 APPPATH\Models\M_Karyawan.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Jabatan.php(125): App\Models\M_Karyawan->getDataKaryawan([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709', 'c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-06-01 18:18:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `tbl_karyawan`.`id_karyawan` ASC' at line 8 in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Karyawan.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Jabatan.php(125): App\Models\M_Karyawan->getDataKaryawan(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0...', 'c8d04e0b7d29ef3...')
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-06-01 18:18:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `tbl_karyawan`.`id_karyawan` ASC' at line 8
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_karyawan`
+LEFT JOIN `tbl_jabatan` ON `tbl_jabatan`.`id_jabatan` = `tbl_karyawan`.`id_jabatan`
+LEFT JOIN `tbl_gaji` ON `tbl_gaji`.`id_jabatan` = `tbl_karyawan`.`id_jabatan`
+LEFT JOIN `tbl_lokasi` ON `tbl_lokasi`.`id_lokasi` = `tbl_karyawan`.`id_lokasi`
+WHERE sha1(tbl_karyawan.id_jabatan = :sha1(tbl_karyawan.id_jabatan:
+AND sha1(tbl_karyawan.id_karyawan) = :sha1(tbl_karyawan.id_karyawan):
+ORDER BY `tbl_karyawan`.`id_karyawan` ASC', [...], false)
+ 2 APPPATH\Models\M_Karyawan.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Jabatan.php(125): App\Models\M_Karyawan->getDataKaryawan([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709', 'c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-06-01 18:18:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `tbl_karyawan`.`id_karyawan` ASC' at line 8 in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Karyawan.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Jabatan.php(125): App\Models\M_Karyawan->getDataKaryawan(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0...', 'c8d04e0b7d29ef3...')
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-06-01 18:18:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `tbl_karyawan`.`id_karyawan` ASC' at line 8
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_karyawan`
+LEFT JOIN `tbl_jabatan` ON `tbl_jabatan`.`id_jabatan` = `tbl_karyawan`.`id_jabatan`
+LEFT JOIN `tbl_gaji` ON `tbl_gaji`.`id_jabatan` = `tbl_karyawan`.`id_jabatan`
+LEFT JOIN `tbl_lokasi` ON `tbl_lokasi`.`id_lokasi` = `tbl_karyawan`.`id_lokasi`
+WHERE sha1(tbl_karyawan.id_jabatan = :sha1(tbl_karyawan.id_jabatan:
+AND sha1(tbl_karyawan.id_karyawan) = :sha1(tbl_karyawan.id_karyawan):
+ORDER BY `tbl_karyawan`.`id_karyawan` ASC', [...], false)
+ 2 APPPATH\Models\M_Karyawan.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Jabatan.php(125): App\Models\M_Karyawan->getDataKaryawan([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709', 'c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-06-01 18:19:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `tbl_karyawan`.`id_karyawan` ASC' at line 8 in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Karyawan.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Jabatan.php(125): App\Models\M_Karyawan->getDataKaryawan(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0...', 'c8d04e0b7d29ef3...')
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-06-01 18:19:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `tbl_karyawan`.`id_karyawan` ASC' at line 8
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_karyawan`
+LEFT JOIN `tbl_jabatan` ON `tbl_jabatan`.`id_jabatan` = `tbl_karyawan`.`id_jabatan`
+LEFT JOIN `tbl_gaji` ON `tbl_gaji`.`id_jabatan` = `tbl_karyawan`.`id_jabatan`
+LEFT JOIN `tbl_lokasi` ON `tbl_lokasi`.`id_lokasi` = `tbl_karyawan`.`id_lokasi`
+WHERE sha1(tbl_jabatan.id_jabatan = :sha1(tbl_jabatan.id_jabatan:
+AND sha1(tbl_karyawan.id_karyawan) = :sha1(tbl_karyawan.id_karyawan):
+ORDER BY `tbl_karyawan`.`id_karyawan` ASC', [...], false)
+ 2 APPPATH\Models\M_Karyawan.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Jabatan.php(125): App\Models\M_Karyawan->getDataKaryawan([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709', 'c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-06-01 18:19:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `tbl_karyawan`.`id_karyawan` ASC' at line 8 in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Karyawan.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Jabatan.php(125): App\Models\M_Karyawan->getDataKaryawan(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0...', 'c8d04e0b7d29ef3...')
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-06-01 18:19:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `tbl_karyawan`.`id_karyawan` ASC' at line 8
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_karyawan`
+LEFT JOIN `tbl_jabatan` ON `tbl_jabatan`.`id_jabatan` = `tbl_karyawan`.`id_jabatan`
+LEFT JOIN `tbl_gaji` ON `tbl_gaji`.`id_jabatan` = `tbl_karyawan`.`id_jabatan`
+LEFT JOIN `tbl_lokasi` ON `tbl_lokasi`.`id_lokasi` = `tbl_karyawan`.`id_lokasi`
+WHERE sha1(tbl_jabatan.id_jabatan = :sha1(tbl_jabatan.id_jabatan:
+AND sha1(tbl_karyawan.id_karyawan) = :sha1(tbl_karyawan.id_karyawan):
+ORDER BY `tbl_karyawan`.`id_karyawan` ASC', [...], false)
+ 2 APPPATH\Models\M_Karyawan.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Jabatan.php(125): App\Models\M_Karyawan->getDataKaryawan([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709', 'c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-06-01 18:19:53 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `tbl_karyawan`.`id_karyawan` ASC' at line 8 in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Karyawan.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Jabatan.php(125): App\Models\M_Karyawan->getDataKaryawan(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0...', 'c8d04e0b7d29ef3...')
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-06-01 18:19:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `tbl_karyawan`.`id_karyawan` ASC' at line 8
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_karyawan`
+LEFT JOIN `tbl_jabatan` ON `tbl_jabatan`.`id_jabatan` = `tbl_karyawan`.`id_jabatan`
+LEFT JOIN `tbl_gaji` ON `tbl_gaji`.`id_jabatan` = `tbl_karyawan`.`id_jabatan`
+LEFT JOIN `tbl_lokasi` ON `tbl_lokasi`.`id_lokasi` = `tbl_karyawan`.`id_lokasi`
+WHERE sha1(tbl_karyawan.id_karyawan) = :sha1(tbl_karyawan.id_karyawan):
+AND sha1(tbl_jabatan.id_jabatan = :sha1(tbl_jabatan.id_jabatan:
+ORDER BY `tbl_karyawan`.`id_karyawan` ASC', [...], false)
+ 2 APPPATH\Models\M_Karyawan.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Jabatan.php(125): App\Models\M_Karyawan->getDataKaryawan([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709', 'c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:21:09 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 29.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709', 'c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:21:58 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 29.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709', 'c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:23:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 29.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709', 'c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:23:13 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 29.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304', 'da39a3ee5e6b4b0d3255bfef95601890afd80709')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:23:34 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 29.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 29)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304', 'da39a3ee5e6b4b0d3255bfef95601890afd80709')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:25:10 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 22.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709', 'c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:28:02 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 22.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709', 'c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:28:09 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 22.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709', 'c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:33:07 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 22.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709', 'c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-06-01 18:34:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:
+ORDER BY `tbl_karyawan`.`id_karyawan` ASC' at line 6 in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Karyawan.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Jabatan.php(124): App\Models\M_Karyawan->getDataKaryawan(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0...', 'c8d04e0b7d29ef3...')
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-06-01 18:34:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+AND 1 = :1:
+ORDER BY `tbl_karyawan`.`id_karyawan` ASC' at line 6
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_karyawan`
+LEFT JOIN `tbl_jabatan` ON `tbl_jabatan`.`id_jabatan` = `tbl_karyawan`.`id_jabatan`
+LEFT JOIN `tbl_gaji` ON `tbl_gaji`.`id_jabatan` = `tbl_karyawan`.`id_jabatan`
+LEFT JOIN `tbl_lokasi` ON `tbl_lokasi`.`id_lokasi` = `tbl_karyawan`.`id_lokasi`
+WHERE 0 = :0:
+AND 1 = :1:
+ORDER BY `tbl_karyawan`.`id_karyawan` ASC', [...], false)
+ 2 APPPATH\Models\M_Karyawan.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Jabatan.php(124): App\Models\M_Karyawan->getDataKaryawan([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709', 'c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:35:04 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 22.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709', 'c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:35:29 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 30.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('da39a3ee5e6b4b0d3255bfef95601890afd80709', 'c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:45:22 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-jabatan.php on line 6.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-jabatan.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-jabatan.php', 6)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-jabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-jabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(110): view('Backend/MasterJabatan/view-jabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_jabatan('c8ccb7ca1dc5ae25e900cb87098781f31b24f345')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:45:29 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-jabatan.php on line 6.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-jabatan.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-jabatan.php', 6)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-jabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-jabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(110): view('Backend/MasterJabatan/view-jabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_jabatan('KRY2025051900002')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:46:22 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-jabatan.php on line 6.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-jabatan.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-jabatan.php', 6)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-jabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-jabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(110): view('Backend/MasterJabatan/view-jabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_jabatan('KRY2025051900002')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:47:02 --> Undefined variable $data_jabatan
+in APPPATH\Views\Backend\MasterJabatan\view-jabatan.php on line 6.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-jabatan.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_jabatan', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-jabatan.php', 6)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-jabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-jabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(110): view('Backend/MasterJabatan/view-jabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_jabatan('JBT2025051000001')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:47:19 --> Undefined array key "nama_jabatan"
+in APPPATH\Views\Backend\MasterJabatan\view-jabatan.php on line 6.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-jabatan.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_jabatan"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-jabatan.php', 6)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-jabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-jabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(110): view('Backend/MasterJabatan/view-jabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_jabatan('JBT2025051000001')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 18:54:17 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 22.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('KRY2025051900002', '')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 19:02:37 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 22.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('KRY2025051900002')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 19:05:21 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 132.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 132)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('KRY2025051900002')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 19:05:21 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 132.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 132)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('KRY2025051900002')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 19:05:25 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 132.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 132)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('KRY2025051900002')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 19:06:26 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 22.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('KRY2025051900002')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 19:13:17 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 22.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('JBT2025051000001', 'KRY2025051900002')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 19:14:17 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 30.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('JBT2025051000001', 'KRY2025051900002')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 19:14:49 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 22.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('JBT2025051000001', 'KRY2025051900002')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 19:15:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 22.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('JBT2025051000001', 'KRY2025051900002')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 19:15:10 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 22.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('JBT2025051000001', 'KRY2025051900002')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 19:15:26 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php on line 22.
+ 1 APPPATH\Views\Backend\MasterJabatan\view-karyawan-perjabatan.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterJabatan\\view-karyawan-perjabatan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterJabatan/view-karyawan-perjabatan', [], true)
+ 5 APPPATH\Controllers\Jabatan.php(134): view('Backend/MasterJabatan/view-karyawan-perjabatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jabatan->view_karyawan_perjabatan('JBT2025051000001', 'KRY2025051900002')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 19:24:34 --> Undefined array key "nama_jabatan"
+in APPPATH\Views\Backend\MasterKaryawan\edit-data-karyawan.php on line 89.
+ 1 APPPATH\Views\Backend\MasterKaryawan\edit-data-karyawan.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_jabatan"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterKaryawan\\edit-data-karyawan.php', 89)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterKaryawan\\edit-data-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterKaryawan/edit-data-karyawan', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(149): view('Backend/MasterKaryawan/edit-data-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->edit_data_karyawan('c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 19:25:19 --> Undefined array key "id_jabatan"
+in APPPATH\Views\Backend\MasterKaryawan\edit-data-karyawan.php on line 91.
+ 1 APPPATH\Views\Backend\MasterKaryawan\edit-data-karyawan.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_jabatan"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterKaryawan\\edit-data-karyawan.php', 91)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterKaryawan\\edit-data-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterKaryawan/edit-data-karyawan', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(149): view('Backend/MasterKaryawan/edit-data-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->edit_data_karyawan('c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-06-01 19:40:41 --> mysqli_sql_exception: Unknown column 'tbl_karyawan' in 'order clause' in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Karyawan.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Karyawan.php(18): App\Models\M_Karyawan->getDataKaryawan(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Karyawan->master_karyawan()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-06-01 19:40:41 --> Unknown column 'tbl_karyawan' in 'order clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_karyawan`
+LEFT JOIN `tbl_jabatan` ON `tbl_jabatan`.`id_jabatan` = `tbl_karyawan`.`id_jabatan`
+LEFT JOIN `tbl_gaji` ON `tbl_gaji`.`id_jabatan` = `tbl_karyawan`.`id_jabatan`
+LEFT JOIN `tbl_lokasi` ON `tbl_lokasi`.`id_lokasi` = `tbl_karyawan`.`id_lokasi`
+WHERE `is_delete_karyawan` = :is_delete_karyawan:
+ORDER BY `tbl_karyawan` ASC', [...], false)
+ 2 APPPATH\Models\M_Karyawan.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Karyawan.php(18): App\Models\M_Karyawan->getDataKaryawan([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->master_karyawan()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 19:44:33 --> Undefined array key "id_jabatan"
+in APPPATH\Views\Backend\MasterKaryawan\edit-data-karyawan.php on line 16.
+ 1 APPPATH\Views\Backend\MasterKaryawan\edit-data-karyawan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_jabatan"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterKaryawan\\edit-data-karyawan.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterKaryawan\\edit-data-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterKaryawan/edit-data-karyawan', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(149): view('Backend/MasterKaryawan/edit-data-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->edit_data_karyawan('c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 19:44:38 --> Undefined array key "id_jabatan"
+in APPPATH\Views\Backend\MasterKaryawan\edit-data-karyawan.php on line 16.
+ 1 APPPATH\Views\Backend\MasterKaryawan\edit-data-karyawan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_jabatan"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterKaryawan\\edit-data-karyawan.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterKaryawan\\edit-data-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterKaryawan/edit-data-karyawan', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(149): view('Backend/MasterKaryawan/edit-data-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->edit_data_karyawan('c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-06-01 19:46:23 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ORDER BY `id_jabatan` ASC' at line 3 in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Jabatan.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Karyawan.php(138): App\Models\M_Jabatan->getDataJabatan(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Karyawan->edit_data_karyawan('c8d04e0b7d29ef3...')
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-06-01 19:46:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0:
+ORDER BY `id_jabatan` ASC' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_jabatan`
+WHERE 0 = :0:
+ORDER BY `id_jabatan` ASC', [...], false)
+ 2 APPPATH\Models\M_Jabatan.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Karyawan.php(138): App\Models\M_Jabatan->getDataJabatan([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->edit_data_karyawan('c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 19:46:29 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\Backend\MasterKaryawan\edit-data-karyawan.php on line 88.
+ 1 APPPATH\Views\Backend\MasterKaryawan\edit-data-karyawan.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterKaryawan\\edit-data-karyawan.php', 88)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterKaryawan\\edit-data-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterKaryawan/edit-data-karyawan', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(149): view('Backend/MasterKaryawan/edit-data-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->edit_data_karyawan('c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 19:46:30 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\Backend\MasterKaryawan\edit-data-karyawan.php on line 88.
+ 1 APPPATH\Views\Backend\MasterKaryawan\edit-data-karyawan.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterKaryawan\\edit-data-karyawan.php', 88)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterKaryawan\\edit-data-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterKaryawan/edit-data-karyawan', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(149): view('Backend/MasterKaryawan/edit-data-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->edit_data_karyawan('c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 19:50:57 --> Undefined variable $data
+in APPPATH\Views\Backend\MasterKaryawan\edit-data-karyawan.php on line 87.
+ 1 APPPATH\Views\Backend\MasterKaryawan\edit-data-karyawan.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterKaryawan\\edit-data-karyawan.php', 87)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterKaryawan\\edit-data-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterKaryawan/edit-data-karyawan', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(149): view('Backend/MasterKaryawan/edit-data-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->edit_data_karyawan('c8d04e0b7d29ef35320bfb9fd0ef6db342ab8304')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 20:01:22 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Jadwal.php on line 298.
+ 1 APPPATH\Controllers\Jadwal.php(298): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Jadwal.php', 298)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jadwal->update_libur()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 20:01:42 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Jadwal.php on line 298.
+ 1 APPPATH\Controllers\Jadwal.php(298): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Jadwal.php', 298)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jadwal->update_libur()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 20:03:15 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Jadwal.php on line 298.
+ 1 APPPATH\Controllers\Jadwal.php(298): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Jadwal.php', 298)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jadwal->update_libur()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 20:05:09 --> Array to string conversion
+in APPPATH\Controllers\Jadwal.php on line 298.
+ 1 APPPATH\Controllers\Jadwal.php(298): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Jadwal.php', 298)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jadwal->update_libur()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 20:09:21 --> Undefined array key "2025-06-30"
+in APPPATH\Controllers\Jadwal.php on line 299.
+ 1 APPPATH\Controllers\Jadwal.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "2025-06-30"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Jadwal.php', 299)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Jadwal->update_libur()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-06-01 21:05:47 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `id_gambar` ASC' at line 4 in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Gambar.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Admin.php(241): App\Models\M_Gambar->getDataGambar(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Admin->edit_logo()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-06-01 21:05:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `id_gambar` ASC' at line 4
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_gambar`
+WHERE sha1(id_gambar = :sha1(id_gambar:
+ORDER BY `id_gambar` ASC', [...], false)
+ 2 APPPATH\Models\M_Gambar.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(241): App\Models\M_Gambar->getDataGambar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_logo()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-06-01 21:06:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `id_gambar` ASC' at line 4 in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Gambar.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Admin.php(241): App\Models\M_Gambar->getDataGambar(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Admin->edit_logo('fdf47234e3b0ecb...')
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-06-01 21:06:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ORDER BY `id_gambar` ASC' at line 4
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_gambar`
+WHERE sha1(id_gambar = :sha1(id_gambar:
+ORDER BY `id_gambar` ASC', [...], false)
+ 2 APPPATH\Models\M_Gambar.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Admin.php(241): App\Models\M_Gambar->getDataGambar([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_logo('fdf47234e3b0ecb9d67ac7f7ad0cb664dd313be4')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 21:07:15 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterGambar\edit-logo.php on line 32.
+ 1 APPPATH\Views\Backend\MasterGambar\edit-logo.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGambar\\edit-logo.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGambar\\edit-logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterGambar/edit-logo', [], true)
+ 5 APPPATH\Controllers\Admin.php(249): view('Backend/MasterGambar/edit-logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_logo('fdf47234e3b0ecb9d67ac7f7ad0cb664dd313be4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 21:10:22 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterGambar\edit-logo.php on line 32.
+ 1 APPPATH\Views\Backend\MasterGambar\edit-logo.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGambar\\edit-logo.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGambar\\edit-logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterGambar/edit-logo', [], true)
+ 5 APPPATH\Controllers\Admin.php(249): view('Backend/MasterGambar/edit-logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_logo('fdf47234e3b0ecb9d67ac7f7ad0cb664dd313be4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 21:10:26 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterGambar\edit-logo.php on line 32.
+ 1 APPPATH\Views\Backend\MasterGambar\edit-logo.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGambar\\edit-logo.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGambar\\edit-logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterGambar/edit-logo', [], true)
+ 5 APPPATH\Controllers\Admin.php(249): view('Backend/MasterGambar/edit-logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_logo('fdf47234e3b0ecb9d67ac7f7ad0cb664dd313be4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 21:11:49 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterGambar\edit-logo.php on line 31.
+ 1 APPPATH\Views\Backend\MasterGambar\edit-logo.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGambar\\edit-logo.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGambar\\edit-logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterGambar/edit-logo', [], true)
+ 5 APPPATH\Controllers\Admin.php(249): view('Backend/MasterGambar/edit-logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_logo('fdf47234e3b0ecb9d67ac7f7ad0cb664dd313be4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 21:11:53 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterGambar\edit-logo.php on line 31.
+ 1 APPPATH\Views\Backend\MasterGambar\edit-logo.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGambar\\edit-logo.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGambar\\edit-logo.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterGambar/edit-logo', [], true)
+ 5 APPPATH\Controllers\Admin.php(249): view('Backend/MasterGambar/edit-logo', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->edit_logo('fdf47234e3b0ecb9d67ac7f7ad0cb664dd313be4')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 21:37:03 --> Undefined array key "id_logo"
+in APPPATH\Views\Backend\MasterGambar\logo-perusahaan.php on line 134.
+ 1 APPPATH\Views\Backend\MasterGambar\logo-perusahaan.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_logo"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGambar\\logo-perusahaan.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGambar\\logo-perusahaan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterGambar/logo-perusahaan', [], true)
+ 5 APPPATH\Controllers\Admin.php(176): view('Backend/MasterGambar/logo-perusahaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->logo_perusahaan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-01 21:37:03 --> Undefined array key "id_logo"
+in APPPATH\Views\Backend\MasterGambar\logo-perusahaan.php on line 134.
+ 1 APPPATH\Views\Backend\MasterGambar\logo-perusahaan.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_logo"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGambar\\logo-perusahaan.php', 134)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterGambar\\logo-perusahaan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterGambar/logo-perusahaan', [], true)
+ 5 APPPATH\Controllers\Admin.php(176): view('Backend/MasterGambar/logo-perusahaan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin->logo_perusahaan()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')

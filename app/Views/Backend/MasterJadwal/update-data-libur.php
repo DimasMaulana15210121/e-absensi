@@ -18,7 +18,7 @@
                         <h3 class="card-title">Update Data Libur</h3>
                     </div>
 
-                    <form action="<?= base_url('/admin/update-libur') ?>" method="post" enctype="multipart/form-data">
+                    <form action="<?= base_url('/hr/update-libur') ?>" method="post" enctype="multipart/form-data">
                         <div class="card-body">
                             <div id="form-libur-wrapper">
                                 <!-- Form pertama -->
@@ -42,7 +42,7 @@
 
                         <div class="card-footer text-center">
                             <button type="submit" class="btn btn-primary btn-lg">Update</button>
-                            <a href="<?= base_url('admin/master-data-jadwal') ?>" class="btn btn-danger btn-lg">Batal</a>
+                            <a href="<?= base_url('hr/master-data-jadwal') ?>" class="btn btn-danger btn-lg">Batal</a>
                         </div>
                     </form>
                 </div>

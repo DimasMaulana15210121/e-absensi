@@ -160,12 +160,12 @@
 
         $.ajax({
             type: "POST",
-            url: "<?= base_url('admin/simpan-profile-admin') ?>",
+            url: "<?= base_url('hr/simpan-profile-admin') ?>",
             data: formData,
             contentType: false, 
             processData: false, 
             success: function (response) {
-                window.location.href = "<?= base_url('admin/profile-admin') ?>";
+                window.location.href = "<?= base_url('hr/profile-admin') ?>";
             }
         });
 

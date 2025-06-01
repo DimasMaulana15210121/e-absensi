@@ -72,7 +72,7 @@ class Jadwal extends BaseController
         // Validasi absen alpha tidak boleh sama dengan telat
         if ($absen_alpha == $absen_telat) {
             session()->setFlashdata('error', "Absen alpha tidak boleh sama dengan absen telat !");
-            return redirect()->to('admin/tambah-data-jadwal')->withInput();
+            return redirect()->to('hr/tambah-data-jadwal')->withInput();
         }
 
         if ($this->request->getPost('tanggal_akhir')) {
@@ -94,7 +94,7 @@ class Jadwal extends BaseController
             $sqlCek = $modelJadwal->getDataJadwal(['tanggal' => $tanggal]);
             if ($sqlCek->getNumRows() > 0) {
                 session()->setFlashdata('error', 'Tanggal Jadwal ' . $tanggal . ' sudah ada!');
-                return redirect()->to(base_url('/admin/tambah-data-jadwal'))->withInput();
+                return redirect()->to(base_url('/hr/tambah-data-jadwal'))->withInput();
             }
 
             // Buat ID jadwal
@@ -179,7 +179,7 @@ class Jadwal extends BaseController
         }
 
         session()->setFlashdata('success', 'Data Jadwal Tersimpan !!');
-        return redirect()->to(base_url('/admin/master-data-jadwal'));
+        return redirect()->to(base_url('/hr/master-data-jadwal'));
     }
 
     public function edit_jadwal()
@@ -255,7 +255,7 @@ class Jadwal extends BaseController
             session()->remove('idUpdate');
         }
         session()->setFlashdata('success','Data Berhasil Diperbarui!!');
-        return redirect()->to(base_url('/admin/master-data-jadwal'));
+        return redirect()->to(base_url('/hr/master-data-jadwal'));
     }
 
     public function update_data_libur()
@@ -288,6 +288,7 @@ class Jadwal extends BaseController
 
         $tanggalSemua = $this->request->getPost('tanggal');
         $keteranganSemua = $this->request->getPost('keterangan');
+        $tgl_kosong = [];
 
         for ($i = 0; $i < count($tanggalSemua); $i++) {
             $tanggal = $tanggalSemua[$i];
@@ -295,13 +296,11 @@ class Jadwal extends BaseController
             
             $dataJadwal = $modelJadwal->getDataJadwal(['tanggal' => $tanggal])->getRowArray();
             if (!$dataJadwal) {
-                session()->setFlashdata('error', 'Tanggal Tersebut Belum Di Buat !');
-                return redirect()->to(base_url('/admin/update-data-libur'))->withInput();
+                $tgl_kosong[] = $tanggal; // Simpan tanggal yang tidak ditemukan
+                continue; // Lewati ke loop berikutnya
             }
             
             $idUpdate = $dataJadwal['id_jadwal'];
-            
-
 
             $dataUpdate = [
                 'tanggal' => $tanggal,
@@ -327,9 +326,15 @@ class Jadwal extends BaseController
             $whereUpdate1 = ['id_jadwal' => $idUpdate];
             $modelAbsen->updateDataAbsen($dataUpdate1, $whereUpdate1);
         }
+        if (!empty($tgl_kosong)) {
+            // Gabungkan tanggal yang gagal dalam satu string
+            $daftarTanggal = implode(', ', $tgl_kosong);
+            session()->setFlashdata('error', 'Tanggal Berikut Belum Dibuat: ' . $daftarTanggal);
+            return redirect()->to(base_url('/hr/update-data-libur'))->withInput();
+        }
         session()->remove('idUpdate');
         session()->setFlashdata('success','Data Berhasil Diperbarui!!');
-        return redirect()->to(base_url('/admin/master-data-jadwal'));
+        return redirect()->to(base_url('/hr/master-data-jadwal'));
     }
 
     public function hapus_data_jadwal($id)
@@ -343,6 +348,6 @@ class Jadwal extends BaseController
 
         session()->setFlashdata('success','Data Jadwal Berhasil dihapus!!');
 
-        return redirect()->to(base_url('/admin/master-data-jadwal'));
+        return redirect()->to(base_url('/hr/master-data-jadwal'));
     }
 }

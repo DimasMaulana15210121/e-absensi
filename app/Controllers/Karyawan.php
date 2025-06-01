@@ -80,11 +80,11 @@ class Karyawan extends BaseController
         $cekUser = $sqlCek2->getNumRows();
         if($id_jabatan ==""){
             session()->setFlashdata('error','Data Jabatan Tidak boleh Kosong!');
-            return redirect()->to(base_url('/admin/tambah-data-karyawan'))->withInput();
+            return redirect()->to(base_url('/hr/tambah-data-karyawan'))->withInput();
         }
         elseif ($cekNik > 0 || $cekUser > 0) {
             session()->setFlashdata('error','NIK atau Username sudah ada!');
-            return redirect()->to(base_url('/admin/tambah-data-karyawan'))->withInput();
+            return redirect()->to(base_url('/hr/tambah-data-karyawan'))->withInput();
         }
         else{
         $hasil = $modelKaryawan->autoNumber()->getRowArray();
@@ -119,7 +119,7 @@ class Karyawan extends BaseController
         $modelKaryawan->saveDataKaryawan($dataSimpan);
 
         session()->setFlashdata('success','Data Karyawan berhasil ditambahkan!!');
-        return redirect()->to(base_url('/admin/master-data-karyawan'));
+        return redirect()->to(base_url('/hr/master-data-karyawan'));
         }
     }
 
@@ -179,7 +179,7 @@ class Karyawan extends BaseController
                 'foto_karyawan' => 'max_size[foto_karyawan,10240]|ext_in[foto_karyawan,jpg,jpeg,png]',
             ])) {
                 session()->setFlashdata('error', "Format file yang diizinkan: JPG, JPEG, PNG maksimal 10MB");
-                return redirect()->to('/admin/master-data-karyawan')->withInput();
+                return redirect()->to('/hr/edit-data-karyawan/'.$idEdit)->withInput();
             }
         
             $ext1 = $foto_karyawan->getClientExtension();
@@ -210,7 +210,7 @@ class Karyawan extends BaseController
         $modelKaryawan->updateDataKaryawan($dataUpdate, $whereUpdate);
         session()->remove('idUpdate');
         session()->setFlashdata('success','Data Berhasil Diperbarui!!');
-        return redirect()->to(base_url('/admin/master-data-karyawan'));
+        return redirect()->to(base_url('/hr/master-data-karyawan'));
     }
 
     public function hapus_data_karyawan($id)
@@ -224,7 +224,7 @@ class Karyawan extends BaseController
         
         session()->setFlashdata('success','Data Karyawan Berhasil dihapus!!');
 
-        return redirect()->to(base_url('/admin/master-data-karyawan'));
+        return redirect()->to(base_url('/hr/master-data-karyawan'));
     }
 
     // public function simpan_data_jabatan()

@@ -25,14 +25,14 @@
                                         <h3 class="card-title">Tabel Data Jadwal</h3>
                                     </div>
                                     <div class="col-sm-2">
-                                        <a href="<?= base_url('admin/tambah-data-jadwal') ?>"><button type="button" class="btn btn-primary btn-sm"><span class="fas fa-plus"></span>
+                                        <a href="<?= base_url('hr/tambah-data-jadwal') ?>"><button type="button" class="btn btn-primary btn-sm"><span class="fas fa-plus"></span>
                                             Tambah Data Jadwal</button>
                                         </a>
                                     </div>
                                     <br><br>
                                     <div class="col-sm-10"></div>
                                     <div class="col-sm-2">
-                                        <a href="<?= base_url('admin/update-data-libur') ?>"><button type="button" class="btn btn-warning btn-sm"><span class="fas fa-edit"></span>
+                                        <a href="<?= base_url('hr/update-data-libur') ?>"><button type="button" class="btn btn-warning btn-sm"><span class="fas fa-edit"></span>
                                             Update Data Libur</button>
                                         </a>
                                     </div>
@@ -70,7 +70,7 @@
                                         <td><?= $data['absen_telat']; ?> Menit</td>
                                         <td><?= $data['absen_alpha']; ?> Menit</td> -->
                                         <td>
-                                            <a href="<?= base_url('/admin/edit-data-jadwal')."/".sha1($data['id_jadwal']);?>"
+                                            <a href="<?= base_url('/hr/edit-data-jadwal')."/".sha1($data['id_jadwal']);?>"
                                                 title="Edit Jadwal">
                                                 <button type="button" class="btn btn-warning"><span
                                                         class="fas fa-edit"></span>
@@ -108,7 +108,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?= base_url('/admin/hapus-data-jadwal').'/'. $data['id_jadwal']; ?>" method="get"
+            <form action="<?= base_url('/hr/hapus-data-jadwal').'/'. $data['id_jadwal']; ?>" method="get"
                 enctype="multipart/form-data">
                 <div class="modal-body">
                     <div class="col-md-12">

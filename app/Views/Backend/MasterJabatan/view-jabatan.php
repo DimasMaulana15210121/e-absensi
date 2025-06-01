@@ -3,7 +3,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-12">
-                    <h1>Master Data Karyawan Dengan Jabatan <?= $data_jabatan['nama_jabatan']; ?></h1>
+                    <h1>Master Data Karyawan Dengan Jabatan </h1>
                 </div>
             </div>
         </div><!-- /.container-fluid -->
@@ -14,7 +14,7 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            <a href="<?= base_url('admin/master-data-jabatan') ?>">
+                            <a href="<?= base_url('hr/master-data-jabatan') ?>">
                                 <button type="button" class="btn btn-danger btn-sm col-sm-2">
                                     <span class="fas fa-arrow-left mr-1"></span> Kembali
                                 </button>
@@ -46,7 +46,7 @@
                                         <td><?= $data['nama_jabatan']; ?></td>
                                         <td><?= $data['no_hp']; ?></td>
                                         <td>
-                                            <a href="<?= base_url('/admin/view-karyawan-perjabatan').'/'.sha1($data['id_jabatan']).'/'. sha1($data['id_karyawan']); ?>" title="View Karyawan">
+                                            <a href="<?= base_url('/hr/view-karyawan-perjabatan/'. sha1($data['id_karyawan']).'/'.sha1($data_jabatan['id_jabatan'])); ?>" title="View Karyawan">
                                                 <button type="button" class="btn btn-primary"><span
                                                         class="fas fa-search"></span>
                                                 </button>

@@ -57,7 +57,7 @@
                                         <td><?= $data['pajak']; ?>%</td>
                                         <!-- <td>Rp. <?= $data['potong_gaji']; ?></td> -->
                                         <td style="width: 100px;">
-                                            <a href="<?= base_url('/admin/edit-daftar-gaji').'/'.sha1($data['id_gaji'])?>"
+                                            <a href="<?= base_url('/hr/edit-daftar-gaji').'/'.sha1($data['id_gaji'])?>"
                                                 title="View Karyawan">
                                                 <button type="button" class="btn btn-warning" title="Edit Daftar Gaji"><span
                                                         class="fas fa-edit"></span>
@@ -92,7 +92,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?= base_url('/admin/simpan-daftar-gaji') ?>" method="post" enctype="multipart/form-data">
+            <form action="<?= base_url('/hr/simpan-daftar-gaji') ?>" method="post" enctype="multipart/form-data">
                 <div class="col-md-12">
                     <div class="row">
                         <div class="modal-body">
@@ -199,7 +199,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?= base_url('/admin/hapus-daftar-gaji').'/'. $data['id_gaji']; ?>" method="get"
+            <form action="<?= base_url('/hr/hapus-daftar-gaji').'/'. $data['id_gaji']; ?>" method="get"
                 enctype="multipart/form-data">
                 <div class="modal-body">
                     <div class="col-md-12">

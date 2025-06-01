@@ -65,7 +65,7 @@
                   <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                   <li class="nav-item">
-                      <a href="<?= base_url() ?>admin/dashboard" class="nav-link <?php if($page == 'dashboard'){echo 'active';}?>">
+                      <a href="<?= base_url() ?>hr/dashboard" class="nav-link <?php if($page == 'dashboard'){echo 'active';}?>">
                           <i class="nav-icon fas fa-home"></i>
                           <p>
                               Dashboard
@@ -73,7 +73,7 @@
                       </a>
                   </li>
                   <li class="nav-item">
-                      <a href="<?= base_url('admin/profile-admin') ?>" class="nav-link <?php if($page == 'profile-admin'){echo 'active';}?>">
+                      <a href="<?= base_url('hr/profile-admin') ?>" class="nav-link <?php if($page == 'profile-admin'){echo 'active';}?>">
                           <i class="nav-icon fas fa-user"></i>
                           <p>
                               Profile
@@ -81,7 +81,7 @@
                       </a>
                   </li>
                   <li class="nav-item">
-                      <a href="<?= base_url('admin/logo-perusahaan') ?>" class="nav-link <?php if($page == 'logo-perusahaan'){echo 'active';}?>">
+                      <a href="<?= base_url('hr/logo-perusahaan') ?>" class="nav-link <?php if($page == 'logo-perusahaan'){echo 'active';}?>">
                           <i class="nav-icon fas fa-images"></i>
                           <p>
                               Logo Perusahaan
@@ -90,7 +90,7 @@
                   </li>
                   <li class="nav-header">MASTER DATA</li>
                   <li class="nav-item">
-                      <a href="<?= base_url()?>admin/master-data-karyawan" class="nav-link <?php if($page == 'master-data-karyawan'){echo 'active';}?>">
+                      <a href="<?= base_url()?>hr/master-data-karyawan" class="nav-link <?php if($page == 'master-data-karyawan'){echo 'active';}?>">
                           <i class="nav-icon fas fa-user-tie"></i>
                           <p>
                               Karyawan
@@ -98,7 +98,7 @@
                       </a>
                   </li>
                   <li class="nav-item">
-                      <a href="<?= base_url()?>admin/master-data-jabatan" class="nav-link <?php if($page == 'master-data-jabatan'){echo 'active';}?>">
+                      <a href="<?= base_url()?>hr/master-data-jabatan" class="nav-link <?php if($page == 'master-data-jabatan'){echo 'active';}?>">
                           <i class="nav-icon fas fa-users-cog"></i>
                           <p>
                               Jabatan
@@ -106,7 +106,7 @@
                       </a>
                   </li>
                   <li class="nav-item">
-                      <a href="<?= base_url()?>admin/master-data-jadwal" class="nav-link <?php if($page == 'master-data-jadwal'){echo 'active';}?>">
+                      <a href="<?= base_url()?>hr/master-data-jadwal" class="nav-link <?php if($page == 'master-data-jadwal'){echo 'active';}?>">
                           <i class="nav-icon fas fa-calendar-alt"></i>
                           <p>
                               Jadwal
@@ -114,7 +114,7 @@
                       </a>
                   </li>
                   <li class="nav-item">
-                      <a href="<?= base_url()?>admin/master-data-lokasi" class="nav-link <?php if($page == 'master-data-lokasi'){echo 'active';}?>">
+                      <a href="<?= base_url()?>hr/master-data-lokasi" class="nav-link <?php if($page == 'master-data-lokasi'){echo 'active';}?>">
                           <i class="nav-icon fas fa-map-marker-alt"></i>
                           <p>
                               Lokasi Absen
@@ -122,7 +122,7 @@
                       </a>
                   </li>
                   <li class="nav-item">
-                      <a href="<?= base_url()?>admin/master-data-pengajuan" class="nav-link">
+                      <a href="<?= base_url()?>hr/master-data-pengajuan" class="nav-link">
                           <i class="nav-icon fas fa-check-square"></i>
                           <p>
                               Pengajuan
@@ -139,14 +139,14 @@
                       </a>
                       <ul class="nav nav-treeview">
                           <li class="nav-item">
-                              <a href="<?= base_url() ?>admin/master-daftar-gaji"
+                              <a href="<?= base_url() ?>hr/master-daftar-gaji"
                                   class="nav-link <?php if($page == 'master-daftar-gaji'){echo 'active';}?>">
                                   <i class="fas fa-angle-right nav-icon"></i>
                                   <p>Daftar Gaji</p>
                               </a>
                           </li>
                           <li class="nav-item">
-                              <a href="<?= base_url() ?>admin/master-pembayaran-gaji"
+                              <a href="<?= base_url() ?>hr/master-pembayaran-gaji"
                                   class="nav-link <?php if($page == 'master-pembayaran-gaji'){echo 'active';}?>">
                                   <i class="fas fa-angle-right nav-icon"></i>
                                   <p>Pembayaran Gaji</p>
@@ -164,14 +164,14 @@
                       </a>
                       <ul class="nav nav-treeview">
                           <li class="nav-item">
-                              <a href="<?= base_url() ?>admin/laporan-absensi"
+                              <a href="<?= base_url() ?>hr/laporan-absensi"
                                   class="nav-link <?php if($page == 'laporan-absensi'){echo 'active';}?>">
                                   <i class="fas fa-angle-right nav-icon"></i>
                                   <p>Laporan Absensi</p>
                               </a>
                           </li>
                           <li class="nav-item">
-                              <a href="<?= base_url() ?>admin/history-absensi"
+                              <a href="<?= base_url() ?>hr/history-absensi"
                                   class="nav-link <?php if($page == 'history-absensi'){echo 'active';}?>">
                                   <i class="fas fa-angle-right nav-icon"></i>
                                   <p>History Absensi</p>

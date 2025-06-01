@@ -20,7 +20,7 @@
                     <div class="card">
                         <div class="card-header">
                             <h3 class="card-title col-sm-10">Tabel Data Karyawan</h3>
-                            <a href="<?= base_url('admin/tambah-data-karyawan') ?>">
+                            <a href="<?= base_url('hr/tambah-data-karyawan') ?>">
                                 <button type="button" class="btn btn-primary btn-sm col-sm-2">
                                     <span class="fas fa-plus"></span>
                                     Tambah Data Karyawan</button>
@@ -51,7 +51,7 @@
                                         <td><?= $data['nama_jabatan']; ?></td>
                                         <td><?= $data['no_hp']; ?></td>
                                         <td>
-                                            <a href="<?= base_url('/admin/edit-data-karyawan')."/".sha1($data['id_karyawan']);?>"
+                                            <a href="<?= base_url('/hr/edit-data-karyawan')."/".sha1($data['id_karyawan']);?>"
                                                 title="Edit Karyawan">
                                                 <button type="button" class="btn btn-warning"><span
                                                         class="fas fa-edit"></span></button>
@@ -86,7 +86,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?= base_url('/admin/hapus-data-karyawan').'/'. $data['id_karyawan']; ?>" method="get" enctype="multipart/form-data">
+            <form action="<?= base_url('/hr/hapus-data-karyawan').'/'. $data['id_karyawan']; ?>" method="get" enctype="multipart/form-data">
                 <div class="modal-body">
                     <div class="col-md-12">
                         <div class="row">

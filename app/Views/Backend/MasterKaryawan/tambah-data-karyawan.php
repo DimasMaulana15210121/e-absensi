@@ -36,7 +36,7 @@
                           <h3 class="card-title">Tambah Data Karyawan</h3>
                       </div>
                       <!-- /.card-header -->
-                      <form action="<?= base_url('/admin/simpan-data-karyawan') ?>" method="post"
+                      <form action="<?= base_url('/hr/simpan-data-karyawan') ?>" method="post"
                           enctype="multipart/form-data">
                           <div class="card-body">
                               <div class="row">
@@ -144,7 +144,7 @@
                           <!-- /.card-body -->
                           <div class="card-footer" style="text-align: center;">
                               <button type="submit" class="btn btn-primary btn-lg">Simpan</button>
-                              <a href="<?php echo base_url('admin/master-data-karyawan');?>"
+                              <a href="<?php echo base_url('hr/master-data-karyawan');?>"
                                   class="btn btn-danger btn-lg">
                                   Batal
                               </a>

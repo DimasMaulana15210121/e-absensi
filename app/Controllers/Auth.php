@@ -93,7 +93,7 @@ class Auth extends BaseController
             session()->setFlashdata('error', "Gagal... Cek Kombinasi Username dan Password!!");
             ?>
     <script type="text/javascript">
-       document.location = "<?php echo base_url('/admin/login');?>";
+       document.location = "<?php echo base_url('/hr/login');?>";
     </script>
     <?php
         }else{
@@ -104,7 +104,7 @@ class Auth extends BaseController
                 session()->setFlashdata('error','Gagal... Cek Kombinasi Username dan Password!!');
                 ?>
                 <script type="text/javascript">
-                    document.location = "<?php echo base_url('/admin/login');?>";
+                    document.location = "<?php echo base_url('/hr/login');?>";
                 </script>
                 <?php
             }
@@ -119,7 +119,7 @@ class Auth extends BaseController
 
                 ?>
                 <script type="text/javascript">
-                document.location = "<?php echo base_url('/admin/dashboard'); ?>";
+                document.location = "<?php echo base_url('/hr/dashboard'); ?>";
                 </script>
                 <?php
             }
@@ -134,7 +134,7 @@ class Auth extends BaseController
         session()->setFlashdata('info', 'Keluar dari Sistem!!');
         ?>
         <script>
-            document.location = "<?= base_url('/admin/login'); ?>";
+            document.location = "<?= base_url('/hr/login'); ?>";
         </script>
     <?php
     }

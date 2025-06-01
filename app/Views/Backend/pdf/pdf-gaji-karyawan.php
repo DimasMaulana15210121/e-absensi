@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Gaji Karyawan <?= date('M') ?></title>
+    <title>Gaji Karyawan <?= date('F') ?></title>
 </head>
 
 <body>
     <center>
         <h3 style="margin: 0; text-decoration: underline;">Slip Gaji Karyawan</h3>
-        <h3 style="margin-bottom: 50px;"><?= date('d-M-Y', strtotime($dataGajiKaryawan['tgl_gajian'])) ?></h3>
+        <h3 style="margin-bottom: 50px;"><?= date('d-F-Y', strtotime($dataGajiKaryawan['tgl_gajian'])) ?></h3>
     </center>
 
     <table border="0" cellspacing="0" cellpadding="5" style="width: 100%; margin-top: 20px;">

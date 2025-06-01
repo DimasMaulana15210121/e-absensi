@@ -123,7 +123,7 @@
                             <h3 class="card-title">Monitoring Absen Karyawan Hari Ini ( <?= date('d F Y') ?> )</h3>
                         </div>
                         <div class="col-md-6" style="text-align: right;">
-                            <a href="<?= base_url('/admin/cek-alpha')?>" title="Cek Status">
+                            <a href="<?= base_url('/hr/cek-alpha')?>" title="Cek Status">
                                 <button type="button" class="btn btn-warning"><span
                                         class="fas fa-search mr-1"></span>Cek Status</button>
                             </a>
@@ -192,7 +192,7 @@
                                       ?>
                                   </td>
                                   <td>
-                                      <a href="<?= base_url('/admin/detail-absen-karyawan').'/'.sha1($data['id_absen']).'/'.sha1($data['id_karyawan'])?>"
+                                      <a href="<?= base_url('/hr/detail-absen-karyawan').'/'.sha1($data['id_absen']).'/'.sha1($data['id_karyawan'])?>"
                                           title="Detail Karyawan">
                                           <button type="button" class="btn btn-info"><span
                                                   class="fas fa-search mr-1"></span></button>

@@ -3,7 +3,7 @@
 	  session()->setFlashdata('error','Maaf Silahkan Login Terlebih Dahulu!')
 	  ?>
 <script>
-  document.location = "<?= base_url('admin/login');?>";
+  document.location = "<?= base_url('hr/login');?>";
 </script>
 <?php
   }
@@ -103,7 +103,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?= base_url('/admin/logout')?>" role="button">
+          <a class="nav-link" href="<?= base_url('/hr/logout')?>" role="button">
             <i class="fas fa-sign-out-alt"> Logout</i>
           </a>
         </li>

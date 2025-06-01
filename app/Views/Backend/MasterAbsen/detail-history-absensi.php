@@ -22,7 +22,7 @@
             <div class="col-md-12">
                 <div class="card shadow-lg">
                     <div class="card-header">
-                        <a href="<?= base_url('admin/history-absensi'). '?tgl_awal=' . $tgl_awal . '&tgl_akhir=' . $tgl_akhir ?>">
+                        <a href="<?= base_url('hr/history-absensi'). '?tgl_awal=' . $tgl_awal . '&tgl_akhir=' . $tgl_akhir ?>">
                             <button type="button" class="btn btn-danger btn-md col-sm-2">
                                 <span class="fas fa-arrow-left mr-1"></span> Kembali
                             </button>

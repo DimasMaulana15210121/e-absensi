@@ -29,8 +29,8 @@
                           <h3 class="card-title">Edit Data Karyawan</h3>
                       </div>
                       <!-- /.card-header -->
-                      <form action="<?= base_url('/admin/update-data-karyawan').'/'.$data_karyawan['id_karyawan'] ?>" method="post"
-                          enctype="multipart/form-data">
+                      <form action="<?= base_url('/hr/update-data-karyawan').'/'.$data_karyawan['id_karyawan'] ?>"
+                          method="post" enctype="multipart/form-data">
                           <div class="card-body">
                               <div class="row">
                                   <div class="col-md-4" style="margin-top: 20px;">
@@ -48,9 +48,10 @@
                                              $foto_karyawan = base_url().'Assets/img/default.png';
                                           }
                                           ?>
-                                          <img src="<?= $foto_karyawan; ?>"
-                                              class="img-circle elevation-2" width="200px" alt="Karyawan Image"><br>
-                                          <input type="hidden" name="foto_karyawan_old" value="<?php echo $data_karyawan['foto_karyawan']?>"><br>
+                                          <img src="<?= $foto_karyawan; ?>" class="img-circle elevation-2" width="200px"
+                                              alt="Karyawan Image"><br>
+                                          <input type="hidden" name="foto_karyawan_old"
+                                              value="<?php echo $data_karyawan['foto_karyawan']?>"><br>
                                           <input type="file" class="form-control" name="foto_karyawan"
                                               accept="image/*,.jpg,.jpeg,.png">
                                       </div>
@@ -129,7 +130,8 @@
                                                       <label>:</label>
                                                   </div>
                                                   <div class="col-md-8">
-                                                      <textarea name="alamat_rumah" class="form-control"><?= $data_karyawan['alamat_rumah']; ?></textarea>
+                                                      <textarea name="alamat_rumah"
+                                                          class="form-control"><?= $data_karyawan['alamat_rumah']; ?></textarea>
                                                   </div>
                                               </div>
                                           </div>
@@ -189,7 +191,8 @@
                                                   <div class="col-md-8">
                                                       <input type="text" name="no_rek" class="form-control"
                                                           placeholder="Nama Karyawan"
-                                                          value="<?= $data_karyawan['no_rek']; ?> (<?= $data_karyawan['nama_bank'] ?>) a/n <?= $data_karyawan['atas_nama'] ?>" readonly>
+                                                          value="<?= $data_karyawan['no_rek']; ?> (<?= $data_karyawan['nama_bank'] ?>) a/n <?= $data_karyawan['atas_nama'] ?>"
+                                                          readonly>
                                                   </div>
                                               </div>
                                           </div>
@@ -229,8 +232,7 @@
                           <!-- /.card-body -->
                           <div class="card-footer" style="text-align: center;">
                               <button type="submit" class="btn btn-primary btn-lg">Simpan</button>
-                              <a href="<?php echo base_url('admin/master-data-karyawan');?>"
-                                  class="btn btn-danger btn-lg">
+                              <a href="<?php echo base_url('hr/master-data-karyawan');?>" class="btn btn-danger btn-lg">
                                   Batal
                               </a>
                           </div>
@@ -240,9 +242,7 @@
                   <!-- /.card -->
               </div>
           </div>
-  </div>
-  <!-- /.card -->
 
-  </section>
-  <!-- /.content -->
+      </section>
+      <!-- /.content -->
   </div>

@@ -23,7 +23,7 @@
                   </div>
                   <!-- /.card-header -->
                   <div class="card-body">
-                     <form action="<?= base_url('/admin/laporan-absensi')?>" method="get" enctype="multipart/form-data">
+                     <form action="<?= base_url('/hr/laporan-absensi')?>" method="get" enctype="multipart/form-data">
                         <div class="col-12">
                            <div class="row">
                               <div class="col-4">
@@ -40,7 +40,7 @@
                               </div>
                               <div class="col-4">
                                   <button class="btn btn-primary">Filter Tanggal</button>
-                                  <a href="<?= base_url('admin/laporan-absensi'); ?>"
+                                  <a href="<?= base_url('hr/laporan-absensi'); ?>"
                                      class="btn btn-danger">Reset Filter</a>
                               </div>
                            </div>

@@ -48,7 +48,7 @@
                                             <button type="button" class="btn btn-danger" title="Hapus Jabatan"><span
                                                     class="fas fa-trash" data-toggle="modal"
                                                     data-target="#hapus-jabatan<?= $data['id_jabatan']; ?>"></span></button>
-                                            <a href="<?= base_url('/admin/view-karyawan-perjabatan').'/'.sha1($data['id_jabatan']);?>" title="View Karyawan">
+                                            <a href="<?= base_url('/hr/view-karyawan-perjabatan').'/'.sha1($data['id_jabatan']);?>" title="View Karyawan">
                                                 <button type="button" class="btn btn-primary"><span
                                                         class="fas fa-search"></span>
                                                 </button>
@@ -78,7 +78,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?= base_url('/admin/simpan-data-jabatan') ?>" method="post" enctype="multipart/form-data">
+            <form action="<?= base_url('/hr/simpan-data-jabatan') ?>" method="post" enctype="multipart/form-data">
                 <div class="modal-body">
                     <div class="form-group">
                         <label>Nama Jabatan</label>
@@ -110,7 +110,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?= base_url('/admin/update-data-jabatan/') . $data['id_jabatan'] ?>" 
+            <form action="<?= base_url('/hr/update-data-jabatan/') . $data['id_jabatan'] ?>" 
                 method="post" enctype="multipart/form-data">
                 <div class="modal-body">
                     <div class="form-group">
@@ -144,7 +144,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form action="<?= base_url('/admin/hapus-data-jabatan').'/'. $data['id_jabatan']; ?>" method="get" enctype="multipart/form-data">
+            <form action="<?= base_url('/hr/hapus-data-jabatan').'/'. $data['id_jabatan']; ?>" method="get" enctype="multipart/form-data">
                 <div class="modal-body">
                     <div class="col-md-12">
                         <div class="row">
