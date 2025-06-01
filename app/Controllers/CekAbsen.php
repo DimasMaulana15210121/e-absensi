@@ -25,11 +25,14 @@ class CekAbsen extends BaseController
         }
         $count = count($dataAbsen);
         $jumlahAlpha = 0;
+        // $jamSekarang = strtotime(date('H:i:s'));
+        // $jamPulang = strtotime($dataJadwal['jam_keluar']);
         $jamSekarang = strtotime(date('H:i:s'));
-        $jamPulang = strtotime($dataJadwal['jam_keluar']);
+        $jamMasukJadwal = strtotime($dataJadwal['jam_masuk']);
+        $cekStatus = $jamMasukJadwal + ($dataJadwal['absen_alpha'] * 60); 
 
-        if ($jamSekarang < $jamPulang) {
-            session()->setFlashdata('error','Waktu Pengecekan Karyawan Yang Belum Hadir Bisa Dilakukan Pukul ' .$dataJadwal['jam_keluar'].' !');
+        if ($jamSekarang < $cekStatus) {
+            session()->setFlashdata('error','Waktu Pengecekan Karyawan Yang Belum Hadir Bisa Dilakukan Pukul ' .date('H:i:s', $cekStatus).' !');
             return redirect()->to(base_url('/admin/dashboard'));
         } else {
             foreach ($dataAbsen as $data) {
@@ -38,7 +41,7 @@ class CekAbsen extends BaseController
                 if (!$jadwal) continue;
 
                 // Jika sudah lewat jam keluar dan belum absen, maka set status Alpha
-                if (strtotime($waktuSekarang) > strtotime($jadwal['jam_keluar'])) {
+                if (strtotime($waktuSekarang) > strtotime($cekStatus)) {
                     $dataUpdate = [
                         'status' => 'Alpha',
                         'updated_at' => date('Y-m-d H:i:s'),

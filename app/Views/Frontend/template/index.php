@@ -42,11 +42,28 @@
         <div class="section" id="menu-section">
             <div class="card">
                 <div class="card-body text-center">
-                    <?php 
-                        if ($data_absen['lokasi_masuk'] == null || $data_absen['jarak_masuk'] == null || $data_absen['foto_masuk'] == null || $data_absen['status'] == null) {
-                            echo '<marquee behavior="left" style="color: #007bff;"><strong>Selamat Datang '.$data_karyawan['nama_karyawan'].' Silahkan Absen</strong></marquee>' ;
-                        } elseif ($data_absen['lokasi_keluar'] == null || $data_absen['jarak_keluar'] == null || $data_absen['foto_keluar'] == null) {
-                            echo '<marquee behavior="left" style="color: #007bff;"><strong>'.$data_karyawan['nama_karyawan'] .' Sudah Melakukan Absen Masuk Pukul: '. $data_absen['jam_masuk_absen'].', Dan Lokasi Masuk Anda: '.$data_absen['jarak_masuk'] .' Meter Dari Lokasi Absen</strong></marquee>' ;
+                    <?php
+                        if ($data_absen['keterangan_absen'] == 'masuk') {
+                            if ($data_absen['status'] == 'Cuti') {
+                                echo '<marquee behavior="left" style="color: green;"><strong>Selamat Datang '.$data_karyawan['nama_karyawan'].' Anda Sedang Cuti Hari Ini Dan Tidak Bisa Melakukan Absen</strong></marquee>' ;
+                            } elseif ($data_absen['status'] == 'Izin') {
+                                echo '<marquee behavior="left" style="color: green;"><strong>Selamat Datang '.$data_karyawan['nama_karyawan'].' Anda Sedang Izin Hari Ini Dan Tidak Bisa Melakukan Absen</strong></marquee>' ;
+                            } elseif ($data_absen['status'] == 'Alpha') {
+                                echo '<marquee behavior="left" style="color: red;"><strong>Selamat Datang '.$data_karyawan['nama_karyawan'].' Anda Sudah Tercatat Alpha Hari Ini Dan Tidak Bisa Melakukan Absen</strong></marquee>' ;
+                            } elseif ($data_absen['lokasi_masuk'] == null || $data_absen['jarak_masuk'] == null || $data_absen['foto_masuk'] == null || $data_absen['status'] == null) {
+                                echo '<marquee behavior="left" style="color: #007bff;"><strong>Selamat Datang '.$data_karyawan['nama_karyawan'].' Silahkan Absen</strong></marquee>' ;
+                            } elseif ($data_absen['lokasi_keluar'] == null || $data_absen['jarak_keluar'] == null || $data_absen['foto_keluar'] == null) {
+                                echo '<marquee behavior="left" style="color: #007bff;"><strong>'.$data_karyawan['nama_karyawan'] .' Sudah Melakukan Absen Masuk Pukul: '
+                                .$data_absen['jam_masuk_absen'].', Dan Lokasi Masuk Anda: '
+                                .$data_absen['jarak_masuk'] .' Meter Dari Lokasi Absen</strong></marquee>' ;
+                            } else {
+                                echo '<marquee behavior="left" style="color: #007bff;"><strong>'.$data_karyawan['nama_karyawan'] .' Sudah Melakukan Absen Masuk Pukul: '
+                                .$data_absen['jam_masuk_absen'].', Lokasi Masuk Anda: '
+                                .$data_absen['jarak_masuk'] .' Meter Dari Lokasi Absen Dan Sudah Melakukan Absen Pulang: '.$data_absen['jam_keluar_absen'].', Lokasi Keluar Anda: '
+                                .$data_absen['jarak_keluar'] .' Meter Dari Lokasi Absen. Terima Kasih, Selamat Beristirahat !</strong></marquee>' ;
+                            }
+                        } else {
+                            echo '<marquee behavior="left" style="color: #007bff;"><strong>Selamat Datang '.$data_karyawan['nama_karyawan'].' Hari Ini Sedang Libur, Silahkan Menikmati Liburan Anda</strong></marquee>' ;
                         }
                     ?>
                     <!-- <marquee behavior="left" style="color: blue;"><strong>Selamat Datang</strong></marquee> -->
