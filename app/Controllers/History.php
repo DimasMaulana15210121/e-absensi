@@ -105,24 +105,6 @@ class History extends BaseController
 
 //Awal Rekap Admin
 
-    // public function input_rekap_bulanan()
-    // {
-    //     $uri = service('uri');
-    //     $page = $uri->getSegment(2);
-
-    //     $modelAbsen = new M_Absen();
-    //     $dataAbsen = $modelAbsen->getDataAbsen()->getResultArray();
-        
-    //     $data['page'] = $page;
-    //     $data['data_absen'] = $dataAbsen;
-    //     $data['menu'] = "dashboard";
-
-    //     echo view('Backend/template/head', $data);
-    //     echo view('Backend/template/sidebar', $data);
-    //     echo view('Backend/MasterRekap/input-bulanan', $data);
-    //     echo view('Backend/template/footer', $data);
-    // }
-
     public function laporan_absensi()
     {
         $uri = service('uri');

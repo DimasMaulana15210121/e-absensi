@@ -81,6 +81,7 @@ class Izin extends BaseController
             'tgl_selesai' => $tgl_selesai,
             'status_izin' => $status_izin,
             'ket_izin' => $ket_izin,
+            'ket_pengajuan' => '',
             'status_approved' => '0',
             'is_delete_izin' => '0',
             'created_at' => date('Y-m-d H:i:s'),
@@ -100,21 +101,16 @@ class Izin extends BaseController
         $modelIzin = new M_Izin;
 
         $dataIzin = $modelIzin->getDataIzin(['sha1(tbl_izin.id_izin)' => $idEdit])->getRowArray();
-        if ($dataIzin['status_approved'] == 1) {
-            session()->setFlashdata('info','Data Tidak Bisa Di Edit, Karena Sudah Di Approved !!');
-            return redirect()->to(base_url('/karyawan/master-data-izin'));
-        } else {
 
-            $data['data_izin'] = $dataIzin;
+        $data['data_izin'] = $dataIzin;
           
-            $data['page'] = $page;
-            $data['judul'] = "Edit Data Izin" ;
-            $data['menu'] = "izin" ;
+        $data['page'] = $page;
+        $data['judul'] = "Edit Data Izin" ;
+        $data['menu'] = "izin" ;
     
-            echo view('Frontend/template/header' , $data);    
-            echo view('Frontend/MasterIzin/edit-data-izin' , $data);    
-            echo view('Frontend/template/bottom-menu', $data);   
-        }
+        echo view('Frontend/template/header' , $data);    
+        echo view('Frontend/MasterIzin/edit-data-izin' , $data);    
+        echo view('Frontend/template/bottom-menu', $data);   
     }
 
     public function update_data_izin()
@@ -145,6 +141,27 @@ class Izin extends BaseController
         session()->remove('idUpdate');
         session()->setFlashdata('success','Data Berhasil Diperbarui!!');
         return redirect()->to(base_url('/karyawan/master-data-izin'));
+    }
+
+    public function detail_data_Izin()
+    {
+        $uri = service('uri');
+        $page = $uri->getSegment(2);
+        $idEdit = $uri->getSegment(3);
+
+        $modelIzin = new M_Izin;
+
+        $dataIzin = $modelIzin->getDataIzin(['sha1(tbl_izin.id_izin)' => $idEdit])->getRowArray();
+
+        $data['data_izin'] = $dataIzin;
+          
+        $data['page'] = $page;
+        $data['judul'] = "Edit Data Izin" ;
+        $data['menu'] = "izin" ;
+
+        echo view('Frontend/template/header' , $data);    
+        echo view('Frontend/MasterIzin/detail-data-izin' , $data);    
+        echo view('Frontend/template/bottom-menu', $data);   
     }
 //Akhir Karyawan
 
@@ -243,7 +260,10 @@ class Izin extends BaseController
         $dataPengajuan = $modelIzin->getDataIzin(['tbl_izin.id_izin' => $idEdit])->getRowArray();
         $idUpdate = $dataPengajuan['id_izin'];
 
+        $ket_pengajuan = $this->request->getPost('ket_pengajuan');
+
         $dataUpdate1 = [
+            'ket_pengajuan' => $ket_pengajuan,
             'status_approved' => '1',
             'updated_at' => date('Y-m-d H:i:s'),
         ];
@@ -287,8 +307,10 @@ class Izin extends BaseController
 
         $dataPengajuan = $modelIzin->getDataIzin(['tbl_izin.id_izin' => $idEdit])->getRowArray();
         $idUpdate = $dataPengajuan['id_izin'];
+        $ket_pengajuan = $this->request->getPost('ket_pengajuan');
 
         $dataUpdate = [
+            'ket_pengajuan' => $ket_pengajuan,
             'status_approved' => '2',
             'updated_at' => date('Y-m-d H:i:s'),
         ];

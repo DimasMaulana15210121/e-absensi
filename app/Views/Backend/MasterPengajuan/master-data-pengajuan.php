@@ -110,7 +110,8 @@
                                                 <!-- <th data-sortable="true">No Handphone</th> -->
                                                 <th data-sortable="true">Tanggal Mulai</th>
                                                 <th data-sortable="true">Tanggal Selesai</th>
-                                                <th data-sortable="true">Keterangan</th>
+                                                <th data-sortable="true">Keterangan Izin</th>
+                                                <th data-sortable="true">Keterangan Diterima</th>
                                                 <th data-sortable="true">Status</th>
                                                 <th data-sortable="true">Status Approved</th>
                                                 <!-- <th data-sortable="true">Action</th> -->
@@ -128,6 +129,7 @@
                                                 <td><?= $data['tgl_mulai']; ?></td>
                                                 <td><?= $data['tgl_selesai']; ?></td>
                                                 <td><?= $data['ket_izin']; ?></td>
+                                                <td><?= $data['ket_pengajuan']; ?></td>
                                                 <td>
                                                     <?php if($data['status_izin'] == 'Cuti'){
                                                    echo 'Cuti';
@@ -170,7 +172,8 @@
                                                 <!-- <th data-sortable="true">No Handphone</th> -->
                                                 <th data-sortable="true">Tanggal Mulai</th>
                                                 <th data-sortable="true">Tanggal Selesai</th>
-                                                <th data-sortable="true">Keterangan</th>
+                                                <th data-sortable="true">Keterangan Izin</th>
+                                                <th data-sortable="true">Keterangan Ditolak</th>
                                                 <th data-sortable="true">Status</th>
                                                 <th data-sortable="true">Status Approved</th>
                                                 <!-- <th data-sortable="true">Action</th> -->
@@ -188,6 +191,7 @@
                                                 <td><?= $data['tgl_mulai']; ?></td>
                                                 <td><?= $data['tgl_selesai']; ?></td>
                                                 <td><?= $data['ket_izin']; ?></td>
+                                                <td><?= $data['ket_pengajuan']; ?></td>
                                                 <td>
                                                 <?php if($data['status_izin'] == 'Cuti'){
                                                    echo 'Cuti';
@@ -238,7 +242,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header bg-success">
-                <h4 class="modal-title">Terima Pengajuan Cuti/Izin/Sakit ?</h4>
+                <h4 class="modal-title">Terima Pengajuan <?= $data['status_izin'] ?> </h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -329,13 +333,27 @@
                             <div class="col-md-12">
                                 <div class="form-group row">
                                     <div class="col-md-4">
-                                        <label>Keterangan</label>
+                                        <label>Keterangan Izin</label>
                                     </div>
                                     <div class="col-md-1">
                                         <label>:</label>
                                     </div>
                                     <div class="col-md-7">
                                         <label><?= $data['ket_izin']; ?></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group row">
+                                    <div class="col-md-4">
+                                        <label>Keterangan Diterima</label>
+                                    </div>
+                                    <div class="col-md-1">
+                                        <label>:</label>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <input type="text" name="ket_pengajuan" class="form-control"
+                                            placeholder="Keterangan Pengajuan Diterima" required>
                                     </div>
                                 </div>
                             </div>
@@ -362,7 +380,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header bg-danger">
-                <h4 class="modal-title">Tolak Pengajuan Cuti/Izin/Sakit ?</h4>
+                <h4 class="modal-title">Tolak Pengajuan <?= $data['status_izin'] ?></h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -453,13 +471,27 @@
                             <div class="col-md-12">
                                 <div class="form-group row">
                                     <div class="col-md-4">
-                                        <label>Keterangan</label>
+                                        <label>Keterangan Izin</label>
                                     </div>
                                     <div class="col-md-1">
                                         <label>:</label>
                                     </div>
                                     <div class="col-md-7">
                                         <label><?= $data['ket_izin']; ?></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group row">
+                                    <div class="col-md-4">
+                                        <label>Keterangan Penolakan</label>
+                                    </div>
+                                    <div class="col-md-1">
+                                        <label>:</label>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <input type="text" name="ket_pengajuan" class="form-control"
+                                            placeholder="Keterangan Pengajuan Ditolak" required>
                                     </div>
                                 </div>
                             </div>

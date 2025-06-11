@@ -33,6 +33,7 @@ $routes->get('/', 'Auth::auth_karyawan');
     $routes->post('/karyawan/simpan-data-izin', 'Izin::simpan_data_izin');
     $routes->get('/karyawan/edit-data-izin/(:alphanum)', 'Izin::edit_data_izin/$1');
     $routes->post('/karyawan/update-data-izin/(:alphanum)', 'Izin::update_data_izin/$1');
+    $routes->get('/karyawan/detail-data-izin/(:alphanum)', 'Izin::detail_data_izin/$1');
     //Profile
     $routes->get('/karyawan/profile', 'Profile::profile');
     $routes->post('/karyawan/simpan-profile', 'Profile::simpan_profile');

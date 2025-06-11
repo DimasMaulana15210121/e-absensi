@@ -14,17 +14,19 @@
         <div class="col">
             <ul class="listview image-listview">
                 <?php
+                    $no = 0;
                     foreach($data_izin as $data) {
                 ?>
                 <li>
                     <div class="item">
                         <div class="in">
-                            <div><b><?= date('d-m-Y', strtotime($data['tgl_mulai'])) ?> - <?= date('d-m-Y', strtotime($data['tgl_selesai'])) ?></b> 
-                                                ( <?php if($data['status_izin'] == 'Cuti'){
+                            <div><?= $no=$no+1 ?></div>
+                            <div><?php if($data['status_izin'] == 'Cuti'){
                                                    echo 'Cuti';
                                                 } else{
                                                    echo 'Izin';
-                                                } ?>)<br>
+                                                } ?><br>
+                                <b><?= date('d-m-Y', strtotime($data['tgl_mulai'])) ?> - <?= date('d-m-Y', strtotime($data['tgl_selesai'])) ?></b><br>
                                 <span><?= $data['ket_izin'] ?></span>
                             </div>
                             <div>
@@ -36,10 +38,17 @@
                                    echo '<span class="badge badge-danger">Ditolak</span>';
                                 } ?>
                             </div>
-                            <a href="<?= base_url('/karyawan/edit-data-izin').'/'.sha1($data['id_izin']);?>"
-                                title="Edit Data">
-                                <button type="button" class="btn btn-primary btn-sm" title="Edit Data">Edit</button>
-                            </a>
+                            <?php if ($data['status_approved'] == '0') { ?>
+                                <a href="<?= base_url('/karyawan/edit-data-izin').'/'.sha1($data['id_izin']);?>"
+                                    title="Edit Data">
+                                    <button type="button" class="btn btn-primary btn-sm" title="Edit Data">Edit</button>
+                                </a>
+                            <?php } else {?>
+                                <a href="<?= base_url('/karyawan/detail-data-izin').'/'.sha1($data['id_izin']);?>"
+                                    title="Edit Data">
+                                    <button type="button" class="btn btn-info btn-sm" title="Edit Data">Detail</button>
+                                </a>
+                            <?php } ?>
                         </div>
                     </div>
                 </li>

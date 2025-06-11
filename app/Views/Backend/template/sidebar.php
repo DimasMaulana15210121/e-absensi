@@ -90,18 +90,18 @@
                   </li>
                   <li class="nav-header">MASTER DATA</li>
                   <li class="nav-item">
-                      <a href="<?= base_url()?>hr/master-data-karyawan" class="nav-link <?php if($page == 'master-data-karyawan'){echo 'active';}?>">
-                          <i class="nav-icon fas fa-user-tie"></i>
-                          <p>
-                              Karyawan
-                          </p>
-                      </a>
-                  </li>
-                  <li class="nav-item">
                       <a href="<?= base_url()?>hr/master-data-jabatan" class="nav-link <?php if($page == 'master-data-jabatan'){echo 'active';}?>">
                           <i class="nav-icon fas fa-users-cog"></i>
                           <p>
                               Jabatan
+                          </p>
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="<?= base_url()?>hr/master-data-karyawan" class="nav-link <?php if($page == 'master-data-karyawan'){echo 'active';}?>">
+                          <i class="nav-icon fas fa-user-tie"></i>
+                          <p>
+                              Karyawan
                           </p>
                       </a>
                   </li>

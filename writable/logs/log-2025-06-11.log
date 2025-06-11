@@ -1,0 +1,168 @@
+CRITICAL - 2025-06-11 17:09:04 --> CodeIgniter\Database\BaseBuilder::where(): Argument #3 ($escape) must be of type ?bool, array given, called in D:\New folder\My Folder\e-absensi\app\Models\M_Absen.php on line 36
+in SYSTEMPATH\Database\BaseBuilder.php on line 696.
+ 1 APPPATH\Models\M_Absen.php(36): CodeIgniter\Database\BaseBuilder->where('tbl_absen.status IS NOT NULL', null, [...])
+ 2 APPPATH\Controllers\Home.php(20): App\Models\M_Absen->getDataAbsenBulanan([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->home()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-11 17:09:05 --> CodeIgniter\Database\BaseBuilder::where(): Argument #3 ($escape) must be of type ?bool, array given, called in D:\New folder\My Folder\e-absensi\app\Models\M_Absen.php on line 36
+in SYSTEMPATH\Database\BaseBuilder.php on line 696.
+ 1 APPPATH\Models\M_Absen.php(36): CodeIgniter\Database\BaseBuilder->where('tbl_absen.status IS NOT NULL', null, [...])
+ 2 APPPATH\Controllers\Home.php(20): App\Models\M_Absen->getDataAbsenBulanan([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->home()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-06-11 17:09:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '('KRY2025051900002','06')
+ORDER BY `tbl_absen`.`id_karyawan` ASC' at line 6 in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Absen.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Home.php(20): App\Models\M_Absen->getDataAbsenBulanan(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Home->home()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-06-11 17:09:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '('KRY2025051900002','06')
+ORDER BY `tbl_absen`.`id_karyawan` ASC' at line 6
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_absen`
+LEFT JOIN `tbl_karyawan` ON `tbl_karyawan`.`id_karyawan` = `tbl_absen`.`id_karyawan`
+LEFT JOIN `tbl_lokasi` ON `tbl_lokasi`.`id_lokasi` = `tbl_absen`.`id_lokasi`
+LEFT JOIN `tbl_jadwal` ON `tbl_jadwal`.`id_jadwal` = `tbl_absen`.`id_jadwal`
+WHERE `tbl_absen`.`status` IS NOT NULL :tbl_absen.status:
+ORDER BY `tbl_absen`.`id_karyawan` ASC', [...], false)
+ 2 APPPATH\Models\M_Absen.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(20): App\Models\M_Absen->getDataAbsenBulanan([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->home()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-06-11 17:09:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '('KRY2025051900002','06')
+ORDER BY `tbl_absen`.`id_karyawan` ASC' at line 6 in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Absen.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Home.php(20): App\Models\M_Absen->getDataAbsenBulanan(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Home->home()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-06-11 17:09:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '('KRY2025051900002','06')
+ORDER BY `tbl_absen`.`id_karyawan` ASC' at line 6
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_absen`
+LEFT JOIN `tbl_karyawan` ON `tbl_karyawan`.`id_karyawan` = `tbl_absen`.`id_karyawan`
+LEFT JOIN `tbl_lokasi` ON `tbl_lokasi`.`id_lokasi` = `tbl_absen`.`id_lokasi`
+LEFT JOIN `tbl_jadwal` ON `tbl_jadwal`.`id_jadwal` = `tbl_absen`.`id_jadwal`
+WHERE `tbl_absen`.`status` IS NOT NULL :tbl_absen.status:
+ORDER BY `tbl_absen`.`id_karyawan` ASC', [...], false)
+ 2 APPPATH\Models\M_Absen.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(20): App\Models\M_Absen->getDataAbsenBulanan([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->home()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-11 17:10:28 --> Array to string conversion
+in APPPATH\Models\M_Absen.php on line 36.
+ 1 APPPATH\Models\M_Absen.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\New folder\\My Folder\\e-absensi\\app\\Models\\M_Absen.php', 36)
+ 2 APPPATH\Controllers\Home.php(20): App\Models\M_Absen->getDataAbsenBulanan([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->home()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-11 17:10:29 --> Array to string conversion
+in APPPATH\Models\M_Absen.php on line 36.
+ 1 APPPATH\Models\M_Absen.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\New folder\\My Folder\\e-absensi\\app\\Models\\M_Absen.php', 36)
+ 2 APPPATH\Controllers\Home.php(20): App\Models\M_Absen->getDataAbsenBulanan([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->home()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-06-11 17:12:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tbl_absen.status IS NOT NULL
+AND `tbl_absen`.`id_karyawan` = 'KRY202505190000...' at line 6 in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Absen.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Home.php(20): App\Models\M_Absen->getDataAbsenBulanan(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Home->home()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-06-11 17:12:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tbl_absen.status IS NOT NULL
+AND `tbl_absen`.`id_karyawan` = 'KRY202505190000...' at line 6
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_absen`
+LEFT JOIN `tbl_karyawan` ON `tbl_karyawan`.`id_karyawan` = `tbl_absen`.`id_karyawan`
+LEFT JOIN `tbl_lokasi` ON `tbl_lokasi`.`id_lokasi` = `tbl_absen`.`id_lokasi`
+LEFT JOIN `tbl_jadwal` ON `tbl_jadwal`.`id_jadwal` = `tbl_absen`.`id_jadwal`
+WHERE MONTH(tbl_jadwal.tanggal)tbl_absen.status IS NOT NULL
+AND `tbl_absen`.`id_karyawan` = :tbl_absen.id_karyawan:
+AND (tbl_jadwal.tanggal) = :(tbl_jadwal.tanggal):
+ORDER BY `tbl_absen`.`id_absen` ASC', [...], false)
+ 2 APPPATH\Models\M_Absen.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(20): App\Models\M_Absen->getDataAbsenBulanan([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->home()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+ERROR - 2025-06-11 17:12:51 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tbl_absen.status IS NOT NULL
+AND `tbl_absen`.`id_karyawan` = 'KRY202505190000...' at line 6 in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Absen.php(47): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Home.php(20): App\Models\M_Absen->getDataAbsenBulanan(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Home->home()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-06-11 17:12:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'tbl_absen.status IS NOT NULL
+AND `tbl_absen`.`id_karyawan` = 'KRY202505190000...' at line 6
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_absen`
+LEFT JOIN `tbl_karyawan` ON `tbl_karyawan`.`id_karyawan` = `tbl_absen`.`id_karyawan`
+LEFT JOIN `tbl_lokasi` ON `tbl_lokasi`.`id_lokasi` = `tbl_absen`.`id_lokasi`
+LEFT JOIN `tbl_jadwal` ON `tbl_jadwal`.`id_jadwal` = `tbl_absen`.`id_jadwal`
+WHERE MONTH(tbl_jadwal.tanggal)tbl_absen.status IS NOT NULL
+AND `tbl_absen`.`id_karyawan` = :tbl_absen.id_karyawan:
+AND (tbl_jadwal.tanggal) = :(tbl_jadwal.tanggal):
+ORDER BY `tbl_absen`.`id_absen` ASC', [...], false)
+ 2 APPPATH\Models\M_Absen.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(20): App\Models\M_Absen->getDataAbsenBulanan([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->home()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')

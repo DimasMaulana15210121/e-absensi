@@ -28,6 +28,27 @@ class M_Absen extends Model
             return $query = $builder->get();
         }
     }
+    
+    public function getDataAbsenBulanan($where = [])
+    {
+        $builder = $this->db->table($this->table);
+        $builder->select('*');
+        $builder->join('tbl_karyawan','tbl_karyawan.id_karyawan = tbl_absen.id_karyawan', 'LEFT');
+        $builder->join('tbl_lokasi','tbl_lokasi.id_lokasi = tbl_absen.id_lokasi', 'LEFT');
+        $builder->join('tbl_jadwal','tbl_jadwal.id_jadwal = tbl_absen.id_jadwal', 'LEFT');
+
+        $builder->where('MONTH(tbl_jadwal.tanggal)', date('m'));
+        $builder->where('tbl_absen.status IS NOT NULL', null, false);
+
+        if (!empty($where)) {
+            $builder->where($where);
+        }
+
+        $builder->orderBy('tbl_absen.id_absen','ASC');
+    
+        return $builder->get();
+    }
+
     public function getDataFilterAbsen($filter = [], $tgl_awal = null, $tgl_akhir = null)
     {
         $builder = $this->db->table($this->table);
@@ -61,6 +82,7 @@ class M_Absen extends Model
             $builder->where('tbl_absen.id_karyawan', $idKaryawan);
             $builder->where('MONTH(tbl_jadwal.tanggal)', $bulan);
             $builder->where('YEAR(tbl_jadwal.tanggal)', $tahun);
+            $builder->where('tbl_absen.status IS NOT NULL', null, false);
         }
     
         $builder->orderBy('tbl_absen.id_karyawan', 'ASC');
