@@ -64,8 +64,17 @@ class Admin extends BaseController
         $dataIzin = $modelIzin->getDataIzin(['sha1(tbl_izin.id_karyawan)' => $idKaryawan])->getRowArray();
 
         if ($dataAbsen['keterangan_absen'] == 'masuk') {
+            //Jika belum absen
+            if ($dataAbsen['status'] == null) {
+                session()->setFlashdata('info','Karyawan Ini Belum Melakukan Absensi !');
+                return redirect()->to(base_url('/hr/dashboard'));
+            }
+            elseif ($dataAbsen['status'] == 'Alpha') {
+                session()->setFlashdata('info','Karyawan Ini Tidak Hadir !');
+                return redirect()->to(base_url('/hr/dashboard'));
+            }
             //Jika status nya cuti
-            if ($dataAbsen['status'] == 'Cuti') {
+            elseif ($dataAbsen['status'] == 'Cuti') {
                 session()->setFlashdata('info','Karyawan Ini Sedang Cuti Dari Tanggal: ' .$dataIzin['tgl_mulai']. ' s/d '. $dataIzin['tgl_selesai']);
                 return redirect()->to(base_url('/hr/dashboard'));
             }

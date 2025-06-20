@@ -49,30 +49,35 @@ class Lokasi extends BaseController
         $alamat = $this->request->getPost('alamat');
         $lokasi = $this->request->getPost('lokasi');
         $radius = $this->request->getPost('radius');
+        
+        if ($lokasi == "") {
+            session()->setFlashdata('error', 'Kordinat Lokasi Tidak Boleh Kosong !');
+            return redirect()->to(base_url('hr/tambah-data-lokasi'));
+        }else {
+            $hasil = $modelLokasi->autoNumber()->getRowArray();
+            if (!$hasil) {
+                $id = "LOK".date("Ymd")."00001";
+            } else {
+                $kode = $hasil['id_lokasi'];
+                $noUrut = (int) substr($kode, -5);
+                $noUrut++;
+                $id = "LOK".date("Ymd").sprintf("%05s", $noUrut);
+            }
 
-        $hasil = $modelLokasi->autoNumber()->getRowArray();
-        if (!$hasil) {
-            $id = "LOK".date("Ymd")."00001";
-        } else {
-            $kode = $hasil['id_lokasi'];
-            $noUrut = (int) substr($kode, -5);
-            $noUrut++;
-            $id = "LOK".date("Ymd").sprintf("%05s", $noUrut);
+            $dataSimpan = [
+                'id_lokasi' => $id,
+                'nama_lokasi' => $nama_lokasi,
+                'alamat' => $alamat,
+                'lokasi' => $lokasi,
+                'radius' => $radius,
+                'is_delete_lokasi' => '0',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
+            ];
+            $modelLokasi->saveDataLokasi($dataSimpan);
+            session()->setFlashdata('success', 'Data Lokasi berhasil ditambahkan!!');
+            return redirect()->to(base_url('/hr/master-data-lokasi'));
         }
-
-        $dataSimpan = [
-            'id_lokasi' => $id,
-            'nama_lokasi' => $nama_lokasi,
-            'alamat' => $alamat,
-            'lokasi' => $lokasi,
-            'radius' => $radius,
-            'is_delete_lokasi' => '0',
-            'created_at' => date('Y-m-d H:i:s'),
-            'updated_at' => date('Y-m-d H:i:s'),
-        ];
-        $modelLokasi->saveDataLokasi($dataSimpan);
-        session()->setFlashdata('success', 'Data Lokasi berhasil ditambahkan!!');
-        return redirect()->to(base_url('/hr/master-data-lokasi'));
     }
     
     public function edit_data_lokasi()

@@ -111,17 +111,22 @@ class Profile extends BaseController
         $dataKaryawan = $modelKaryawan->getDataKaryawan(['tbl_karyawan.id_karyawan' => session('ses_id')])->getRowArray();
         $idUpdate = $dataKaryawan['id_karyawan'];
 
-        $dataUpdate = [
-            'no_rek' => $no_rek,
-            'nama_bank' => $nama_bank,
-            'atas_nama' => $atas_nama,
-            'updated_at' => date('Y-m-d H:i:s')
-        ];
+        if ($no_rek == "" || $nama_bank == "" || $atas_nama == "") {
+            session()->setFlashdata('error','Data Rekening Tidak boleh Kosong!');
+            return redirect()->to(base_url('/karyawan/edit-data-rekening'))->withInput();
+        }else {
+            $dataUpdate = [
+                'no_rek' => $no_rek,
+                'nama_bank' => $nama_bank,
+                'atas_nama' => $atas_nama,
+                'updated_at' => date('Y-m-d H:i:s')
+            ];
 
-        $whereUpdate = ['id_karyawan' => $idUpdate];
-        $modelKaryawan->updateDataKaryawan($dataUpdate, $whereUpdate);
-        session()->remove('idUpdate');
-        session()->setFlashdata('success','Data Rekening Berhasil Diperbarui!!');
-        return redirect()->to(base_url('/karyawan/profile'));
+            $whereUpdate = ['id_karyawan' => $idUpdate];
+            $modelKaryawan->updateDataKaryawan($dataUpdate, $whereUpdate);
+            session()->remove('idUpdate');
+            session()->setFlashdata('success','Data Rekening Berhasil Diperbarui!!');
+            return redirect()->to(base_url('/karyawan/profile'));
+        }
     }
 }

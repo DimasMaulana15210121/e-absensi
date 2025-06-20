@@ -125,7 +125,7 @@
                       <a href="<?= base_url()?>hr/master-data-pengajuan" class="nav-link">
                           <i class="nav-icon fas fa-check-square"></i>
                           <p>
-                              Pengajuan
+                              Konfirmasi Pengajuan
                           </p>
                       </a>
                   </li>

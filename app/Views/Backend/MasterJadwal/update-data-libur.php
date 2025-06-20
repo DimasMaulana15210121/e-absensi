@@ -25,6 +25,16 @@
                                 <div class="form-libur-row row mb-3">
                                     <div class="col-md-4">
                                         <label>Tanggal</label>
+                                        <!-- <select class="form-control select2" name="tanggal[]" style="width: 100%;">
+                                              <option value="">-- Pilih Tanggal --</option>
+                                              <?php
+									                foreach($data_jadwal as $data){
+									                ?>
+                                              <option value="<?= $data["tanggal"] ?>"
+                                                  <?php echo ($data_jadwal == $data["tanggal"]) ? 'selected' : '' ?>>
+                                                  <?=$data['tanggal']?> </option>
+                                              <?php } ?>
+                                          </select> -->
                                         <input type="date" name="tanggal[]" class="form-control" required>
                                     </div>
                                     <div class="col-md-4">

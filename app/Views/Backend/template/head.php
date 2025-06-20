@@ -58,7 +58,7 @@
     <!-- Preloader -->
     <div class="preloader flex-column justify-content-center align-items-center">
       <span class="animation__shake">
-        <span class="brand-text h1"><i class="fas fa-heartbeat"></i></span>
+        <span class="brand-text h1"><i class="fas fa-user-tie"></i></span>
       </span>
     </div>
 

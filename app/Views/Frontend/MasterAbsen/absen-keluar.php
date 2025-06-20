@@ -113,13 +113,29 @@
         document.getElementById("jarak").value = jarak;
 
         if (jarak > radius) {
+            let timerInterval;
             Swal.fire({
                 icon: 'error',
                 title: 'Diluar Radius!',
-                text: `Jarak Anda Dari Lokasi Absen Adalah ${jarak.toFixed(2)} Meter. Batas Radius Absen: ${radius} Meter Dari Lokasi Absen !`,
-                showConfirmButton: false,
-                footer: '<a class="btn btn-primary" href="<?= site_url('/karyawan/home') ?>">OK</a>'
+                html: `Jarak Anda Dari Lokasi Absen Adalah ${jarak.toFixed(2)} Meter.<br>Batas Radius Absen: ${radius} Meter Dari Lokasi Absen!<br>Anda Akan Dialihkan Ke Halaman Dashboard dalam <b></b> detik.`,
+                timer: 3000,
+                timerProgressBar: true,
+                didOpen: () => {
+                    Swal.showLoading();
+                    const timer = Swal.getPopup().querySelector('b');
+                    timerInterval = setInterval(() => {
+                        timer.textContent = Math.ceil(Swal.getTimerLeft() / 1000); // tampilkan detik
+                    }, 100);
+                },
+                willClose: () => {
+                    clearInterval(timerInterval);
+                }
+            }).then((result) => {
+                if (result.dismiss === Swal.DismissReason.timer) {
+                    window.location.href = "<?= site_url('/karyawan/home') ?>"; // redirect otomatis
+                }
             });
+        
             document.getElementById("takeAbsen").disabled = true;
         }
     }

@@ -18,15 +18,15 @@
                         <div class="card-body">
                             <div class="form-group">
                                 <label>No Rekening</label>
-                                <input type="text" class="form-control" name="no_rek" value="<?= $data_karyawan['no_rek'] ?>" placeholder="Nomor Rekening Anda !" required>
+                                <input type="text" class="form-control" name="no_rek" value="<?= $data_karyawan['no_rek'] ?>" placeholder="Nomor Rekening Anda">
                             </div>
                             <div class="form-group">
                                 <label>Nama Bank</label>
-                                <input type="text" class="form-control" name="nama_bank" value="<?= $data_karyawan['nama_bank'] ?>" placeholder="Nama Bank Nya" required>
+                                <input type="text" class="form-control" name="nama_bank" value="<?= $data_karyawan['nama_bank'] ?>" placeholder="Nama Bank Nya">
                             </div>
                             <div class="form-group">
                                 <label>Atas Nama</label>
-                                <input type="text" class="form-control" name="atas_nama" value="<?= $data_karyawan['atas_nama'] ?>" placeholder="Atas Nama Nya" required>
+                                <input type="text" class="form-control" name="atas_nama" value="<?= $data_karyawan['atas_nama'] ?>" placeholder="Atas Nama Nya">
                             </div>
                             <button type="submit" class="btn btn-primary btn-lg btn-block" style="text-align: center;">Simpan</button>
                             <a href="<?= base_url('karyawan/profile') ?>" class="btn btn-secondary btn-lg btn-block" style="text-align: center;"> Batal</a>

@@ -3,19 +3,19 @@
         <a href="<?= base_url()?>karyawan/home" class="item <?= $menu == 'home' ? 'active' :''?>">
             <div class="col">
                 <i class="fas fa-home fa-3x <?= $menu == 'home' ? '' :'text-light'?>"></i>
-                <font size="3"><strong>Home</strong></font>
+                <font size="3"><strong>Dashboard</strong></font>
             </div>
         </a>
         <a href="<?= base_url()?>karyawan/history-absen" class="item <?= $menu == 'history' ? 'active' :''?>">
             <div class="col">
-                <i class="fas fa-file-alt fa-3x <?= $menu == 'history' ? '' :'text-light'?> "></i>
+                <i class="fas fa-history fa-3x <?= $menu == 'history' ? '' :'text-light'?> "></i>
                 <font size="3"><strong>History</strong></font>
             </div>
         </a>
         <a href="<?= base_url()?>karyawan/presensi" class="item">
             <div class="col">
                 <div class="action-button large text-dark">
-                    <i class="fas fa-camera text-white fa-3x <?= $menu == 'presensi' ? 'text-danger' :''?>"></i>
+                    <i class="fas fa-camera text-white fa-3x <?= $menu == 'presensi' ? 'text-light' :''?>"><font size="2"><strong>Absensi</strong></font></i>
                 </div>
             </div>
         </a>

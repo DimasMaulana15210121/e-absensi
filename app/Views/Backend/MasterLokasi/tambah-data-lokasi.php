@@ -48,7 +48,7 @@
                               <div class="col-md-6">
                                   <div class="form-group">
                                       <label>Kordinat Lokasi</label>
-                                      <input type="text" name="lokasi" class="form-control" placeholder="Kordinat Lokasi Absen" required>
+                                      <input type="text" name="lokasi" class="form-control" placeholder="Kordinat Lokasi Absen">
                                   </div>
                               </div>
                               <div class="col-md-6">

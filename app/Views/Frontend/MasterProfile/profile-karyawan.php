@@ -85,7 +85,7 @@
 
                                             <button id="editButton" type="button"
                                                 class="btn btn-primary btn-lg btn-block" onclick="enableEdit()">
-                                                <i class="fas fa-edit mr-1"></i> Edit Profil
+                                                <i class="fas fa-edit mr-1"></i> Edit Data
                                             </button><br>
 
                                             <a href="<?= base_url('/karyawan/edit-data-rekening') ?>" id="rekeningButton">

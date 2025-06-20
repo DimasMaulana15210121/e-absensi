@@ -156,9 +156,9 @@ class Gaji extends BaseController
 
         return redirect()->to(base_url('/hr/master-daftar-gaji'));
     }
-//Akhir Daftar Gaji
+    //Akhir Daftar Gaji
 
-//Awal Pembayaran Gaji
+    //Awal Pembayaran Gaji
     public function master_pembayaran()
     {
         $uri = service('uri');
@@ -195,12 +195,9 @@ class Gaji extends BaseController
         $tgl_gajian = $this->request->getPost('tgl_gajian');
         $bonus_gajian = $this->request->getPost('bonus_gajian');
 
-        $dataAbsen = $modelAbsen->getDataAbsen(['tbl_absen.id_karyawan' => $id_karyawan, 'month(tbl_jadwal.tanggal)' => date('m')])->getResultArray();
-        $dataStatus = array_filter($dataAbsen, function($status) {
-            return in_array($status['status'], ['Alpha', null]);
-        });
+        $dataAbsen = $modelAbsen->getDataAbsen(['tbl_absen.id_karyawan' => $id_karyawan, 'tbl_absen.status' => 'Alpha', 'month(tbl_jadwal.tanggal)' => date('m')])->getResultArray();
 
-        $total_alpha = count($dataStatus);
+        $total_alpha = count($dataAbsen);
         
         $dataKaryawan = $modelKaryawan->getDataKaryawan(['tbl_karyawan.id_karyawan' => $id_karyawan])->getRowArray();
         if (!$dataKaryawan['id_jabatan']) {
@@ -339,6 +336,8 @@ class Gaji extends BaseController
     //     echo view('Backend/pdf/pdf-gaji-karyawan', $data);
     //     // echo view('Backend/template/footer', $data);
     // }
+
+    //akhir pembayaran gaji
 //akhir admin
 
 //awal karyawan

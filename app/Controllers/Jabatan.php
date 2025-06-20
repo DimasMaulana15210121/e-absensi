@@ -31,26 +31,35 @@ class Jabatan extends BaseController
 
         $nama_jabatan = $this->request->getPost('nama_jabatan');
 
-        $hasil = $modelJabatan->autoNumber()->getRowArray();
-        if (!$hasil) {
-            $id = "JBT".date("Ymd")."00001";
-        } else {
-            $kode = $hasil['id_jabatan'];
-            $noUrut = (int) substr($kode, -5);
-            $noUrut++;
-            $id = "JBT".date("Ymd").sprintf("%05s", $noUrut);
-        }
+        $cekJabatan = $modelJabatan->getDataJabatan(['nama_jabatan' => $nama_jabatan, 'is_delete_jabatan' => '0'])->getNumRows();
+        if($cekJabatan){
+            session()->setFlashdata('error', 'Nama Jabatan Sudah ada!');
+            return redirect()->to(base_url('hr/master-data-jabatan'));
+        }elseif ($nama_jabatan == "") {
+            session()->setFlashdata('error', 'Nama Tidak Boleh Kosong !');
+            return redirect()->to(base_url('hr/master-data-jabatan'));
+        }else{
+            $hasil = $modelJabatan->autoNumber()->getRowArray();
+            if (!$hasil) {
+                $id = "JBT".date("Ymd")."00001";
+            } else {
+                $kode = $hasil['id_jabatan'];
+                $noUrut = (int) substr($kode, -5);
+                $noUrut++;
+                $id = "JBT".date("Ymd").sprintf("%05s", $noUrut);
+            }
 
-        $dataSimpan = [
-            'id_jabatan' => $id,
-            'nama_jabatan' => $nama_jabatan,
-            'is_delete_jabatan' => '0',
-            'created_at' => date('Y-m-d H:i:s'),
-            'updated_at' => date('Y-m-d H:i:s'),
-        ];
-        $modelJabatan->saveDataJabatan($dataSimpan);
-        session()->setFlashdata('success', 'Data Jabatan berhasil ditambahkan!!');
-        return redirect()->to(base_url('/hr/master-data-jabatan'));
+            $dataSimpan = [
+                'id_jabatan' => $id,
+                'nama_jabatan' => $nama_jabatan,
+                'is_delete_jabatan' => '0',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
+            ];
+            $modelJabatan->saveDataJabatan($dataSimpan);
+            session()->setFlashdata('success', 'Data Jabatan berhasil ditambahkan!!');
+            return redirect()->to(base_url('/hr/master-data-jabatan'));
+        }
     }
 
     public function update_data_jabatan()
