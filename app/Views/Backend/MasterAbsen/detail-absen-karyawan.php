@@ -60,13 +60,15 @@
                                             <div class="col-md-6">
                                                 <label>Jam Masuk Absen</label>
                                                 <input type="text" name="nama_karyawan" class="form-control bg-success"
-                                                    value="<?php echo $data_absen['jam_masuk_absen'] == '00:00:00' ? '--:--:--' : $data_absen['jam_masuk_absen'];?>"
+                                                    value="<?php echo $data_absen['jam_masuk_absen'] == '00:00:00' ? 
+                                                        '--:--:--' : $data_absen['jam_masuk_absen'];?>"
                                                     disabled>
                                             </div>
                                             <div class="col-md-6">
                                                 <label>Jam Keluar Absen</label>
                                                 <input type="text" name="nama_karyawan" class="form-control bg-danger"
-                                                    value="<?php echo $data_absen['jam_keluar_absen'] == '00:00:00' ? '--:--:--' : $data_absen['jam_keluar_absen'];?>"
+                                                    value="<?php echo $data_absen['jam_keluar_absen'] == '00:00:00' ? 
+                                                        '--:--:--' : $data_absen['jam_keluar_absen'];?>"
                                                     disabled>
                                             </div>
                                         </div>
@@ -74,7 +76,7 @@
                                     <div class="col-md-12">
                                         <div class="form-group row">
                                             <div class="col-md-6">
-                                                <label>Lokasi Karyawan Absen Masuk</label>
+                                                <label>Jarak Karyawan Absen Masuk</label>
                                                 <input type="text" name="jarak_masuk" class="form-control bg-success"
                                                     value="<?php 
                                                                 if (strtolower($data_absen['status']) == 'alpha') {
@@ -83,14 +85,15 @@
                                                                     if ($data_absen['jarak_masuk'] == null) {
                                                                         echo 'Absen Belum Dilakukan';
                                                                     } else {
-                                                                        echo $data_absen['jarak_masuk']. ' Meter Dari Lokasi (' .$data_absen['nama_lokasi']. ')';
+                                                                        echo $data_absen['jarak_masuk']. ' Meter Dari Lokasi 
+                                                                            (' .$data_absen['nama_lokasi']. ')';
                                                                     }
                                                                 }
                                                            ?>"
                                                     disabled>
                                             </div>
                                             <div class="col-md-6">
-                                                <label>Lokasi Karyawan Absen Pulang</label>
+                                                <label>Jarak Karyawan Absen Pulang</label>
                                                 <input type="text" name="jarak_keluar" class="form-control bg-danger"
                                                     value="<?php 
                                                                 if (strtolower($data_absen['status']) == 'alpha') {
@@ -99,7 +102,8 @@
                                                                     if ($data_absen['jarak_keluar'] == null) {
                                                                         echo 'Absen Belum Dilakukan';
                                                                     } else {
-                                                                        echo $data_absen['jarak_keluar']. ' Meter Dari Lokasi (' .$data_absen['nama_lokasi']. ')';
+                                                                        echo $data_absen['jarak_keluar']. ' Meter Dari Lokasi 
+                                                                            (' .$data_absen['nama_lokasi']. ')';
                                                                     }
                                                                 }
                                                            ?>"
@@ -180,25 +184,25 @@
 </div>
 
 <script type="text/javascript">
-    // Validasi jika data lokasi tidak null atau kosong
-    var lokasiAbsen = L.latLng(<?= $data_absen['lokasi']; ?>);
-    var lokasiMasuk = L.latLng(<?= $data_absen['lokasi_masuk']; ?>);
-    var lokasiKeluar = L.latLng(<?= $data_absen['lokasi_keluar']; ?>);
 
-    var masuk = L.map('masuk').setView(lokasiAbsen, 18);
+    const lokasiAbsen = L.latLng(<?= $data_absen['lokasi']; ?>);
+    const lokasiMasuk = L.latLng(<?= $data_absen['lokasi_masuk']; ?>);
+    const lokasiKeluar = L.latLng(<?= $data_absen['lokasi_keluar']; ?>);
+
+    const masuk = L.map('masuk').setView(lokasiAbsen, 18);
 
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(masuk);
 
-    var circle = L.circle(lokasiAbsen, {
+    const circle = L.circle(lokasiAbsen, {
         color: 'red',
         fillColor: 'blue',
         fillOpacity: 0.5,
         radius: <?= ($data_absen['radius']); ?>
     }).addTo(masuk);
 
-    var LokasiIcon = L.icon({
+    const LokasiIcon = L.icon({
         iconUrl: '<?= base_url('Assets/lokasi.png') ?>',
         iconSize:     [38, 65], // size of the icon
         shadowSize:   [50, 64], // size of the shadow
@@ -216,13 +220,13 @@
         .openPopup();
 
 
-    var keluar = L.map('keluar').setView(lokasiAbsen, 18);
+    const keluar = L.map('keluar').setView(lokasiAbsen, 18);
 
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(keluar);
 
-    var circleKeluar = L.circle(lokasiAbsen, {
+    const circleKeluar = L.circle(lokasiAbsen, {
         color: 'red',
         fillColor: 'blue',
         fillOpacity: 0.5,

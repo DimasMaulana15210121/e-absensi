@@ -179,8 +179,6 @@ class Absen extends BaseController
         ];
         $whereUpdate = ['id_absen' => $idUpdate];
         $modelAbsen->updateDataAbsen($dataUpdate, $whereUpdate);
-
-        // return $this->response->setStatusCode(200)->setJSON(['message' => 'Absen berhasil disimpan']);
     }
 
     public function simpan_absen_pulang()

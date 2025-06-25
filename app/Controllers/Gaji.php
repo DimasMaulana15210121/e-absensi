@@ -195,6 +195,11 @@ class Gaji extends BaseController
         $tgl_gajian = $this->request->getPost('tgl_gajian');
         $bonus_gajian = $this->request->getPost('bonus_gajian');
 
+        if($id_karyawan ==""){
+            session()->setFlashdata('error','Karyawan Belum Dipilih!');
+            return redirect()->to(base_url('/hr/master-pembayaran-gaji'))->withInput();
+        }
+
         $dataAbsen = $modelAbsen->getDataAbsen(['tbl_absen.id_karyawan' => $id_karyawan, 'tbl_absen.status' => 'Alpha', 'month(tbl_jadwal.tanggal)' => date('m')])->getResultArray();
 
         $total_alpha = count($dataAbsen);

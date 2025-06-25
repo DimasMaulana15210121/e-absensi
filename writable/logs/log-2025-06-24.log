@@ -1,0 +1,24 @@
+CRITICAL - 2025-06-24 09:25:15 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gaji.php on line 203.
+ 1 APPPATH\Controllers\Gaji.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Gaji.php', 203)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->simpan_pembayaran_gaji()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-24 09:26:45 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gaji.php on line 203.
+ 1 APPPATH\Controllers\Gaji.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Gaji.php', 203)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->simpan_pembayaran_gaji()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-06-24 09:28:35 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Gaji.php on line 203.
+ 1 APPPATH\Controllers\Gaji.php(203): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Controllers\\Gaji.php', 203)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->simpan_pembayaran_gaji()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')

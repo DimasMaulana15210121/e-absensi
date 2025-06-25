@@ -31,7 +31,7 @@
     </style>
 </head>
 
-<body class="hold-transition login-page">
+<body class="hold-transition login-page" style="background-color: #3498db;">
     <div id="particles-js"></div>
     <div class="login-box">
         <!-- /.login-logo -->
@@ -64,7 +64,7 @@
 
                 <form action="<?= base_url('/hr/login-checker') ?>" method="post">
                     <div class="input-group mb-3">
-                        <input type="text" name="username" class="form-control" placeholder="Username">
+                        <input type="text" name="username" class="form-control" placeholder="Username" required>
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span class="fas fa-id-badge"></span>
@@ -72,7 +72,7 @@
                         </div>
                     </div>
                     <div class="input-group mb-3">
-                        <input type="password" name="password" class="form-control" placeholder="Password" id="password">
+                        <input type="password" name="password" class="form-control" placeholder="Password" id="password" required>
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span class="fas fa-lock"></span>

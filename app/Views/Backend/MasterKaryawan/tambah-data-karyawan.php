@@ -18,10 +18,7 @@
           </div><!-- /.container-fluid -->
       </section>
 
-      <!-- Main content -->
       <section class="content">
-
-          <!-- Default box -->
           <div class="col-md-12">
               <center>
                   <div div class="text-danger"> Kata sandi karyawan akan dibuat
@@ -35,7 +32,6 @@
                       <div class="card-header">
                           <h3 class="card-title">Tambah Data Karyawan</h3>
                       </div>
-                      <!-- /.card-header -->
                       <form action="<?= base_url('/hr/simpan-data-karyawan') ?>" method="post"
                           enctype="multipart/form-data">
                           <div class="card-body">
@@ -72,21 +68,24 @@
                                       <div class="form-group">
                                           <label>No Rekening</label>
                                           <input type="text" name="no_rek" class="form-control"
-                                              placeholder="Nomor Rekening/Bisa Dikosongkan Agar Karyawan Yang Mengisi" required>
+                                              placeholder="Nomor Rekening/Bisa Dikosongkan Agar Karyawan Yang Mengisi"
+                                              required>
                                       </div>
                                   </div>
                                   <div class="col-md-6">
                                       <div class="form-group">
                                           <label>Nama Bank</label>
                                           <input type="text" name="nama_bank" class="form-control"
-                                              placeholder="Nama Bank/Bisa Dikosongkan Agar Karyawan Yang Mengisi" required>
+                                              placeholder="Nama Bank/Bisa Dikosongkan Agar Karyawan Yang Mengisi"
+                                              required>
                                       </div>
                                   </div>
                                   <div class="col-md-6">
                                       <div class="form-group">
                                           <label>Atas Nama (Rekening)</label>
                                           <input type="text" name="atas_nama" class="form-control"
-                                              placeholder="Atas Nama (Rekening)/Bisa Dikosongkan Agar Karyawan Yang Mengisi" required>
+                                              placeholder="Atas Nama (Rekening)/Bisa Dikosongkan Agar Karyawan Yang Mengisi"
+                                              required>
                                       </div>
                                   </div>
                                   <div class="col-md-6">
@@ -140,24 +139,16 @@
                                       </div>
                                   </div>
                               </div>
-                          </div>
-                          <!-- /.card-body -->
+                          </div>   
                           <div class="card-footer" style="text-align: center;">
                               <button type="submit" class="btn btn-primary btn-lg">Simpan</button>
-                              <a href="<?php echo base_url('hr/master-data-karyawan');?>"
-                                  class="btn btn-danger btn-lg">
+                              <a href="<?php echo base_url('hr/master-data-karyawan');?>" class="btn btn-danger btn-lg">
                                   Batal
                               </a>
                           </div>
                       </form>
-                      <!-- /.card-body -->
                   </div>
-                  <!-- /.card -->
               </div>
           </div>
-  </div>
-  <!-- /.card -->
-
-  </section>
-  <!-- /.content -->
+      </section>
   </div>

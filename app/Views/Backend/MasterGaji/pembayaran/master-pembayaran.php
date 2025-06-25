@@ -48,7 +48,7 @@
                                         <td><?= $data['nama_jabatan']; ?></td>
                                         <td><?= $data['tgl_gajian']; ?></td>
                                         <td>Rp <?= number_format($data['bonus_gajian'], 0, ".", ".")?></td>
-                                        <td>
+                                        <td style="width: 150px;">
                                             <button type="button" class="btn btn-warning"
                                                 title="Edit Pembayaran Gaji"><span class="fas fa-edit"
                                                     data-toggle="modal"
@@ -120,7 +120,7 @@
                                     <label>Bonus Gaji Karyawan</label>
                                     <div class="input-group">
                                         <span class="input-group-text" id="basic-addon1">Rp</span>
-                                        <input type="number" name="bonus_gajian" class="form-control" value="0" required>
+                                        <input type="number" name="bonus_gajian" class="form-control" required>
                                     </div>
                                 </div>
                             </div>

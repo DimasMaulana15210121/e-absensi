@@ -21,7 +21,7 @@ class History extends BaseController
         $data['page'] = $page;
         $data['data_history'] = $dataHistory;
         $data['data_karyawan'] = $dataKaryawan;
-        $data['judul'] = "History Absen" ;
+        $data['judul'] = "History Absensi" ;
         $data['menu'] = "history" ;
 
         echo view('Frontend/template/header', $data);    
@@ -42,7 +42,7 @@ class History extends BaseController
 
         $data['data_history'] = $dataHistory;
         $data['data_karyawan'] = $dataKaryawan;
-        $data['judul'] = "History Absen" ;
+        $data['judul'] = "History Absensi" ;
         $data['menu'] = "history" ;
 
         if ($dataHistory) {

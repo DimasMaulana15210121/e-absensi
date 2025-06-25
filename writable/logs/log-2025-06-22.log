@@ -1,0 +1,10 @@
+CRITICAL - 2025-06-22 04:55:39 --> Unmatched '}'
+in APPPATH\Views\Backend\MasterGaji\daftar-gaji\master-daftar-gaji.php on line 49.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterGaji/daftar-gaji/master-daftar-gaji', [], true)
+ 3 APPPATH\Controllers\Gaji.php(33): view('Backend/MasterGaji/daftar-gaji/master-daftar-gaji', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Gaji->daftar_gaji()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Gaji))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')

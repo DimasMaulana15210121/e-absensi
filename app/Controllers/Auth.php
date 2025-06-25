@@ -15,6 +15,10 @@ class Auth extends BaseController
     {
         echo view('Frontend/auth/login', );    
     }
+    public function auth_admin()
+    {
+        echo view('Backend/auth/login');
+    }
     public function karyawan_login_checker()
     {
         $modelKaryawan = new M_Karyawan;
@@ -61,25 +65,6 @@ class Auth extends BaseController
             }
         }
     }
-
-    public function logout_karyawan()
-    {
-        session()->remove('ses_id');
-        session()->remove('ses_karyawan');
-        session()->remove('enid');
-        session()->setFlashdata('info', 'Keluar dari Sistem!!');
-        ?>
-        <script>
-            document.location = "<?= base_url('/'); ?>";
-        </script>
-    <?php
-    }
-
-    public function auth_admin()
-    {
-        echo view('Backend/auth/login');
-    }
-
     public function admin_login_checker()
     {
         $modelUser = new M_User;
@@ -124,6 +109,19 @@ class Auth extends BaseController
                 <?php
             }
         }
+    }
+    
+    public function logout_karyawan()
+    {
+        session()->remove('ses_id');
+        session()->remove('ses_karyawan');
+        session()->remove('enid');
+        session()->setFlashdata('info', 'Keluar dari Sistem!!');
+        ?>
+        <script>
+            document.location = "<?= base_url('/'); ?>";
+        </script>
+    <?php
     }
     
     public function logout_admin()

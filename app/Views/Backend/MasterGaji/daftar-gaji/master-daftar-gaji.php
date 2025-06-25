@@ -113,14 +113,14 @@
                                     <label>Gaji Pokok</label>
                                     <div class="input-group">
                                         <span class="input-group-text" id="basic-addon1">Rp</span>
-                                        <input type="number" name="gaji_pokok" class="form-control" value="0" required>
+                                        <input type="number" name="gaji_pokok" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="col-6">
                                     <label class="form-label">Uang Makan</label>
                                     <div class="input-group">
                                         <span class="input-group-text" id="basic-addon1">Rp</span>
-                                        <input type="number" name="uang_makan" class="form-control" value="0"
+                                        <input type="number" name="uang_makan" class="form-control"
                                             required>
                                     </div>
                                 </div>
@@ -130,7 +130,7 @@
                                     <label>Tunjangan Kesehatan</label>
                                     <div class="input-group">
                                         <span class="input-group-text" id="basic-addon1">Rp</span>
-                                        <input type="number" name="tj_kesehatan" class="form-control" value="0"
+                                        <input type="number" name="tj_kesehatan" class="form-control"
                                             required>
                                     </div>
                                 </div>
@@ -138,7 +138,7 @@
                                     <label class="form-label">Tunjangan Transportasi</label>
                                     <div class="input-group">
                                         <span class="input-group-text" id="basic-addon1">Rp</span>
-                                        <input type="number" name="tj_transportasi" class="form-control" value="0"
+                                        <input type="number" name="tj_transportasi" class="form-control"
                                             required>
                                     </div>
                                 </div>
@@ -148,7 +148,7 @@
                                     <label>BPJS</label>
                                     <div class="input-group">
                                         <span class="input-group-text" id="basic-addon1">Rp</span>
-                                        <input type="number" name="bpjs" class="form-control" value="0"
+                                        <input type="number" name="bpjs" class="form-control"
                                             required>
                                     </div>
                                 </div>
@@ -156,7 +156,7 @@
                                     <label class="form-label">Pajak</label>
                                     <div class="input-group">
                                         <span class="input-group-text" id="basic-addon1">%</span>
-                                        <input type="number" name="pajak" class="form-control" value="0"
+                                        <input type="number" name="pajak" class="form-control"
                                             required>
                                     </div>
                                 </div>
@@ -166,7 +166,7 @@
                                     <label>Potongan Gaji Tidak Hadir/Alpha</label>
                                     <div class="input-group">
                                         <span class="input-group-text" id="basic-addon1">Rp</span>
-                                        <input type="number" name="potong_gaji" class="form-control" value="0"
+                                        <input type="number" name="potong_gaji" class="form-control"
                                             required>
                                     </div>
                                 </div>

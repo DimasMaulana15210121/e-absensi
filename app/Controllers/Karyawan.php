@@ -67,11 +67,17 @@ class Karyawan extends BaseController
 
         $foto_karyawan = $this->request->getFile('foto_karyawan');
         if ($foto_karyawan->isValid() && !$foto_karyawan->hasMoved()) {
+            if (!$this->validate([
+                'foto_karyawan' => 'max_size[foto_karyawan,10240]|ext_in[foto_karyawan,jpg,jpeg,png]',
+            ])) {
+                session()->setFlashdata('error', "Format File Tidak Sesuai");
+                return redirect()->to('/hr/tambah-data-karyawan')->withInput();
+            }
             $ext1 = $foto_karyawan->getClientExtension();
             $namaFile1 = "PP-" . date("ymdHis") . "." . $ext1;
             $foto_karyawan->move('Assets/img/karyawan', $namaFile1);
         } else {
-            $namaFile1 = '-'; // atau bisa juga null, tergantung kebutuhan database
+            $namaFile1 = '-'; 
         };
 
         $sqlCek1 = $modelKaryawan->getDataKaryawan(['tbl_karyawan.nik_karyawan' => $nik_karyawan]);

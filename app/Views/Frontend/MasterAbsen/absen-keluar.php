@@ -10,23 +10,42 @@
     </div>
     <!-- * App Header -->
 
-<div class="row" style="margin-top: 70px;">
+<div class="row" style="margin-top: 70px; margin-bottom: 65px;">
     <div class="col">
         <style>
             .my_camera,
-            .my_camera video{
-                display: inline-block;
+            .my_camera video {
+                display: block;
                 width: 100% !important;
-                margin: auto;
                 height: auto !important;
+                margin: auto;
                 border-radius: 15px;
+                max-width: 500px; 
+            }
+            #map {
+                width: 100%;
+                height: 400px;
+                border-radius: 10px;
+                }
+            @media(min-width: 768px){
+                #map { height: 400px; }
             }
         </style>
-        <div class="my_camera"></div>
-        <button class="btn btn-danger btn-block" id="takeAbsen"><i class="fas fa-camera mr-1"></i>Absen Keluar</button>
-        <input type="hidden" name="lokasi" id="lokasi">
-        <input type="hidden" name="jarak" id="jarak">
-        <div id="map" style="width: 100%; height: 400px;"></div>
+        <div class="section mt-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="my_camera mb-3"></div>
+                        <button class="btn btn-primary btn-block rounded shadow-sm" id="takeAbsen" disabled>
+                            <i class="fas fa-camera mr-1"></i>Absen Keluar
+                        </button>
+                        <input type="hidden" name="lokasi" id="lokasi">
+                        <input type="hidden" name="jarak" id="jarak">
+                        <div id="map" class="mt-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -35,10 +54,13 @@
     let foto = '';
     
     Webcam.set({
-        width: 420,
-        height: 340,
+        width: 320,
+        height: 240,
         image_format: 'jpeg',
         jpeg_quality: 90,
+        constraints: {
+            facingMode: "user" // kamera depan HP
+        }
     });
 
     Webcam.attach( '.my_camera' );
@@ -62,23 +84,25 @@
     const radius = <?= esc($data_karyawan['radius']) ?>;
     
     if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
+        navigator.geolocation.getCurrentPosition(showPosition, function(error) {
+            Swal.fire('Gagal Mendapatkan Lokasi: ' + error.message);
+        });
     } else {
-        // Jika browser nya tidak support geolocation
-            alert("Geolocation tidak support di browser ini.");
+        alert("Geolocation tidak support di browser ini.");
     }
-
     
     function showPosition(position) {
         const latUser = position.coords.latitude;
         const lonUser = position.coords.longitude;
+
+        document.getElementById("takeAbsen").disabled = false;
 
         const lokasiUser = L.latLng(latUser, lonUser);
         const lokasiKantor = L.latLng(kantorLatLng[0], kantorLatLng[1]);
 
         document.getElementById("lokasi").value = latUser + "," + lonUser;
 
-        const map = L.map('map').setView([latUser, lonUser], 16);
+        const map = L.map('map').setView([latUser, lonUser], 18);
         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; OpenStreetMap contributors'
         }).addTo(map);
@@ -159,7 +183,7 @@
                     Swal.fire({
                         icon: 'success',
                         title: 'Success!',
-                        text: 'Terima Kasih, Hati-Hati Dijalan !',
+                        text: 'Terima Kasih Sudah Bekerja, Hati-Hati Dijalan',
                         showConfirmButton: false,
                         footer: '<a class="btn btn-primary" href="<?= base_url('/karyawan/home') ?>">OK</a>'
                     });

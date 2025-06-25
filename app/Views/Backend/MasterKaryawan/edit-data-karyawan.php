@@ -36,17 +36,18 @@
                                   <div class="col-md-4" style="margin-top: 20px;">
                                       <div class="image align-items-center text-center">
                                           <?php 
-                                          $cekFoto = file_exists('Assets/img/karyawan/'.$data_karyawan['foto_karyawan']);
-                                          if($cekFoto){
-                                             if ($data_karyawan['foto_karyawan'] == '-') {
-                                                $foto_karyawan = base_url().'Assets/img/default.png';
-                                             }else{
-                                             $foto_karyawan = base_url().'Assets/img/karyawan/'.$data_karyawan['foto_karyawan'];
-                                             }
-                                          }
-                                          elseif(!$cekFoto){
-                                             $foto_karyawan = base_url().'Assets/img/default.png';
-                                          }
+                                            $fotoKaryawanVal = isset($data_karyawan['foto_karyawan']) && !empty($data_karyawan['foto_karyawan']) ? $data_karyawan['foto_karyawan'] : '-';
+                                            $cekFoto = file_exists('Assets/img/karyawan/'.$fotoKaryawanVal);
+                                            if($cekFoto){
+                                               if ($fotoKaryawanVal == '-') {
+                                                  $foto_karyawan = base_url().'Assets/img/default.png';
+                                               }else{
+                                                  $foto_karyawan = base_url().'Assets/img/karyawan/'.$fotoKaryawanVal;
+                                               }
+                                            }
+                                            else{
+                                               $foto_karyawan = base_url().'Assets/img/default.png';
+                                            }
                                           ?>
                                           <img src="<?= $foto_karyawan; ?>" class="img-circle elevation-2" width="200px"
                                               alt="Karyawan Image"><br>

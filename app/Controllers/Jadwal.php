@@ -69,9 +69,9 @@ class Jadwal extends BaseController
         $absen_telat = $this->request->getPost('absen_telat');
         $absen_alpha = $this->request->getPost('absen_alpha');
 
-        // Validasi absen alpha tidak boleh sama dengan telat
-        if ($absen_alpha == $absen_telat) {
-            session()->setFlashdata('error', "Absen alpha tidak boleh sama dengan absen telat !");
+        // Validasi absen alpha tidak lebih kecil sama dengan telat
+        if ($absen_alpha <= $absen_telat) {
+            session()->setFlashdata('error', "Absen alpha tidak boleh lebih kecil sama dengan absen telat !");
             return redirect()->to('hr/tambah-data-jadwal')->withInput();
         }
 
@@ -217,9 +217,14 @@ class Jadwal extends BaseController
         $absen_dibuka = $this->request->getPost('absen_dibuka');
         $absen_telat = $this->request->getPost('absen_telat');
         $absen_alpha = $this->request->getPost('absen_alpha');
+
         $dataJadwal = $modelJadwal->getDataJadwal(['id_jadwal' => $idEdit])->getRowArray();
         $idUpdate = $dataJadwal['id_jadwal'];
 
+        if ($absen_alpha <= $absen_telat) {
+            session()->setFlashdata('error', "Absen alpha tidak boleh lebih kecil sama dengan absen telat !");
+            return redirect()->to('hr/edit-data-jadwal/'.sha1($idUpdate))->withInput();
+        }
 
         $dataUpdate = [
             'tanggal' => $tanggal,

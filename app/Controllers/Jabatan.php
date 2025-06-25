@@ -36,7 +36,7 @@ class Jabatan extends BaseController
             session()->setFlashdata('error', 'Nama Jabatan Sudah ada!');
             return redirect()->to(base_url('hr/master-data-jabatan'));
         }elseif ($nama_jabatan == "") {
-            session()->setFlashdata('error', 'Nama Tidak Boleh Kosong !');
+            session()->setFlashdata('error', 'Nama Jabatan Tidak Boleh Kosong !');
             return redirect()->to(base_url('hr/master-data-jabatan'));
         }else{
             $hasil = $modelJabatan->autoNumber()->getRowArray();

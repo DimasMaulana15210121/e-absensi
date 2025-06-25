@@ -25,13 +25,6 @@
               <div class="card card-primary shadow-lg">
                   <div class="card-header">
                       <h3 class="card-title">Tambah Data Lokasi Absen</h3>
-
-                      <!-- <div class="card-tools">
-                          <button type="button" class="btn btn-tool" data-card-widget="maximize"><i
-                                  class="fas fa-plus"></i>
-                          </button>
-                      </div> -->
-                      <!-- /.card-tools -->
                   </div>
                   <!-- /.card-header -->
                   <form action="<?= base_url('/hr/simpan-data-lokasi') ?>" method="post" enctype="multipart/form-data">
