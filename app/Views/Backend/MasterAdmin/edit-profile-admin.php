@@ -23,7 +23,8 @@
                         <h3 class="card-title">Edit Data Admin</h3>
                     </div>
                     <!-- /.card-header -->
-                    <form id="formEdit" enctype="multipart/form-data">
+                    <form id="formEdit" action="<?= base_url('hr/simpan-profile-admin') ?>" method="post" 
+                        enctype="multipart/form-data">
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-4" style="margin-top: 15px;">
@@ -71,15 +72,15 @@
                                         <div class="col-md-12">
                                             <div class="form-group row">
                                                 <div class="col-md-3">
-                                                    <label>Username</label>
+                                                    <label>Email</label>
                                                 </div>
                                                 <div class="col-md-1">
                                                     <label>:</label>
                                                 </div>
                                                 <div class="col-md-8">
-                                                    <input type="text" name="username" class="form-control"
-                                                        placeholder="Nama Karyawan"
-                                                        value="<?= $data_admin['username']; ?>" readonly>
+                                                    <input type="email" name="email" id="email" class="form-control"
+                                                        placeholder="Example@gmail.com"
+                                                        value="<?= $data_admin['email']; ?>" readonly>
                                                 </div>
                                             </div>
                                         </div>
@@ -108,7 +109,7 @@
                             </button>
                         </div>
                         <div class="card-footer" style="text-align: center; display: none;" id="editActions">
-                            <button type="button" class="btn btn-primary btn-lg" onclick="saveProfile()">Simpan</button>
+                            <button type="submit" class="btn btn-primary btn-lg">Simpan</button>
                             <button type="button" class="btn btn-danger btn-lg" onclick="cancelEdit()">Batal</button>
                         </div>
                     </form>
@@ -126,49 +127,28 @@
 <script>
 
     function enableEdit() {
-        // Aktifkan semua input yang disabled
-        const inputs = document.querySelectorAll('input.form-control');
-        inputs.forEach(input => input.removeAttribute('readonly'));
-
-        // Tampilkan input file
+        document.querySelectorAll('input.form-control').forEach(input => {
+            input.removeAttribute('readonly');
+            if (input.name === 'email') {
+                input.setAttribute('required', true);
+            }
+        });
         document.getElementById("ubahFoto").style.display = "block";
-        //Tampilkan input password
         document.getElementById("passwordEdit").style.display = "block";
-        // Tampilkan tombol Simpan & Batal, sembunyikan Edit
         document.getElementById("editButton").style.display = "none";
         document.getElementById("editActions").style.display = "block";
     }
 
     function cancelEdit() {
-        // Nonaktifkan semua input kembali
-        const inputs = document.querySelectorAll('input.form-control');
-        inputs.forEach(input => input.setAttribute('readonly', true));
-
-        //Sembunyikan input file
-        document.getElementById("ubahFoto").style.display = "none";
-        //Sembunyikan input password
-        document.getElementById("passwordEdit").style.display = "none";
-        // Tampilkan kembali tombol Edit
-        document.getElementById("editButton").style.display = "block";
-        document.getElementById("editActions").style.display = "none";
-    }
-
-    function saveProfile() {
-        // Ambil data dari form
-        const form = document.getElementById('formEdit');
-        const formData = new FormData(form);
-
-        $.ajax({
-            type: "POST",
-            url: "<?= base_url('hr/simpan-profile-admin') ?>",
-            data: formData,
-            contentType: false, 
-            processData: false, 
-            success: function (response) {
-                window.location.href = "<?= base_url('hr/profile-admin') ?>";
+        document.querySelectorAll('input.form-control').forEach(input => {
+            input.setAttribute('readonly', true);
+            if (input.name === 'email') {
+                input.removeAttribute('required');
             }
         });
-
-        cancelEdit();
+        document.getElementById("ubahFoto").style.display = "none";
+        document.getElementById("passwordEdit").style.display = "none";
+        document.getElementById("editButton").style.display = "block";
+        document.getElementById("editActions").style.display = "none";
     }
 </script>

@@ -110,8 +110,8 @@ class History extends BaseController
         $uri = service('uri');
         $page = $uri->getSegment(2);
 
-        $tgl_awal = $this->request->getVar('tgl_awal') ?? date('Y-m-01');
-        $tgl_akhir = $this->request->getVar('tgl_akhir') ?? date('Y-m-t');
+        $tgl_awal = $this->request->getVar('tgl_awal');
+        $tgl_akhir = $this->request->getVar('tgl_akhir');
 
         $modelAbsen = new M_Absen;
 
@@ -146,8 +146,8 @@ class History extends BaseController
         $uri = service('uri');
         $page = $uri->getSegment(2);
 
-        $tgl_awal = $this->request->getVar('tgl_awal') ?? date('Y-m-01');
-        $tgl_akhir = $this->request->getVar('tgl_akhir') ?? date('Y-m-t');
+        $tgl_awal = $this->request->getVar('tgl_awal');
+        $tgl_akhir = $this->request->getVar('tgl_akhir');
 
         $modelAbsen = new M_Absen;
 
@@ -188,8 +188,8 @@ class History extends BaseController
         $modelKaryawan = new M_Karyawan;
         $modelIzin = new M_Izin;
 
-        $tgl_awal = $this->request->getGet('tgl_awal') ?? date('Y-m-01');
-        $tgl_akhir = $this->request->getGet('tgl_akhir') ?? date('Y-m-t');
+        $tgl_awal = $this->request->getGet('tgl_awal');
+        $tgl_akhir = $this->request->getGet('tgl_akhir');
 
         $dataAbsen = $modelAbsen->getDataAbsen(['sha1(tbl_absen.id_absen)' => $idAbsen])->getRowArray();
         $dataKaryawan = $modelKaryawan->getDataKaryawan(['sha1(tbl_karyawan.id_karyawan)' => $idKaryawan])->getRowArray();

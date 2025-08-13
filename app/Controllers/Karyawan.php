@@ -63,7 +63,7 @@ class Karyawan extends BaseController
         $nama_bank = $this->request->getPost('nama_bank');
         $atas_nama = $this->request->getPost('atas_nama');
         $id_jabatan = $this->request->getPost('id_jabatan');
-        $username = $this->request->getPost('username');
+        $email_karyawan = strtolower($this->request->getPost('email_karyawan'));
 
         $foto_karyawan = $this->request->getFile('foto_karyawan');
         if ($foto_karyawan->isValid() && !$foto_karyawan->hasMoved()) {
@@ -81,15 +81,19 @@ class Karyawan extends BaseController
         };
 
         $sqlCek1 = $modelKaryawan->getDataKaryawan(['tbl_karyawan.nik_karyawan' => $nik_karyawan]);
-        $sqlCek2 = $modelKaryawan->getDataKaryawan(['tbl_karyawan.username' => $username]);
+        $sqlCek2 = $modelKaryawan->getDataKaryawan(['LOWER(email_karyawan)' => $email_karyawan]);
         $cekNik = $sqlCek1->getNumRows();
         $cekUser = $sqlCek2->getNumRows();
         if($id_jabatan ==""){
             session()->setFlashdata('error','Data Jabatan Tidak boleh Kosong!');
             return redirect()->to(base_url('/hr/tambah-data-karyawan'))->withInput();
         }
-        elseif ($cekNik > 0 || $cekUser > 0) {
-            session()->setFlashdata('error','NIK atau Username sudah ada!');
+        elseif ($cekNik > 0) {
+            session()->setFlashdata('error','NIK sudah ada!');
+            return redirect()->to(base_url('/hr/tambah-data-karyawan'))->withInput();
+        }
+        elseif ($cekUser > 0) {
+            session()->setFlashdata('error','Email sudah ada!');
             return redirect()->to(base_url('/hr/tambah-data-karyawan'))->withInput();
         }
         else{
@@ -115,7 +119,7 @@ class Karyawan extends BaseController
             'nama_bank' => $nama_bank,
             'atas_nama' => $atas_nama,
             'id_jabatan' => $id_jabatan,
-            'username' => $username,
+            'email_karyawan' => $email_karyawan,
             'password' => password_hash('user123', PASSWORD_DEFAULT),
             'foto_karyawan' => $namaFile1,
             'is_delete_karyawan' => '0',
@@ -171,32 +175,43 @@ class Karyawan extends BaseController
         $tgl_lahir = $this->request->getPost('tgl_lahir');
         $no_hp = $this->request->getPost('no_hp');
         $id_jabatan = $this->request->getPost('id_jabatan');
-        $username = $this->request->getPost('username');
+        $email_karyawan = strtolower($this->request->getPost('email_karyawan'));
         $password_old = $this->request->getPost('password');
         $foto_karyawan_old = $this->request->getPost('foto_karyawan_old');
         $foto_karyawan = $this->request->getFile('foto_karyawan');
 
-        $dataKaryawan = $modelKaryawan->getDataKaryawan(['id_karyawan' => $idEdit])->getRowArray();
+        $dataKaryawan = $modelKaryawan->getDataKaryawan(['tbl_karyawan.id_karyawan' => $idEdit])->getRowArray();
         $idUpdate = $dataKaryawan['id_karyawan'];
 
-        if ($foto_karyawan->isValid() && !$foto_karyawan->hasMoved()) {
-            // Validasi file
-            if (!$this->validate([
-                'foto_karyawan' => 'max_size[foto_karyawan,10240]|ext_in[foto_karyawan,jpg,jpeg,png]',
-            ])) {
-                session()->setFlashdata('error', "Format file yang diizinkan: JPG, JPEG, PNG maksimal 10MB");
-                return redirect()->to('/hr/edit-data-karyawan/'.$idEdit)->withInput();
-            }
-        
-            $ext1 = $foto_karyawan->getClientExtension();
-            $namaFile1 = ($foto_karyawan_old == '-' || !file_exists("Assets/img/karyawan/".$foto_karyawan_old))
-                ? "PP-".date("ymdHis").".".$ext1
-                : $foto_karyawan_old;
-        
-            $foto_karyawan->move('Assets/img/karyawan/', $namaFile1, true);
+        $sqlCek1 = $modelKaryawan->getDataKaryawan(['tbl_karyawan.nik_karyawan' => $nik_karyawan, 'id_karyawan !=' => $idUpdate]);
+        $sqlCek2 = $modelKaryawan->getDataKaryawan(['LOWER(email_karyawan)' => $email_karyawan, 'id_karyawan !=' => $idUpdate]);
+        $cekNik = $sqlCek1->getNumRows();
+        $cekUser = $sqlCek2->getNumRows();
+        if ($cekNik > 0) {
+            session()->setFlashdata('error','NIK sudah ada!');
+            return redirect()->to(base_url('/hr/edit-data-karyawan/' .sha1($idEdit)));
+        } elseif ($cekUser > 0) {
+            session()->setFlashdata('error','Email sudah ada!');
+            return redirect()->to(base_url('/hr/edit-data-karyawan/' .sha1($idEdit)));
         } else {
-            $namaFile1 = $foto_karyawan_old; // Tidak upload, pakai yang lama
-        }
+            if ($foto_karyawan->isValid() && !$foto_karyawan->hasMoved()) {
+                // Validasi file
+                if (!$this->validate([
+                    'foto_karyawan' => 'max_size[foto_karyawan,10240]|ext_in[foto_karyawan,jpg,jpeg,png]',
+                ])) {
+                    session()->setFlashdata('error', "Format file yang diizinkan: JPG, JPEG, PNG maksimal 10MB");
+                    return redirect()->to('/hr/edit-data-karyawan/'.$idEdit)->withInput();
+                }
+            
+                $ext1 = $foto_karyawan->getClientExtension();
+                $namaFile1 = ($foto_karyawan_old == '-' || !file_exists("Assets/img/karyawan/".$foto_karyawan_old))
+                    ? "PP-".date("ymdHis").".".$ext1
+                    : $foto_karyawan_old;
+            
+                $foto_karyawan->move('Assets/img/karyawan/', $namaFile1, true);
+            } else {
+                $namaFile1 = $foto_karyawan_old; // Tidak upload, pakai yang lama
+            }
 
             $dataUpdate = [
                 'id_lokasi' => $id_lokasi,
@@ -206,17 +221,18 @@ class Karyawan extends BaseController
                 'tgl_lahir' => $tgl_lahir,
                 'no_hp' => $no_hp,
                 'id_jabatan' => $id_jabatan,
-                'username' => $username,
+                'email_karyawan' => $email_karyawan,
                 'password' => ($password_old == '') ? $dataKaryawan['password'] : password_hash($password_old, PASSWORD_DEFAULT),
                 'foto_karyawan' => $namaFile1,
                 'updated_at' => date('Y-m-d H:i:s')
             ];
 
-        $whereUpdate = ['id_karyawan' => $idUpdate];
-        $modelKaryawan->updateDataKaryawan($dataUpdate, $whereUpdate);
-        session()->remove('idUpdate');
-        session()->setFlashdata('success','Data Berhasil Diperbarui!!');
-        return redirect()->to(base_url('/hr/master-data-karyawan'));
+            $whereUpdate = ['id_karyawan' => $idUpdate];
+            $modelKaryawan->updateDataKaryawan($dataUpdate, $whereUpdate);
+            session()->remove('idUpdate');
+            session()->setFlashdata('success','Data Berhasil Diperbarui!!');
+            return redirect()->to(base_url('/hr/master-data-karyawan'));
+        }
     }
 
     public function hapus_data_karyawan($id)

@@ -4,7 +4,7 @@ namespace App\Controllers;
 use App\Models\M_Gaji;
 use App\Models\M_Jabatan;
 use App\Models\M_Karyawan;
-use App\Models\M_Gaji_karyawan;
+use App\Models\M_Gaji_Karyawan;
 use App\Models\M_Absen;
 
 use Dompdf\Dompdf;
@@ -269,7 +269,7 @@ class Gaji extends BaseController
     public function hapus_pembayaran_gaji($id)
     {
  
-        $modelGajiKaryawan = new M_Gaji_karyawan();
+        $modelGajiKaryawan = new M_Gaji_Karyawan();
     
         $modelGajiKaryawan->hapusDataGaji($id);
 
@@ -352,7 +352,7 @@ class Gaji extends BaseController
         $uri = service('uri');
         $page = $uri->getSegment(2);
 
-        $modelGajiKaryawan = new M_Gaji_karyawan;
+        $modelGajiKaryawan = new M_Gaji_Karyawan;
 
         $dataGajiKaryawan = $modelGajiKaryawan->getDataGajiKaryawan(['tbl_gaji_karyawan.id_karyawan' => session('ses_id')])->getResultArray();
         $data['dataGajiKaryawan'] = $dataGajiKaryawan;

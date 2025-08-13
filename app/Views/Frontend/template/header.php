@@ -23,9 +23,9 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="theme-color" content="#000000" />
     <title>Absensi | PT. Kostzy</title>
-    <meta name="description" content="Mobilekit HTML Mobile UI Kit" />
+    <meta name="description" content="HR-GeoAbsensi" />
     <meta name="keywords" content="bootstrap 4, mobile template, cordova, phonegap, mobile, html" />
-    <link rel="icon" type="image/png" href="<?= base_url()?>Assets/Frontend/img/favicon.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="<?= base_url()?>Assets/img/unnamed.png" sizes="32x32" />
     <link rel="apple-touch-icon" sizes="180x180" href="<?= base_url()?>Assets/Frontend/img/icon/192x192.png" />
     <link rel="stylesheet" href="<?= base_url()?>Assets/Frontend/css/inc/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="<?= base_url()?>Assets/Frontend/css/inc/owl-carousel/owl.carousel.min.css" />

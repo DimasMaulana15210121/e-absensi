@@ -1,4 +1,58 @@
-    <!-- App Capsule -->
+    <style>
+        #user-detail {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .avatar {
+            display: flex;
+            align-items: center;
+            flex: 1;
+            min-width: 0; /* Biar teks bisa wrap */
+        }
+
+        .avatar img {
+            flex-shrink: 0;
+            margin-right: 10px;
+        }
+
+        #user-info {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            min-width: 0; /* Penting biar teks tidak kepotong */
+        }
+
+        #user-name, #user-role {
+            white-space: normal; /* Boleh turun ke bawah */
+            word-break: break-word; /* Putuskan kata kalau panjang */
+            overflow: visible;
+        }
+
+        #user-role {
+            font-size: 0.85rem;
+            color: #ddd;
+        }
+
+        /* HP kecil */
+        @media (max-width: 450px) {
+            #user-name { font-size: 1rem; }
+            #user-role { font-size: 0.75rem; }
+        }
+
+        /* Kalau layar terlalu kecil, tumpuk foto + teks */
+        @media (max-width: 200px) {
+            .avatar {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .avatar img {
+                margin-right: 0;
+                margin-bottom: 5px;
+            }
+        }
+    </style>
     <div id="appCapsule">
         <div class="section bg-secondary" id="user-section">
             <div id="user-detail" class="d-flex justify-content-between align-items-center">
@@ -38,7 +92,7 @@
                 </div>
             </div>
         </div>
-
+        
         <div class="section" id="menu-section">
             <div class="card">
                 <div class="card-body text-center">

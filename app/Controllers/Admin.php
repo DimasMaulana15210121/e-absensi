@@ -19,9 +19,12 @@ class Admin extends BaseController
         $modelKaryawan = new M_Karyawan;
         $modelJabatan = new M_Jabatan;
         $modelAbsen = new M_Absen;
+        $modelIzin = new M_Izin;
 
         $dataKaryawan = $modelKaryawan->getDataKaryawan()->getResultArray();
         $dataJabatan = $modelJabatan->getDataJabatan()->getResultArray();
+        $dataPending = $modelIzin->getDataIzin(['tbl_izin.status_approved' => '0' ])->getResultArray();
+
         $dataAbsen = $modelAbsen->getDataAbsen(['tbl_jadwal.tanggal' => date('Y-m-d')])->getResultArray();
         //Mengambil data count seluruh status
         $dataHadir = $modelAbsen->getDataAbsen(['tbl_absen.status' => 'Hadir', 'month(tbl_jadwal.tanggal)' => date('m')])->getResultArray();
@@ -30,16 +33,16 @@ class Admin extends BaseController
         $dataCuti = $modelAbsen->getDataAbsen(['tbl_absen.status' => 'Cuti', 'month(tbl_jadwal.tanggal)' => date('m')])->getResultArray();
         $dataIzin = $modelAbsen->getDataAbsen(['tbl_absen.status' => 'Izin', 'month(tbl_jadwal.tanggal)' => date('m')])->getResultArray();
         
+        $data['data_pending'] = $dataPending;
         $data['data_hadir'] = $dataHadir;
         $data['data_terlambat'] = $dataTerlambat;
         $data['data_alpha'] = $dataAlpha;
         $data['data_cuti'] = $dataCuti;
         $data['data_izin'] = $dataIzin;
-        
-        $data['page'] = $page;
         $data['data_karyawan'] = $dataKaryawan;
         $data['data_jabatan'] = $dataJabatan;
         $data['data_absen'] = $dataAbsen;
+        $data['page'] = $page;
         $data['menu'] = "dashboard";
 
         echo view('Backend/template/head', $data);
@@ -125,7 +128,7 @@ class Admin extends BaseController
         $modelUser = new M_User();
 
         $nama_user = $this->request->getPost('nama_user');
-        $username = $this->request->getPost('username');
+        $email = $this->request->getPost('email');
         $password_old = $this->request->getPost('password');
         $foto_user_old = $this->request->getPost('foto_user_old');
         $foto_user = $this->request->getFile('foto_user');
@@ -154,7 +157,7 @@ class Admin extends BaseController
 
             $dataUpdate = [
                 'nama_user' => $nama_user,
-                'username' => $username,
+                'email' => $email,
                 'password' => ($password_old == '') ? $dataUser['password'] : password_hash($password_old, PASSWORD_DEFAULT),
                 'foto_user' => $namaFile1,
                 'updated_at' => date('Y-m-d H:i:s')
@@ -164,7 +167,7 @@ class Admin extends BaseController
         $modelUser->updateDataUser($dataUpdate, $whereUpdate);
         session()->remove('idUpdate');
         session()->setFlashdata('success','Data Berhasil Diperbarui!!');
-        // return redirect()->to(base_url('/admin/master-data-karyawan'));
+        return redirect()->to(base_url('/hr/profile-admin'));
     }
 
     public function logo_perusahaan()

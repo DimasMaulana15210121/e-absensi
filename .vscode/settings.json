@@ -9,8 +9,8 @@
             "port": 3306,
             "askForPassword": true,
             "driver": "MySQL",
-            "name": "Stokis",
-            "database": "db_stokis",
+            "name": "E-Absensi",
+            "database": "db_absensi",
             "username": "dimas"
         }
     ]

@@ -108,23 +108,17 @@ class Absen extends BaseController
         $modelJadwal = new M_Jadwal;
         $modelKaryawan = new M_Karyawan;
         
-        // $id_karyawan = session()->get('ses_id');
         $foto_masuk = $this->request->getPost('foto');
         $lokasi_masuk = $this->request->getPost('lokasi');
         $jarak_masuk = $this->request->getPost('jarak');
 
         $dataKaryawan = $modelKaryawan->getDataKaryawan(['tbl_karyawan.id_karyawan' => session('ses_id')])->getRowArray();
-
         $dataAbsen = $modelAbsen->getDataAbsen(['tbl_absen.id_karyawan' => session('ses_id'), 'tbl_jadwal.tanggal' => date('Y-m-d')])->getRowArray();
         $idUpdate = $dataAbsen['id_absen'];
         
         // Validasi data dasar
         if (!$foto_masuk || !$lokasi_masuk || !$jarak_masuk) {
             return $this->response->setStatusCode(400)->setBody("Data tidak lengkap.");
-        }
-
-        if (!$dataAbsen) {
-            return $this->response->setStatusCode(400)->setBody("Data absen tidak ditemukan.");
         }
 
         $dataJadwal = $modelJadwal->getDataJadwal(['id_jadwal' => $dataAbsen['id_jadwal'],'tanggal' => date('Y-m-d')])->getRowArray();
@@ -167,7 +161,6 @@ class Absen extends BaseController
 
         file_put_contents($file, $imageBase64);
 
-        // Update absen
         $dataUpdate = [
             'id_lokasi' => $dataKaryawan['id_lokasi'],
             'jam_masuk_absen' => $jamMasuk,
@@ -185,8 +178,7 @@ class Absen extends BaseController
     {
         $modelAbsen = new M_Absen;
         $modelJadwal = new M_Jadwal;
-        
-        
+                
         // $id_karyawan = session()->get('ses_id');
         $foto_keluar = $this->request->getPost('foto');
         $lokasi_keluar = $this->request->getPost('lokasi');

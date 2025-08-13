@@ -22,14 +22,14 @@ class Auth extends BaseController
     public function karyawan_login_checker()
     {
         $modelKaryawan = new M_Karyawan;
-        $username = $this->antiinjection($this->request->getPost('username'));
+        $email_karyawan = $this->antiinjection($this->request->getPost('email_karyawan'));
         $password = $this->antiinjection($this->request->getPost('password'));
     
-        $sqlCek = $modelKaryawan->getDataKaryawan(['username' => $username]);
+        $sqlCek = $modelKaryawan->getDataKaryawan(['email_karyawan' => $email_karyawan]);
         $ada = $sqlCek->getNumRows();
      
         if($ada == 0) {
-            session()->setFlashdata('error', "Gagal... Cek Kombinasi Username dan Password!!");
+            session()->setFlashdata('error', "Gagal... Cek Kombinasi Email dan Password!!");
             ?>
     <script type="text/javascript">
        document.location = "<?php echo base_url('/');?>";
@@ -40,7 +40,7 @@ class Auth extends BaseController
      
             $verifyPass = password_verify($password, $dataKaryawan['password']);
             if (!$verifyPass) {
-                session()->setFlashdata('error','Gagal... Cek Kombinasi Username dan Password!!');
+                session()->setFlashdata('error','Gagal... Cek Kombinasi Email dan Password!!');
                 ?>
                 <script type="text/javascript">
                     document.location = "<?php echo base_url('/');?>";
@@ -52,7 +52,7 @@ class Auth extends BaseController
                     'ses_id' => $dataKaryawan['id_karyawan'],                
                     'ses_nik' => $dataKaryawan['nik_karyawan'],                
                     'ses_karyawan' => $dataKaryawan['nama_karyawan'],
-                    'ses_username' => $dataKaryawan['username'],
+                    'ses_emailKaryawan' => $dataKaryawan['email_karyawan'],
                     'enid' => sha1($dataKaryawan['id_karyawan'])
                 ];
                 session()->set($dataSession);
@@ -68,14 +68,14 @@ class Auth extends BaseController
     public function admin_login_checker()
     {
         $modelUser = new M_User;
-        $username = $this->antiinjection($this->request->getPost('username'));
+        $email = $this->antiinjection($this->request->getPost('email'));
         $password = $this->antiinjection($this->request->getPost('password'));
     
-        $sqlCek = $modelUser->getDataUser(['username' => $username]);
+        $sqlCek = $modelUser->getDataUser(['email' => $email]);
         $ada = $sqlCek->getNumRows();
      
         if($ada == 0) {
-            session()->setFlashdata('error', "Gagal... Cek Kombinasi Username dan Password!!");
+            session()->setFlashdata('error', "Gagal... Cek Kombinasi Email dan Password!!");
             ?>
     <script type="text/javascript">
        document.location = "<?php echo base_url('/hr/login');?>";
@@ -86,7 +86,7 @@ class Auth extends BaseController
      
             $verifyPass = password_verify($password, $dataUser['password']);
             if (!$verifyPass) {
-                session()->setFlashdata('error','Gagal... Cek Kombinasi Username dan Password!!');
+                session()->setFlashdata('error','Gagal... Cek Kombinasi Email dan Password!!');
                 ?>
                 <script type="text/javascript">
                     document.location = "<?php echo base_url('/hr/login');?>";
@@ -97,7 +97,7 @@ class Auth extends BaseController
                 $dataSession =[
                     'ses_id' => $dataUser['id_user'],                
                     'ses_user' => $dataUser['nama_user'],                
-                    'ses_username' => $dataUser['username'],
+                    'ses_email' => $dataUser['email'],
                     'enid' => sha1($dataUser['id_user'])
                 ];
                 session()->set($dataSession);

@@ -93,7 +93,7 @@
                       <a href="<?= base_url()?>hr/master-data-jabatan" class="nav-link <?php if($page == 'master-data-jabatan'){echo 'active';}?>">
                           <i class="nav-icon fas fa-users-cog"></i>
                           <p>
-                              Jabatan
+                              Data Jabatan
                           </p>
                       </a>
                   </li>
@@ -101,7 +101,7 @@
                       <a href="<?= base_url()?>hr/master-data-karyawan" class="nav-link <?php if($page == 'master-data-karyawan'){echo 'active';}?>">
                           <i class="nav-icon fas fa-user-tie"></i>
                           <p>
-                              Karyawan
+                              Data Karyawan
                           </p>
                       </a>
                   </li>
@@ -109,7 +109,7 @@
                       <a href="<?= base_url()?>hr/master-data-jadwal" class="nav-link <?php if($page == 'master-data-jadwal'){echo 'active';}?>">
                           <i class="nav-icon fas fa-calendar-alt"></i>
                           <p>
-                              Jadwal
+                              Data Jadwal
                           </p>
                       </a>
                   </li>
@@ -117,7 +117,7 @@
                       <a href="<?= base_url()?>hr/master-data-lokasi" class="nav-link <?php if($page == 'master-data-lokasi'){echo 'active';}?>">
                           <i class="nav-icon fas fa-map-marker-alt"></i>
                           <p>
-                              Lokasi Absen
+                              Data Lokasi Absen
                           </p>
                       </a>
                   </li>
@@ -131,9 +131,9 @@
                   </li>
                   <li class="nav-item <?php if($page == 'master-daftar-gaji' or $page == 'master-pembayaran-gaji'){echo 'menu-open';}?>">
                       <a href="#" class="nav-link <?php if($page == 'master-daftar-gaji' or $page == 'master-pembayaran-gaji'){echo 'active';}?>">
-                          <i class="fas fa-money-bill"></i>
+                          <i class="nav-icon fas fa-money-bill"></i>
                           <p>
-                              Penggajian
+                              Kelola Penggajian
                               <i class="right fas fa-angle-left"></i>
                           </p>
                       </a>
@@ -154,30 +154,22 @@
                           </li>
                       </ul>
                   </li>
-                  <li class="nav-item <?php if($page == 'laporan-absensi' or $page == 'history-absensi'){echo 'menu-open';}?>">
-                      <a href="#" class="nav-link <?php if($page == 'laporan-absensi' or $page == 'history-absensi'){echo 'active';}?>">
-                          <i class="fas fa-history"></i>
+                  <li class="nav-header">REPORTS</li>
+                  <li class="nav-item">
+                      <a href="<?= base_url()?>hr/laporan-absensi" class="nav-link <?php if($page == 'laporan-absensi'){echo 'active';}?>">
+                          <i class="nav-icon fas fa-file-alt"></i>
                           <p>
-                              History Absen
-                              <i class="right fas fa-angle-left"></i>
+                              Laporan Absensi
                           </p>
                       </a>
-                      <ul class="nav nav-treeview">
-                          <li class="nav-item">
-                              <a href="<?= base_url() ?>hr/laporan-absensi"
-                                  class="nav-link <?php if($page == 'laporan-absensi'){echo 'active';}?>">
-                                  <i class="fas fa-angle-right nav-icon"></i>
-                                  <p>Laporan Absensi</p>
-                              </a>
-                          </li>
-                          <li class="nav-item">
-                              <a href="<?= base_url() ?>hr/history-absensi"
-                                  class="nav-link <?php if($page == 'history-absensi'){echo 'active';}?>">
-                                  <i class="fas fa-angle-right nav-icon"></i>
-                                  <p>History Absensi</p>
-                              </a>
-                          </li>
-                      </ul>
+                  </li>
+                  <li class="nav-item">
+                      <a href="<?= base_url()?>hr/history-absensi" class="nav-link <?php if($page == 'history-absensi'){echo 'active';}?>">
+                          <i class="nav-icon fas fa-history"></i>
+                          <p>
+                              Riwayat Absensi
+                          </p>
+                      </a>
                   </li>
               </ul>
           </nav>

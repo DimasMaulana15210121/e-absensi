@@ -3,11 +3,11 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1>Master Pengajuan Cuti/Izin</h1>
+                    <h1>Master Data Pengajuan Cuti/Izin</h1>
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
-                        <li class="breadcrumb-item active">Master Pengajuan Cuti/Izin</li>
+                        <li class="breadcrumb-item active">Master Data Pengajuan Cuti/Izin</li>
                     </ol>
                 </div>
             </div>

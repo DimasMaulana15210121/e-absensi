@@ -49,7 +49,7 @@
                                     <tr>
                                         <td><?= $no=$no+1 ?></td>
                                         <td><?= $data['nama_jabatan']; ?></td>
-                                        <td>Rp <?= number_format($data['gaji_pokok'], 0, ".", ".")?></td>
+                                        <td style="width: 100px;">Rp <?= number_format($data['gaji_pokok'], 0, ".", ".")?></td>
                                         <td>Rp <?= number_format($data['uang_makan'], 0, ".", ".")?></td>
                                         <td>Rp <?= number_format($data['tj_kesehatan'], 0, ".", ".")?></td>
                                         <td>Rp <?= number_format($data['tj_transportasi'], 0, ".", ".")?></td>

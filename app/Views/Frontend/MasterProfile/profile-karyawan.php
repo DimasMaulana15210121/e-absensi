@@ -15,7 +15,8 @@
         <ul class="listview image-listview">
 
             <li>
-                <form id="formEdit" enctype="multipart/form-data">
+                <form id="formEdit" action="<?= base_url('karyawan/simpan-profile') ?>" method="post"
+                    enctype="multipart/form-data">
                     <div class="item">
                         <div class="in">
                             <div class="col-sm-12">
@@ -51,36 +52,36 @@
                                             <div>
                                                 <label>Nama</label>
                                                 <input type="text" name="nama_karyawan" class="form-control"
-                                                    placeholder="Nama Karyawan" value="<?= $data_karyawan['nama_karyawan']; ?>" disabled>
+                                                    placeholder="Nama Karyawan" value="<?= $data_karyawan['nama_karyawan']; ?>" readonly>
                                             </div><br>
                                             <div>
                                                 <label>Alamat</label>
-                                                <textarea name="alamat_rumah" class="form-control" disabled><?= $data_karyawan['alamat_rumah'] ?></textarea>
+                                                <textarea name="alamat_rumah" class="form-control" readonly><?= $data_karyawan['alamat_rumah'] ?></textarea>
                                             </div><br>
                                             <div>
                                                 <label>Tanggal Lahir</label>
                                                 <input type="text" name="tgl_lahir" class="form-control"
-                                                    placeholder="Tanggal Lahir" value="<?= $data_karyawan['tgl_lahir']; ?>" disabled>
+                                                    placeholder="Tanggal Lahir" value="<?= $data_karyawan['tgl_lahir']; ?>" readonly>
                                             </div><br>
                                             <div>
                                                 <label>Nik</label>
                                                 <input type="text" name="nik_karyawan" class="form-control"
-                                                    placeholder="Nama Karyawan" value="<?= $data_karyawan['nik_karyawan']; ?>" disabled>
+                                                    placeholder="Nama Karyawan" value="<?= $data_karyawan['nik_karyawan']; ?>" readonly>
                                             </div><br>
                                             <div>
                                                 <label>No Handphone</label>
                                                 <input type="text" name="no_hp" class="form-control"
-                                                    placeholder="Nama Karyawan" value="<?= $data_karyawan['no_hp']; ?>" disabled>
+                                                    placeholder="Nama Karyawan" value="<?= $data_karyawan['no_hp']; ?>" readonly>
                                             </div><br>
                                             <div>
-                                                <label>username</label>
-                                                <input type="text" name="username" class="form-control"
-                                                    placeholder="Nama Karyawan" value="<?= $data_karyawan['username']; ?>" disabled>
+                                                <label>Email</label>
+                                                <input type="email" name="email_karyawan" class="form-control"
+                                                    placeholder="Email" value="<?= $data_karyawan['email_karyawan']; ?>" readonly>
                                             </div><br>
                                             <div id="passwordEdit" style="display: none;">
                                                 <label>Password :</label>
                                                 <input type="password" name="password" class="form-control"
-                                                    placeholder="Kosongkan jika tidak ingin di ganti" disabled>
+                                                    placeholder="Kosongkan jika tidak ingin di ganti" readonly>
                                             </div><br>
 
                                             <button id="editButton" type="button"
@@ -96,8 +97,7 @@
                                             </a>
 
                                             <div id="editActions" style="display: none;">
-                                                <button type="button" class="btn btn-primary btn-lg btn-block"
-                                                    onclick="saveProfile()">
+                                                <button type="submit" class="btn btn-primary btn-lg btn-block">
                                                     <i class="fas fa-save mr-1"></i> Simpan
                                                 </button><br>
                                                 <button type="button" class="btn btn-secondary btn-lg btn-block"
@@ -122,11 +122,16 @@
 <script>
 
     function enableEdit() {
-        // Aktifkan semua input yang disabled
-        const inputs = document.querySelectorAll('input.form-control');
+        // Aktifkan semua input yang readonly
+        const input = document.querySelectorAll('input.form-control');
         const textarea = document.querySelectorAll('textarea.form-control');
-        inputs.forEach(input => input.disabled = false);
-        textarea.forEach(textarea => textarea.disabled = false);
+        input.forEach(input => {
+            input.removeAttribute('readonly');
+            if (input.name === 'email') {
+                input.setAttribute('required', true);
+            }
+        });
+        textarea.forEach(textarea => textarea.removeAttribute('readonly'));
 
         // Tampilkan input file
         document.getElementById("ubahFoto").style.display = "block";
@@ -140,10 +145,14 @@
 
     function cancelEdit() {
         // Nonaktifkan semua input kembali
-        const inputs = document.querySelectorAll('input.form-control');
+        const input = document.querySelectorAll('input.form-control');
         const textarea = document.querySelectorAll('textarea.form-control');
-        inputs.forEach(input => input.disabled = true);
-        textarea.forEach(textarea => textarea.disabled = true);
+        input.forEach(input => {input.setAttribute('readonly', true);
+        if (input.name === 'email') {
+                input.removeAttribute('required');
+            }
+        });
+        textarea.forEach(textarea => textarea.setAttribute('readonly', true));
 
         //Sembunyikan input file
         document.getElementById("ubahFoto").style.display = "none";
@@ -155,22 +164,22 @@
         document.getElementById("editActions").style.display = "none";
     }
 
-    function saveProfile() {
-        // Ambil data dari form
-        const form = document.getElementById('formEdit');
-        const formData = new FormData(form);
+    // function saveProfile() {
+    //     // Ambil data dari form
+    //     const form = document.getElementById('formEdit');
+    //     const formData = new FormData(form);
 
-        $.ajax({
-            type: "POST",
-            url: "<?= base_url('karyawan/simpan-profile') ?>",
-            data: formData,
-            contentType: false, 
-            processData: false, 
-            success: function (response) {
-                window.location.href = "<?= base_url('karyawan/profile') ?>";
-            }
-        });
+    //     $.ajax({
+    //         type: "POST",
+    //         url: "<?= base_url('karyawan/simpan-profile') ?>",
+    //         data: formData,
+    //         contentType: false, 
+    //         processData: false, 
+    //         success: function (response) {
+    //             window.location.href = "<?= base_url('karyawan/profile') ?>";
+    //         }
+    //     });
 
-        cancelEdit();
-    }
+    //     cancelEdit();
+    // }
 </script>

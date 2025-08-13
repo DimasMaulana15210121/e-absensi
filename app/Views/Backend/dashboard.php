@@ -27,7 +27,9 @@
                           <span class="info-box-icon bg-info elevation-1"><i class="fas fa-users"></i></span>
 
                           <div class="info-box-content">
-                              <span class="info-box-text">Total Karyawan</span>
+                              <a href="<?= base_url('/hr/master-data-karyawan') ?>" class="text-dark">
+                                  <span class="info-box-text">Total Karyawan</span>
+                              </a>
                               <span class="info-box-number"><?= count($data_karyawan) ?></span>
                           </div>
                           <!-- /.info-box-content -->
@@ -38,9 +40,23 @@
                           <span class="info-box-icon bg-secondary elevation-1"><i class="fas fa-users-cog"></i></span>
 
                           <div class="info-box-content">
-                              <span class="info-box-text">Total Jabatan</span>
+                              <a href="<?= base_url('/hr/master-data-jabatan') ?>" class="text-dark">
+                                  <span class="info-box-text">Total Jabatan</span>
+                              </a>
                               <span class="info-box-number"><?= count($data_jabatan) ?></span>
                           </div>
+                          <!-- /.info-box-content -->
+                      </div>
+                  </div>
+                  <div class="col-3">
+                      <div class="info-box mb-3">
+                            <span class="info-box-icon bg-warning elevation-1"><i class="fas fa-hourglass-half"></i></span>
+                            <div class="info-box-content">
+                                <a href="<?= base_url('/hr/master-data-pengajuan') ?>" class="text-dark">
+                                    <span class="info-box-text">Pengajuan Izin Pending</span>
+                                </a>
+                                <span class="info-box-number"><?= count($data_pending) ?></span>
+                            </div>
                           <!-- /.info-box-content -->
                       </div>
                   </div>

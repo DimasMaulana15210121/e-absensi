@@ -26,7 +26,7 @@
                                                 } else{
                                                    echo 'Izin';
                                                 } ?><br>
-                                <b><?= date('d-m-Y', strtotime($data['tgl_mulai'])) ?> - <?= date('d-m-Y', strtotime($data['tgl_selesai'])) ?></b><br>
+                                <b><?= date('d-m-Y', strtotime($data['tgl_mulai'])) ?> s/d <?= date('d-m-Y', strtotime($data['tgl_selesai'])) ?></b><br>
                                 <span><?= $data['ket_izin'] ?></span>
                             </div>
                             <div>

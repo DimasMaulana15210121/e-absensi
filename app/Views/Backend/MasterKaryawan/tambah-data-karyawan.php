@@ -61,7 +61,7 @@
                                       <div class="form-group">
                                           <label>No Handphone</label>
                                           <input type="text" name="no_hp" class="form-control"
-                                              placeholder="Nik Karyawan" required>
+                                              placeholder="No Handphone" required>
                                       </div>
                                   </div>
                                   <div class="col-md-6">
@@ -96,9 +96,9 @@
                                   </div>
                                   <div class="col-md-6">
                                       <div class="form-group">
-                                          <label>Username</label>
-                                          <input type="text" name="username" class="form-control"
-                                              placeholder="Nik Karyawan" required>
+                                          <label>Email Karyawan</label>
+                                          <input type="email" name="email_karyawan" class="form-control"
+                                              placeholder="Email Karyawan" required>
                                       </div>
                                   </div>
                                   <div class="col-md-6">

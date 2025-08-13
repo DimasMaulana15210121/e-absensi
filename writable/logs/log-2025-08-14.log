@@ -1,0 +1,48 @@
+ERROR - 2025-08-14 00:40:07 --> mysqli_sql_exception: Column 'email_karyawan' cannot be null in D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\New folder\My Folder\e-absensi\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\New folder\My Folder\e-absensi\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\New folder\My Folder\e-absensi\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\New folder\My Folder\e-absensi\app\Models\M_Karyawan.php(51): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\New folder\My Folder\e-absensi\app\Controllers\Karyawan.php(125): App\Models\M_Karyawan->saveDataKaryawan(Array)
+#6 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(919): App\Controllers\Karyawan->simpan_data_karyawan()
+#7 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+#8 D:\New folder\My Folder\e-absensi\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\New folder\My Folder\e-absensi\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\New folder\My Folder\e-absensi\system\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\M...')
+#11 {main}
+CRITICAL - 2025-08-14 00:40:07 --> Column 'email_karyawan' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbl_karyawan` (`id_karyawan`, `id_lokasi`, `nik_karyawan`, `nama_karyawan`, `alamat_rumah`, `no_hp`, `tgl_lahir`, `no_rek`, `nama_bank`, `atas_nama`, `id_jabatan`, `email_karyawan`, `password`, `foto_karyawan`, `is_delete_karyawan`, `created_at`, `updated_at`) VALUES (:id_karyawan:, :id_lokasi:, :nik_karyawan:, :nama_karyawan:, :alamat_rumah:, :no_hp:, :tgl_lahir:, :no_rek:, :nama_bank:, :atas_nama:, :id_jabatan:, :email_karyawan:, :password:, :foto_karyawan:, :is_delete_karyawan:, :created_at:, :updated_at:)', [...], false)
+ 2 APPPATH\Models\M_Karyawan.php(51): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH\Controllers\Karyawan.php(125): App\Models\M_Karyawan->saveDataKaryawan([...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->simpan_data_karyawan()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-08-14 00:41:06 --> Undefined array key "username"
+in APPPATH\Views\Backend\MasterKaryawan\edit-data-karyawan.php on line 210.
+ 1 APPPATH\Views\Backend\MasterKaryawan\edit-data-karyawan.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterKaryawan\\edit-data-karyawan.php', 210)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterKaryawan\\edit-data-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterKaryawan/edit-data-karyawan', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(155): view('Backend/MasterKaryawan/edit-data-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->edit_data_karyawan('41c1ecea439dae420ed462d242e24e6d9baeef55')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
+CRITICAL - 2025-08-14 00:50:26 --> Trying to access array offset on value of type null
+in APPPATH\Views\Backend\MasterKaryawan\edit-data-karyawan.php on line 32.
+ 1 APPPATH\Views\Backend\MasterKaryawan\edit-data-karyawan.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterKaryawan\\edit-data-karyawan.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\New folder\\My Folder\\e-absensi\\app\\Views\\Backend\\MasterKaryawan\\edit-data-karyawan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Backend/MasterKaryawan/edit-data-karyawan', [], true)
+ 5 APPPATH\Controllers\Karyawan.php(155): view('Backend/MasterKaryawan/edit-data-karyawan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Karyawan->edit_data_karyawan('KRY2025062300001')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Karyawan))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\New folder\\My Folder\\e-absensi\\public\\index.php')
