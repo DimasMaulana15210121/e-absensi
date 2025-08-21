@@ -117,15 +117,9 @@ class History extends BaseController
 
         $dataAbsen = $modelAbsen->getDataFilterAbsen(['tbl_absen.keterangan_absen' => 'masuk'], $tgl_awal, $tgl_akhir)->getResultArray();
 
-        if (!$dataAbsen) {
-            session()->setFlashdata('error','Data Tidak Ditemukan !');
-            return redirect()->to(base_url('/hr/laporan-absensi'));
-        }
-
         if ($tgl_akhir < $tgl_awal) {
             return redirect()->back()->with('error', 'Tanggal Akhir Tidak Boleh Lebih Kecil Dari Tanggal Awal !');
         }
-
 
         $data['page'] = $page;
         $data['web_title'] = "Laporan Data Absensi";
@@ -133,7 +127,6 @@ class History extends BaseController
 
         $data['tgl_awal'] = $tgl_awal;
         $data['tgl_akhir'] = $tgl_akhir;
-
 
         echo view('Backend/template/head', $data);
         echo view('Backend/template/sidebar', $data);
@@ -152,11 +145,6 @@ class History extends BaseController
         $modelAbsen = new M_Absen;
 
         $dataAbsen = $modelAbsen->getDataFilterAbsen(['tbl_absen.keterangan_absen' => 'masuk'], $tgl_awal, $tgl_akhir)->getResultArray();
-
-        if (!$dataAbsen) {
-            session()->setFlashdata('error','Data Tidak Ditemukan !');
-            return redirect()->to(base_url('/hr/history-absensi'));
-        }
 
         if ($tgl_akhir < $tgl_awal) {
             return redirect()->back()->with('error', 'Tanggal Akhir Tidak Boleh Lebih Kecil Dari Tanggal Awal !');
