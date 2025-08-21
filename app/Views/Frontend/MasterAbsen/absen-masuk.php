@@ -202,35 +202,4 @@
             });
         });
     });
-
-            if (jarak > radius) { 
-            document.getElementById("takeAbsen").disabled = true;
-            document.getElementById("takeAbsen").style.display = "none";
-
-            let timerInterval;
-            Swal.fire({
-                icon: 'error',
-                title: 'Diluar Radius!',
-                html: `Jarak Anda Dari Lokasi Absen Adalah ${jarak.toFixed(2)} Meter.
-                        <br>Batas Absen: ${radius} Meter!<br>
-                        <br>Kembali ke Dashboard dalam <b></b> detik.`,
-                timer: 3000,
-                timerProgressBar: true,
-                didOpen: () => {
-                    Swal.showLoading();
-                    const timer = Swal.getPopup().querySelector('b');
-                    timerInterval = setInterval(() => {
-                        timer.textContent = Math.ceil(Swal.getTimerLeft() / 1000);
-                    }, 100);
-                },
-                willClose: () => clearInterval(timerInterval)
-            }).then((result) => {
-                if (result.dismiss === Swal.DismissReason.timer) {
-                    window.location.href = "<?= site_url('/karyawan/home') ?>";
-                }
-            });
-        } else {
-            document.getElementById("takeAbsen").disabled = false;
-            document.getElementById("takeAbsen").style.display = "block";
-        }
 </script>

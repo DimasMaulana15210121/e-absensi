@@ -128,7 +128,7 @@ class History extends BaseController
 
 
         $data['page'] = $page;
-        $data['web_title'] = "Laporan Data Penimbangan";
+        $data['web_title'] = "Laporan Data Absensi";
         $data['data_absen'] = $dataAbsen;
 
         $data['tgl_awal'] = $tgl_awal;
@@ -164,7 +164,7 @@ class History extends BaseController
 
 
         $data['page'] = $page;
-        $data['web_title'] = "Laporan Data Penimbangan";
+        $data['web_title'] = "History Absensi";
         $data['data_absen'] = $dataAbsen;
 
         $data['tgl_awal'] = $tgl_awal;

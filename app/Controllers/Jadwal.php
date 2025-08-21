@@ -71,7 +71,7 @@ class Jadwal extends BaseController
 
         // Validasi absen alpha tidak lebih kecil sama dengan telat
         if ($absen_alpha <= $absen_telat) {
-            session()->setFlashdata('error', "Absen alpha tidak boleh lebih kecil sama dengan absen telat !");
+            session()->setFlashdata('error', "Absen alpha tidak boleh lebih kecil dari/sama dengan absen telat !");
             return redirect()->to('hr/tambah-data-jadwal')->withInput();
         }
 
