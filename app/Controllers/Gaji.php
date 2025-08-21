@@ -195,12 +195,16 @@ class Gaji extends BaseController
         $tgl_gajian = $this->request->getPost('tgl_gajian');
         $bonus_gajian = $this->request->getPost('bonus_gajian');
 
+        $bulan_gajian = date('m', strtotime($tgl_gajian));
+        $tahun_gajian = date('Y', strtotime($tgl_gajian));
+
         if($id_karyawan ==""){
             session()->setFlashdata('error','Karyawan Belum Dipilih!');
             return redirect()->to(base_url('/hr/master-pembayaran-gaji'))->withInput();
         }
 
-        $dataAbsen = $modelAbsen->getDataAbsen(['tbl_absen.id_karyawan' => $id_karyawan, 'tbl_absen.status' => 'Alpha', 'month(tbl_jadwal.tanggal)' => date('m')])->getResultArray();
+        $dataAbsen = $modelAbsen->getDataAbsen(['tbl_absen.id_karyawan' => $id_karyawan, 'tbl_absen.status' => 'Alpha', 'month(tbl_jadwal.tanggal)' => $bulan_gajian,
+        'year(tbl_jadwal.tanggal)' => $tahun_gajian])->getResultArray();
 
         $total_alpha = count($dataAbsen);
         
@@ -247,16 +251,26 @@ class Gaji extends BaseController
         $idEdit = $uri->getSegment(3);
 
         $modelGajiKaryawan = new M_Gaji_Karyawan();
+        $modelAbsen = new M_Absen();
       
         $tgl_gajian = $this->request->getPost('edit_tgl_gajian');
         $bonus_gajian = $this->request->getPost('edit_bonus_gajian');
 
-        $dataGajiKaryawan = $modelGajiKaryawan->getDataGajiKaryawan(['id_gaji_karyawan' => $idEdit])->getRowArray();
+        $bulan_gajian = date('m', strtotime($tgl_gajian));
+        $tahun_gajian = date('Y', strtotime($tgl_gajian));
+
+        $dataAbsen = $modelAbsen->getDataAbsen(['tbl_absen.status' => 'Alpha', 'month(tbl_jadwal.tanggal)' => $bulan_gajian,
+        'year(tbl_jadwal.tanggal)' => $tahun_gajian])->getResultArray();
+
+        $total_alpha = count($dataAbsen);
+
+        $dataGajiKaryawan = $modelGajiKaryawan->getDataGajiKaryawan(['id_gaji_karyawan' => $idEdit], $dataAbsen)->getRowArray();
         $idUpdate = $dataGajiKaryawan['id_gaji_karyawan'];
 
         $dataUpdate =[
            'tgl_gajian' => $tgl_gajian,
            'bonus_gajian' => $bonus_gajian,
+           'total_alpha' => $total_alpha,
            'updated_at' => date("Y-m-d H:i:s"),
         ];
         $whereUpdate = ['id_gaji_karyawan' => $idUpdate];
